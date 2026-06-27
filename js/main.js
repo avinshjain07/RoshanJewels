@@ -187,7 +187,10 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   // Set active link based on current page
-  const currentPage = window.location.pathname.split("/").pop() || "index.html";
+  let currentPage = window.location.pathname.split("/").filter(Boolean).pop() || "index.html";
+  if (!currentPage.endsWith(".html")) {
+    currentPage += ".html";
+  }
   
   // Clear active classes initially
   document.querySelectorAll(".nav-links a").forEach((link) => {
@@ -197,13 +200,16 @@ document.addEventListener("DOMContentLoaded", function () {
   // Apply active class to matching link and its parent dropdown toggle
   document.querySelectorAll(".nav-links a").forEach((link) => {
     const linkPage = link.getAttribute("href");
-    if (linkPage && linkPage === currentPage && currentPage !== "#") {
-      link.classList.add("active");
-      
-      const parentDropdown = link.closest(".dropdown");
-      if (parentDropdown) {
-        const toggle = parentDropdown.querySelector(".dropdown-toggle");
-        if (toggle) toggle.classList.add("active");
+    if (linkPage) {
+      const cleanLinkPage = linkPage.split("?")[0].split("#")[0];
+      if (cleanLinkPage === currentPage && currentPage !== "#") {
+        link.classList.add("active");
+        
+        const parentDropdown = link.closest(".dropdown");
+        if (parentDropdown) {
+          const toggle = parentDropdown.querySelector(".dropdown-toggle");
+          if (toggle) toggle.classList.add("active");
+        }
       }
     }
   });

@@ -6,7 +6,10 @@
 document.addEventListener("DOMContentLoaded", function () {
   // 1. Identify current page context
   const path = window.location.pathname;
-  const pageName = path.split("/").pop() || "index.html";
+  let pageName = path.split("/").filter(Boolean).pop() || "index.html";
+  if (!pageName.endsWith(".html")) {
+    pageName += ".html";
+  }
   
   let pageContext = {
     mode: "", // "collection" (e.g. gold.html) or "type" (e.g. rings.html) or "search"
