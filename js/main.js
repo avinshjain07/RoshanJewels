@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
     mobileMenuToggle.addEventListener("click", function () {
       this.classList.toggle("active");
       navLinks.classList.toggle("active");
+      document.body.classList.toggle("no-scroll");
     });
   }
 
@@ -22,6 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
           mobileMenuToggle.classList.remove("active");
         }
         navLinks.classList.remove("active");
+        document.body.classList.remove("no-scroll");
       }
     });
   });
@@ -152,46 +154,14 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
-  // Contact form validation
-  const contactForm = document.getElementById("contactForm");
-  if (contactForm) {
-    contactForm.addEventListener("submit", function (e) {
-      e.preventDefault();
 
-      // Simple validation
-      const name = document.getElementById("name").value.trim();
-      const phone = document.getElementById("phone").value.trim();
-      const message = document.getElementById("message").value.trim();
-
-      if (!name || !phone || !message) {
-        alert("Please fill in all required fields (Name, Phone, and Message)");
-        return;
-      }
-
-      // Phone number validation (Indian format)
-      const phoneRegex = /^[6-9]\d{9}$/;
-      if (!phoneRegex.test(phone)) {
-        alert("Please enter a valid 10-digit Indian mobile number");
-        return;
-      }
-
-      // If validation passes
-      alert("Thank you for your message! We will contact you shortly.");
-      this.reset();
-
-      // Here you would typically send the form data to a server
-      // For now, we'll just redirect to WhatsApp as an alternative
-      const whatsappUrl = `https://api.whatsapp.com/send?phone=918224998809&text=Hello%20Roshan%20Jewels%2C%20My%20name%20is%20${encodeURIComponent(name)}.%20${encodeURIComponent(message)}.%20My%20phone%20number%20is%20${encodeURIComponent(phone)}`;
-      window.open(whatsappUrl, "_blank");
-    });
-  }
 
   // Set active link based on current page
   let currentPage = window.location.pathname.split("/").filter(Boolean).pop() || "index.html";
   if (!currentPage.endsWith(".html")) {
     currentPage += ".html";
   }
-  
+
   // Clear active classes initially
   document.querySelectorAll(".nav-links a").forEach((link) => {
     link.classList.remove("active");
@@ -204,7 +174,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const cleanLinkPage = linkPage.split("?")[0].split("#")[0];
       if (cleanLinkPage === currentPage && currentPage !== "#") {
         link.classList.add("active");
-        
+
         const parentDropdown = link.closest(".dropdown");
         if (parentDropdown) {
           const toggle = parentDropdown.querySelector(".dropdown-toggle");
