@@ -11,7 +11,7 @@ export const bullionProducts = [
     "subcategory": "GOLD COIN",
     "type": "Coins",
     "images": [
-      "public/placeholder.png"
+      "/placeholder.png"
     ],
     "description": "24K (999 purity) gold coin featuring the Goddess Lakshmi motif.",
     "badge": null,
@@ -33,7 +33,7 @@ export const bullionProducts = [
     "subcategory": "GOLD RAW MATERIAL",
     "type": "Coins",
     "images": [
-      "public/placeholder.png"
+      "/placeholder.png"
     ],
     "description": "24K (999.9 purity) fine gold raw material for manufacturing.",
     "badge": null,
@@ -55,7 +55,7 @@ export const bullionProducts = [
     "subcategory": "SILVER COIN ",
     "type": "Coins",
     "images": [
-      "public/placeholder.png"
+      "/placeholder.png"
     ],
     "description": "99.9% fine silver coin featuring Lord Ganesha embossed detail.",
     "badge": null,
@@ -77,7 +77,7 @@ export const bullionProducts = [
     "subcategory": "SILVER RAW MATERIAL ",
     "type": "Coins",
     "images": [
-      "public/placeholder.png"
+      "/placeholder.png"
     ],
     "description": "99.9% fine silver raw material grains for alloy casting.",
     "badge": null,

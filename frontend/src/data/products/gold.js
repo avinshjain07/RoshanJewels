@@ -11,7 +11,7 @@ export const goldProducts = [
     "subcategory": "Gold Bajuband",
     "type": "Bajuband",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD BAJUBHANDH/gold-bajuband-1.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD BAJUBHANDH/gold-bajuband-1.jpeg"
     ],
     "description": "A traditional gold armlet (Bajuband) featuring intricate antique carvings.",
     "badge": "NEW",
@@ -33,7 +33,7 @@ export const goldProducts = [
     "subcategory": "Gold Bajuband",
     "type": "Bajuband",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD BAJUBHANDH/gold-bajuband-2.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD BAJUBHANDH/gold-bajuband-2.jpeg"
     ],
     "description": "A traditional gold armlet (Bajuband) featuring intricate antique carvings.",
     "badge": "BEST SELLER",
@@ -55,7 +55,7 @@ export const goldProducts = [
     "subcategory": "Gold Bajuband",
     "type": "Bajuband",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD BAJUBHANDH/gold-bajuband-3.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD BAJUBHANDH/gold-bajuband-3.jpeg"
     ],
     "description": "A traditional gold armlet (Bajuband) featuring intricate antique carvings.",
     "badge": null,
@@ -77,7 +77,7 @@ export const goldProducts = [
     "subcategory": "Gold Bajuband",
     "type": "Bajuband",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD BAJUBHANDH/gold-bajuband-4.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD BAJUBHANDH/gold-bajuband-4.jpeg"
     ],
     "description": "A traditional gold armlet (Bajuband) featuring intricate antique carvings.",
     "badge": null,
@@ -99,7 +99,7 @@ export const goldProducts = [
     "subcategory": "Gold Bangle",
     "type": "Bangle",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD BANGLE/gold-bangle-1.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD BANGLE/gold-bangle-1.jpeg"
     ],
     "description": "Classic gold bangles with delicate filigree and granular carvings.",
     "badge": "NEW",
@@ -121,7 +121,7 @@ export const goldProducts = [
     "subcategory": "Gold Bangle",
     "type": "Bangle",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD BANGLE/gold-bangle-2.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD BANGLE/gold-bangle-2.jpeg"
     ],
     "description": "Classic gold bangles with delicate filigree and granular carvings.",
     "badge": "BEST SELLER",
@@ -143,7 +143,7 @@ export const goldProducts = [
     "subcategory": "Gold Bangle",
     "type": "Bangle",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD BANGLE/gold-bangle-3.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD BANGLE/gold-bangle-3.jpeg"
     ],
     "description": "Classic gold bangles with delicate filigree and granular carvings.",
     "badge": null,
@@ -165,7 +165,7 @@ export const goldProducts = [
     "subcategory": "Gold Bangle",
     "type": "Bangle",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD BANGLE/gold-bangle-4.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD BANGLE/gold-bangle-4.jpeg"
     ],
     "description": "Classic gold bangles with delicate filigree and granular carvings.",
     "badge": null,
@@ -187,7 +187,7 @@ export const goldProducts = [
     "subcategory": "Gold Bangle",
     "type": "Bangle",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD BANGLE/gold-bangle-5.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD BANGLE/gold-bangle-5.jpeg"
     ],
     "description": "Classic gold bangles with delicate filigree and granular carvings.",
     "badge": null,
@@ -209,7 +209,7 @@ export const goldProducts = [
     "subcategory": "Gold Bangle",
     "type": "Bangle",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD BANGLE/gold-bangle-6.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD BANGLE/gold-bangle-6.jpeg"
     ],
     "description": "Classic gold bangles with delicate filigree and granular carvings.",
     "badge": null,
@@ -231,7 +231,7 @@ export const goldProducts = [
     "subcategory": "Gold Bangle",
     "type": "Bangle",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD BANGLE/gold-bangle-7.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD BANGLE/gold-bangle-7.jpeg"
     ],
     "description": "Classic gold bangles with delicate filigree and granular carvings.",
     "badge": null,
@@ -253,7 +253,7 @@ export const goldProducts = [
     "subcategory": "Gold Bangle",
     "type": "Bangle",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD BANGLE/gold-bangle-8.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD BANGLE/gold-bangle-8.jpeg"
     ],
     "description": "Classic gold bangles with delicate filigree and granular carvings.",
     "badge": null,
@@ -275,7 +275,7 @@ export const goldProducts = [
     "subcategory": "Gold Earring",
     "type": "Earrings",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD EARRING/gold-earring-1.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD EARRING/gold-earring-1.jpeg"
     ],
     "description": "Intricately designed traditional gold earrings, perfect for festive wear.",
     "badge": "NEW",
@@ -297,7 +297,7 @@ export const goldProducts = [
     "subcategory": "Gold Earring",
     "type": "Earrings",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD EARRING/gold-earring-2.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD EARRING/gold-earring-2.jpeg"
     ],
     "description": "Intricately designed traditional gold earrings, perfect for festive wear.",
     "badge": "BEST SELLER",
@@ -319,7 +319,7 @@ export const goldProducts = [
     "subcategory": "Gold Earring",
     "type": "Earrings",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD EARRING/gold-earring-3.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD EARRING/gold-earring-3.jpeg"
     ],
     "description": "Intricately designed traditional gold earrings, perfect for festive wear.",
     "badge": null,
@@ -341,7 +341,7 @@ export const goldProducts = [
     "subcategory": "Gold Earring",
     "type": "Earrings",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD EARRING/gold-earring-4.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD EARRING/gold-earring-4.jpeg"
     ],
     "description": "Intricately designed traditional gold earrings, perfect for festive wear.",
     "badge": null,
@@ -363,7 +363,7 @@ export const goldProducts = [
     "subcategory": "Gold Earring",
     "type": "Earrings",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD EARRING/gold-earring-5.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD EARRING/gold-earring-5.jpeg"
     ],
     "description": "Intricately designed traditional gold earrings, perfect for festive wear.",
     "badge": null,
@@ -385,7 +385,7 @@ export const goldProducts = [
     "subcategory": "Gold Earring",
     "type": "Earrings",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD EARRING/gold-earring-6.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD EARRING/gold-earring-6.jpeg"
     ],
     "description": "Intricately designed traditional gold earrings, perfect for festive wear.",
     "badge": null,
@@ -407,7 +407,7 @@ export const goldProducts = [
     "subcategory": "Gold Earring",
     "type": "Earrings",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD EARRING/gold-earring-7.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD EARRING/gold-earring-7.jpeg"
     ],
     "description": "Intricately designed traditional gold earrings, perfect for festive wear.",
     "badge": null,
@@ -429,7 +429,7 @@ export const goldProducts = [
     "subcategory": "Gold Earring",
     "type": "Earrings",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD EARRING/gold-earring-8.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD EARRING/gold-earring-8.jpeg"
     ],
     "description": "Intricately designed traditional gold earrings, perfect for festive wear.",
     "badge": null,
@@ -451,7 +451,7 @@ export const goldProducts = [
     "subcategory": "Gold Earring",
     "type": "Earrings",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD EARRING/gold-earring-9.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD EARRING/gold-earring-9.jpeg"
     ],
     "description": "Intricately designed traditional gold earrings, perfect for festive wear.",
     "badge": null,
@@ -473,7 +473,7 @@ export const goldProducts = [
     "subcategory": "Gold Earring",
     "type": "Earrings",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD EARRING/gold-earring-10.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD EARRING/gold-earring-10.jpeg"
     ],
     "description": "Intricately designed traditional gold earrings, perfect for festive wear.",
     "badge": null,
@@ -495,7 +495,7 @@ export const goldProducts = [
     "subcategory": "Gold Ring",
     "type": "Rings",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD GENTS RING/gold-gents-ring-1.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD GENTS RING/gold-gents-ring-1.jpeg"
     ],
     "description": "A solid and premium signet-style gold ring for gentlemen.",
     "badge": "NEW",
@@ -517,7 +517,7 @@ export const goldProducts = [
     "subcategory": "Gold Ring",
     "type": "Rings",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD GENTS RING/gold-gents-ring-2.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD GENTS RING/gold-gents-ring-2.jpeg"
     ],
     "description": "A solid and premium signet-style gold ring for gentlemen.",
     "badge": "BEST SELLER",
@@ -539,7 +539,7 @@ export const goldProducts = [
     "subcategory": "Gold Ring",
     "type": "Rings",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD GENTS RING/gold-gents-ring-3.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD GENTS RING/gold-gents-ring-3.jpeg"
     ],
     "description": "A solid and premium signet-style gold ring for gentlemen.",
     "badge": null,
@@ -561,7 +561,7 @@ export const goldProducts = [
     "subcategory": "Gold Ring",
     "type": "Rings",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD GENTS RING/gold-gents-ring-4.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD GENTS RING/gold-gents-ring-4.jpeg"
     ],
     "description": "A solid and premium signet-style gold ring for gentlemen.",
     "badge": null,
@@ -583,7 +583,7 @@ export const goldProducts = [
     "subcategory": "Gold Ring",
     "type": "Rings",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD LEDIES RING/gold-ladies-ring-1.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD LEDIES RING/gold-ladies-ring-1.jpeg"
     ],
     "description": "A beautiful and delicate gold ring for women, decorated with traditional motifs.",
     "badge": "NEW",
@@ -605,7 +605,7 @@ export const goldProducts = [
     "subcategory": "Gold Ring",
     "type": "Rings",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD LEDIES RING/gold-ladies-ring-2.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD LEDIES RING/gold-ladies-ring-2.jpeg"
     ],
     "description": "A beautiful and delicate gold ring for women, decorated with traditional motifs.",
     "badge": "BEST SELLER",
@@ -627,7 +627,7 @@ export const goldProducts = [
     "subcategory": "Gold Ring",
     "type": "Rings",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD LEDIES RING/gold-ladies-ring-3.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD LEDIES RING/gold-ladies-ring-3.jpeg"
     ],
     "description": "A beautiful and delicate gold ring for women, decorated with traditional motifs.",
     "badge": null,
@@ -649,7 +649,7 @@ export const goldProducts = [
     "subcategory": "Gold Ring",
     "type": "Rings",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD LEDIES RING/gold-ladies-ring-4.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD LEDIES RING/gold-ladies-ring-4.jpeg"
     ],
     "description": "A beautiful and delicate gold ring for women, decorated with traditional motifs.",
     "badge": null,
@@ -671,7 +671,7 @@ export const goldProducts = [
     "subcategory": "Gold Ring",
     "type": "Rings",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD LEDIES RING/gold-ladies-ring-5.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD LEDIES RING/gold-ladies-ring-5.jpeg"
     ],
     "description": "A beautiful and delicate gold ring for women, decorated with traditional motifs.",
     "badge": null,
@@ -693,7 +693,7 @@ export const goldProducts = [
     "subcategory": "Gold Ring",
     "type": "Rings",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD LEDIES RING/gold-ladies-ring-6.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD LEDIES RING/gold-ladies-ring-6.jpeg"
     ],
     "description": "A beautiful and delicate gold ring for women, decorated with traditional motifs.",
     "badge": null,
@@ -715,7 +715,7 @@ export const goldProducts = [
     "subcategory": "Gold Ring",
     "type": "Rings",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD LEDIES RING/gold-ladies-ring-7.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD LEDIES RING/gold-ladies-ring-7.jpeg"
     ],
     "description": "A beautiful and delicate gold ring for women, decorated with traditional motifs.",
     "badge": null,
@@ -737,7 +737,7 @@ export const goldProducts = [
     "subcategory": "Gold Ring",
     "type": "Rings",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD LEDIES RING/gold-ladies-ring-8.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD LEDIES RING/gold-ladies-ring-8.jpeg"
     ],
     "description": "A beautiful and delicate gold ring for women, decorated with traditional motifs.",
     "badge": null,
@@ -759,7 +759,7 @@ export const goldProducts = [
     "subcategory": "Gold Ring",
     "type": "Rings",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD LEDIES RING/gold-ladies-ring-9.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD LEDIES RING/gold-ladies-ring-9.jpeg"
     ],
     "description": "A beautiful and delicate gold ring for women, decorated with traditional motifs.",
     "badge": null,
@@ -781,7 +781,7 @@ export const goldProducts = [
     "subcategory": "Gold Ring",
     "type": "Rings",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD LEDIES RING/gold-ladies-ring-10.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD LEDIES RING/gold-ladies-ring-10.jpeg"
     ],
     "description": "A beautiful and delicate gold ring for women, decorated with traditional motifs.",
     "badge": null,
@@ -803,7 +803,7 @@ export const goldProducts = [
     "subcategory": "Gold Mangalsutra",
     "type": "Mangalsutra",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD MANGALSUTRA/gold-mangalsutra-1.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD MANGALSUTRA/gold-mangalsutra-1.jpeg"
     ],
     "description": "A sacred gold mangalsutra combining traditional black beads with a modern gold pendant.",
     "badge": "NEW",
@@ -825,7 +825,7 @@ export const goldProducts = [
     "subcategory": "Gold Mangalsutra",
     "type": "Mangalsutra",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD MANGALSUTRA/gold-mangalsutra-2.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD MANGALSUTRA/gold-mangalsutra-2.jpeg"
     ],
     "description": "A sacred gold mangalsutra combining traditional black beads with a modern gold pendant.",
     "badge": "BEST SELLER",
@@ -847,7 +847,7 @@ export const goldProducts = [
     "subcategory": "Gold Mangalsutra",
     "type": "Mangalsutra",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD MANGALSUTRA/gold-mangalsutra-3.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD MANGALSUTRA/gold-mangalsutra-3.jpeg"
     ],
     "description": "A sacred gold mangalsutra combining traditional black beads with a modern gold pendant.",
     "badge": null,
@@ -869,7 +869,7 @@ export const goldProducts = [
     "subcategory": "Gold Mangalsutra",
     "type": "Mangalsutra",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD MANGALSUTRA/gold-mangalsutra-4.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD MANGALSUTRA/gold-mangalsutra-4.jpeg"
     ],
     "description": "A sacred gold mangalsutra combining traditional black beads with a modern gold pendant.",
     "badge": null,
@@ -891,7 +891,7 @@ export const goldProducts = [
     "subcategory": "Gold Mangalsutra",
     "type": "Mangalsutra",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD MANGALSUTRA/gold-mangalsutra-5.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD MANGALSUTRA/gold-mangalsutra-5.jpeg"
     ],
     "description": "A sacred gold mangalsutra combining traditional black beads with a modern gold pendant.",
     "badge": null,
@@ -913,7 +913,7 @@ export const goldProducts = [
     "subcategory": "Gold Mangalsutra",
     "type": "Mangalsutra",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD MANGALSUTRA/gold-mangalsutra-6.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD MANGALSUTRA/gold-mangalsutra-6.jpeg"
     ],
     "description": "A sacred gold mangalsutra combining traditional black beads with a modern gold pendant.",
     "badge": null,
@@ -935,7 +935,7 @@ export const goldProducts = [
     "subcategory": "Gold Mangalsutra",
     "type": "Mangalsutra",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD MANGALSUTRA/gold-mangalsutra-7.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD MANGALSUTRA/gold-mangalsutra-7.jpeg"
     ],
     "description": "A sacred gold mangalsutra combining traditional black beads with a modern gold pendant.",
     "badge": null,
@@ -957,7 +957,7 @@ export const goldProducts = [
     "subcategory": "Gold Mangalsutra",
     "type": "Mangalsutra",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD MANGALSUTRA/gold-mangalsutra-8.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD MANGALSUTRA/gold-mangalsutra-8.jpeg"
     ],
     "description": "A sacred gold mangalsutra combining traditional black beads with a modern gold pendant.",
     "badge": null,
@@ -979,7 +979,7 @@ export const goldProducts = [
     "subcategory": "Gold Necklace",
     "type": "Necklace",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD NEACKLESS/gold-necklace-1.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD NEACKLESS/gold-necklace-1.jpeg"
     ],
     "description": "A grand and majestic gold necklace, showcasing heritage Indian craftsmanship.",
     "badge": "NEW",
@@ -1001,7 +1001,7 @@ export const goldProducts = [
     "subcategory": "Gold Necklace",
     "type": "Necklace",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD NEACKLESS/gold-necklace-2.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD NEACKLESS/gold-necklace-2.jpeg"
     ],
     "description": "A grand and majestic gold necklace, showcasing heritage Indian craftsmanship.",
     "badge": "BEST SELLER",
@@ -1023,7 +1023,7 @@ export const goldProducts = [
     "subcategory": "Gold Necklace",
     "type": "Necklace",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD NEACKLESS/gold-necklace-3.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD NEACKLESS/gold-necklace-3.jpeg"
     ],
     "description": "A grand and majestic gold necklace, showcasing heritage Indian craftsmanship.",
     "badge": null,
@@ -1045,7 +1045,7 @@ export const goldProducts = [
     "subcategory": "Gold Necklace",
     "type": "Necklace",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD NEACKLESS/gold-necklace-4.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD NEACKLESS/gold-necklace-4.jpeg"
     ],
     "description": "A grand and majestic gold necklace, showcasing heritage Indian craftsmanship.",
     "badge": null,
@@ -1067,7 +1067,7 @@ export const goldProducts = [
     "subcategory": "Gold Necklace",
     "type": "Necklace",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD NEACKLESS/gold-necklace-5.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD NEACKLESS/gold-necklace-5.jpeg"
     ],
     "description": "A grand and majestic gold necklace, showcasing heritage Indian craftsmanship.",
     "badge": null,
@@ -1089,7 +1089,7 @@ export const goldProducts = [
     "subcategory": "Gold Necklace",
     "type": "Necklace",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD NEACKLESS/gold-necklace-6.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD NEACKLESS/gold-necklace-6.jpeg"
     ],
     "description": "A grand and majestic gold necklace, showcasing heritage Indian craftsmanship.",
     "badge": null,
@@ -1111,7 +1111,7 @@ export const goldProducts = [
     "subcategory": "Gold Necklace",
     "type": "Necklace",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD NEACKLESS/gold-necklace-7.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD NEACKLESS/gold-necklace-7.jpeg"
     ],
     "description": "A grand and majestic gold necklace, showcasing heritage Indian craftsmanship.",
     "badge": null,
@@ -1133,7 +1133,7 @@ export const goldProducts = [
     "subcategory": "Gold Necklace",
     "type": "Necklace",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD NEACKLESS/gold-necklace-8.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD NEACKLESS/gold-necklace-8.jpeg"
     ],
     "description": "A grand and majestic gold necklace, showcasing heritage Indian craftsmanship.",
     "badge": null,
@@ -1155,7 +1155,7 @@ export const goldProducts = [
     "subcategory": "Gold Necklace",
     "type": "Necklace",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD NEACKLESS/gold-necklace-9.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD NEACKLESS/gold-necklace-9.jpeg"
     ],
     "description": "A grand and majestic gold necklace, showcasing heritage Indian craftsmanship.",
     "badge": null,
@@ -1177,7 +1177,7 @@ export const goldProducts = [
     "subcategory": "Gold Necklace",
     "type": "Necklace",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD NEACKLESS/gold-necklace-10.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD NEACKLESS/gold-necklace-10.jpeg"
     ],
     "description": "A grand and majestic gold necklace, showcasing heritage Indian craftsmanship.",
     "badge": null,
@@ -1199,7 +1199,7 @@ export const goldProducts = [
     "subcategory": "Gold Necklace",
     "type": "Necklace",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD NEACKLESS/gold-necklace-11.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD NEACKLESS/gold-necklace-11.jpeg"
     ],
     "description": "A grand and majestic gold necklace, showcasing heritage Indian craftsmanship.",
     "badge": null,
@@ -1221,7 +1221,7 @@ export const goldProducts = [
     "subcategory": "Gold Pendant",
     "type": "Pendant",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD PENDENT/gold-pendant-1.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD PENDENT/gold-pendant-1.jpeg"
     ],
     "description": "An elegant gold pendant, suitable for pairing with simple gold chains.",
     "badge": "NEW",
@@ -1243,7 +1243,7 @@ export const goldProducts = [
     "subcategory": "Gold Pendant",
     "type": "Pendant",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD PENDENT/gold-pendant-2.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD PENDENT/gold-pendant-2.jpeg"
     ],
     "description": "An elegant gold pendant, suitable for pairing with simple gold chains.",
     "badge": "BEST SELLER",
@@ -1265,7 +1265,7 @@ export const goldProducts = [
     "subcategory": "Gold Pendant",
     "type": "Pendant",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD PENDENT/gold-pendant-3.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD PENDENT/gold-pendant-3.jpeg"
     ],
     "description": "An elegant gold pendant, suitable for pairing with simple gold chains.",
     "badge": null,
@@ -1287,7 +1287,7 @@ export const goldProducts = [
     "subcategory": "Gold Pendant",
     "type": "Pendant",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD PENDENT/gold-pendant-4.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD PENDENT/gold-pendant-4.jpeg"
     ],
     "description": "An elegant gold pendant, suitable for pairing with simple gold chains.",
     "badge": null,
@@ -1309,7 +1309,7 @@ export const goldProducts = [
     "subcategory": "Gold Pendant",
     "type": "Pendant",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD PENDENT/gold-pendant-5.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD PENDENT/gold-pendant-5.jpeg"
     ],
     "description": "An elegant gold pendant, suitable for pairing with simple gold chains.",
     "badge": null,
@@ -1331,7 +1331,7 @@ export const goldProducts = [
     "subcategory": "Gold Pendant",
     "type": "Pendant",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD PENDENT/gold-pendant-6.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD PENDENT/gold-pendant-6.jpeg"
     ],
     "description": "An elegant gold pendant, suitable for pairing with simple gold chains.",
     "badge": null,
@@ -1353,7 +1353,7 @@ export const goldProducts = [
     "subcategory": "Gold Pendant",
     "type": "Pendant",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD PENDENT/gold-pendant-7.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD PENDENT/gold-pendant-7.jpeg"
     ],
     "description": "An elegant gold pendant, suitable for pairing with simple gold chains.",
     "badge": null,
@@ -1375,7 +1375,7 @@ export const goldProducts = [
     "subcategory": "Gold Pendant",
     "type": "Pendant",
     "images": [
-      "public/WEBSITE PHOTO NEW/GOLD PENDENT/gold-pendant-8.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD PENDENT/gold-pendant-8.jpeg"
     ],
     "description": "An elegant gold pendant, suitable for pairing with simple gold chains.",
     "badge": null,
@@ -1397,7 +1397,7 @@ export const goldProducts = [
     "subcategory": "Gold Chain",
     "type": "Chain",
     "images": [
-      "public/WEBSITE PHOTO NEW/CHAIN/chain-1.jpg"
+      "/WEBSITE PHOTO NEW/CHAIN/chain-1.jpg"
     ],
     "description": "A strong and classic gold chain, crafted for daily durability.",
     "badge": "NEW",
@@ -1419,7 +1419,7 @@ export const goldProducts = [
     "subcategory": "Gold Chain",
     "type": "Chain",
     "images": [
-      "public/WEBSITE PHOTO NEW/CHAIN/chain-2.jpg"
+      "/WEBSITE PHOTO NEW/CHAIN/chain-2.jpg"
     ],
     "description": "A strong and classic gold chain, crafted for daily durability.",
     "badge": "BEST SELLER",
@@ -1441,7 +1441,7 @@ export const goldProducts = [
     "subcategory": "Gold Chain",
     "type": "Chain",
     "images": [
-      "public/WEBSITE PHOTO NEW/CHAIN/chain-3.jpg"
+      "/WEBSITE PHOTO NEW/CHAIN/chain-3.jpg"
     ],
     "description": "A strong and classic gold chain, crafted for daily durability.",
     "badge": null,
@@ -1463,7 +1463,7 @@ export const goldProducts = [
     "subcategory": "Gold Chain",
     "type": "Chain",
     "images": [
-      "public/WEBSITE PHOTO NEW/CHAIN/chain-4.jpg"
+      "/WEBSITE PHOTO NEW/CHAIN/chain-4.jpg"
     ],
     "description": "A strong and classic gold chain, crafted for daily durability.",
     "badge": null,
@@ -1485,7 +1485,7 @@ export const goldProducts = [
     "subcategory": "Gold Chain",
     "type": "Chain",
     "images": [
-      "public/WEBSITE PHOTO NEW/CHAIN/chain-5.jpg"
+      "/WEBSITE PHOTO NEW/CHAIN/chain-5.jpg"
     ],
     "description": "A strong and classic gold chain, crafted for daily durability.",
     "badge": null,
@@ -1507,7 +1507,7 @@ export const goldProducts = [
     "subcategory": "Gold Chain",
     "type": "Chain",
     "images": [
-      "public/WEBSITE PHOTO NEW/CHAIN/chain-6.jpg"
+      "/WEBSITE PHOTO NEW/CHAIN/chain-6.jpg"
     ],
     "description": "A strong and classic gold chain, crafted for daily durability.",
     "badge": null,
@@ -1529,7 +1529,7 @@ export const goldProducts = [
     "subcategory": "Gold Chain",
     "type": "Chain",
     "images": [
-      "public/WEBSITE PHOTO NEW/CHAIN/chain-7.jpg"
+      "/WEBSITE PHOTO NEW/CHAIN/chain-7.jpg"
     ],
     "description": "A strong and classic gold chain, crafted for daily durability.",
     "badge": null,

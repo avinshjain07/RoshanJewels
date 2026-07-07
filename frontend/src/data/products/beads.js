@@ -11,7 +11,7 @@ export const beadsProducts = [
     "subcategory": "Beads Mala",
     "type": "Beads Mala",
     "images": [
-      "public/WEBSITE PHOTO NEW/BEADS MALA/beads-mala-1.jpg"
+      "/WEBSITE PHOTO NEW/BEADS MALA/beads-mala-1.jpg"
     ],
     "description": "A stunning multi-row string of natural gemstone beads.",
     "badge": "NEW",
@@ -33,7 +33,7 @@ export const beadsProducts = [
     "subcategory": "Beads Mala",
     "type": "Beads Mala",
     "images": [
-      "public/WEBSITE PHOTO NEW/BEADS MALA/beads-mala-2.jpg"
+      "/WEBSITE PHOTO NEW/BEADS MALA/beads-mala-2.jpg"
     ],
     "description": "A stunning multi-row string of natural gemstone beads.",
     "badge": "BEST SELLER",
@@ -55,7 +55,7 @@ export const beadsProducts = [
     "subcategory": "Beads Mala",
     "type": "Beads Mala",
     "images": [
-      "public/WEBSITE PHOTO NEW/BEADS MALA/beads-mala-3.jpg"
+      "/WEBSITE PHOTO NEW/BEADS MALA/beads-mala-3.jpg"
     ],
     "description": "A stunning multi-row string of natural gemstone beads.",
     "badge": null,
@@ -77,7 +77,7 @@ export const beadsProducts = [
     "subcategory": "Beads Mala",
     "type": "Beads Mala",
     "images": [
-      "public/WEBSITE PHOTO NEW/BEADS MALA/beads-mala-4.jpg"
+      "/WEBSITE PHOTO NEW/BEADS MALA/beads-mala-4.jpg"
     ],
     "description": "A stunning multi-row string of natural gemstone beads.",
     "badge": null,
@@ -99,7 +99,7 @@ export const beadsProducts = [
     "subcategory": "Beads Mala",
     "type": "Beads Mala",
     "images": [
-      "public/WEBSITE PHOTO NEW/BEADS MALA/beads-mala-5.jpg"
+      "/WEBSITE PHOTO NEW/BEADS MALA/beads-mala-5.jpg"
     ],
     "description": "A stunning multi-row string of natural gemstone beads.",
     "badge": null,
@@ -121,7 +121,7 @@ export const beadsProducts = [
     "subcategory": "Beads Mala",
     "type": "Beads Mala",
     "images": [
-      "public/WEBSITE PHOTO NEW/BEADS MALA/beads-mala-6.jpg"
+      "/WEBSITE PHOTO NEW/BEADS MALA/beads-mala-6.jpg"
     ],
     "description": "A stunning multi-row string of natural gemstone beads.",
     "badge": null,
@@ -143,7 +143,7 @@ export const beadsProducts = [
     "subcategory": "Beads Mala",
     "type": "Beads Mala",
     "images": [
-      "public/WEBSITE PHOTO NEW/BEADS MALA/beads-mala-7.jpg"
+      "/WEBSITE PHOTO NEW/BEADS MALA/beads-mala-7.jpg"
     ],
     "description": "A stunning multi-row string of natural gemstone beads.",
     "badge": null,
@@ -165,7 +165,7 @@ export const beadsProducts = [
     "subcategory": "Beads Mala",
     "type": "Beads Mala",
     "images": [
-      "public/WEBSITE PHOTO NEW/BEADS MALA/beads-mala-8.jpg"
+      "/WEBSITE PHOTO NEW/BEADS MALA/beads-mala-8.jpg"
     ],
     "description": "A stunning multi-row string of natural gemstone beads.",
     "badge": null,
@@ -187,7 +187,7 @@ export const beadsProducts = [
     "subcategory": "Beads Mala",
     "type": "Beads Mala",
     "images": [
-      "public/WEBSITE PHOTO NEW/BEADS MALA/beads-mala-9.jpg"
+      "/WEBSITE PHOTO NEW/BEADS MALA/beads-mala-9.jpg"
     ],
     "description": "A stunning multi-row string of natural gemstone beads.",
     "badge": null,
@@ -209,7 +209,7 @@ export const beadsProducts = [
     "subcategory": "Beads Mala",
     "type": "Beads Mala",
     "images": [
-      "public/WEBSITE PHOTO NEW/BEADS MALA/beads-mala-10.jpg"
+      "/WEBSITE PHOTO NEW/BEADS MALA/beads-mala-10.jpg"
     ],
     "description": "A stunning multi-row string of natural gemstone beads.",
     "badge": null,

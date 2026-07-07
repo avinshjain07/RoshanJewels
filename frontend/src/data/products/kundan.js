@@ -11,7 +11,7 @@ export const kundanProducts = [
     "subcategory": "KUNDAN NECKLESS",
     "type": "Necklaces",
     "images": [
-      "public/necklace/n1.webp"
+      "/necklace/n1.webp"
     ],
     "description": "Exquisite kundan stone necklace set in 22K gold, with matching earrings.",
     "badge": "TRENDING",
@@ -33,7 +33,7 @@ export const kundanProducts = [
     "subcategory": "KUNDAN PENDENT SET",
     "type": "Pendants",
     "images": [
-      "public/placeholder.png"
+      "/placeholder.png"
     ],
     "description": "An elegant, lightweight Kundan pendant featuring a peacock silhouette.",
     "badge": null,

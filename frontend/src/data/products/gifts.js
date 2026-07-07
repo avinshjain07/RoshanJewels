@@ -11,7 +11,7 @@ export const giftsProducts = [
     "subcategory": "GOLD & SILVER PHOTO FRAME ",
     "type": "Gifts",
     "images": [
-      "public/placeholder.png"
+      "/placeholder.png"
     ],
     "description": "A beautiful, premium table photo frame featuring gold and silver foil details.",
     "badge": null,
@@ -33,7 +33,7 @@ export const giftsProducts = [
     "subcategory": "GOLD FINE ",
     "type": "Gifts",
     "images": [
-      "public/placeholder.png"
+      "/placeholder.png"
     ],
     "description": "A delicate artificial rose flower plated in 24K pure gold.",
     "badge": null,

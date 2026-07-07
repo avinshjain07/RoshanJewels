@@ -11,7 +11,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Earrings",
     "type": "Earrings",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND EARRINGS/diamond-earrings-1.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND EARRINGS/diamond-earrings-1.jpeg"
     ],
     "description": "Elegant handcrafted diamond earrings that add a touch of sparkle to any outfit.",
     "badge": "NEW",
@@ -33,7 +33,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Earrings",
     "type": "Earrings",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND EARRINGS/diamond-earrings-2.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND EARRINGS/diamond-earrings-2.jpeg"
     ],
     "description": "Elegant handcrafted diamond earrings that add a touch of sparkle to any outfit.",
     "badge": "BEST SELLER",
@@ -55,7 +55,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Earrings",
     "type": "Earrings",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND EARRINGS/diamond-earrings-3.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND EARRINGS/diamond-earrings-3.jpeg"
     ],
     "description": "Elegant handcrafted diamond earrings that add a touch of sparkle to any outfit.",
     "badge": null,
@@ -77,7 +77,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Earrings",
     "type": "Earrings",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND EARRINGS/diamond-earrings-4.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND EARRINGS/diamond-earrings-4.jpeg"
     ],
     "description": "Elegant handcrafted diamond earrings that add a touch of sparkle to any outfit.",
     "badge": null,
@@ -99,7 +99,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Earrings",
     "type": "Earrings",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND EARRINGS/diamond-earrings-5.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND EARRINGS/diamond-earrings-5.jpeg"
     ],
     "description": "Elegant handcrafted diamond earrings that add a touch of sparkle to any outfit.",
     "badge": null,
@@ -121,7 +121,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Earrings",
     "type": "Earrings",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND EARRINGS/diamond-earrings-6.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND EARRINGS/diamond-earrings-6.jpeg"
     ],
     "description": "Elegant handcrafted diamond earrings that add a touch of sparkle to any outfit.",
     "badge": null,
@@ -143,7 +143,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Earrings",
     "type": "Earrings",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND EARRINGS/diamond-earrings-7.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND EARRINGS/diamond-earrings-7.jpeg"
     ],
     "description": "Elegant handcrafted diamond earrings that add a touch of sparkle to any outfit.",
     "badge": null,
@@ -165,7 +165,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Earrings",
     "type": "Earrings",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND EARRINGS/diamond-earrings-8.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND EARRINGS/diamond-earrings-8.jpeg"
     ],
     "description": "Elegant handcrafted diamond earrings that add a touch of sparkle to any outfit.",
     "badge": null,
@@ -187,7 +187,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Earrings",
     "type": "Earrings",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND EARRINGS/diamond-earrings-9.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND EARRINGS/diamond-earrings-9.jpeg"
     ],
     "description": "Elegant handcrafted diamond earrings that add a touch of sparkle to any outfit.",
     "badge": null,
@@ -209,7 +209,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Earrings",
     "type": "Earrings",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND EARRINGS/diamond-earrings-10.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND EARRINGS/diamond-earrings-10.jpeg"
     ],
     "description": "Elegant handcrafted diamond earrings that add a touch of sparkle to any outfit.",
     "badge": null,
@@ -231,7 +231,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Earrings",
     "type": "Earrings",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND EARRINGS/diamond-earrings-11.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND EARRINGS/diamond-earrings-11.jpeg"
     ],
     "description": "Elegant handcrafted diamond earrings that add a touch of sparkle to any outfit.",
     "badge": null,
@@ -253,7 +253,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Bracelets",
     "type": "Bracelets",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND GENTS BRACLATE/diamond-gents-bracelet-1.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND GENTS BRACLATE/diamond-gents-bracelet-1.jpeg"
     ],
     "description": "A bold and sophisticated diamond bracelet designed for the modern gentleman.",
     "badge": "NEW",
@@ -275,7 +275,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Bracelets",
     "type": "Bracelets",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND GENTS BRACLATE/diamond-gents-bracelet-2.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND GENTS BRACLATE/diamond-gents-bracelet-2.jpeg"
     ],
     "description": "A bold and sophisticated diamond bracelet designed for the modern gentleman.",
     "badge": "BEST SELLER",
@@ -297,7 +297,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Bracelets",
     "type": "Bracelets",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND GENTS BRACLATE/diamond-gents-bracelet-3.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND GENTS BRACLATE/diamond-gents-bracelet-3.jpeg"
     ],
     "description": "A bold and sophisticated diamond bracelet designed for the modern gentleman.",
     "badge": null,
@@ -319,7 +319,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Bracelets",
     "type": "Bracelets",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND GENTS BRACLATE/diamond-gents-bracelet-4.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND GENTS BRACLATE/diamond-gents-bracelet-4.jpeg"
     ],
     "description": "A bold and sophisticated diamond bracelet designed for the modern gentleman.",
     "badge": null,
@@ -341,7 +341,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Bracelets",
     "type": "Bracelets",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND GENTS BRACLATE/diamond-gents-bracelet-5.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND GENTS BRACLATE/diamond-gents-bracelet-5.jpeg"
     ],
     "description": "A bold and sophisticated diamond bracelet designed for the modern gentleman.",
     "badge": null,
@@ -363,7 +363,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Bracelets",
     "type": "Bracelets",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND GENTS BRACLATE/diamond-gents-bracelet-6.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND GENTS BRACLATE/diamond-gents-bracelet-6.jpeg"
     ],
     "description": "A bold and sophisticated diamond bracelet designed for the modern gentleman.",
     "badge": null,
@@ -385,7 +385,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Bracelets",
     "type": "Bracelets",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND GENTS BRACLATE/diamond-gents-bracelet-7.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND GENTS BRACLATE/diamond-gents-bracelet-7.jpeg"
     ],
     "description": "A bold and sophisticated diamond bracelet designed for the modern gentleman.",
     "badge": null,
@@ -407,7 +407,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Bracelets",
     "type": "Bracelets",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND GENTS BRACLATE/diamond-gents-bracelet-8.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND GENTS BRACLATE/diamond-gents-bracelet-8.jpeg"
     ],
     "description": "A bold and sophisticated diamond bracelet designed for the modern gentleman.",
     "badge": null,
@@ -429,7 +429,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Bracelets",
     "type": "Bracelets",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND GENTS BRACLATE/diamond-gents-bracelet-9.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND GENTS BRACLATE/diamond-gents-bracelet-9.jpeg"
     ],
     "description": "A bold and sophisticated diamond bracelet designed for the modern gentleman.",
     "badge": null,
@@ -451,7 +451,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Rings",
     "type": "Rings",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND GENTS RING/diamond-gents-ring-1.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND GENTS RING/diamond-gents-ring-1.jpeg"
     ],
     "description": "A classic and solid diamond ring crafted for men, combining strength and elegance.",
     "badge": "NEW",
@@ -473,7 +473,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Rings",
     "type": "Rings",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND GENTS RING/diamond-gents-ring-2.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND GENTS RING/diamond-gents-ring-2.jpeg"
     ],
     "description": "A classic and solid diamond ring crafted for men, combining strength and elegance.",
     "badge": "BEST SELLER",
@@ -495,7 +495,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Rings",
     "type": "Rings",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND GENTS RING/diamond-gents-ring-3.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND GENTS RING/diamond-gents-ring-3.jpeg"
     ],
     "description": "A classic and solid diamond ring crafted for men, combining strength and elegance.",
     "badge": null,
@@ -517,7 +517,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Rings",
     "type": "Rings",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND GENTS RING/diamond-gents-ring-4.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND GENTS RING/diamond-gents-ring-4.jpeg"
     ],
     "description": "A classic and solid diamond ring crafted for men, combining strength and elegance.",
     "badge": null,
@@ -539,7 +539,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Rings",
     "type": "Rings",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND GENTS RING/diamond-gents-ring-5.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND GENTS RING/diamond-gents-ring-5.jpeg"
     ],
     "description": "A classic and solid diamond ring crafted for men, combining strength and elegance.",
     "badge": null,
@@ -561,7 +561,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Rings",
     "type": "Rings",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND GENTS RING/diamond-gents-ring-6.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND GENTS RING/diamond-gents-ring-6.jpeg"
     ],
     "description": "A classic and solid diamond ring crafted for men, combining strength and elegance.",
     "badge": null,
@@ -583,7 +583,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Rings",
     "type": "Rings",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND GENTS RING/diamond-gents-ring-7.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND GENTS RING/diamond-gents-ring-7.jpeg"
     ],
     "description": "A classic and solid diamond ring crafted for men, combining strength and elegance.",
     "badge": null,
@@ -605,7 +605,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Rings",
     "type": "Rings",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND GENTS RING/diamond-gents-ring-8.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND GENTS RING/diamond-gents-ring-8.jpeg"
     ],
     "description": "A classic and solid diamond ring crafted for men, combining strength and elegance.",
     "badge": null,
@@ -627,7 +627,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Rings",
     "type": "Rings",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND GENTS RING/diamond-gents-ring-9.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND GENTS RING/diamond-gents-ring-9.jpeg"
     ],
     "description": "A classic and solid diamond ring crafted for men, combining strength and elegance.",
     "badge": null,
@@ -649,7 +649,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Rings",
     "type": "Rings",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND GENTS RING/diamond-gents-ring-10.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND GENTS RING/diamond-gents-ring-10.jpeg"
     ],
     "description": "A classic and solid diamond ring crafted for men, combining strength and elegance.",
     "badge": null,
@@ -671,7 +671,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Rings",
     "type": "Rings",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND GENTS RING/diamond-gents-ring-11.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND GENTS RING/diamond-gents-ring-11.jpeg"
     ],
     "description": "A classic and solid diamond ring crafted for men, combining strength and elegance.",
     "badge": null,
@@ -693,7 +693,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Rings",
     "type": "Rings",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND GENTS RING/diamond-gents-ring-12.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND GENTS RING/diamond-gents-ring-12.jpeg"
     ],
     "description": "A classic and solid diamond ring crafted for men, combining strength and elegance.",
     "badge": null,
@@ -715,7 +715,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Rings",
     "type": "Rings",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND GENTS RING/diamond-gents-ring-13.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND GENTS RING/diamond-gents-ring-13.jpeg"
     ],
     "description": "A classic and solid diamond ring crafted for men, combining strength and elegance.",
     "badge": null,
@@ -737,7 +737,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Rings",
     "type": "Rings",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND GENTS RING/diamond-gents-ring-14.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND GENTS RING/diamond-gents-ring-14.jpeg"
     ],
     "description": "A classic and solid diamond ring crafted for men, combining strength and elegance.",
     "badge": null,
@@ -759,7 +759,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Bracelets",
     "type": "Bracelets",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND LEDIES BRACLATE/diamond-ladies-bracelet-1.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND LEDIES BRACLATE/diamond-ladies-bracelet-1.jpeg"
     ],
     "description": "An elegant and delicate diamond bracelet that wraps your wrist in brilliant luxury.",
     "badge": "NEW",
@@ -781,7 +781,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Bracelets",
     "type": "Bracelets",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND LEDIES BRACLATE/diamond-ladies-bracelet-2.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND LEDIES BRACLATE/diamond-ladies-bracelet-2.jpeg"
     ],
     "description": "An elegant and delicate diamond bracelet that wraps your wrist in brilliant luxury.",
     "badge": "BEST SELLER",
@@ -803,7 +803,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Bracelets",
     "type": "Bracelets",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND LEDIES BRACLATE/diamond-ladies-bracelet-3.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND LEDIES BRACLATE/diamond-ladies-bracelet-3.jpeg"
     ],
     "description": "An elegant and delicate diamond bracelet that wraps your wrist in brilliant luxury.",
     "badge": null,
@@ -825,7 +825,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Bracelets",
     "type": "Bracelets",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND LEDIES BRACLATE/diamond-ladies-bracelet-4.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND LEDIES BRACLATE/diamond-ladies-bracelet-4.jpeg"
     ],
     "description": "An elegant and delicate diamond bracelet that wraps your wrist in brilliant luxury.",
     "badge": null,
@@ -847,7 +847,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Bracelets",
     "type": "Bracelets",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND LEDIES BRACLATE/diamond-ladies-bracelet-5.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND LEDIES BRACLATE/diamond-ladies-bracelet-5.jpeg"
     ],
     "description": "An elegant and delicate diamond bracelet that wraps your wrist in brilliant luxury.",
     "badge": null,
@@ -869,7 +869,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Bracelets",
     "type": "Bracelets",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND LEDIES BRACLATE/diamond-ladies-bracelet-6.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND LEDIES BRACLATE/diamond-ladies-bracelet-6.jpeg"
     ],
     "description": "An elegant and delicate diamond bracelet that wraps your wrist in brilliant luxury.",
     "badge": null,
@@ -891,7 +891,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Bracelets",
     "type": "Bracelets",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND LEDIES BRACLATE/diamond-ladies-bracelet-7.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND LEDIES BRACLATE/diamond-ladies-bracelet-7.jpeg"
     ],
     "description": "An elegant and delicate diamond bracelet that wraps your wrist in brilliant luxury.",
     "badge": null,
@@ -913,7 +913,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Bracelets",
     "type": "Bracelets",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND LEDIES BRACLATE/diamond-ladies-bracelet-8.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND LEDIES BRACLATE/diamond-ladies-bracelet-8.jpeg"
     ],
     "description": "An elegant and delicate diamond bracelet that wraps your wrist in brilliant luxury.",
     "badge": null,
@@ -935,7 +935,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Bracelets",
     "type": "Bracelets",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND LEDIES BRACLATE/diamond-ladies-bracelet-9.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND LEDIES BRACLATE/diamond-ladies-bracelet-9.jpeg"
     ],
     "description": "An elegant and delicate diamond bracelet that wraps your wrist in brilliant luxury.",
     "badge": null,
@@ -957,7 +957,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Bracelets",
     "type": "Bracelets",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND LEDIES BRACLATE/diamond-ladies-bracelet-10.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND LEDIES BRACLATE/diamond-ladies-bracelet-10.jpeg"
     ],
     "description": "An elegant and delicate diamond bracelet that wraps your wrist in brilliant luxury.",
     "badge": null,
@@ -979,7 +979,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Rings",
     "type": "Rings",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND LEDIES RING/diamond-ladies-ring-1.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND LEDIES RING/diamond-ladies-ring-1.jpeg"
     ],
     "description": "A breathtaking diamond ring for ladies, perfect for engagements and special celebrations.",
     "badge": "NEW",
@@ -1001,7 +1001,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Rings",
     "type": "Rings",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND LEDIES RING/diamond-ladies-ring-2.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND LEDIES RING/diamond-ladies-ring-2.jpeg"
     ],
     "description": "A breathtaking diamond ring for ladies, perfect for engagements and special celebrations.",
     "badge": "BEST SELLER",
@@ -1023,7 +1023,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Rings",
     "type": "Rings",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND LEDIES RING/diamond-ladies-ring-3.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND LEDIES RING/diamond-ladies-ring-3.jpeg"
     ],
     "description": "A breathtaking diamond ring for ladies, perfect for engagements and special celebrations.",
     "badge": null,
@@ -1045,7 +1045,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Rings",
     "type": "Rings",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND LEDIES RING/diamond-ladies-ring-4.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND LEDIES RING/diamond-ladies-ring-4.jpeg"
     ],
     "description": "A breathtaking diamond ring for ladies, perfect for engagements and special celebrations.",
     "badge": null,
@@ -1067,7 +1067,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Rings",
     "type": "Rings",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND LEDIES RING/diamond-ladies-ring-5.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND LEDIES RING/diamond-ladies-ring-5.jpeg"
     ],
     "description": "A breathtaking diamond ring for ladies, perfect for engagements and special celebrations.",
     "badge": null,
@@ -1089,7 +1089,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Rings",
     "type": "Rings",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND LEDIES RING/diamond-ladies-ring-6.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND LEDIES RING/diamond-ladies-ring-6.jpeg"
     ],
     "description": "A breathtaking diamond ring for ladies, perfect for engagements and special celebrations.",
     "badge": null,
@@ -1111,7 +1111,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Rings",
     "type": "Rings",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND LEDIES RING/diamond-ladies-ring-7.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND LEDIES RING/diamond-ladies-ring-7.jpeg"
     ],
     "description": "A breathtaking diamond ring for ladies, perfect for engagements and special celebrations.",
     "badge": null,
@@ -1133,7 +1133,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Rings",
     "type": "Rings",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND LEDIES RING/diamond-ladies-ring-8.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND LEDIES RING/diamond-ladies-ring-8.jpeg"
     ],
     "description": "A breathtaking diamond ring for ladies, perfect for engagements and special celebrations.",
     "badge": null,
@@ -1155,7 +1155,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Rings",
     "type": "Rings",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND LEDIES RING/diamond-ladies-ring-9.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND LEDIES RING/diamond-ladies-ring-9.jpeg"
     ],
     "description": "A breathtaking diamond ring for ladies, perfect for engagements and special celebrations.",
     "badge": null,
@@ -1177,7 +1177,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Rings",
     "type": "Rings",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND LEDIES RING/diamond-ladies-ring-10.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND LEDIES RING/diamond-ladies-ring-10.jpeg"
     ],
     "description": "A breathtaking diamond ring for ladies, perfect for engagements and special celebrations.",
     "badge": null,
@@ -1199,7 +1199,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Rings",
     "type": "Rings",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND LEDIES RING/diamond-ladies-ring-11.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND LEDIES RING/diamond-ladies-ring-11.jpeg"
     ],
     "description": "A breathtaking diamond ring for ladies, perfect for engagements and special celebrations.",
     "badge": null,
@@ -1221,7 +1221,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Necklace",
     "type": "Necklace",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND NACKLESS/diamond-necklace-1.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND NACKLESS/diamond-necklace-1.jpeg"
     ],
     "description": "A magnificent diamond necklace set, designed to be the centerpiece of your collection.",
     "badge": "NEW",
@@ -1243,7 +1243,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Necklace",
     "type": "Necklace",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND NACKLESS/diamond-necklace-2.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND NACKLESS/diamond-necklace-2.jpeg"
     ],
     "description": "A magnificent diamond necklace set, designed to be the centerpiece of your collection.",
     "badge": "BEST SELLER",
@@ -1265,7 +1265,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Necklace",
     "type": "Necklace",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND NACKLESS/diamond-necklace-3.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND NACKLESS/diamond-necklace-3.jpeg"
     ],
     "description": "A magnificent diamond necklace set, designed to be the centerpiece of your collection.",
     "badge": null,
@@ -1287,7 +1287,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Necklace",
     "type": "Necklace",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND NACKLESS/diamond-necklace-4.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND NACKLESS/diamond-necklace-4.jpeg"
     ],
     "description": "A magnificent diamond necklace set, designed to be the centerpiece of your collection.",
     "badge": null,
@@ -1309,7 +1309,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Necklace",
     "type": "Necklace",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND NACKLESS/diamond-necklace-5.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND NACKLESS/diamond-necklace-5.jpeg"
     ],
     "description": "A magnificent diamond necklace set, designed to be the centerpiece of your collection.",
     "badge": null,
@@ -1331,7 +1331,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Necklace",
     "type": "Necklace",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND NACKLESS/diamond-necklace-6.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND NACKLESS/diamond-necklace-6.jpeg"
     ],
     "description": "A magnificent diamond necklace set, designed to be the centerpiece of your collection.",
     "badge": null,
@@ -1353,7 +1353,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Necklace",
     "type": "Necklace",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND NACKLESS/diamond-necklace-7.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND NACKLESS/diamond-necklace-7.jpeg"
     ],
     "description": "A magnificent diamond necklace set, designed to be the centerpiece of your collection.",
     "badge": null,
@@ -1375,7 +1375,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Necklace",
     "type": "Necklace",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND NACKLESS/diamond-necklace-8.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND NACKLESS/diamond-necklace-8.jpeg"
     ],
     "description": "A magnificent diamond necklace set, designed to be the centerpiece of your collection.",
     "badge": null,
@@ -1397,7 +1397,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Necklace",
     "type": "Necklace",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND NACKLESS/diamond-necklace-9.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND NACKLESS/diamond-necklace-9.jpeg"
     ],
     "description": "A magnificent diamond necklace set, designed to be the centerpiece of your collection.",
     "badge": null,
@@ -1419,7 +1419,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Necklace",
     "type": "Necklace",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND NACKLESS/diamond-necklace-10.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND NACKLESS/diamond-necklace-10.jpeg"
     ],
     "description": "A magnificent diamond necklace set, designed to be the centerpiece of your collection.",
     "badge": null,
@@ -1441,7 +1441,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Necklace",
     "type": "Necklace",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND NACKLESS/diamond-necklace-11.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND NACKLESS/diamond-necklace-11.jpeg"
     ],
     "description": "A magnificent diamond necklace set, designed to be the centerpiece of your collection.",
     "badge": null,
@@ -1463,7 +1463,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Nose Pin",
     "type": "Nose Pin",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND NOSE PIN/diamond-nose-pin-1.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND NOSE PIN/diamond-nose-pin-1.jpeg"
     ],
     "description": "A dainty and sparkling diamond nose pin set in 18K yellow gold.",
     "badge": "NEW",
@@ -1485,7 +1485,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Nose Pin",
     "type": "Nose Pin",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND NOSE PIN/diamond-nose-pin-2.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND NOSE PIN/diamond-nose-pin-2.jpeg"
     ],
     "description": "A dainty and sparkling diamond nose pin set in 18K yellow gold.",
     "badge": "BEST SELLER",
@@ -1507,7 +1507,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Nose Pin",
     "type": "Nose Pin",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND NOSE PIN/diamond-nose-pin-3.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND NOSE PIN/diamond-nose-pin-3.jpeg"
     ],
     "description": "A dainty and sparkling diamond nose pin set in 18K yellow gold.",
     "badge": null,
@@ -1529,7 +1529,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Nose Pin",
     "type": "Nose Pin",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND NOSE PIN/diamond-nose-pin-4.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND NOSE PIN/diamond-nose-pin-4.jpeg"
     ],
     "description": "A dainty and sparkling diamond nose pin set in 18K yellow gold.",
     "badge": null,
@@ -1551,7 +1551,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Nose Pin",
     "type": "Nose Pin",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND NOSE PIN/diamond-nose-pin-5.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND NOSE PIN/diamond-nose-pin-5.jpeg"
     ],
     "description": "A dainty and sparkling diamond nose pin set in 18K yellow gold.",
     "badge": null,
@@ -1573,7 +1573,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Nose Pin",
     "type": "Nose Pin",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND NOSE PIN/diamond-nose-pin-6.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND NOSE PIN/diamond-nose-pin-6.jpeg"
     ],
     "description": "A dainty and sparkling diamond nose pin set in 18K yellow gold.",
     "badge": null,
@@ -1595,7 +1595,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Nose Pin",
     "type": "Nose Pin",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND NOSE PIN/diamond-nose-pin-7.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND NOSE PIN/diamond-nose-pin-7.jpeg"
     ],
     "description": "A dainty and sparkling diamond nose pin set in 18K yellow gold.",
     "badge": null,
@@ -1617,7 +1617,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Nose Pin",
     "type": "Nose Pin",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND NOSE PIN/diamond-nose-pin-8.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND NOSE PIN/diamond-nose-pin-8.jpeg"
     ],
     "description": "A dainty and sparkling diamond nose pin set in 18K yellow gold.",
     "badge": null,
@@ -1639,7 +1639,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Nose Pin",
     "type": "Nose Pin",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND NOSE PIN/diamond-nose-pin-9.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND NOSE PIN/diamond-nose-pin-9.jpeg"
     ],
     "description": "A dainty and sparkling diamond nose pin set in 18K yellow gold.",
     "badge": null,
@@ -1661,7 +1661,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Nose Pin",
     "type": "Nose Pin",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND NOSE PIN/diamond-nose-pin-10.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND NOSE PIN/diamond-nose-pin-10.jpeg"
     ],
     "description": "A dainty and sparkling diamond nose pin set in 18K yellow gold.",
     "badge": null,
@@ -1683,7 +1683,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Nose Pin",
     "type": "Nose Pin",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND NOSE PIN/diamond-nose-pin-11.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND NOSE PIN/diamond-nose-pin-11.jpeg"
     ],
     "description": "A dainty and sparkling diamond nose pin set in 18K yellow gold.",
     "badge": null,
@@ -1705,7 +1705,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Pendant Set",
     "type": "Pendant Set",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND PENDENT SET/diamond-pendant-set-1.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND PENDENT SET/diamond-pendant-set-1.jpeg"
     ],
     "description": "A coordinated diamond pendant and earring set, offering matching elegance.",
     "badge": "NEW",
@@ -1727,7 +1727,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Pendant Set",
     "type": "Pendant Set",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND PENDENT SET/diamond-pendant-set-2.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND PENDENT SET/diamond-pendant-set-2.jpeg"
     ],
     "description": "A coordinated diamond pendant and earring set, offering matching elegance.",
     "badge": "BEST SELLER",
@@ -1749,7 +1749,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Pendant Set",
     "type": "Pendant Set",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND PENDENT SET/diamond-pendant-set-3.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND PENDENT SET/diamond-pendant-set-3.jpeg"
     ],
     "description": "A coordinated diamond pendant and earring set, offering matching elegance.",
     "badge": null,
@@ -1771,7 +1771,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Pendant Set",
     "type": "Pendant Set",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND PENDENT SET/diamond-pendant-set-4.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND PENDENT SET/diamond-pendant-set-4.jpeg"
     ],
     "description": "A coordinated diamond pendant and earring set, offering matching elegance.",
     "badge": null,
@@ -1793,7 +1793,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Pendant Set",
     "type": "Pendant Set",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND PENDENT SET/diamond-pendant-set-5.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND PENDENT SET/diamond-pendant-set-5.jpeg"
     ],
     "description": "A coordinated diamond pendant and earring set, offering matching elegance.",
     "badge": null,
@@ -1815,7 +1815,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Pendant Set",
     "type": "Pendant Set",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND PENDENT SET/diamond-pendant-set-6.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND PENDENT SET/diamond-pendant-set-6.jpeg"
     ],
     "description": "A coordinated diamond pendant and earring set, offering matching elegance.",
     "badge": null,
@@ -1837,7 +1837,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Pendant Set",
     "type": "Pendant Set",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND PENDENT SET/diamond-pendant-set-7.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND PENDENT SET/diamond-pendant-set-7.jpeg"
     ],
     "description": "A coordinated diamond pendant and earring set, offering matching elegance.",
     "badge": null,
@@ -1859,7 +1859,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Pendant Set",
     "type": "Pendant Set",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND PENDENT SET/diamond-pendant-set-8.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND PENDENT SET/diamond-pendant-set-8.jpeg"
     ],
     "description": "A coordinated diamond pendant and earring set, offering matching elegance.",
     "badge": null,
@@ -1881,7 +1881,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Pendant Set",
     "type": "Pendant Set",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND PENDENT SET/diamond-pendant-set-9.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND PENDENT SET/diamond-pendant-set-9.jpeg"
     ],
     "description": "A coordinated diamond pendant and earring set, offering matching elegance.",
     "badge": null,
@@ -1903,7 +1903,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Pendant Set",
     "type": "Pendant Set",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND PENDENT SET/diamond-pendant-set-10.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND PENDENT SET/diamond-pendant-set-10.jpeg"
     ],
     "description": "A coordinated diamond pendant and earring set, offering matching elegance.",
     "badge": null,
@@ -1925,7 +1925,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Bangles",
     "type": "Bangles",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND BANGLE/diamond-bangle-1.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND BANGLE/diamond-bangle-1.jpeg"
     ],
     "description": "Stunning diamond-studded bangles showcasing exquisite traditional craftsmanship.",
     "badge": "NEW",
@@ -1947,7 +1947,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Bangles",
     "type": "Bangles",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND BANGLE/diamond-bangle-2.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND BANGLE/diamond-bangle-2.jpeg"
     ],
     "description": "Stunning diamond-studded bangles showcasing exquisite traditional craftsmanship.",
     "badge": "BEST SELLER",
@@ -1969,7 +1969,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Bangles",
     "type": "Bangles",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND BANGLE/diamond-bangle-3.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND BANGLE/diamond-bangle-3.jpeg"
     ],
     "description": "Stunning diamond-studded bangles showcasing exquisite traditional craftsmanship.",
     "badge": null,
@@ -1991,7 +1991,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Bangles",
     "type": "Bangles",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND BANGLE/diamond-bangle-4.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND BANGLE/diamond-bangle-4.jpeg"
     ],
     "description": "Stunning diamond-studded bangles showcasing exquisite traditional craftsmanship.",
     "badge": null,
@@ -2013,7 +2013,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Bangles",
     "type": "Bangles",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND BANGLE/diamond-bangle-5.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND BANGLE/diamond-bangle-5.jpeg"
     ],
     "description": "Stunning diamond-studded bangles showcasing exquisite traditional craftsmanship.",
     "badge": null,
@@ -2035,7 +2035,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Bangles",
     "type": "Bangles",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND BANGLE/diamond-bangle-6.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND BANGLE/diamond-bangle-6.jpeg"
     ],
     "description": "Stunning diamond-studded bangles showcasing exquisite traditional craftsmanship.",
     "badge": null,
@@ -2057,7 +2057,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Bangles",
     "type": "Bangles",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND BANGLE/diamond-bangle-7.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND BANGLE/diamond-bangle-7.jpeg"
     ],
     "description": "Stunning diamond-studded bangles showcasing exquisite traditional craftsmanship.",
     "badge": null,
@@ -2079,7 +2079,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Bangles",
     "type": "Bangles",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND BANGLE/diamond-bangle-8.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND BANGLE/diamond-bangle-8.jpeg"
     ],
     "description": "Stunning diamond-studded bangles showcasing exquisite traditional craftsmanship.",
     "badge": null,
@@ -2101,7 +2101,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Bangles",
     "type": "Bangles",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND BANGLE/diamond-bangle-9.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND BANGLE/diamond-bangle-9.jpeg"
     ],
     "description": "Stunning diamond-studded bangles showcasing exquisite traditional craftsmanship.",
     "badge": null,
@@ -2123,7 +2123,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Bangles",
     "type": "Bangles",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND BANGLE/diamond-bangle-10.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND BANGLE/diamond-bangle-10.jpeg"
     ],
     "description": "Stunning diamond-studded bangles showcasing exquisite traditional craftsmanship.",
     "badge": null,
@@ -2145,7 +2145,7 @@ export const diamondProducts = [
     "subcategory": "Diamond Bangles",
     "type": "Bangles",
     "images": [
-      "public/WEBSITE PHOTO NEW/DIAMOAND BANGLE/diamond-bangle-11.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND BANGLE/diamond-bangle-11.jpeg"
     ],
     "description": "Stunning diamond-studded bangles showcasing exquisite traditional craftsmanship.",
     "badge": null,

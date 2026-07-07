@@ -11,7 +11,7 @@ export const silverProducts = [
     "subcategory": "SILVER LADIES RING",
     "type": "Rings",
     "images": [
-      "public/rings/silver.webp"
+      "/rings/silver.webp"
     ],
     "description": "Elegant silver ring with a high-polish contemporary finish.",
     "badge": null,
@@ -33,7 +33,7 @@ export const silverProducts = [
     "subcategory": "SILVER GENTS RING",
     "type": "Rings",
     "images": [
-      "public/placeholder.png"
+      "/placeholder.png"
     ],
     "description": "A masculine, textured silver band in sterling silver.",
     "badge": null,
@@ -55,7 +55,7 @@ export const silverProducts = [
     "subcategory": "SILVER STUDDES",
     "type": "Earrings",
     "images": [
-      "public/placeholder.png"
+      "/placeholder.png"
     ],
     "description": "Sparkling silver studs with a central round-cut cubic zirconia.",
     "badge": null,
@@ -77,7 +77,7 @@ export const silverProducts = [
     "subcategory": "SILVER TOPS",
     "type": "Earrings",
     "images": [
-      "public/placeholder.png"
+      "/placeholder.png"
     ],
     "description": "Ornate silver tops featuring drop pearls and filigree loops.",
     "badge": null,
@@ -99,7 +99,7 @@ export const silverProducts = [
     "subcategory": "SILVER NECKLES SET",
     "type": "Necklaces",
     "images": [
-      "public/placeholder.png"
+      "/placeholder.png"
     ],
     "description": "A magnificent sterling silver necklace set with drop pearls.",
     "badge": null,
@@ -121,7 +121,7 @@ export const silverProducts = [
     "subcategory": "SILVER GOLD POLISH SET",
     "type": "Necklaces",
     "images": [
-      "public/placeholder.png"
+      "/placeholder.png"
     ],
     "description": "Silver necklace with high-grade gold plating for a luxury look.",
     "badge": null,
@@ -143,7 +143,7 @@ export const silverProducts = [
     "subcategory": "SILVER PATLI ",
     "type": "Bangles",
     "images": [
-      "public/placeholder.png"
+      "/placeholder.png"
     ],
     "description": "Pair of sterling silver patli bangles with diamond-cut patterns.",
     "badge": null,
@@ -165,7 +165,7 @@ export const silverProducts = [
     "subcategory": "SILVER KADE",
     "type": "Bangles",
     "images": [
-      "public/placeholder.png"
+      "/placeholder.png"
     ],
     "description": "Heavy, handcrafted silver kadas with traditional lion-head terminals.",
     "badge": null,
@@ -187,7 +187,7 @@ export const silverProducts = [
     "subcategory": "SILVER GOLD POLISH BANGLES",
     "type": "Bangles",
     "images": [
-      "public/placeholder.png"
+      "/placeholder.png"
     ],
     "description": "Pure silver bangles with premium 22K gold micron plating.",
     "badge": null,
@@ -209,7 +209,7 @@ export const silverProducts = [
     "subcategory": "SILVER GENTS BRACLETE",
     "type": "Bracelets",
     "images": [
-      "public/placeholder.png"
+      "/placeholder.png"
     ],
     "description": "A thick, chunky silver curb link chain bracelet for men.",
     "badge": null,
@@ -231,7 +231,7 @@ export const silverProducts = [
     "subcategory": "SILVER LADIES BRACLETE ",
     "type": "Bracelets",
     "images": [
-      "public/placeholder.png"
+      "/placeholder.png"
     ],
     "description": "A delicate silver chain bracelet with hanging heart charms.",
     "badge": null,
@@ -253,7 +253,7 @@ export const silverProducts = [
     "subcategory": "SILVER PENDENT SET ",
     "type": "Pendants",
     "images": [
-      "public/necklace/silver.webp"
+      "/necklace/silver.webp"
     ],
     "description": "Elegant silver pendant set crafted in pure silver, with matching chain.",
     "badge": null,
@@ -275,7 +275,7 @@ export const silverProducts = [
     "subcategory": "SILVER PENDENT   ",
     "type": "Pendants",
     "images": [
-      "public/placeholder.png"
+      "/placeholder.png"
     ],
     "description": "A minimalist sterling silver pendant featuring a small infinity loop.",
     "badge": null,
@@ -297,7 +297,7 @@ export const silverProducts = [
     "subcategory": "SILVER PAYAL",
     "type": "Gifts",
     "images": [
-      "public/placeholder.png"
+      "/placeholder.png"
     ],
     "description": "Traditional silver anklets (Payal) with musical ghungroo beads.",
     "badge": null,
@@ -319,7 +319,7 @@ export const silverProducts = [
     "subcategory": "SILVER BOWL ",
     "type": "Gifts",
     "images": [
-      "public/placeholder.png"
+      "/placeholder.png"
     ],
     "description": "A hallmarked pure silver bowl, perfect for baby naming ceremonies and puja.",
     "badge": null,
@@ -341,7 +341,7 @@ export const silverProducts = [
     "subcategory": "SILVER GLASS",
     "type": "Gifts",
     "images": [
-      "public/placeholder.png"
+      "/placeholder.png"
     ],
     "description": "A traditional silver glass crafted in fine 99.9% silver.",
     "badge": null,
@@ -363,7 +363,7 @@ export const silverProducts = [
     "subcategory": "SILVER THALI",
     "type": "Gifts",
     "images": [
-      "public/placeholder.png"
+      "/placeholder.png"
     ],
     "description": "A premium puja thali set made entirely of hallmarked silver.",
     "badge": null,
@@ -385,7 +385,7 @@ export const silverProducts = [
     "subcategory": "SILVER DIPAK",
     "type": "Gifts",
     "images": [
-      "public/placeholder.png"
+      "/placeholder.png"
     ],
     "description": "A beautiful silver oil lamp (Diya) with an adjustable base.",
     "badge": null,
@@ -407,7 +407,7 @@ export const silverProducts = [
     "subcategory": "SILVER BHAGWAN MURTI",
     "type": "Gifts",
     "images": [
-      "public/placeholder.png"
+      "/placeholder.png"
     ],
     "description": "Exquisitely detailed silver idol of Lord Ganesha in pure silver.",
     "badge": null,
@@ -429,7 +429,7 @@ export const silverProducts = [
     "subcategory": "SILVER GENTS KADA",
     "type": "Bangles",
     "images": [
-      "public/placeholder.png"
+      "/placeholder.png"
     ],
     "description": "A thick, heavy, solid silver kada for men with a polished finish.",
     "badge": null,
