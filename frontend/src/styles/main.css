@@ -3183,6 +3183,51 @@ textarea.form-control {
   to { transform: rotate(360deg); }
 }
 
+/* Responsive updates for small screens */
+@media (max-width: 768px) {
+  .contact-grid {
+    gap: 2rem;
+  }
+  
+  .contact-info-card {
+    padding: 1.5rem;
+    border-radius: 20px;
+  }
+  
+  .contact-form-container {
+    padding: 1.75rem;
+    border-radius: 20px;
+  }
+  
+  .info-item {
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .info-item i {
+    width: 40px;
+    height: 40px;
+    font-size: 1.1rem;
+  }
+  
+  .contact-form-container h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-info-card,
+  .contact-form-container {
+    padding: 1.25rem;
+  }
+  
+  .contact-form-container h3 {
+    font-size: 1.5rem;
+  }
+}
+
+
 
 
 
