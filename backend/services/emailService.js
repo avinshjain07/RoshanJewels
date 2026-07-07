@@ -1,4 +1,5 @@
-const transporter = require('../config/nodemailer');
+const transporter = require('../config/mail');
+const config = require('../config/env');
 
 /**
  * Sends customer enquiry email via Yahoo SMTP using Nodemailer.
@@ -12,8 +13,8 @@ const transporter = require('../config/nodemailer');
  * @param {string} details.ipAddress
  */
 async function sendContactEmail({ name, email, phone, enquiryType, subject, message, ipAddress }) {
-  const emailUser = process.env.EMAIL_USER;
-  const emailTo = process.env.EMAIL_TO || 'roshan_jewel@yahoo.com';
+  const emailUser = config.EMAIL_USER;
+  const emailTo = config.EMAIL_TO;
 
   const dateObj = new Date();
   const dateStr = dateObj.toLocaleDateString('en-IN', { timeZone: 'Asia/Kolkata' });

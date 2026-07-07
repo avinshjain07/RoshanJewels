@@ -1,12 +1,8 @@
 const express = require('express');
 const cors = require('cors');
 const helmet = require('helmet');
-const dotenv = require('dotenv');
-const path = require('path');
+const config = require('./config/env');
 const contactRoutes = require('./routes/contactRoutes');
-
-// Initialize configuration
-dotenv.config({ path: path.join(__dirname, '.env') });
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -16,7 +12,10 @@ app.use(helmet());
 
 // Cross-Origin Resource Sharing
 app.use(cors({
-  origin: '*', // Modify to match production domain if needed
+  origin: [
+    "http://localhost:5173",
+    config.FRONTEND_URL
+  ],
   methods: ['POST', 'OPTIONS'],
   allowedHeaders: ['Content-Type']
 }));
@@ -55,5 +54,7 @@ app.use((err, req, res, next) => {
 
 // Bind to port
 app.listen(PORT, () => {
-  console.log(`Roshan Jewels Backend API Server is running on port ${PORT}`);
+  console.log('Server running');
+  console.log(`Environment: ${config.NODE_ENV}`);
+  console.log(`Port: ${PORT}`);
 });
