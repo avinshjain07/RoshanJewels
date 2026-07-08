@@ -1,38 +1,33 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
-import a1 from '@assets/images/slider/a1.jpg';
-import a2 from '@assets/images/slider/a2.avif';
-import a3 from '@assets/images/slider/a3.jpg';
-import a4 from '@assets/images/slider/a4.webp';
-import a5 from '@assets/images/slider/a5.webp';
 
 const SLIDES_DATA = [
   {
-    image: a1,
-    alt: 'Necklace',
+    image: '/WEBSITE PHOTO NEW/DIAMOAND NACKLESS/diamond-necklace-8.jpeg',
+    alt: 'Diamond Necklace',
     title: 'Three Generations of Quiet Brilliance',
     text: 'A name born in 1965, carried forward with the quiet brilliance of three generations. What began as a humble spark has grown into a house of refined beauty.',
   },
   {
-    image: a2,
-    alt: 'Necklace - Gold',
+    image: '/WEBSITE PHOTO NEW/DIAMOAND NOSE PIN/diamond-nose-pin-8.jpeg',
+    alt: 'Diamond Nose Pin',
     title: 'Every Piece Tells a Story',
     text: "Each creation is imagined with a designer's vision, shaped with a craftsman's devotion, and perfected with a touch of modern grace.",
   },
   {
-    image: a3,
-    alt: 'Gold Bangles Set',
+    image: '/WEBSITE PHOTO NEW/DIAMOAND BANGLE/diamond-bangle-2.jpeg',
+    alt: 'Diamond Bangle',
     title: 'Handcrafted to Perfection',
     text: 'Here, jewellery is poetry cast in gold… a whisper of heritage, a celebration of love, and a companion to life\'s finest moments.',
   },
   {
-    image: a4,
-    alt: 'Rings',
+    image: '/WEBSITE PHOTO NEW/DIAMOAND LEDIES RING/diamond-ladies-ring-2.jpeg',
+    alt: 'Diamond Rings',
     title: 'Where Tradition Meets Contemporary',
     text: 'We don\'t just craft jewellery… we craft stories meant to shine through generations, preserving heritage with modern elegance.',
   },
   {
-    image: a5,
-    alt: 'Pendant',
+    image: '/WEBSITE PHOTO NEW/DIAMOAND EARRINGS/diamond-earrings-5.jpeg',
+    alt: 'Diamond Earrings',
     title: 'Masterpieces in Miniature',
     text: 'From engagement rings to traditional designs, each piece is crafted with attention to detail that can only come from generations of expertise.',
   },
