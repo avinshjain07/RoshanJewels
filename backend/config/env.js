@@ -25,6 +25,8 @@ const config = {
   EMAIL_USER: process.env.EMAIL_USER,
   EMAIL_PASS: process.env.EMAIL_PASS,
   EMAIL_TO: process.env.EMAIL_TO,
+  EMAIL_HOST: process.env.EMAIL_HOST || 'smtp.mail.yahoo.com',
+  EMAIL_PORT: process.env.EMAIL_PORT ? parseInt(process.env.EMAIL_PORT, 10) : 465,
   FRONTEND_URL: process.env.FRONTEND_URL || 'http://localhost:5173',
   NODE_ENV: nodeEnv,
 };

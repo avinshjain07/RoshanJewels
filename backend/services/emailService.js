@@ -44,7 +44,7 @@ async function sendContactEmail({ name, email, phone, enquiryType, subject, mess
     <html>
     <head>
       <meta charset="utf-8">
-      <title>New Jewellery Enquiry</title>
+      <title>Website Jewellery Enquiry</title>
       <style>
         body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #333333; line-height: 1.6; margin: 0; padding: 0; background-color: #fcf6f7; }
         .container { max-width: 600px; margin: 30px auto; background: #ffffff; border-radius: 12px; overflow: hidden; border: 1px solid #fde2e4; box-shadow: 0 10px 30px rgba(220,130,150,0.05); }
@@ -127,7 +127,7 @@ async function sendContactEmail({ name, email, phone, enquiryType, subject, mess
   const mailOptions = {
     from: `"Roshan Jewels Enquiry" <${emailUser}>`,
     to: emailTo,
-    subject: `New Jewellery Enquiry - ${name}`,
+    subject: `Website Jewellery Enquiry - ${name}`,
     html: emailHtml,
     replyTo: email, // This allows owner to click reply to customer directly
   };

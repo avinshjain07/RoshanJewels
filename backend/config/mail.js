@@ -1,11 +1,11 @@
 const nodemailer = require('nodemailer');
 const config = require('./env');
 
-// Configure Yahoo SMTP Transporter using Central Config Module variables
+// Configure SMTP Transporter using Central Config Module variables
 const transporter = nodemailer.createTransport({
-  host: 'smtp.mail.yahoo.com',
-  port: 465,
-  secure: true, // true for port 465
+  host: config.EMAIL_HOST,
+  port: config.EMAIL_PORT,
+  secure: config.EMAIL_PORT === 465, // true for port 465
   auth: {
     user: config.EMAIL_USER,
     pass: config.EMAIL_PASS,
