@@ -64,8 +64,8 @@ export default function Contact() {
                 <div className="info-item-content">
                   <h4>Email Support</h4>
                   <p>
-                    <a href="mailto:roshan_jewel@yahoo.com">
-                      roshan_jewel@yahoo.com
+                    <a href="mailto:jewelroshan9@gmail.com">
+                      jewelroshan9@gmail.com
                     </a>
                   </p>
                 </div>

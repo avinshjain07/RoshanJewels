@@ -88,7 +88,7 @@ export default function Footer() {
               <a href="tel:08224998809">082249 98809</a>
             </p>
             <p>
-              <i className="fas fa-envelope"></i> roshan_jewel@yahoo.com
+              <i className="fas fa-envelope"></i> jewelroshan9@gmail.com
             </p>
             <p>
               <i className="fas fa-clock"></i> Monday - Sunday: 11:30 AM - 8:30 PM
