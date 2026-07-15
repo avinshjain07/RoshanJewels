@@ -7,6 +7,9 @@ const contactRoutes = require('./routes/contactRoutes');
 const app = express();
 const PORT = process.env.PORT || 5000;
 
+// Trust proxy header when running behind reverse proxies (like Render)
+app.set('trust proxy', 1);
+
 // Enable security headers with permissive Cross-Origin Resource Policy
 app.use(helmet({
   crossOriginResourcePolicy: { policy: 'cross-origin' }
