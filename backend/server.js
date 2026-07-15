@@ -107,5 +107,7 @@ app.listen(PORT, () => {
   console.log(`NODE_ENV: ${process.env.NODE_ENV}`);
   console.log(`process.env.FRONTEND_URL: ${process.env.FRONTEND_URL}`);
   console.log(`EMAIL_USER: ${process.env.EMAIL_USER}`);
+  console.log(`EMAIL_HOST: ${config.EMAIL_HOST}`);
+  console.log(`EMAIL_PORT: ${config.EMAIL_PORT}`);
   console.log('=================================');
 });

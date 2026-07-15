@@ -10,6 +10,9 @@ const transporter = nodemailer.createTransport({
     user: config.EMAIL_USER,
     pass: config.EMAIL_PASS,
   },
+  tls: {
+    rejectUnauthorized: false
+  },
   timeout: 10000, // 10 seconds timeout
 });
 
