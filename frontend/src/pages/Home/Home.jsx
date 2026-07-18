@@ -117,7 +117,7 @@ export default function Home() {
                   Set of four handcrafted gold bangles with intricate traditional
                   motifs and modern finish.
                 </p>
-                <Link to="/rings" className="btn-small">
+                <Link to="/gold?filter=Bangle" className="btn-small">
                   View Collection
                 </Link>
               </div>
@@ -139,7 +139,7 @@ export default function Home() {
                   Elegant gold pendant set with matching chain, featuring
                   contemporary design with traditional elements.
                 </p>
-                <Link to="/necklaces" className="btn-small">
+                <Link to="/gold?filter=Pendant" className="btn-small">
                   View Collection
                 </Link>
               </div>

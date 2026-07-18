@@ -176,7 +176,7 @@ export default function Navbar() {
                 <ul className="dropdown-menu">
                   <li><Link to="/diamond?filter=Rings" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Ring</Link></li>
                   <li><Link to="/diamond?filter=Earrings" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Earring</Link></li>
-                  <li><Link to="/diamond?filter=Pendant Set" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Set</Link></li>
+                  <li><Link to="/diamond?filter=Necklace" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Set</Link></li>
                   <li><Link to="/diamond?filter=Bangles" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Bangles</Link></li>
                   <li><Link to="/diamond?filter=Nose Pin" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Nose Pin</Link></li>
                   <li><Link to="/diamond?filter=Bracelets" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Bracelet</Link></li>
