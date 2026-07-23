@@ -133,28 +133,6 @@ export default function Navbar() {
                 </NavLink>
               </li>
 
-              {/* About Us */}
-              <li>
-                <NavLink
-                  to="/about"
-                  className={({ isActive }) => (isActive ? 'active' : undefined)}
-                  onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}
-                >
-                  About Us
-                </NavLink>
-              </li>
-
-              {/* Contact Us */}
-              <li>
-                <NavLink
-                  to="/contact"
-                  className={({ isActive }) => (isActive ? 'active' : undefined)}
-                  onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}
-                >
-                  Contact Us
-                </NavLink>
-              </li>
-
               {/* Diamond Dropdown */}
               <li
                 className={`dropdown${openDropdown === 'Diamond' ? ' active' : ''}`}
@@ -244,6 +222,28 @@ export default function Navbar() {
                   <li><Link to="/silver?filter=Silver Product" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Silver Product</Link></li>
                   <li><Link to="/silver?filter=Kada" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Kada</Link></li>
                 </ul>
+              </li>
+
+              {/* About Us */}
+              <li>
+                <NavLink
+                  to="/about"
+                  className={({ isActive }) => (isActive ? 'active' : undefined)}
+                  onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}
+                >
+                  About Us
+                </NavLink>
+              </li>
+
+              {/* Contact Us */}
+              <li>
+                <NavLink
+                  to="/contact"
+                  className={({ isActive }) => (isActive ? 'active' : undefined)}
+                  onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}
+                >
+                  Contact Us
+                </NavLink>
               </li>
             </ul>
 
