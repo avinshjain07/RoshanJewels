@@ -5,7 +5,7 @@
 export const COLLECTION_FILTERS = {
   diamond: ['All', 'Earrings', 'Rings', 'Bracelets', 'Bangles', 'Necklace', 'Nose Pin', 'Pendant Set'],
   gold:    ['All', 'Earrings', 'Rings', 'Necklace', 'Mangalsutra', 'Bangle', 'Pendant', 'Chain', 'Bajuband'],
-  silver:  ['All', 'Rings', 'Earrings', 'Necklaces', 'Bangles', 'Anklets', 'Gifts'],
+  silver:  ['All', 'Rings', 'Earrings', 'Necklaces', 'Bangles', 'Bracelet', 'Pendant', 'Payal'],
   kundan:  ['All', 'Necklace', 'Earrings', 'Bangles', 'Rings', 'Pendant Set'],
   beads:   ['All', 'Beads Mala'],
   bullion: ['All', 'Coins'],

@@ -219,8 +219,6 @@ export default function Navbar() {
                   <li><Link to="/silver?filter=Bracelet" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Bracelet</Link></li>
                   <li><Link to="/silver?filter=Pendant" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Pendant</Link></li>
                   <li><Link to="/silver?filter=Payal" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Payal</Link></li>
-                  <li><Link to="/silver?filter=Silver Product" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Silver Product</Link></li>
-                  <li><Link to="/silver?filter=Kada" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Kada</Link></li>
                 </ul>
               </li>
 

@@ -35,9 +35,26 @@ export function filterProducts(products, { filter = 'All', search = '', mode = '
   if (filter && filter !== 'All') {
     if (mode === 'collection') {
       // On collection pages, filter buttons target product type
-      result = result.filter(
-        (p) => p.type.toLowerCase() === filter.toLowerCase()
-      );
+      const normalizedFilter = filter.toLowerCase().trim();
+      result = result.filter((p) => {
+        const pType = p.type.toLowerCase().trim();
+        // Exact match
+        if (pType === normalizedFilter) return true;
+        // Plural / singular matches
+        if (pType + 's' === normalizedFilter) return true;
+        if (normalizedFilter + 's' === pType) return true;
+        // Synonyms / Navbar mappings
+        if (normalizedFilter === 'payal' && pType === 'anklets') return true;
+        if (normalizedFilter === 'anklets' && pType === 'payal') return true;
+        if (normalizedFilter === 'bracelet' && pType === 'bracelets') return true;
+        if (normalizedFilter === 'bracelets' && pType === 'bracelet') return true;
+        if (normalizedFilter === 'pendant' && pType === 'pendants') return true;
+        if (normalizedFilter === 'pendants' && pType === 'pendant') return true;
+        if (normalizedFilter === 'set' && (pType === 'necklaces' || pType === 'necklace' || pType === 'set')) return true;
+        if (normalizedFilter === 'kada' && (pType === 'bangles' || pType === 'kada')) return true;
+        if (normalizedFilter === 'silver product' && (pType === 'gifts' || pType === 'silver product')) return true;
+        return false;
+      });
     } else {
       // On type pages (Rings, Earrings, Necklaces), filter buttons target collection
       result = result.filter(
