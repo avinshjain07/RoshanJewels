@@ -32,7 +32,7 @@ export const PAGE_CONTEXTS = {
   beads: {
     mode: 'collection',
     value: 'Beads Collection',
-    title: 'Beads & Gemstone Collection',
+    title: 'Beads',
     subtitle: 'Vibrant Hand-strung Gemstones and Italian Charms',
   },
   bullion: {

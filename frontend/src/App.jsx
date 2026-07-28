@@ -20,6 +20,7 @@ const Bullion   = lazy(() => import('@pages/Bullion/Bullion'));
 const Beads     = lazy(() => import('@pages/Beads/Beads'));
 const Kundan    = lazy(() => import('@pages/Kundan/Kundan'));
 const Gifts     = lazy(() => import('@pages/Gifts/Gifts'));
+const GemsStone = lazy(() => import('@pages/GemsStone/GemsStone'));
 
 // ── Router configuration ────────────────────────────────────────────────────
 const router = createBrowserRouter([
@@ -40,6 +41,7 @@ const router = createBrowserRouter([
       { path: 'beads',         element: <Beads /> },
       { path: 'kundan',        element: <Kundan /> },
       { path: 'gifts',         element: <Gifts /> },
+      { path: 'gems-stone',    element: <GemsStone /> },
     ],
   },
 ]);

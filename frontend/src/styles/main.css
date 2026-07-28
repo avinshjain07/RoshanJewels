@@ -183,8 +183,10 @@ header {
   transform: rotate(-45deg) translate(7px, -6px);
 }
 
-nav {
+nav, .nav-container {
   margin-left: auto;
+  display: flex;
+  align-items: center;
   flex-shrink: 0;
 }
 
@@ -194,7 +196,7 @@ nav {
   justify-content: flex-end;
   margin: 0;
   padding: 0;
-  gap: 3.5rem;
+  gap: 1.5rem;
   transition: all 0.3s ease;
 }
 
@@ -1304,8 +1306,39 @@ footer {
   transform: scale(1.1);
 }
 
+.header-widgets-left,
+.header-widgets-right {
+  display: none;
+}
+
+.widget-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.widget-link:hover {
+  color: var(--love-red);
+}
+
+.widget-link i {
+  color: var(--gold);
+}
+
 /* Tablet Styles */
 @media (min-width: 768px) {
+  .header-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+    padding: 1.5rem 2rem 1.25rem 2rem;
+  }
+
   .container {
     padding: 0 2rem;
   }
@@ -1317,11 +1350,13 @@ footer {
 
   .logo {
     font-size: 1.9rem;
+    margin-left: 0;
+    justify-content: center;
   }
 
   .logo-img {
-    height: 70px;
-    max-width: 190px;
+    height: 90px;
+    max-width: 220px;
   }
 
   .logo i {
@@ -1336,8 +1371,14 @@ footer {
     display: none;
   }
 
+  .nav-container {
+    margin: 0 auto;
+    width: 100%;
+    justify-content: center;
+  }
+
   .nav-links {
-    gap: 2rem;
+    gap: 1.75rem;
   }
 
   .nav-links a {
@@ -3225,6 +3266,53 @@ textarea.form-control {
   .contact-form-container h3 {
     font-size: 1.5rem;
   }
+}
+
+/* Luxury Placeholder Grid */
+.luxury-placeholder-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 4rem 0;
+}
+
+.luxury-placeholder-card {
+  border: 2px dashed var(--border-gold);
+  border-radius: 20px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-muted);
+  background: rgba(255, 249, 247, 0.5);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-align: center;
+  padding: 2rem;
+}
+
+.luxury-placeholder-card:hover {
+  background: rgba(253, 226, 228, 0.4);
+  border-color: var(--love-red);
+  color: var(--love-red);
+}
+
+.luxury-placeholder-card i {
+  font-size: 3rem;
+  color: var(--gold);
+  margin-bottom: 1rem;
+}
+
+.luxury-placeholder-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: inherit;
+}
+
+.luxury-placeholder-card p {
+  font-size: 0.9rem;
+  opacity: 0.8;
 }
 
 

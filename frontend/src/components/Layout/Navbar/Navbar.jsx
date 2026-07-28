@@ -10,10 +10,10 @@ import logo from '@assets/logos/logo.png';
  * Header scroll shadow via scroll event (replaces main.js scroll listener).
  */
 export default function Navbar() {
-  const [mobileOpen, setMobileOpen]           = useState(false);
-  const [openDropdown, setOpenDropdown]        = useState(null); // label of open dropdown
-  const [headerShadow, setHeaderShadow]        = useState(false);
-  const [searchQuery, setSearchQuery]          = useState('');
+  const [mobileOpen, setMobileOpen] = useState(false);
+  const [openDropdown, setOpenDropdown] = useState(null); // label of open dropdown
+  const [headerShadow, setHeaderShadow] = useState(false);
+  const [searchQuery, setSearchQuery] = useState('');
   const navigate = useNavigate();
   const { pathname } = useLocation();
 
@@ -64,28 +64,6 @@ export default function Navbar() {
 
   return (
     <>
-      {/* Top Info Bar */}
-      <div className="top-info">
-        <div className="container top-info-container">
-          <div>
-            <i className="fas fa-clock"></i> Open Today: 11:30 AM - 8:30 PM
-          </div>
-          <div>
-            <i className="fas fa-phone"></i> Call Now:{' '}
-            <a href="tel:08224998809">082249 98809</a>
-          </div>
-          <div>
-            <i className="fas fa-map-marker-alt"></i>{' '}
-            <a
-              href="https://maps.google.com/?q=UG+2,3+Royal+Diamond+Building+Yeshwant+Niwas+Road+Indore"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Get Directions
-            </a>
-          </div>
-        </div>
-      </div>
 
       {/* Main Header */}
       <header
@@ -97,7 +75,7 @@ export default function Navbar() {
       >
         <div className="container header-container">
           {/* Logo */}
-          <Link to="/" className="logo">
+          <Link to="/" className="logo" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.25rem', textDecoration: 'none', marginBottom: '-1.5rem' }}>
             <img src={logo} alt="Roshan Jewel" className="logo-img" />
           </Link>
 
@@ -116,7 +94,7 @@ export default function Navbar() {
           </div>
 
           {/* Nav */}
-          <nav style={{ marginLeft: 'auto', display: 'flex', alignItems: 'center' }}>
+          <nav className="nav-container">
             <ul
               className={`nav-links${mobileOpen ? ' active' : ''}`}
               id="nav-links"
@@ -131,36 +109,6 @@ export default function Navbar() {
                 >
                   Home
                 </NavLink>
-              </li>
-
-              {/* Diamond Dropdown */}
-              <li
-                className={`dropdown${openDropdown === 'Diamond' ? ' active' : ''}`}
-              >
-                <a
-                  href="#"
-                  className={`dropdown-toggle${pathname.startsWith('/diamond') ? ' active' : ''}`}
-                  aria-haspopup="true"
-                  aria-expanded={openDropdown === 'Diamond'}
-                  onClick={(e) => {
-                    if (window.innerWidth <= 767) {
-                      e.preventDefault();
-                      toggleDropdown('Diamond');
-                    }
-                  }}
-                >
-                  Diamond <i className="fas fa-chevron-down"></i>
-                </a>
-                <ul className="dropdown-menu">
-                  <li><Link to="/diamond?filter=Rings" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Ring</Link></li>
-                  <li><Link to="/diamond?filter=Earrings" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Earring</Link></li>
-                  <li><Link to="/diamond?filter=Necklace" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Set</Link></li>
-                  <li><Link to="/diamond?filter=Bangles" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Bangles</Link></li>
-                  <li><Link to="/diamond?filter=Nose Pin" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Nose Pin</Link></li>
-                  <li><Link to="/diamond?filter=Bracelets" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Bracelet</Link></li>
-                  <li><Link to="/diamond?filter=Pendant Set" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Pendant Set</Link></li>
-                  <li><Link to="/diamond?filter=Mangalsutra" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Mangalsutra</Link></li>
-                </ul>
               </li>
 
               {/* Gold Dropdown */}
@@ -193,6 +141,36 @@ export default function Navbar() {
                 </ul>
               </li>
 
+              {/* Diamond Dropdown */}
+              <li
+                className={`dropdown${openDropdown === 'Diamond' ? ' active' : ''}`}
+              >
+                <a
+                  href="#"
+                  className={`dropdown-toggle${pathname.startsWith('/diamond') ? ' active' : ''}`}
+                  aria-haspopup="true"
+                  aria-expanded={openDropdown === 'Diamond'}
+                  onClick={(e) => {
+                    if (window.innerWidth <= 767) {
+                      e.preventDefault();
+                      toggleDropdown('Diamond');
+                    }
+                  }}
+                >
+                  Diamond <i className="fas fa-chevron-down"></i>
+                </a>
+                <ul className="dropdown-menu">
+                  <li><Link to="/diamond?filter=Rings" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Ring</Link></li>
+                  <li><Link to="/diamond?filter=Earrings" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Earring</Link></li>
+                  <li><Link to="/diamond?filter=Necklace" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Set</Link></li>
+                  <li><Link to="/diamond?filter=Bangles" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Bangles</Link></li>
+                  <li><Link to="/diamond?filter=Nose Pin" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Nose Pin</Link></li>
+                  <li><Link to="/diamond?filter=Bracelets" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Bracelet</Link></li>
+                  <li><Link to="/diamond?filter=Pendant Set" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Pendant Set</Link></li>
+                  <li><Link to="/diamond?filter=Mangalsutra" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Mangalsutra</Link></li>
+                </ul>
+              </li>
+
               {/* Silver Dropdown */}
               <li
                 className={`dropdown${openDropdown === 'Silver' ? ' active' : ''}`}
@@ -222,14 +200,36 @@ export default function Navbar() {
                 </ul>
               </li>
 
-              {/* About Us */}
+              {/* Kundan Polki */}
               <li>
                 <NavLink
-                  to="/about"
+                  to="/kundan"
                   className={({ isActive }) => (isActive ? 'active' : undefined)}
                   onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}
                 >
-                  About Us
+                  Kundan Polki
+                </NavLink>
+              </li>
+
+              {/* Beads / Breeds */}
+              <li>
+                <NavLink
+                  to="/beads"
+                  className={({ isActive }) => (isActive ? 'active' : undefined)}
+                  onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}
+                >
+                  Beads
+                </NavLink>
+              </li>
+
+              {/* Gems Stone */}
+              <li>
+                <NavLink
+                  to="/gems-stone"
+                  className={({ isActive }) => (isActive ? 'active' : undefined)}
+                  onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}
+                >
+                  Gems Stone
                 </NavLink>
               </li>
 
@@ -241,6 +241,17 @@ export default function Navbar() {
                   onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}
                 >
                   Contact Us
+                </NavLink>
+              </li>
+
+              {/* About Us */}
+              <li>
+                <NavLink
+                  to="/about"
+                  className={({ isActive }) => (isActive ? 'active' : undefined)}
+                  onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}
+                >
+                  About Us
                 </NavLink>
               </li>
             </ul>
@@ -261,6 +272,29 @@ export default function Navbar() {
           </nav>
         </div>
       </header>
+
+      {/* Top Info Bar */}
+      <div className="top-info">
+        <div className="container top-info-container">
+          <div>
+            <i className="fas fa-clock"></i> Open Today: 11:30 AM - 8:30 PM
+          </div>
+          <div>
+            <i className="fas fa-phone"></i> Call Now:{' '}
+            <a href="tel:08224998809">082249 98809</a>
+          </div>
+          <div>
+            <i className="fas fa-map-marker-alt"></i>{' '}
+            <a
+              href="https://maps.google.com/?q=UG+2,3+Royal+Diamond+Building+Yeshwant+Niwas+Road+Indore"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Get Directions
+            </a>
+          </div>
+        </div>
+      </div>
     </>
   );
 }
