@@ -1,8 +1,9 @@
 import SEO from '@components/Common/SEO/SEO';
 import { PAGE_SEO } from '@constants/seo';
 import { useScrollAnimation } from '@hooks/useScrollAnimation';
-import aboutImg from '@assets/images/about.webp';
+import aboutImg from '@assets/images/about.png';
 import craftImg from '@assets/images/craft.jpg';
+import shopViewImg from '@assets/images/shopview.jpeg';
 
 export default function About() {
   useScrollAnimation('.value-card, .why-item', []);
@@ -139,6 +140,43 @@ export default function About() {
                 style={{ objectFit: 'contain', backgroundColor: '#fbeaec' }}
                 loading="lazy"
               />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Our Store */}
+      <section className="our-store">
+        <div className="container">
+          <div className="store-grid">
+            <div className="store-image">
+              <img
+                src={shopViewImg}
+                alt="Roshan Jewel - Our Showroom in Indore"
+                className="about-image"
+                style={{ objectFit: 'cover', backgroundColor: '#fbeaec' }}
+                loading="lazy"
+              />
+            </div>
+            <div className="store-content">
+              <h2>Visit Our Showroom</h2>
+              <p>
+                Step into the world of Roshan Jewel and experience the warmth of our
+                heritage firsthand. Our showroom in the heart of Indore welcomes you
+                with an ambiance that blends old-world charm and contemporary elegance.
+              </p>
+              <p>
+                Browse through our carefully curated collections displayed in an atmosphere of
+                personalized service. Our knowledgeable consultants are always at hand to
+                guide you through every piece, ensuring your jewellery buying experience is
+                memorable. Whether you seek a timeless classic or a bespoke creation—our doors are
+                always open.
+              </p>
+              <p>
+                Located in the vibrant city of Indore, our store is more than a
+                destination—it is where families have been coming for generations to
+                celebrate life's most precious moments.
+              </p>
             </div>
           </div>
         </div>
