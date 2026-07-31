@@ -1168,7 +1168,7 @@ nav, .nav-container {
 
 /* Footer */
 footer {
-  background: #1f1a1c;
+  background: #2b2929;
   color: #f2e1e3;
   padding: 4rem 0 2.5rem;
   border-top: 8px solid var(--love-red);
@@ -1731,7 +1731,7 @@ footer {
 
   .footer-logo-img {
     height: 90px;
-    max-width: 270px;
+    max-width: 310px;
   }
 
   .sale-banner h3 {
@@ -1773,7 +1773,7 @@ footer {
 @media (min-width: 1400px) {
   .logo-img {
     height: 130px;
-    max-width: 380px;
+    max-width: 520px;
   }
 }
 
