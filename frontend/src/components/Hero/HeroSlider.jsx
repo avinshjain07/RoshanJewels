@@ -20,8 +20,8 @@ const SLIDES_DATA = [
     text: 'Here, jewellery is poetry cast in gold… a whisper of heritage, a celebration of love, and a companion to life\'s finest moments.',
   },
   {
-    image: '/WEBSITE PHOTO NEW/DIAMOAND LEDIES RING/diamond-ladies-ring-2.jpeg',
-    alt: 'Diamond Rings',
+    image: '/necklace/necklace3.png',
+    alt: 'Necklace',
     title: 'Where Tradition Meets Contemporary',
     text: 'We don\'t just craft jewellery… we craft stories meant to shine through generations, preserving heritage with modern elegance.',
   },
