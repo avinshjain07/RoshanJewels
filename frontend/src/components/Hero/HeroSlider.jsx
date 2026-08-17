@@ -2,31 +2,31 @@ import { useState, useEffect, useRef, useCallback } from 'react';
 
 const SLIDES_DATA = [
   {
-    image: '/WEBSITE PHOTO NEW/DIAMOAND NACKLESS/diamond-necklace-8.jpeg',
+    image: '/HeroImage/bangle.png',
     alt: 'Diamond Necklace',
     title: 'Three Generations of Quiet Brilliance',
     text: 'A name born in 1965, carried forward with the quiet brilliance of three generations. What began as a humble spark has grown into a house of refined beauty.',
   },
   {
-    image: '/WEBSITE PHOTO NEW/DIAMOAND NOSE PIN/diamond-nose-pin-8.jpeg',
+    image: '/HeroImage/earring.png',
     alt: 'Diamond Nose Pin',
     title: 'Every Piece Tells a Story',
     text: "Each creation is imagined with a designer's vision, shaped with a craftsman's devotion, and perfected with a touch of modern grace.",
   },
   {
-    image: '/WEBSITE PHOTO NEW/DIAMOAND BANGLE/diamond-bangle-2.jpeg',
+    image: '/HeroImage/Diamond_necklace.png',
     alt: 'Diamond Bangle',
     title: 'Handcrafted to Perfection',
     text: 'Here, jewellery is poetry cast in gold… a whisper of heritage, a celebration of love, and a companion to life\'s finest moments.',
   },
   {
-    image: '/necklace/necklace3.png',
+    image: '/HeroImage/Necklace.jpg',
     alt: 'Necklace',
     title: 'Where Tradition Meets Contemporary',
     text: 'We don\'t just craft jewellery… we craft stories meant to shine through generations, preserving heritage with modern elegance.',
   },
   {
-    image: '/WEBSITE PHOTO NEW/DIAMOAND EARRINGS/diamond-earrings-5.jpeg',
+    image: '/HeroImage/ring.png',
     alt: 'Diamond Earrings',
     title: 'Masterpieces in Miniature',
     text: 'From engagement rings to traditional designs, each piece is crafted with attention to detail that can only come from generations of expertise.',
