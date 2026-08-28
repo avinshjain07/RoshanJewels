@@ -5,7 +5,7 @@ export const silverProducts = [
   {
     "id": "slv-01",
     "slug": "sterling-silver-bangle-1",
-    "title": "Sterling Silver Bangle 1",
+    "title": "Sterling Silver Bangle",
     "category": "Silver Collection",
     "subcategory": "SILVER BANGLE",
     "type": "Bangles",
@@ -27,7 +27,7 @@ export const silverProducts = [
   {
     "id": "slv-02",
     "slug": "sterling-silver-bangle-2",
-    "title": "Sterling Silver Bangle 2",
+    "title": "Sterling Silver Bangle",
     "category": "Silver Collection",
     "subcategory": "SILVER BANGLE",
     "type": "Bangles",
@@ -49,7 +49,7 @@ export const silverProducts = [
   {
     "id": "slv-03",
     "slug": "sterling-silver-bangle-3",
-    "title": "Sterling Silver Bangle 3",
+    "title": "Sterling Silver Bangle",
     "category": "Silver Collection",
     "subcategory": "SILVER BANGLE",
     "type": "Bangles",
@@ -71,7 +71,7 @@ export const silverProducts = [
   {
     "id": "slv-04",
     "slug": "sterling-silver-bangle-4",
-    "title": "Sterling Silver Bangle 4",
+    "title": "Sterling Silver Bangle",
     "category": "Silver Collection",
     "subcategory": "SILVER BANGLE",
     "type": "Bangles",
@@ -93,7 +93,7 @@ export const silverProducts = [
   {
     "id": "slv-05",
     "slug": "sterling-silver-bangle-5",
-    "title": "Sterling Silver Bangle 5",
+    "title": "Sterling Silver Bangle",
     "category": "Silver Collection",
     "subcategory": "SILVER BANGLE",
     "type": "Bangles",
@@ -115,7 +115,7 @@ export const silverProducts = [
   {
     "id": "slv-06",
     "slug": "sterling-silver-bangle-6",
-    "title": "Sterling Silver Bangle 6",
+    "title": "Sterling Silver Bangle",
     "category": "Silver Collection",
     "subcategory": "SILVER BANGLE",
     "type": "Bangles",
@@ -137,7 +137,7 @@ export const silverProducts = [
   {
     "id": "slv-07",
     "slug": "sterling-silver-bangle-7",
-    "title": "Sterling Silver Bangle 7",
+    "title": "Sterling Silver Bangle",
     "category": "Silver Collection",
     "subcategory": "SILVER BANGLE",
     "type": "Bangles",
@@ -159,7 +159,7 @@ export const silverProducts = [
   {
     "id": "slv-08",
     "slug": "sterling-silver-bangle-8",
-    "title": "Sterling Silver Bangle 8",
+    "title": "Sterling Silver Bangle",
     "category": "Silver Collection",
     "subcategory": "SILVER BANGLE",
     "type": "Bangles",
@@ -181,7 +181,7 @@ export const silverProducts = [
   {
     "id": "slv-09",
     "slug": "sterling-silver-bracelet-1",
-    "title": "Sterling Silver Bracelet 1",
+    "title": "Sterling Silver Bracelet",
     "category": "Silver Collection",
     "subcategory": "SILVER BRACELET",
     "type": "Bracelet",
@@ -203,7 +203,7 @@ export const silverProducts = [
   {
     "id": "slv-10",
     "slug": "sterling-silver-bracelet-2",
-    "title": "Sterling Silver Bracelet 2",
+    "title": "Sterling Silver Bracelet",
     "category": "Silver Collection",
     "subcategory": "SILVER BRACELET",
     "type": "Bracelet",
@@ -225,7 +225,7 @@ export const silverProducts = [
   {
     "id": "slv-11",
     "slug": "sterling-silver-bracelet-3",
-    "title": "Sterling Silver Bracelet 3",
+    "title": "Sterling Silver Bracelet",
     "category": "Silver Collection",
     "subcategory": "SILVER BRACELET",
     "type": "Bracelet",
@@ -247,7 +247,7 @@ export const silverProducts = [
   {
     "id": "slv-12",
     "slug": "sterling-silver-bracelet-4",
-    "title": "Sterling Silver Bracelet 4",
+    "title": "Sterling Silver Bracelet",
     "category": "Silver Collection",
     "subcategory": "SILVER BRACELET",
     "type": "Bracelet",
@@ -269,7 +269,7 @@ export const silverProducts = [
   {
     "id": "slv-13",
     "slug": "sterling-silver-bracelet-5",
-    "title": "Sterling Silver Bracelet 5",
+    "title": "Sterling Silver Bracelet",
     "category": "Silver Collection",
     "subcategory": "SILVER BRACELET",
     "type": "Bracelet",
@@ -291,7 +291,7 @@ export const silverProducts = [
   {
     "id": "slv-14",
     "slug": "sterling-silver-bracelet-6",
-    "title": "Sterling Silver Bracelet 6",
+    "title": "Sterling Silver Bracelet",
     "category": "Silver Collection",
     "subcategory": "SILVER BRACELET",
     "type": "Bracelet",
@@ -313,7 +313,7 @@ export const silverProducts = [
   {
     "id": "slv-15",
     "slug": "sterling-silver-bracelet-7",
-    "title": "Sterling Silver Bracelet 7",
+    "title": "Sterling Silver Bracelet",
     "category": "Silver Collection",
     "subcategory": "SILVER BRACELET",
     "type": "Bracelet",
@@ -335,7 +335,7 @@ export const silverProducts = [
   {
     "id": "slv-16",
     "slug": "sterling-silver-bracelet-8",
-    "title": "Sterling Silver Bracelet 8",
+    "title": "Sterling Silver Bracelet",
     "category": "Silver Collection",
     "subcategory": "SILVER BRACELET",
     "type": "Bracelet",
@@ -357,7 +357,7 @@ export const silverProducts = [
   {
     "id": "slv-17",
     "slug": "sterling-silver-bracelet-9",
-    "title": "Sterling Silver Bracelet 9",
+    "title": "Sterling Silver Bracelet",
     "category": "Silver Collection",
     "subcategory": "SILVER BRACELET",
     "type": "Bracelet",
@@ -379,7 +379,7 @@ export const silverProducts = [
   {
     "id": "slv-18",
     "slug": "sterling-silver-bracelet-10",
-    "title": "Sterling Silver Bracelet 10",
+    "title": "Sterling Silver Bracelet",
     "category": "Silver Collection",
     "subcategory": "SILVER BRACELET",
     "type": "Bracelet",
@@ -401,7 +401,7 @@ export const silverProducts = [
   {
     "id": "slv-19",
     "slug": "sterling-silver-bracelet-11",
-    "title": "Sterling Silver Bracelet 11",
+    "title": "Sterling Silver Bracelet",
     "category": "Silver Collection",
     "subcategory": "SILVER BRACELET",
     "type": "Bracelet",
@@ -423,7 +423,7 @@ export const silverProducts = [
   {
     "id": "slv-20",
     "slug": "sterling-silver-bracelet-12",
-    "title": "Sterling Silver Bracelet 12",
+    "title": "Sterling Silver Bracelet",
     "category": "Silver Collection",
     "subcategory": "SILVER BRACELET",
     "type": "Bracelet",
@@ -445,7 +445,7 @@ export const silverProducts = [
   {
     "id": "slv-21",
     "slug": "sterling-silver-bracelet-13",
-    "title": "Sterling Silver Bracelet 13",
+    "title": "Sterling Silver Bracelet",
     "category": "Silver Collection",
     "subcategory": "SILVER BRACELET",
     "type": "Bracelet",
@@ -467,7 +467,7 @@ export const silverProducts = [
   {
     "id": "slv-22",
     "slug": "sterling-silver-bracelet-14",
-    "title": "Sterling Silver Bracelet 14",
+    "title": "Sterling Silver Bracelet",
     "category": "Silver Collection",
     "subcategory": "SILVER BRACELET",
     "type": "Bracelet",
@@ -489,7 +489,7 @@ export const silverProducts = [
   {
     "id": "slv-23",
     "slug": "sterling-silver-bracelet-15",
-    "title": "Sterling Silver Bracelet 15",
+    "title": "Sterling Silver Bracelet",
     "category": "Silver Collection",
     "subcategory": "SILVER BRACELET",
     "type": "Bracelet",
@@ -511,7 +511,7 @@ export const silverProducts = [
   {
     "id": "slv-24",
     "slug": "sterling-silver-bracelet-16",
-    "title": "Sterling Silver Bracelet 16",
+    "title": "Sterling Silver Bracelet",
     "category": "Silver Collection",
     "subcategory": "SILVER BRACELET",
     "type": "Bracelet",
@@ -533,7 +533,7 @@ export const silverProducts = [
   {
     "id": "slv-25",
     "slug": "sterling-silver-bracelet-17",
-    "title": "Sterling Silver Bracelet 17",
+    "title": "Sterling Silver Bracelet",
     "category": "Silver Collection",
     "subcategory": "SILVER BRACELET",
     "type": "Bracelet",
@@ -555,7 +555,7 @@ export const silverProducts = [
   {
     "id": "slv-26",
     "slug": "sterling-silver-bracelet-18",
-    "title": "Sterling Silver Bracelet 18",
+    "title": "Sterling Silver Bracelet",
     "category": "Silver Collection",
     "subcategory": "SILVER BRACELET",
     "type": "Bracelet",
@@ -577,7 +577,7 @@ export const silverProducts = [
   {
     "id": "slv-27",
     "slug": "sterling-silver-necklace-1",
-    "title": "Sterling Silver Necklace 1",
+    "title": "Sterling Silver Necklace",
     "category": "Silver Collection",
     "subcategory": "SILVER NECKLACE",
     "type": "Necklaces",
@@ -599,7 +599,7 @@ export const silverProducts = [
   {
     "id": "slv-28",
     "slug": "sterling-silver-necklace-2",
-    "title": "Sterling Silver Necklace 2",
+    "title": "Sterling Silver Necklace",
     "category": "Silver Collection",
     "subcategory": "SILVER NECKLACE",
     "type": "Necklaces",
@@ -621,7 +621,7 @@ export const silverProducts = [
   {
     "id": "slv-29",
     "slug": "sterling-silver-necklace-3",
-    "title": "Sterling Silver Necklace 3",
+    "title": "Sterling Silver Necklace",
     "category": "Silver Collection",
     "subcategory": "SILVER NECKLACE",
     "type": "Necklaces",
@@ -643,7 +643,7 @@ export const silverProducts = [
   {
     "id": "slv-30",
     "slug": "sterling-silver-necklace-4",
-    "title": "Sterling Silver Necklace 4",
+    "title": "Sterling Silver Necklace",
     "category": "Silver Collection",
     "subcategory": "SILVER NECKLACE",
     "type": "Necklaces",
@@ -665,7 +665,7 @@ export const silverProducts = [
   {
     "id": "slv-31",
     "slug": "sterling-silver-necklace-5",
-    "title": "Sterling Silver Necklace 5",
+    "title": "Sterling Silver Necklace",
     "category": "Silver Collection",
     "subcategory": "SILVER NECKLACE",
     "type": "Necklaces",
@@ -687,7 +687,7 @@ export const silverProducts = [
   {
     "id": "slv-32",
     "slug": "sterling-silver-necklace-6",
-    "title": "Sterling Silver Necklace 6",
+    "title": "Sterling Silver Necklace",
     "category": "Silver Collection",
     "subcategory": "SILVER NECKLACE",
     "type": "Necklaces",
@@ -709,7 +709,7 @@ export const silverProducts = [
   {
     "id": "slv-33",
     "slug": "sterling-silver-pendant-1",
-    "title": "Sterling Silver Pendant 1",
+    "title": "Sterling Silver Pendant",
     "category": "Silver Collection",
     "subcategory": "SILVER PENDANT",
     "type": "Pendant",
@@ -731,7 +731,7 @@ export const silverProducts = [
   {
     "id": "slv-34",
     "slug": "sterling-silver-pendant-2",
-    "title": "Sterling Silver Pendant 2",
+    "title": "Sterling Silver Pendant",
     "category": "Silver Collection",
     "subcategory": "SILVER PENDANT",
     "type": "Pendant",
@@ -753,7 +753,7 @@ export const silverProducts = [
   {
     "id": "slv-35",
     "slug": "sterling-silver-pendant-3",
-    "title": "Sterling Silver Pendant 3",
+    "title": "Sterling Silver Pendant",
     "category": "Silver Collection",
     "subcategory": "SILVER PENDANT",
     "type": "Pendant",
@@ -775,7 +775,7 @@ export const silverProducts = [
   {
     "id": "slv-36",
     "slug": "sterling-silver-pendant-4",
-    "title": "Sterling Silver Pendant 4",
+    "title": "Sterling Silver Pendant",
     "category": "Silver Collection",
     "subcategory": "SILVER PENDANT",
     "type": "Pendant",
@@ -797,7 +797,7 @@ export const silverProducts = [
   {
     "id": "slv-37",
     "slug": "sterling-silver-pendant-5",
-    "title": "Sterling Silver Pendant 5",
+    "title": "Sterling Silver Pendant",
     "category": "Silver Collection",
     "subcategory": "SILVER PENDANT",
     "type": "Pendant",
@@ -819,7 +819,7 @@ export const silverProducts = [
   {
     "id": "slv-38",
     "slug": "sterling-silver-pendant-6",
-    "title": "Sterling Silver Pendant 6",
+    "title": "Sterling Silver Pendant",
     "category": "Silver Collection",
     "subcategory": "SILVER PENDANT",
     "type": "Pendant",
@@ -841,7 +841,7 @@ export const silverProducts = [
   {
     "id": "slv-39",
     "slug": "sterling-silver-pendant-7",
-    "title": "Sterling Silver Pendant 7",
+    "title": "Sterling Silver Pendant",
     "category": "Silver Collection",
     "subcategory": "SILVER PENDANT",
     "type": "Pendant",
@@ -863,7 +863,7 @@ export const silverProducts = [
   {
     "id": "slv-40",
     "slug": "sterling-silver-pendant-8",
-    "title": "Sterling Silver Pendant 8",
+    "title": "Sterling Silver Pendant",
     "category": "Silver Collection",
     "subcategory": "SILVER PENDANT",
     "type": "Pendant",
@@ -885,7 +885,7 @@ export const silverProducts = [
   {
     "id": "slv-41",
     "slug": "sterling-silver-payal-1",
-    "title": "Sterling Silver Payal 1",
+    "title": "Sterling Silver Payal",
     "category": "Silver Collection",
     "subcategory": "SILVER PAYAL",
     "type": "Payal",
@@ -907,7 +907,7 @@ export const silverProducts = [
   {
     "id": "slv-42",
     "slug": "sterling-silver-payal-2",
-    "title": "Sterling Silver Payal 2",
+    "title": "Sterling Silver Payal",
     "category": "Silver Collection",
     "subcategory": "SILVER PAYAL",
     "type": "Payal",
@@ -929,7 +929,7 @@ export const silverProducts = [
   {
     "id": "slv-43",
     "slug": "sterling-silver-payal-3",
-    "title": "Sterling Silver Payal 3",
+    "title": "Sterling Silver Payal",
     "category": "Silver Collection",
     "subcategory": "SILVER PAYAL",
     "type": "Payal",
@@ -951,7 +951,7 @@ export const silverProducts = [
   {
     "id": "slv-44",
     "slug": "sterling-silver-payal-4",
-    "title": "Sterling Silver Payal 4",
+    "title": "Sterling Silver Payal",
     "category": "Silver Collection",
     "subcategory": "SILVER PAYAL",
     "type": "Payal",
@@ -973,7 +973,7 @@ export const silverProducts = [
   {
     "id": "slv-45",
     "slug": "sterling-silver-payal-5",
-    "title": "Sterling Silver Payal 5",
+    "title": "Sterling Silver Payal",
     "category": "Silver Collection",
     "subcategory": "SILVER PAYAL",
     "type": "Payal",
@@ -995,7 +995,7 @@ export const silverProducts = [
   {
     "id": "slv-46",
     "slug": "sterling-silver-payal-6",
-    "title": "Sterling Silver Payal 6",
+    "title": "Sterling Silver Payal",
     "category": "Silver Collection",
     "subcategory": "SILVER PAYAL",
     "type": "Payal",
@@ -1017,7 +1017,7 @@ export const silverProducts = [
   {
     "id": "slv-47",
     "slug": "sterling-silver-payal-7",
-    "title": "Sterling Silver Payal 7",
+    "title": "Sterling Silver Payal",
     "category": "Silver Collection",
     "subcategory": "SILVER PAYAL",
     "type": "Payal",
@@ -1039,7 +1039,7 @@ export const silverProducts = [
   {
     "id": "slv-48",
     "slug": "sterling-silver-payal-8",
-    "title": "Sterling Silver Payal 8",
+    "title": "Sterling Silver Payal",
     "category": "Silver Collection",
     "subcategory": "SILVER PAYAL",
     "type": "Payal",
@@ -1061,7 +1061,7 @@ export const silverProducts = [
   {
     "id": "slv-49",
     "slug": "sterling-silver-payal-9",
-    "title": "Sterling Silver Payal 9",
+    "title": "Sterling Silver Payal",
     "category": "Silver Collection",
     "subcategory": "SILVER PAYAL",
     "type": "Payal",
@@ -1083,7 +1083,7 @@ export const silverProducts = [
   {
     "id": "slv-50",
     "slug": "sterling-silver-payal-10",
-    "title": "Sterling Silver Payal 10",
+    "title": "Sterling Silver Payal",
     "category": "Silver Collection",
     "subcategory": "SILVER PAYAL",
     "type": "Payal",
@@ -1105,7 +1105,7 @@ export const silverProducts = [
   {
     "id": "slv-51",
     "slug": "sterling-silver-payal-11",
-    "title": "Sterling Silver Payal 11",
+    "title": "Sterling Silver Payal",
     "category": "Silver Collection",
     "subcategory": "SILVER PAYAL",
     "type": "Payal",
@@ -1127,7 +1127,7 @@ export const silverProducts = [
   {
     "id": "slv-52",
     "slug": "sterling-silver-payal-12",
-    "title": "Sterling Silver Payal 12",
+    "title": "Sterling Silver Payal",
     "category": "Silver Collection",
     "subcategory": "SILVER PAYAL",
     "type": "Payal",
@@ -1149,7 +1149,7 @@ export const silverProducts = [
   {
     "id": "slv-53",
     "slug": "sterling-silver-payal-13",
-    "title": "Sterling Silver Payal 13",
+    "title": "Sterling Silver Payal",
     "category": "Silver Collection",
     "subcategory": "SILVER PAYAL",
     "type": "Payal",
@@ -1171,7 +1171,7 @@ export const silverProducts = [
   {
     "id": "slv-54",
     "slug": "sterling-silver-payal-14",
-    "title": "Sterling Silver Payal 14",
+    "title": "Sterling Silver Payal",
     "category": "Silver Collection",
     "subcategory": "SILVER PAYAL",
     "type": "Payal",
@@ -1193,7 +1193,7 @@ export const silverProducts = [
   {
     "id": "slv-55",
     "slug": "sterling-silver-payal-15",
-    "title": "Sterling Silver Payal 15",
+    "title": "Sterling Silver Payal",
     "category": "Silver Collection",
     "subcategory": "SILVER PAYAL",
     "type": "Payal",
@@ -1215,7 +1215,7 @@ export const silverProducts = [
   {
     "id": "slv-56",
     "slug": "sterling-silver-ring-1",
-    "title": "Sterling Silver Ring 1",
+    "title": "Sterling Silver Ring",
     "category": "Silver Collection",
     "subcategory": "SILVER RING",
     "type": "Rings",
@@ -1237,7 +1237,7 @@ export const silverProducts = [
   {
     "id": "slv-57",
     "slug": "sterling-silver-ring-2",
-    "title": "Sterling Silver Ring 2",
+    "title": "Sterling Silver Ring",
     "category": "Silver Collection",
     "subcategory": "SILVER RING",
     "type": "Rings",
@@ -1259,7 +1259,7 @@ export const silverProducts = [
   {
     "id": "slv-58",
     "slug": "sterling-silver-ring-3",
-    "title": "Sterling Silver Ring 3",
+    "title": "Sterling Silver Ring",
     "category": "Silver Collection",
     "subcategory": "SILVER RING",
     "type": "Rings",
@@ -1281,7 +1281,7 @@ export const silverProducts = [
   {
     "id": "slv-59",
     "slug": "sterling-silver-ring-4",
-    "title": "Sterling Silver Ring 4",
+    "title": "Sterling Silver Ring",
     "category": "Silver Collection",
     "subcategory": "SILVER RING",
     "type": "Rings",
@@ -1303,7 +1303,7 @@ export const silverProducts = [
   {
     "id": "slv-60",
     "slug": "sterling-silver-ring-5",
-    "title": "Sterling Silver Ring 5",
+    "title": "Sterling Silver Ring",
     "category": "Silver Collection",
     "subcategory": "SILVER RING",
     "type": "Rings",
@@ -1325,7 +1325,7 @@ export const silverProducts = [
   {
     "id": "slv-61",
     "slug": "sterling-silver-ring-6",
-    "title": "Sterling Silver Ring 6",
+    "title": "Sterling Silver Ring",
     "category": "Silver Collection",
     "subcategory": "SILVER RING",
     "type": "Rings",
@@ -1347,7 +1347,7 @@ export const silverProducts = [
   {
     "id": "slv-62",
     "slug": "sterling-silver-ring-7",
-    "title": "Sterling Silver Ring 7",
+    "title": "Sterling Silver Ring",
     "category": "Silver Collection",
     "subcategory": "SILVER RING",
     "type": "Rings",
@@ -1369,7 +1369,7 @@ export const silverProducts = [
   {
     "id": "slv-63",
     "slug": "sterling-silver-ring-8",
-    "title": "Sterling Silver Ring 8",
+    "title": "Sterling Silver Ring",
     "category": "Silver Collection",
     "subcategory": "SILVER RING",
     "type": "Rings",
@@ -1391,7 +1391,7 @@ export const silverProducts = [
   {
     "id": "slv-64",
     "slug": "sterling-silver-ring-9",
-    "title": "Sterling Silver Ring 9",
+    "title": "Sterling Silver Ring",
     "category": "Silver Collection",
     "subcategory": "SILVER RING",
     "type": "Rings",
@@ -1413,7 +1413,7 @@ export const silverProducts = [
   {
     "id": "slv-65",
     "slug": "sterling-silver-ring-10",
-    "title": "Sterling Silver Ring 10",
+    "title": "Sterling Silver Ring",
     "category": "Silver Collection",
     "subcategory": "SILVER RING",
     "type": "Rings",
@@ -1435,7 +1435,7 @@ export const silverProducts = [
   {
     "id": "slv-66",
     "slug": "sterling-silver-earrings-1",
-    "title": "Sterling Silver Earrings 1",
+    "title": "Sterling Silver Earrings",
     "category": "Silver Collection",
     "subcategory": "SILVER EARRINGS",
     "type": "Earrings",
@@ -1457,7 +1457,7 @@ export const silverProducts = [
   {
     "id": "slv-67",
     "slug": "sterling-silver-earrings-2",
-    "title": "Sterling Silver Earrings 2",
+    "title": "Sterling Silver Earrings",
     "category": "Silver Collection",
     "subcategory": "SILVER EARRINGS",
     "type": "Earrings",
@@ -1479,7 +1479,7 @@ export const silverProducts = [
   {
     "id": "slv-68",
     "slug": "sterling-silver-earrings-3",
-    "title": "Sterling Silver Earrings 3",
+    "title": "Sterling Silver Earrings",
     "category": "Silver Collection",
     "subcategory": "SILVER EARRINGS",
     "type": "Earrings",
@@ -1501,7 +1501,7 @@ export const silverProducts = [
   {
     "id": "slv-69",
     "slug": "sterling-silver-earrings-4",
-    "title": "Sterling Silver Earrings 4",
+    "title": "Sterling Silver Earrings",
     "category": "Silver Collection",
     "subcategory": "SILVER EARRINGS",
     "type": "Earrings",
@@ -1523,7 +1523,7 @@ export const silverProducts = [
   {
     "id": "slv-70",
     "slug": "sterling-silver-earrings-5",
-    "title": "Sterling Silver Earrings 5",
+    "title": "Sterling Silver Earrings",
     "category": "Silver Collection",
     "subcategory": "SILVER EARRINGS",
     "type": "Earrings",
@@ -1545,7 +1545,7 @@ export const silverProducts = [
   {
     "id": "slv-71",
     "slug": "sterling-silver-earrings-6",
-    "title": "Sterling Silver Earrings 6",
+    "title": "Sterling Silver Earrings",
     "category": "Silver Collection",
     "subcategory": "SILVER EARRINGS",
     "type": "Earrings",
@@ -1567,7 +1567,7 @@ export const silverProducts = [
   {
     "id": "slv-72",
     "slug": "sterling-silver-earrings-7",
-    "title": "Sterling Silver Earrings 7",
+    "title": "Sterling Silver Earrings",
     "category": "Silver Collection",
     "subcategory": "SILVER EARRINGS",
     "type": "Earrings",
@@ -1589,7 +1589,7 @@ export const silverProducts = [
   {
     "id": "slv-73",
     "slug": "sterling-silver-earrings-8",
-    "title": "Sterling Silver Earrings 8",
+    "title": "Sterling Silver Earrings",
     "category": "Silver Collection",
     "subcategory": "SILVER EARRINGS",
     "type": "Earrings",
@@ -1611,7 +1611,7 @@ export const silverProducts = [
   {
     "id": "slv-74",
     "slug": "sterling-silver-earrings-9",
-    "title": "Sterling Silver Earrings 9",
+    "title": "Sterling Silver Earrings",
     "category": "Silver Collection",
     "subcategory": "SILVER EARRINGS",
     "type": "Earrings",
@@ -1633,7 +1633,7 @@ export const silverProducts = [
   {
     "id": "slv-75",
     "slug": "sterling-silver-earrings-10",
-    "title": "Sterling Silver Earrings 10",
+    "title": "Sterling Silver Earrings",
     "category": "Silver Collection",
     "subcategory": "SILVER EARRINGS",
     "type": "Earrings",
@@ -1655,7 +1655,7 @@ export const silverProducts = [
   {
     "id": "slv-76",
     "slug": "sterling-silver-earrings-11",
-    "title": "Sterling Silver Earrings 11",
+    "title": "Sterling Silver Earrings",
     "category": "Silver Collection",
     "subcategory": "SILVER EARRINGS",
     "type": "Earrings",
@@ -1677,7 +1677,7 @@ export const silverProducts = [
   {
     "id": "slv-77",
     "slug": "sterling-silver-earrings-12",
-    "title": "Sterling Silver Earrings 12",
+    "title": "Sterling Silver Earrings",
     "category": "Silver Collection",
     "subcategory": "SILVER EARRINGS",
     "type": "Earrings",
@@ -1699,7 +1699,7 @@ export const silverProducts = [
   {
     "id": "slv-78",
     "slug": "sterling-silver-earrings-13",
-    "title": "Sterling Silver Earrings 13",
+    "title": "Sterling Silver Earrings",
     "category": "Silver Collection",
     "subcategory": "SILVER EARRINGS",
     "type": "Earrings",
@@ -1721,7 +1721,7 @@ export const silverProducts = [
   {
     "id": "slv-79",
     "slug": "sterling-silver-earrings-14",
-    "title": "Sterling Silver Earrings 14",
+    "title": "Sterling Silver Earrings",
     "category": "Silver Collection",
     "subcategory": "SILVER EARRINGS",
     "type": "Earrings",

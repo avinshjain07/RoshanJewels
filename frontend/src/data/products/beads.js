@@ -6,7 +6,7 @@ export const beadsProducts = [
   {
     "id": "bds-mala-1",
     "slug": "natural-beads-mala-design-1",
-    "title": "Natural Beads Mala - Design 1",
+    "title": "Natural Beads Mala",
     "category": "Beads Collection",
     "subcategory": "Beads Mala",
     "type": "Beads Mala",
@@ -28,7 +28,7 @@ export const beadsProducts = [
   {
     "id": "bds-mala-2",
     "slug": "natural-beads-mala-design-2",
-    "title": "Natural Beads Mala - Design 2",
+    "title": "Natural Beads Mala",
     "category": "Beads Collection",
     "subcategory": "Beads Mala",
     "type": "Beads Mala",
@@ -50,7 +50,7 @@ export const beadsProducts = [
   {
     "id": "bds-mala-3",
     "slug": "natural-beads-mala-design-3",
-    "title": "Natural Beads Mala - Design 3",
+    "title": "Natural Beads Mala",
     "category": "Beads Collection",
     "subcategory": "Beads Mala",
     "type": "Beads Mala",
@@ -72,7 +72,7 @@ export const beadsProducts = [
   {
     "id": "bds-mala-4",
     "slug": "natural-beads-mala-design-4",
-    "title": "Natural Beads Mala - Design 4",
+    "title": "Natural Beads Mala",
     "category": "Beads Collection",
     "subcategory": "Beads Mala",
     "type": "Beads Mala",
@@ -94,7 +94,7 @@ export const beadsProducts = [
   {
     "id": "bds-mala-5",
     "slug": "natural-beads-mala-design-5",
-    "title": "Natural Beads Mala - Design 5",
+    "title": "Natural Beads Mala",
     "category": "Beads Collection",
     "subcategory": "Beads Mala",
     "type": "Beads Mala",
@@ -116,7 +116,7 @@ export const beadsProducts = [
   {
     "id": "bds-mala-6",
     "slug": "natural-beads-mala-design-6",
-    "title": "Natural Beads Mala - Design 6",
+    "title": "Natural Beads Mala",
     "category": "Beads Collection",
     "subcategory": "Beads Mala",
     "type": "Beads Mala",
@@ -138,7 +138,7 @@ export const beadsProducts = [
   {
     "id": "bds-mala-7",
     "slug": "natural-beads-mala-design-7",
-    "title": "Natural Beads Mala - Design 7",
+    "title": "Natural Beads Mala",
     "category": "Beads Collection",
     "subcategory": "Beads Mala",
     "type": "Beads Mala",
@@ -160,7 +160,7 @@ export const beadsProducts = [
   {
     "id": "bds-mala-8",
     "slug": "natural-beads-mala-design-8",
-    "title": "Natural Beads Mala - Design 8",
+    "title": "Natural Beads Mala",
     "category": "Beads Collection",
     "subcategory": "Beads Mala",
     "type": "Beads Mala",
@@ -182,7 +182,7 @@ export const beadsProducts = [
   {
     "id": "bds-mala-9",
     "slug": "natural-beads-mala-design-9",
-    "title": "Natural Beads Mala - Design 9",
+    "title": "Natural Beads Mala",
     "category": "Beads Collection",
     "subcategory": "Beads Mala",
     "type": "Beads Mala",
@@ -204,7 +204,7 @@ export const beadsProducts = [
   {
     "id": "bds-mala-10",
     "slug": "natural-beads-mala-design-10",
-    "title": "Natural Beads Mala - Design 10",
+    "title": "Natural Beads Mala",
     "category": "Beads Collection",
     "subcategory": "Beads Mala",
     "type": "Beads Mala",

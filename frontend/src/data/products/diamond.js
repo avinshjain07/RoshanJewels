@@ -6,7 +6,7 @@ export const diamondProducts = [
   {
     "id": "dia-ear-1",
     "slug": "elegant-diamond-earrings-design-1",
-    "title": "Elegant Diamond Earrings - Design 1",
+    "title": "Elegant Diamond Earrings",
     "category": "Diamond Collection",
     "subcategory": "Diamond Earrings",
     "type": "Earrings",
@@ -28,7 +28,7 @@ export const diamondProducts = [
   {
     "id": "dia-ear-2",
     "slug": "elegant-diamond-earrings-design-2",
-    "title": "Elegant Diamond Earrings - Design 2",
+    "title": "Elegant Diamond Earrings",
     "category": "Diamond Collection",
     "subcategory": "Diamond Earrings",
     "type": "Earrings",
@@ -50,7 +50,7 @@ export const diamondProducts = [
   {
     "id": "dia-ear-3",
     "slug": "elegant-diamond-earrings-design-3",
-    "title": "Elegant Diamond Earrings - Design 3",
+    "title": "Elegant Diamond Earrings",
     "category": "Diamond Collection",
     "subcategory": "Diamond Earrings",
     "type": "Earrings",
@@ -72,7 +72,7 @@ export const diamondProducts = [
   {
     "id": "dia-ear-4",
     "slug": "elegant-diamond-earrings-design-4",
-    "title": "Elegant Diamond Earrings - Design 4",
+    "title": "Elegant Diamond Earrings",
     "category": "Diamond Collection",
     "subcategory": "Diamond Earrings",
     "type": "Earrings",
@@ -94,7 +94,7 @@ export const diamondProducts = [
   {
     "id": "dia-ear-5",
     "slug": "elegant-diamond-earrings-design-5",
-    "title": "Elegant Diamond Earrings - Design 5",
+    "title": "Elegant Diamond Earrings",
     "category": "Diamond Collection",
     "subcategory": "Diamond Earrings",
     "type": "Earrings",
@@ -116,7 +116,7 @@ export const diamondProducts = [
   {
     "id": "dia-ear-6",
     "slug": "elegant-diamond-earrings-design-6",
-    "title": "Elegant Diamond Earrings - Design 6",
+    "title": "Elegant Diamond Earrings",
     "category": "Diamond Collection",
     "subcategory": "Diamond Earrings",
     "type": "Earrings",
@@ -138,7 +138,7 @@ export const diamondProducts = [
   {
     "id": "dia-ear-7",
     "slug": "elegant-diamond-earrings-design-7",
-    "title": "Elegant Diamond Earrings - Design 7",
+    "title": "Elegant Diamond Earrings",
     "category": "Diamond Collection",
     "subcategory": "Diamond Earrings",
     "type": "Earrings",
@@ -160,7 +160,7 @@ export const diamondProducts = [
   {
     "id": "dia-ear-8",
     "slug": "elegant-diamond-earrings-design-8",
-    "title": "Elegant Diamond Earrings - Design 8",
+    "title": "Elegant Diamond Earrings",
     "category": "Diamond Collection",
     "subcategory": "Diamond Earrings",
     "type": "Earrings",
@@ -182,7 +182,7 @@ export const diamondProducts = [
   {
     "id": "dia-ear-9",
     "slug": "elegant-diamond-earrings-design-9",
-    "title": "Elegant Diamond Earrings - Design 9",
+    "title": "Elegant Diamond Earrings",
     "category": "Diamond Collection",
     "subcategory": "Diamond Earrings",
     "type": "Earrings",
@@ -204,7 +204,7 @@ export const diamondProducts = [
   {
     "id": "dia-ear-10",
     "slug": "elegant-diamond-earrings-design-10",
-    "title": "Elegant Diamond Earrings - Design 10",
+    "title": "Elegant Diamond Earrings",
     "category": "Diamond Collection",
     "subcategory": "Diamond Earrings",
     "type": "Earrings",
@@ -226,7 +226,7 @@ export const diamondProducts = [
   {
     "id": "dia-ear-11",
     "slug": "elegant-diamond-earrings-design-11",
-    "title": "Elegant Diamond Earrings - Design 11",
+    "title": "Elegant Diamond Earrings",
     "category": "Diamond Collection",
     "subcategory": "Diamond Earrings",
     "type": "Earrings",
@@ -248,7 +248,7 @@ export const diamondProducts = [
   {
     "id": "dia-gentsbrac-1",
     "slug": "luxury-diamond-gents-bracelet-design-1",
-    "title": "Luxury Diamond Gents Bracelet - Design 1",
+    "title": "Luxury Diamond Gents Bracelet",
     "category": "Diamond Collection",
     "subcategory": "Diamond Bracelets",
     "type": "Bracelets",
@@ -270,7 +270,7 @@ export const diamondProducts = [
   {
     "id": "dia-gentsbrac-2",
     "slug": "luxury-diamond-gents-bracelet-design-2",
-    "title": "Luxury Diamond Gents Bracelet - Design 2",
+    "title": "Luxury Diamond Gents Bracelet",
     "category": "Diamond Collection",
     "subcategory": "Diamond Bracelets",
     "type": "Bracelets",
@@ -292,7 +292,7 @@ export const diamondProducts = [
   {
     "id": "dia-gentsbrac-3",
     "slug": "luxury-diamond-gents-bracelet-design-3",
-    "title": "Luxury Diamond Gents Bracelet - Design 3",
+    "title": "Luxury Diamond Gents Bracelet",
     "category": "Diamond Collection",
     "subcategory": "Diamond Bracelets",
     "type": "Bracelets",
@@ -314,7 +314,7 @@ export const diamondProducts = [
   {
     "id": "dia-gentsbrac-4",
     "slug": "luxury-diamond-gents-bracelet-design-4",
-    "title": "Luxury Diamond Gents Bracelet - Design 4",
+    "title": "Luxury Diamond Gents Bracelet",
     "category": "Diamond Collection",
     "subcategory": "Diamond Bracelets",
     "type": "Bracelets",
@@ -336,7 +336,7 @@ export const diamondProducts = [
   {
     "id": "dia-gentsbrac-5",
     "slug": "luxury-diamond-gents-bracelet-design-5",
-    "title": "Luxury Diamond Gents Bracelet - Design 5",
+    "title": "Luxury Diamond Gents Bracelet",
     "category": "Diamond Collection",
     "subcategory": "Diamond Bracelets",
     "type": "Bracelets",
@@ -358,7 +358,7 @@ export const diamondProducts = [
   {
     "id": "dia-gentsbrac-6",
     "slug": "luxury-diamond-gents-bracelet-design-6",
-    "title": "Luxury Diamond Gents Bracelet - Design 6",
+    "title": "Luxury Diamond Gents Bracelet",
     "category": "Diamond Collection",
     "subcategory": "Diamond Bracelets",
     "type": "Bracelets",
@@ -380,7 +380,7 @@ export const diamondProducts = [
   {
     "id": "dia-gentsbrac-7",
     "slug": "luxury-diamond-gents-bracelet-design-7",
-    "title": "Luxury Diamond Gents Bracelet - Design 7",
+    "title": "Luxury Diamond Gents Bracelet",
     "category": "Diamond Collection",
     "subcategory": "Diamond Bracelets",
     "type": "Bracelets",
@@ -402,7 +402,7 @@ export const diamondProducts = [
   {
     "id": "dia-gentsbrac-8",
     "slug": "luxury-diamond-gents-bracelet-design-8",
-    "title": "Luxury Diamond Gents Bracelet - Design 8",
+    "title": "Luxury Diamond Gents Bracelet",
     "category": "Diamond Collection",
     "subcategory": "Diamond Bracelets",
     "type": "Bracelets",
@@ -424,7 +424,7 @@ export const diamondProducts = [
   {
     "id": "dia-gentsbrac-9",
     "slug": "luxury-diamond-gents-bracelet-design-9",
-    "title": "Luxury Diamond Gents Bracelet - Design 9",
+    "title": "Luxury Diamond Gents Bracelet",
     "category": "Diamond Collection",
     "subcategory": "Diamond Bracelets",
     "type": "Bracelets",
@@ -446,7 +446,7 @@ export const diamondProducts = [
   {
     "id": "dia-gentsring-1",
     "slug": "classic-diamond-gents-ring-design-1",
-    "title": "Classic Diamond Gents Ring - Design 1",
+    "title": "Classic Diamond Gents Ring",
     "category": "Diamond Collection",
     "subcategory": "Diamond Rings",
     "type": "Rings",
@@ -468,7 +468,7 @@ export const diamondProducts = [
   {
     "id": "dia-gentsring-2",
     "slug": "classic-diamond-gents-ring-design-2",
-    "title": "Classic Diamond Gents Ring - Design 2",
+    "title": "Classic Diamond Gents Ring",
     "category": "Diamond Collection",
     "subcategory": "Diamond Rings",
     "type": "Rings",
@@ -490,7 +490,7 @@ export const diamondProducts = [
   {
     "id": "dia-gentsring-3",
     "slug": "classic-diamond-gents-ring-design-3",
-    "title": "Classic Diamond Gents Ring - Design 3",
+    "title": "Classic Diamond Gents Ring",
     "category": "Diamond Collection",
     "subcategory": "Diamond Rings",
     "type": "Rings",
@@ -512,7 +512,7 @@ export const diamondProducts = [
   {
     "id": "dia-gentsring-4",
     "slug": "classic-diamond-gents-ring-design-4",
-    "title": "Classic Diamond Gents Ring - Design 4",
+    "title": "Classic Diamond Gents Ring",
     "category": "Diamond Collection",
     "subcategory": "Diamond Rings",
     "type": "Rings",
@@ -534,7 +534,7 @@ export const diamondProducts = [
   {
     "id": "dia-gentsring-5",
     "slug": "classic-diamond-gents-ring-design-5",
-    "title": "Classic Diamond Gents Ring - Design 5",
+    "title": "Classic Diamond Gents Ring",
     "category": "Diamond Collection",
     "subcategory": "Diamond Rings",
     "type": "Rings",
@@ -556,7 +556,7 @@ export const diamondProducts = [
   {
     "id": "dia-gentsring-6",
     "slug": "classic-diamond-gents-ring-design-6",
-    "title": "Classic Diamond Gents Ring - Design 6",
+    "title": "Classic Diamond Gents Ring",
     "category": "Diamond Collection",
     "subcategory": "Diamond Rings",
     "type": "Rings",
@@ -578,7 +578,7 @@ export const diamondProducts = [
   {
     "id": "dia-gentsring-7",
     "slug": "classic-diamond-gents-ring-design-7",
-    "title": "Classic Diamond Gents Ring - Design 7",
+    "title": "Classic Diamond Gents Ring",
     "category": "Diamond Collection",
     "subcategory": "Diamond Rings",
     "type": "Rings",
@@ -600,7 +600,7 @@ export const diamondProducts = [
   {
     "id": "dia-gentsring-8",
     "slug": "classic-diamond-gents-ring-design-8",
-    "title": "Classic Diamond Gents Ring - Design 8",
+    "title": "Classic Diamond Gents Ring",
     "category": "Diamond Collection",
     "subcategory": "Diamond Rings",
     "type": "Rings",
@@ -622,7 +622,7 @@ export const diamondProducts = [
   {
     "id": "dia-gentsring-9",
     "slug": "classic-diamond-gents-ring-design-9",
-    "title": "Classic Diamond Gents Ring - Design 9",
+    "title": "Classic Diamond Gents Ring",
     "category": "Diamond Collection",
     "subcategory": "Diamond Rings",
     "type": "Rings",
@@ -644,7 +644,7 @@ export const diamondProducts = [
   {
     "id": "dia-gentsring-10",
     "slug": "classic-diamond-gents-ring-design-10",
-    "title": "Classic Diamond Gents Ring - Design 10",
+    "title": "Classic Diamond Gents Ring",
     "category": "Diamond Collection",
     "subcategory": "Diamond Rings",
     "type": "Rings",
@@ -666,7 +666,7 @@ export const diamondProducts = [
   {
     "id": "dia-gentsring-11",
     "slug": "classic-diamond-gents-ring-design-11",
-    "title": "Classic Diamond Gents Ring - Design 11",
+    "title": "Classic Diamond Gents Ring",
     "category": "Diamond Collection",
     "subcategory": "Diamond Rings",
     "type": "Rings",
@@ -688,7 +688,7 @@ export const diamondProducts = [
   {
     "id": "dia-gentsring-12",
     "slug": "classic-diamond-gents-ring-design-12",
-    "title": "Classic Diamond Gents Ring - Design 12",
+    "title": "Classic Diamond Gents Ring",
     "category": "Diamond Collection",
     "subcategory": "Diamond Rings",
     "type": "Rings",
@@ -710,7 +710,7 @@ export const diamondProducts = [
   {
     "id": "dia-gentsring-13",
     "slug": "classic-diamond-gents-ring-design-13",
-    "title": "Classic Diamond Gents Ring - Design 13",
+    "title": "Classic Diamond Gents Ring",
     "category": "Diamond Collection",
     "subcategory": "Diamond Rings",
     "type": "Rings",
@@ -732,7 +732,7 @@ export const diamondProducts = [
   {
     "id": "dia-gentsring-14",
     "slug": "classic-diamond-gents-ring-design-14",
-    "title": "Classic Diamond Gents Ring - Design 14",
+    "title": "Classic Diamond Gents Ring",
     "category": "Diamond Collection",
     "subcategory": "Diamond Rings",
     "type": "Rings",
@@ -754,7 +754,7 @@ export const diamondProducts = [
   {
     "id": "dia-ladiesbrac-1",
     "slug": "charming-diamond-ladies-bracelet-design-1",
-    "title": "Charming Diamond Ladies Bracelet - Design 1",
+    "title": "Charming Diamond Ladies Bracelet",
     "category": "Diamond Collection",
     "subcategory": "Diamond Bracelets",
     "type": "Bracelets",
@@ -776,7 +776,7 @@ export const diamondProducts = [
   {
     "id": "dia-ladiesbrac-2",
     "slug": "charming-diamond-ladies-bracelet-design-2",
-    "title": "Charming Diamond Ladies Bracelet - Design 2",
+    "title": "Charming Diamond Ladies Bracelet",
     "category": "Diamond Collection",
     "subcategory": "Diamond Bracelets",
     "type": "Bracelets",
@@ -798,7 +798,7 @@ export const diamondProducts = [
   {
     "id": "dia-ladiesbrac-3",
     "slug": "charming-diamond-ladies-bracelet-design-3",
-    "title": "Charming Diamond Ladies Bracelet - Design 3",
+    "title": "Charming Diamond Ladies Bracelet",
     "category": "Diamond Collection",
     "subcategory": "Diamond Bracelets",
     "type": "Bracelets",
@@ -820,7 +820,7 @@ export const diamondProducts = [
   {
     "id": "dia-ladiesbrac-4",
     "slug": "charming-diamond-ladies-bracelet-design-4",
-    "title": "Charming Diamond Ladies Bracelet - Design 4",
+    "title": "Charming Diamond Ladies Bracelet",
     "category": "Diamond Collection",
     "subcategory": "Diamond Bracelets",
     "type": "Bracelets",
@@ -842,7 +842,7 @@ export const diamondProducts = [
   {
     "id": "dia-ladiesbrac-5",
     "slug": "charming-diamond-ladies-bracelet-design-5",
-    "title": "Charming Diamond Ladies Bracelet - Design 5",
+    "title": "Charming Diamond Ladies Bracelet",
     "category": "Diamond Collection",
     "subcategory": "Diamond Bracelets",
     "type": "Bracelets",
@@ -864,7 +864,7 @@ export const diamondProducts = [
   {
     "id": "dia-ladiesbrac-6",
     "slug": "charming-diamond-ladies-bracelet-design-6",
-    "title": "Charming Diamond Ladies Bracelet - Design 6",
+    "title": "Charming Diamond Ladies Bracelet",
     "category": "Diamond Collection",
     "subcategory": "Diamond Bracelets",
     "type": "Bracelets",
@@ -886,7 +886,7 @@ export const diamondProducts = [
   {
     "id": "dia-ladiesbrac-7",
     "slug": "charming-diamond-ladies-bracelet-design-7",
-    "title": "Charming Diamond Ladies Bracelet - Design 7",
+    "title": "Charming Diamond Ladies Bracelet",
     "category": "Diamond Collection",
     "subcategory": "Diamond Bracelets",
     "type": "Bracelets",
@@ -908,7 +908,7 @@ export const diamondProducts = [
   {
     "id": "dia-ladiesbrac-8",
     "slug": "charming-diamond-ladies-bracelet-design-8",
-    "title": "Charming Diamond Ladies Bracelet - Design 8",
+    "title": "Charming Diamond Ladies Bracelet",
     "category": "Diamond Collection",
     "subcategory": "Diamond Bracelets",
     "type": "Bracelets",
@@ -930,7 +930,7 @@ export const diamondProducts = [
   {
     "id": "dia-ladiesbrac-9",
     "slug": "charming-diamond-ladies-bracelet-design-9",
-    "title": "Charming Diamond Ladies Bracelet - Design 9",
+    "title": "Charming Diamond Ladies Bracelet",
     "category": "Diamond Collection",
     "subcategory": "Diamond Bracelets",
     "type": "Bracelets",
@@ -952,7 +952,7 @@ export const diamondProducts = [
   {
     "id": "dia-ladiesbrac-10",
     "slug": "charming-diamond-ladies-bracelet-design-10",
-    "title": "Charming Diamond Ladies Bracelet - Design 10",
+    "title": "Charming Diamond Ladies Bracelet",
     "category": "Diamond Collection",
     "subcategory": "Diamond Bracelets",
     "type": "Bracelets",
@@ -974,7 +974,7 @@ export const diamondProducts = [
   {
     "id": "dia-ladiesring-1",
     "slug": "graceful-diamond-ladies-ring-design-1",
-    "title": "Graceful Diamond Ladies Ring - Design 1",
+    "title": "Graceful Diamond Ladies Ring",
     "category": "Diamond Collection",
     "subcategory": "Diamond Rings",
     "type": "Rings",
@@ -996,7 +996,7 @@ export const diamondProducts = [
   {
     "id": "dia-ladiesring-2",
     "slug": "graceful-diamond-ladies-ring-design-2",
-    "title": "Graceful Diamond Ladies Ring - Design 2",
+    "title": "Graceful Diamond Ladies Ring",
     "category": "Diamond Collection",
     "subcategory": "Diamond Rings",
     "type": "Rings",
@@ -1018,7 +1018,7 @@ export const diamondProducts = [
   {
     "id": "dia-ladiesring-3",
     "slug": "graceful-diamond-ladies-ring-design-3",
-    "title": "Graceful Diamond Ladies Ring - Design 3",
+    "title": "Graceful Diamond Ladies Ring",
     "category": "Diamond Collection",
     "subcategory": "Diamond Rings",
     "type": "Rings",
@@ -1040,7 +1040,7 @@ export const diamondProducts = [
   {
     "id": "dia-ladiesring-4",
     "slug": "graceful-diamond-ladies-ring-design-4",
-    "title": "Graceful Diamond Ladies Ring - Design 4",
+    "title": "Graceful Diamond Ladies Ring",
     "category": "Diamond Collection",
     "subcategory": "Diamond Rings",
     "type": "Rings",
@@ -1062,7 +1062,7 @@ export const diamondProducts = [
   {
     "id": "dia-ladiesring-5",
     "slug": "graceful-diamond-ladies-ring-design-5",
-    "title": "Graceful Diamond Ladies Ring - Design 5",
+    "title": "Graceful Diamond Ladies Ring",
     "category": "Diamond Collection",
     "subcategory": "Diamond Rings",
     "type": "Rings",
@@ -1084,7 +1084,7 @@ export const diamondProducts = [
   {
     "id": "dia-ladiesring-6",
     "slug": "graceful-diamond-ladies-ring-design-6",
-    "title": "Graceful Diamond Ladies Ring - Design 6",
+    "title": "Graceful Diamond Ladies Ring",
     "category": "Diamond Collection",
     "subcategory": "Diamond Rings",
     "type": "Rings",
@@ -1106,7 +1106,7 @@ export const diamondProducts = [
   {
     "id": "dia-ladiesring-7",
     "slug": "graceful-diamond-ladies-ring-design-7",
-    "title": "Graceful Diamond Ladies Ring - Design 7",
+    "title": "Graceful Diamond Ladies Ring",
     "category": "Diamond Collection",
     "subcategory": "Diamond Rings",
     "type": "Rings",
@@ -1128,7 +1128,7 @@ export const diamondProducts = [
   {
     "id": "dia-ladiesring-8",
     "slug": "graceful-diamond-ladies-ring-design-8",
-    "title": "Graceful Diamond Ladies Ring - Design 8",
+    "title": "Graceful Diamond Ladies Ring",
     "category": "Diamond Collection",
     "subcategory": "Diamond Rings",
     "type": "Rings",
@@ -1150,7 +1150,7 @@ export const diamondProducts = [
   {
     "id": "dia-ladiesring-9",
     "slug": "graceful-diamond-ladies-ring-design-9",
-    "title": "Graceful Diamond Ladies Ring - Design 9",
+    "title": "Graceful Diamond Ladies Ring",
     "category": "Diamond Collection",
     "subcategory": "Diamond Rings",
     "type": "Rings",
@@ -1172,7 +1172,7 @@ export const diamondProducts = [
   {
     "id": "dia-ladiesring-10",
     "slug": "graceful-diamond-ladies-ring-design-10",
-    "title": "Graceful Diamond Ladies Ring - Design 10",
+    "title": "Graceful Diamond Ladies Ring",
     "category": "Diamond Collection",
     "subcategory": "Diamond Rings",
     "type": "Rings",
@@ -1194,7 +1194,7 @@ export const diamondProducts = [
   {
     "id": "dia-ladiesring-11",
     "slug": "graceful-diamond-ladies-ring-design-11",
-    "title": "Graceful Diamond Ladies Ring - Design 11",
+    "title": "Graceful Diamond Ladies Ring",
     "category": "Diamond Collection",
     "subcategory": "Diamond Rings",
     "type": "Rings",
@@ -1216,7 +1216,7 @@ export const diamondProducts = [
   {
     "id": "dia-necklace-1",
     "slug": "royal-diamond-necklace-design-1",
-    "title": "Royal Diamond Necklace - Design 1",
+    "title": "Royal Diamond Necklace",
     "category": "Diamond Collection",
     "subcategory": "Diamond Necklace",
     "type": "Necklace",
@@ -1238,7 +1238,7 @@ export const diamondProducts = [
   {
     "id": "dia-necklace-2",
     "slug": "royal-diamond-necklace-design-2",
-    "title": "Royal Diamond Necklace - Design 2",
+    "title": "Royal Diamond Necklace",
     "category": "Diamond Collection",
     "subcategory": "Diamond Necklace",
     "type": "Necklace",
@@ -1260,7 +1260,7 @@ export const diamondProducts = [
   {
     "id": "dia-necklace-3",
     "slug": "royal-diamond-necklace-design-3",
-    "title": "Royal Diamond Necklace - Design 3",
+    "title": "Royal Diamond Necklace",
     "category": "Diamond Collection",
     "subcategory": "Diamond Necklace",
     "type": "Necklace",
@@ -1282,7 +1282,7 @@ export const diamondProducts = [
   {
     "id": "dia-necklace-4",
     "slug": "royal-diamond-necklace-design-4",
-    "title": "Royal Diamond Necklace - Design 4",
+    "title": "Royal Diamond Necklace",
     "category": "Diamond Collection",
     "subcategory": "Diamond Necklace",
     "type": "Necklace",
@@ -1304,7 +1304,7 @@ export const diamondProducts = [
   {
     "id": "dia-necklace-5",
     "slug": "royal-diamond-necklace-design-5",
-    "title": "Royal Diamond Necklace - Design 5",
+    "title": "Royal Diamond Necklace",
     "category": "Diamond Collection",
     "subcategory": "Diamond Necklace",
     "type": "Necklace",
@@ -1326,7 +1326,7 @@ export const diamondProducts = [
   {
     "id": "dia-necklace-6",
     "slug": "royal-diamond-necklace-design-6",
-    "title": "Royal Diamond Necklace - Design 6",
+    "title": "Royal Diamond Necklace",
     "category": "Diamond Collection",
     "subcategory": "Diamond Necklace",
     "type": "Necklace",
@@ -1348,7 +1348,7 @@ export const diamondProducts = [
   {
     "id": "dia-necklace-7",
     "slug": "royal-diamond-necklace-design-7",
-    "title": "Royal Diamond Necklace - Design 7",
+    "title": "Royal Diamond Necklace",
     "category": "Diamond Collection",
     "subcategory": "Diamond Necklace",
     "type": "Necklace",
@@ -1370,7 +1370,7 @@ export const diamondProducts = [
   {
     "id": "dia-necklace-8",
     "slug": "royal-diamond-necklace-design-8",
-    "title": "Royal Diamond Necklace - Design 8",
+    "title": "Royal Diamond Necklace",
     "category": "Diamond Collection",
     "subcategory": "Diamond Necklace",
     "type": "Necklace",
@@ -1392,7 +1392,7 @@ export const diamondProducts = [
   {
     "id": "dia-necklace-9",
     "slug": "royal-diamond-necklace-design-9",
-    "title": "Royal Diamond Necklace - Design 9",
+    "title": "Royal Diamond Necklace",
     "category": "Diamond Collection",
     "subcategory": "Diamond Necklace",
     "type": "Necklace",
@@ -1414,7 +1414,7 @@ export const diamondProducts = [
   {
     "id": "dia-necklace-10",
     "slug": "royal-diamond-necklace-design-10",
-    "title": "Royal Diamond Necklace - Design 10",
+    "title": "Royal Diamond Necklace",
     "category": "Diamond Collection",
     "subcategory": "Diamond Necklace",
     "type": "Necklace",
@@ -1436,7 +1436,7 @@ export const diamondProducts = [
   {
     "id": "dia-necklace-11",
     "slug": "royal-diamond-necklace-design-11",
-    "title": "Royal Diamond Necklace - Design 11",
+    "title": "Royal Diamond Necklace",
     "category": "Diamond Collection",
     "subcategory": "Diamond Necklace",
     "type": "Necklace",
@@ -1458,7 +1458,7 @@ export const diamondProducts = [
   {
     "id": "dia-nosepin-1",
     "slug": "dainty-diamond-nose-pin-design-1",
-    "title": "Dainty Diamond Nose Pin - Design 1",
+    "title": "Dainty Diamond Nose Pin",
     "category": "Diamond Collection",
     "subcategory": "Diamond Nose Pin",
     "type": "Nose Pin",
@@ -1480,7 +1480,7 @@ export const diamondProducts = [
   {
     "id": "dia-nosepin-2",
     "slug": "dainty-diamond-nose-pin-design-2",
-    "title": "Dainty Diamond Nose Pin - Design 2",
+    "title": "Dainty Diamond Nose Pin",
     "category": "Diamond Collection",
     "subcategory": "Diamond Nose Pin",
     "type": "Nose Pin",
@@ -1502,7 +1502,7 @@ export const diamondProducts = [
   {
     "id": "dia-nosepin-3",
     "slug": "dainty-diamond-nose-pin-design-3",
-    "title": "Dainty Diamond Nose Pin - Design 3",
+    "title": "Dainty Diamond Nose Pin",
     "category": "Diamond Collection",
     "subcategory": "Diamond Nose Pin",
     "type": "Nose Pin",
@@ -1524,7 +1524,7 @@ export const diamondProducts = [
   {
     "id": "dia-nosepin-4",
     "slug": "dainty-diamond-nose-pin-design-4",
-    "title": "Dainty Diamond Nose Pin - Design 4",
+    "title": "Dainty Diamond Nose Pin",
     "category": "Diamond Collection",
     "subcategory": "Diamond Nose Pin",
     "type": "Nose Pin",
@@ -1546,7 +1546,7 @@ export const diamondProducts = [
   {
     "id": "dia-nosepin-5",
     "slug": "dainty-diamond-nose-pin-design-5",
-    "title": "Dainty Diamond Nose Pin - Design 5",
+    "title": "Dainty Diamond Nose Pin",
     "category": "Diamond Collection",
     "subcategory": "Diamond Nose Pin",
     "type": "Nose Pin",
@@ -1568,7 +1568,7 @@ export const diamondProducts = [
   {
     "id": "dia-nosepin-6",
     "slug": "dainty-diamond-nose-pin-design-6",
-    "title": "Dainty Diamond Nose Pin - Design 6",
+    "title": "Dainty Diamond Nose Pin",
     "category": "Diamond Collection",
     "subcategory": "Diamond Nose Pin",
     "type": "Nose Pin",
@@ -1590,7 +1590,7 @@ export const diamondProducts = [
   {
     "id": "dia-nosepin-7",
     "slug": "dainty-diamond-nose-pin-design-7",
-    "title": "Dainty Diamond Nose Pin - Design 7",
+    "title": "Dainty Diamond Nose Pin",
     "category": "Diamond Collection",
     "subcategory": "Diamond Nose Pin",
     "type": "Nose Pin",
@@ -1612,7 +1612,7 @@ export const diamondProducts = [
   {
     "id": "dia-nosepin-8",
     "slug": "dainty-diamond-nose-pin-design-8",
-    "title": "Dainty Diamond Nose Pin - Design 8",
+    "title": "Dainty Diamond Nose Pin",
     "category": "Diamond Collection",
     "subcategory": "Diamond Nose Pin",
     "type": "Nose Pin",
@@ -1634,7 +1634,7 @@ export const diamondProducts = [
   {
     "id": "dia-nosepin-9",
     "slug": "dainty-diamond-nose-pin-design-9",
-    "title": "Dainty Diamond Nose Pin - Design 9",
+    "title": "Dainty Diamond Nose Pin",
     "category": "Diamond Collection",
     "subcategory": "Diamond Nose Pin",
     "type": "Nose Pin",
@@ -1656,7 +1656,7 @@ export const diamondProducts = [
   {
     "id": "dia-nosepin-10",
     "slug": "dainty-diamond-nose-pin-design-10",
-    "title": "Dainty Diamond Nose Pin - Design 10",
+    "title": "Dainty Diamond Nose Pin",
     "category": "Diamond Collection",
     "subcategory": "Diamond Nose Pin",
     "type": "Nose Pin",
@@ -1678,7 +1678,7 @@ export const diamondProducts = [
   {
     "id": "dia-nosepin-11",
     "slug": "dainty-diamond-nose-pin-design-11",
-    "title": "Dainty Diamond Nose Pin - Design 11",
+    "title": "Dainty Diamond Nose Pin",
     "category": "Diamond Collection",
     "subcategory": "Diamond Nose Pin",
     "type": "Nose Pin",
@@ -1700,7 +1700,7 @@ export const diamondProducts = [
   {
     "id": "dia-pendset-1",
     "slug": "brilliant-diamond-pendant-set-design-1",
-    "title": "Brilliant Diamond Pendant Set - Design 1",
+    "title": "Brilliant Diamond Pendant Set",
     "category": "Diamond Collection",
     "subcategory": "Diamond Pendant Set",
     "type": "Pendant Set",
@@ -1722,7 +1722,7 @@ export const diamondProducts = [
   {
     "id": "dia-pendset-2",
     "slug": "brilliant-diamond-pendant-set-design-2",
-    "title": "Brilliant Diamond Pendant Set - Design 2",
+    "title": "Brilliant Diamond Pendant Set",
     "category": "Diamond Collection",
     "subcategory": "Diamond Pendant Set",
     "type": "Pendant Set",
@@ -1744,7 +1744,7 @@ export const diamondProducts = [
   {
     "id": "dia-pendset-3",
     "slug": "brilliant-diamond-pendant-set-design-3",
-    "title": "Brilliant Diamond Pendant Set - Design 3",
+    "title": "Brilliant Diamond Pendant Set",
     "category": "Diamond Collection",
     "subcategory": "Diamond Pendant Set",
     "type": "Pendant Set",
@@ -1766,7 +1766,7 @@ export const diamondProducts = [
   {
     "id": "dia-pendset-4",
     "slug": "brilliant-diamond-pendant-set-design-4",
-    "title": "Brilliant Diamond Pendant Set - Design 4",
+    "title": "Brilliant Diamond Pendant Set",
     "category": "Diamond Collection",
     "subcategory": "Diamond Pendant Set",
     "type": "Pendant Set",
@@ -1788,7 +1788,7 @@ export const diamondProducts = [
   {
     "id": "dia-pendset-5",
     "slug": "brilliant-diamond-pendant-set-design-5",
-    "title": "Brilliant Diamond Pendant Set - Design 5",
+    "title": "Brilliant Diamond Pendant Set",
     "category": "Diamond Collection",
     "subcategory": "Diamond Pendant Set",
     "type": "Pendant Set",
@@ -1810,7 +1810,7 @@ export const diamondProducts = [
   {
     "id": "dia-pendset-6",
     "slug": "brilliant-diamond-pendant-set-design-6",
-    "title": "Brilliant Diamond Pendant Set - Design 6",
+    "title": "Brilliant Diamond Pendant Set",
     "category": "Diamond Collection",
     "subcategory": "Diamond Pendant Set",
     "type": "Pendant Set",
@@ -1832,7 +1832,7 @@ export const diamondProducts = [
   {
     "id": "dia-pendset-7",
     "slug": "brilliant-diamond-pendant-set-design-7",
-    "title": "Brilliant Diamond Pendant Set - Design 7",
+    "title": "Brilliant Diamond Pendant Set",
     "category": "Diamond Collection",
     "subcategory": "Diamond Pendant Set",
     "type": "Pendant Set",
@@ -1854,7 +1854,7 @@ export const diamondProducts = [
   {
     "id": "dia-pendset-8",
     "slug": "brilliant-diamond-pendant-set-design-8",
-    "title": "Brilliant Diamond Pendant Set - Design 8",
+    "title": "Brilliant Diamond Pendant Set",
     "category": "Diamond Collection",
     "subcategory": "Diamond Pendant Set",
     "type": "Pendant Set",
@@ -1876,7 +1876,7 @@ export const diamondProducts = [
   {
     "id": "dia-pendset-9",
     "slug": "brilliant-diamond-pendant-set-design-9",
-    "title": "Brilliant Diamond Pendant Set - Design 9",
+    "title": "Brilliant Diamond Pendant Set",
     "category": "Diamond Collection",
     "subcategory": "Diamond Pendant Set",
     "type": "Pendant Set",
@@ -1898,7 +1898,7 @@ export const diamondProducts = [
   {
     "id": "dia-pendset-10",
     "slug": "brilliant-diamond-pendant-set-design-10",
-    "title": "Brilliant Diamond Pendant Set - Design 10",
+    "title": "Brilliant Diamond Pendant Set",
     "category": "Diamond Collection",
     "subcategory": "Diamond Pendant Set",
     "type": "Pendant Set",
@@ -1920,7 +1920,7 @@ export const diamondProducts = [
   {
     "id": "dia-bangle-1",
     "slug": "stunning-diamond-bangle-design-1",
-    "title": "Stunning Diamond Bangle - Design 1",
+    "title": "Stunning Diamond Bangle",
     "category": "Diamond Collection",
     "subcategory": "Diamond Bangles",
     "type": "Bangles",
@@ -1942,7 +1942,7 @@ export const diamondProducts = [
   {
     "id": "dia-bangle-2",
     "slug": "stunning-diamond-bangle-design-2",
-    "title": "Stunning Diamond Bangle - Design 2",
+    "title": "Stunning Diamond Bangle",
     "category": "Diamond Collection",
     "subcategory": "Diamond Bangles",
     "type": "Bangles",
@@ -1964,7 +1964,7 @@ export const diamondProducts = [
   {
     "id": "dia-bangle-3",
     "slug": "stunning-diamond-bangle-design-3",
-    "title": "Stunning Diamond Bangle - Design 3",
+    "title": "Stunning Diamond Bangle",
     "category": "Diamond Collection",
     "subcategory": "Diamond Bangles",
     "type": "Bangles",
@@ -1986,7 +1986,7 @@ export const diamondProducts = [
   {
     "id": "dia-bangle-4",
     "slug": "stunning-diamond-bangle-design-4",
-    "title": "Stunning Diamond Bangle - Design 4",
+    "title": "Stunning Diamond Bangle",
     "category": "Diamond Collection",
     "subcategory": "Diamond Bangles",
     "type": "Bangles",
@@ -2008,7 +2008,7 @@ export const diamondProducts = [
   {
     "id": "dia-bangle-5",
     "slug": "stunning-diamond-bangle-design-5",
-    "title": "Stunning Diamond Bangle - Design 5",
+    "title": "Stunning Diamond Bangle",
     "category": "Diamond Collection",
     "subcategory": "Diamond Bangles",
     "type": "Bangles",
@@ -2030,7 +2030,7 @@ export const diamondProducts = [
   {
     "id": "dia-bangle-6",
     "slug": "stunning-diamond-bangle-design-6",
-    "title": "Stunning Diamond Bangle - Design 6",
+    "title": "Stunning Diamond Bangle",
     "category": "Diamond Collection",
     "subcategory": "Diamond Bangles",
     "type": "Bangles",
@@ -2052,7 +2052,7 @@ export const diamondProducts = [
   {
     "id": "dia-bangle-7",
     "slug": "stunning-diamond-bangle-design-7",
-    "title": "Stunning Diamond Bangle - Design 7",
+    "title": "Stunning Diamond Bangle",
     "category": "Diamond Collection",
     "subcategory": "Diamond Bangles",
     "type": "Bangles",
@@ -2074,7 +2074,7 @@ export const diamondProducts = [
   {
     "id": "dia-bangle-8",
     "slug": "stunning-diamond-bangle-design-8",
-    "title": "Stunning Diamond Bangle - Design 8",
+    "title": "Stunning Diamond Bangle",
     "category": "Diamond Collection",
     "subcategory": "Diamond Bangles",
     "type": "Bangles",
@@ -2096,7 +2096,7 @@ export const diamondProducts = [
   {
     "id": "dia-bangle-9",
     "slug": "stunning-diamond-bangle-design-9",
-    "title": "Stunning Diamond Bangle - Design 9",
+    "title": "Stunning Diamond Bangle",
     "category": "Diamond Collection",
     "subcategory": "Diamond Bangles",
     "type": "Bangles",
@@ -2118,7 +2118,7 @@ export const diamondProducts = [
   {
     "id": "dia-bangle-10",
     "slug": "stunning-diamond-bangle-design-10",
-    "title": "Stunning Diamond Bangle - Design 10",
+    "title": "Stunning Diamond Bangle",
     "category": "Diamond Collection",
     "subcategory": "Diamond Bangles",
     "type": "Bangles",
@@ -2140,7 +2140,7 @@ export const diamondProducts = [
   {
     "id": "dia-bangle-11",
     "slug": "stunning-diamond-bangle-design-11",
-    "title": "Stunning Diamond Bangle - Design 11",
+    "title": "Stunning Diamond Bangle",
     "category": "Diamond Collection",
     "subcategory": "Diamond Bangles",
     "type": "Bangles",

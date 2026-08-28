@@ -6,7 +6,7 @@ export const goldProducts = [
   {
     "id": "gld-bajuband-1",
     "slug": "traditional-gold-bajuband-design-1",
-    "title": "Traditional Gold Bajuband - Design 1",
+    "title": "Traditional Gold Bajuband",
     "category": "Gold Collection",
     "subcategory": "Gold Bajuband",
     "type": "Bajuband",
@@ -28,7 +28,7 @@ export const goldProducts = [
   {
     "id": "gld-bajuband-2",
     "slug": "traditional-gold-bajuband-design-2",
-    "title": "Traditional Gold Bajuband - Design 2",
+    "title": "Traditional Gold Bajuband",
     "category": "Gold Collection",
     "subcategory": "Gold Bajuband",
     "type": "Bajuband",
@@ -50,7 +50,7 @@ export const goldProducts = [
   {
     "id": "gld-bajuband-3",
     "slug": "traditional-gold-bajuband-design-3",
-    "title": "Traditional Gold Bajuband - Design 3",
+    "title": "Traditional Gold Bajuband",
     "category": "Gold Collection",
     "subcategory": "Gold Bajuband",
     "type": "Bajuband",
@@ -72,7 +72,7 @@ export const goldProducts = [
   {
     "id": "gld-bajuband-4",
     "slug": "traditional-gold-bajuband-design-4",
-    "title": "Traditional Gold Bajuband - Design 4",
+    "title": "Traditional Gold Bajuband",
     "category": "Gold Collection",
     "subcategory": "Gold Bajuband",
     "type": "Bajuband",
@@ -94,7 +94,7 @@ export const goldProducts = [
   {
     "id": "gld-bangle-1",
     "slug": "classic-gold-bangle-design-1",
-    "title": "Classic Gold Bangle - Design 1",
+    "title": "Classic Gold Bangle",
     "category": "Gold Collection",
     "subcategory": "Gold Bangle",
     "type": "Bangle",
@@ -116,7 +116,7 @@ export const goldProducts = [
   {
     "id": "gld-bangle-2",
     "slug": "classic-gold-bangle-design-2",
-    "title": "Classic Gold Bangle - Design 2",
+    "title": "Classic Gold Bangle",
     "category": "Gold Collection",
     "subcategory": "Gold Bangle",
     "type": "Bangle",
@@ -138,7 +138,7 @@ export const goldProducts = [
   {
     "id": "gld-bangle-3",
     "slug": "classic-gold-bangle-design-3",
-    "title": "Classic Gold Bangle - Design 3",
+    "title": "Classic Gold Bangle",
     "category": "Gold Collection",
     "subcategory": "Gold Bangle",
     "type": "Bangle",
@@ -160,7 +160,7 @@ export const goldProducts = [
   {
     "id": "gld-bangle-4",
     "slug": "classic-gold-bangle-design-4",
-    "title": "Classic Gold Bangle - Design 4",
+    "title": "Classic Gold Bangle",
     "category": "Gold Collection",
     "subcategory": "Gold Bangle",
     "type": "Bangle",
@@ -182,7 +182,7 @@ export const goldProducts = [
   {
     "id": "gld-bangle-5",
     "slug": "classic-gold-bangle-design-5",
-    "title": "Classic Gold Bangle - Design 5",
+    "title": "Classic Gold Bangle",
     "category": "Gold Collection",
     "subcategory": "Gold Bangle",
     "type": "Bangle",
@@ -204,7 +204,7 @@ export const goldProducts = [
   {
     "id": "gld-bangle-6",
     "slug": "classic-gold-bangle-design-6",
-    "title": "Classic Gold Bangle - Design 6",
+    "title": "Classic Gold Bangle",
     "category": "Gold Collection",
     "subcategory": "Gold Bangle",
     "type": "Bangle",
@@ -226,7 +226,7 @@ export const goldProducts = [
   {
     "id": "gld-bangle-7",
     "slug": "classic-gold-bangle-design-7",
-    "title": "Classic Gold Bangle - Design 7",
+    "title": "Classic Gold Bangle",
     "category": "Gold Collection",
     "subcategory": "Gold Bangle",
     "type": "Bangle",
@@ -248,7 +248,7 @@ export const goldProducts = [
   {
     "id": "gld-bangle-8",
     "slug": "classic-gold-bangle-design-8",
-    "title": "Classic Gold Bangle - Design 8",
+    "title": "Classic Gold Bangle",
     "category": "Gold Collection",
     "subcategory": "Gold Bangle",
     "type": "Bangle",
@@ -270,7 +270,7 @@ export const goldProducts = [
   {
     "id": "gld-ear-1",
     "slug": "exquisite-gold-earrings-design-1",
-    "title": "Exquisite Gold Earrings - Design 1",
+    "title": "Exquisite Gold Earrings",
     "category": "Gold Collection",
     "subcategory": "Gold Earring",
     "type": "Earrings",
@@ -292,7 +292,7 @@ export const goldProducts = [
   {
     "id": "gld-ear-2",
     "slug": "exquisite-gold-earrings-design-2",
-    "title": "Exquisite Gold Earrings - Design 2",
+    "title": "Exquisite Gold Earrings",
     "category": "Gold Collection",
     "subcategory": "Gold Earring",
     "type": "Earrings",
@@ -314,7 +314,7 @@ export const goldProducts = [
   {
     "id": "gld-ear-3",
     "slug": "exquisite-gold-earrings-design-3",
-    "title": "Exquisite Gold Earrings - Design 3",
+    "title": "Exquisite Gold Earrings",
     "category": "Gold Collection",
     "subcategory": "Gold Earring",
     "type": "Earrings",
@@ -336,7 +336,7 @@ export const goldProducts = [
   {
     "id": "gld-ear-4",
     "slug": "exquisite-gold-earrings-design-4",
-    "title": "Exquisite Gold Earrings - Design 4",
+    "title": "Exquisite Gold Earrings",
     "category": "Gold Collection",
     "subcategory": "Gold Earring",
     "type": "Earrings",
@@ -358,7 +358,7 @@ export const goldProducts = [
   {
     "id": "gld-ear-5",
     "slug": "exquisite-gold-earrings-design-5",
-    "title": "Exquisite Gold Earrings - Design 5",
+    "title": "Exquisite Gold Earrings",
     "category": "Gold Collection",
     "subcategory": "Gold Earring",
     "type": "Earrings",
@@ -380,7 +380,7 @@ export const goldProducts = [
   {
     "id": "gld-ear-6",
     "slug": "exquisite-gold-earrings-design-6",
-    "title": "Exquisite Gold Earrings - Design 6",
+    "title": "Exquisite Gold Earrings",
     "category": "Gold Collection",
     "subcategory": "Gold Earring",
     "type": "Earrings",
@@ -402,7 +402,7 @@ export const goldProducts = [
   {
     "id": "gld-ear-7",
     "slug": "exquisite-gold-earrings-design-7",
-    "title": "Exquisite Gold Earrings - Design 7",
+    "title": "Exquisite Gold Earrings",
     "category": "Gold Collection",
     "subcategory": "Gold Earring",
     "type": "Earrings",
@@ -424,7 +424,7 @@ export const goldProducts = [
   {
     "id": "gld-ear-8",
     "slug": "exquisite-gold-earrings-design-8",
-    "title": "Exquisite Gold Earrings - Design 8",
+    "title": "Exquisite Gold Earrings",
     "category": "Gold Collection",
     "subcategory": "Gold Earring",
     "type": "Earrings",
@@ -446,7 +446,7 @@ export const goldProducts = [
   {
     "id": "gld-ear-9",
     "slug": "exquisite-gold-earrings-design-9",
-    "title": "Exquisite Gold Earrings - Design 9",
+    "title": "Exquisite Gold Earrings",
     "category": "Gold Collection",
     "subcategory": "Gold Earring",
     "type": "Earrings",
@@ -468,7 +468,7 @@ export const goldProducts = [
   {
     "id": "gld-ear-10",
     "slug": "exquisite-gold-earrings-design-10",
-    "title": "Exquisite Gold Earrings - Design 10",
+    "title": "Exquisite Gold Earrings",
     "category": "Gold Collection",
     "subcategory": "Gold Earring",
     "type": "Earrings",
@@ -490,7 +490,7 @@ export const goldProducts = [
   {
     "id": "gld-gentsring-1",
     "slug": "premium-gold-gents-ring-design-1",
-    "title": "Premium Gold Gents Ring - Design 1",
+    "title": "Premium Gold Gents Ring",
     "category": "Gold Collection",
     "subcategory": "Gold Ring",
     "type": "Rings",
@@ -512,7 +512,7 @@ export const goldProducts = [
   {
     "id": "gld-gentsring-2",
     "slug": "premium-gold-gents-ring-design-2",
-    "title": "Premium Gold Gents Ring - Design 2",
+    "title": "Premium Gold Gents Ring",
     "category": "Gold Collection",
     "subcategory": "Gold Ring",
     "type": "Rings",
@@ -534,7 +534,7 @@ export const goldProducts = [
   {
     "id": "gld-gentsring-3",
     "slug": "premium-gold-gents-ring-design-3",
-    "title": "Premium Gold Gents Ring - Design 3",
+    "title": "Premium Gold Gents Ring",
     "category": "Gold Collection",
     "subcategory": "Gold Ring",
     "type": "Rings",
@@ -556,7 +556,7 @@ export const goldProducts = [
   {
     "id": "gld-gentsring-4",
     "slug": "premium-gold-gents-ring-design-4",
-    "title": "Premium Gold Gents Ring - Design 4",
+    "title": "Premium Gold Gents Ring",
     "category": "Gold Collection",
     "subcategory": "Gold Ring",
     "type": "Rings",
@@ -578,7 +578,7 @@ export const goldProducts = [
   {
     "id": "gld-ladiesring-1",
     "slug": "charming-gold-ladies-ring-design-1",
-    "title": "Charming Gold Ladies Ring - Design 1",
+    "title": "Charming Gold Ladies Ring",
     "category": "Gold Collection",
     "subcategory": "Gold Ring",
     "type": "Rings",
@@ -600,7 +600,7 @@ export const goldProducts = [
   {
     "id": "gld-ladiesring-2",
     "slug": "charming-gold-ladies-ring-design-2",
-    "title": "Charming Gold Ladies Ring - Design 2",
+    "title": "Charming Gold Ladies Ring",
     "category": "Gold Collection",
     "subcategory": "Gold Ring",
     "type": "Rings",
@@ -622,7 +622,7 @@ export const goldProducts = [
   {
     "id": "gld-ladiesring-3",
     "slug": "charming-gold-ladies-ring-design-3",
-    "title": "Charming Gold Ladies Ring - Design 3",
+    "title": "Charming Gold Ladies Ring",
     "category": "Gold Collection",
     "subcategory": "Gold Ring",
     "type": "Rings",
@@ -644,7 +644,7 @@ export const goldProducts = [
   {
     "id": "gld-ladiesring-4",
     "slug": "charming-gold-ladies-ring-design-4",
-    "title": "Charming Gold Ladies Ring - Design 4",
+    "title": "Charming Gold Ladies Ring",
     "category": "Gold Collection",
     "subcategory": "Gold Ring",
     "type": "Rings",
@@ -666,7 +666,7 @@ export const goldProducts = [
   {
     "id": "gld-ladiesring-5",
     "slug": "charming-gold-ladies-ring-design-5",
-    "title": "Charming Gold Ladies Ring - Design 5",
+    "title": "Charming Gold Ladies Ring",
     "category": "Gold Collection",
     "subcategory": "Gold Ring",
     "type": "Rings",
@@ -688,7 +688,7 @@ export const goldProducts = [
   {
     "id": "gld-ladiesring-6",
     "slug": "charming-gold-ladies-ring-design-6",
-    "title": "Charming Gold Ladies Ring - Design 6",
+    "title": "Charming Gold Ladies Ring",
     "category": "Gold Collection",
     "subcategory": "Gold Ring",
     "type": "Rings",
@@ -710,7 +710,7 @@ export const goldProducts = [
   {
     "id": "gld-ladiesring-7",
     "slug": "charming-gold-ladies-ring-design-7",
-    "title": "Charming Gold Ladies Ring - Design 7",
+    "title": "Charming Gold Ladies Ring",
     "category": "Gold Collection",
     "subcategory": "Gold Ring",
     "type": "Rings",
@@ -732,7 +732,7 @@ export const goldProducts = [
   {
     "id": "gld-ladiesring-8",
     "slug": "charming-gold-ladies-ring-design-8",
-    "title": "Charming Gold Ladies Ring - Design 8",
+    "title": "Charming Gold Ladies Ring",
     "category": "Gold Collection",
     "subcategory": "Gold Ring",
     "type": "Rings",
@@ -754,7 +754,7 @@ export const goldProducts = [
   {
     "id": "gld-ladiesring-9",
     "slug": "charming-gold-ladies-ring-design-9",
-    "title": "Charming Gold Ladies Ring - Design 9",
+    "title": "Charming Gold Ladies Ring",
     "category": "Gold Collection",
     "subcategory": "Gold Ring",
     "type": "Rings",
@@ -776,7 +776,7 @@ export const goldProducts = [
   {
     "id": "gld-ladiesring-10",
     "slug": "charming-gold-ladies-ring-design-10",
-    "title": "Charming Gold Ladies Ring - Design 10",
+    "title": "Charming Gold Ladies Ring",
     "category": "Gold Collection",
     "subcategory": "Gold Ring",
     "type": "Rings",
@@ -798,7 +798,7 @@ export const goldProducts = [
   {
     "id": "gld-mangalsutra-1",
     "slug": "sacred-gold-mangalsutra-design-1",
-    "title": "Sacred Gold Mangalsutra - Design 1",
+    "title": "Sacred Gold Mangalsutra",
     "category": "Gold Collection",
     "subcategory": "Gold Mangalsutra",
     "type": "Mangalsutra",
@@ -820,7 +820,7 @@ export const goldProducts = [
   {
     "id": "gld-mangalsutra-2",
     "slug": "sacred-gold-mangalsutra-design-2",
-    "title": "Sacred Gold Mangalsutra - Design 2",
+    "title": "Sacred Gold Mangalsutra",
     "category": "Gold Collection",
     "subcategory": "Gold Mangalsutra",
     "type": "Mangalsutra",
@@ -842,7 +842,7 @@ export const goldProducts = [
   {
     "id": "gld-mangalsutra-3",
     "slug": "sacred-gold-mangalsutra-design-3",
-    "title": "Sacred Gold Mangalsutra - Design 3",
+    "title": "Sacred Gold Mangalsutra",
     "category": "Gold Collection",
     "subcategory": "Gold Mangalsutra",
     "type": "Mangalsutra",
@@ -864,7 +864,7 @@ export const goldProducts = [
   {
     "id": "gld-mangalsutra-4",
     "slug": "sacred-gold-mangalsutra-design-4",
-    "title": "Sacred Gold Mangalsutra - Design 4",
+    "title": "Sacred Gold Mangalsutra",
     "category": "Gold Collection",
     "subcategory": "Gold Mangalsutra",
     "type": "Mangalsutra",
@@ -886,7 +886,7 @@ export const goldProducts = [
   {
     "id": "gld-mangalsutra-5",
     "slug": "sacred-gold-mangalsutra-design-5",
-    "title": "Sacred Gold Mangalsutra - Design 5",
+    "title": "Sacred Gold Mangalsutra",
     "category": "Gold Collection",
     "subcategory": "Gold Mangalsutra",
     "type": "Mangalsutra",
@@ -908,7 +908,7 @@ export const goldProducts = [
   {
     "id": "gld-mangalsutra-6",
     "slug": "sacred-gold-mangalsutra-design-6",
-    "title": "Sacred Gold Mangalsutra - Design 6",
+    "title": "Sacred Gold Mangalsutra",
     "category": "Gold Collection",
     "subcategory": "Gold Mangalsutra",
     "type": "Mangalsutra",
@@ -930,7 +930,7 @@ export const goldProducts = [
   {
     "id": "gld-mangalsutra-7",
     "slug": "sacred-gold-mangalsutra-design-7",
-    "title": "Sacred Gold Mangalsutra - Design 7",
+    "title": "Sacred Gold Mangalsutra",
     "category": "Gold Collection",
     "subcategory": "Gold Mangalsutra",
     "type": "Mangalsutra",
@@ -952,7 +952,7 @@ export const goldProducts = [
   {
     "id": "gld-mangalsutra-8",
     "slug": "sacred-gold-mangalsutra-design-8",
-    "title": "Sacred Gold Mangalsutra - Design 8",
+    "title": "Sacred Gold Mangalsutra",
     "category": "Gold Collection",
     "subcategory": "Gold Mangalsutra",
     "type": "Mangalsutra",
@@ -974,7 +974,7 @@ export const goldProducts = [
   {
     "id": "gld-necklace-1",
     "slug": "majestic-gold-necklace-design-1",
-    "title": "Majestic Gold Necklace - Design 1",
+    "title": "Majestic Gold Necklace",
     "category": "Gold Collection",
     "subcategory": "Gold Necklace",
     "type": "Necklace",
@@ -996,7 +996,7 @@ export const goldProducts = [
   {
     "id": "gld-necklace-2",
     "slug": "majestic-gold-necklace-design-2",
-    "title": "Majestic Gold Necklace - Design 2",
+    "title": "Majestic Gold Necklace",
     "category": "Gold Collection",
     "subcategory": "Gold Necklace",
     "type": "Necklace",
@@ -1018,7 +1018,7 @@ export const goldProducts = [
   {
     "id": "gld-necklace-3",
     "slug": "majestic-gold-necklace-design-3",
-    "title": "Majestic Gold Necklace - Design 3",
+    "title": "Majestic Gold Necklace",
     "category": "Gold Collection",
     "subcategory": "Gold Necklace",
     "type": "Necklace",
@@ -1040,7 +1040,7 @@ export const goldProducts = [
   {
     "id": "gld-necklace-4",
     "slug": "majestic-gold-necklace-design-4",
-    "title": "Majestic Gold Necklace - Design 4",
+    "title": "Majestic Gold Necklace",
     "category": "Gold Collection",
     "subcategory": "Gold Necklace",
     "type": "Necklace",
@@ -1062,7 +1062,7 @@ export const goldProducts = [
   {
     "id": "gld-necklace-5",
     "slug": "majestic-gold-necklace-design-5",
-    "title": "Majestic Gold Necklace - Design 5",
+    "title": "Majestic Gold Necklace",
     "category": "Gold Collection",
     "subcategory": "Gold Necklace",
     "type": "Necklace",
@@ -1084,7 +1084,7 @@ export const goldProducts = [
   {
     "id": "gld-necklace-6",
     "slug": "majestic-gold-necklace-design-6",
-    "title": "Majestic Gold Necklace - Design 6",
+    "title": "Majestic Gold Necklace",
     "category": "Gold Collection",
     "subcategory": "Gold Necklace",
     "type": "Necklace",
@@ -1106,7 +1106,7 @@ export const goldProducts = [
   {
     "id": "gld-necklace-7",
     "slug": "majestic-gold-necklace-design-7",
-    "title": "Majestic Gold Necklace - Design 7",
+    "title": "Majestic Gold Necklace",
     "category": "Gold Collection",
     "subcategory": "Gold Necklace",
     "type": "Necklace",
@@ -1128,7 +1128,7 @@ export const goldProducts = [
   {
     "id": "gld-necklace-8",
     "slug": "majestic-gold-necklace-design-8",
-    "title": "Majestic Gold Necklace - Design 8",
+    "title": "Majestic Gold Necklace",
     "category": "Gold Collection",
     "subcategory": "Gold Necklace",
     "type": "Necklace",
@@ -1150,7 +1150,7 @@ export const goldProducts = [
   {
     "id": "gld-necklace-9",
     "slug": "majestic-gold-necklace-design-9",
-    "title": "Majestic Gold Necklace - Design 9",
+    "title": "Majestic Gold Necklace",
     "category": "Gold Collection",
     "subcategory": "Gold Necklace",
     "type": "Necklace",
@@ -1172,7 +1172,7 @@ export const goldProducts = [
   {
     "id": "gld-necklace-10",
     "slug": "majestic-gold-necklace-design-10",
-    "title": "Majestic Gold Necklace - Design 10",
+    "title": "Majestic Gold Necklace",
     "category": "Gold Collection",
     "subcategory": "Gold Necklace",
     "type": "Necklace",
@@ -1194,7 +1194,7 @@ export const goldProducts = [
   {
     "id": "gld-necklace-11",
     "slug": "majestic-gold-necklace-design-11",
-    "title": "Majestic Gold Necklace - Design 11",
+    "title": "Majestic Gold Necklace",
     "category": "Gold Collection",
     "subcategory": "Gold Necklace",
     "type": "Necklace",
@@ -1216,7 +1216,7 @@ export const goldProducts = [
   {
     "id": "gld-pendant-1",
     "slug": "elegant-gold-pendant-design-1",
-    "title": "Elegant Gold Pendant - Design 1",
+    "title": "Elegant Gold Pendant",
     "category": "Gold Collection",
     "subcategory": "Gold Pendant",
     "type": "Pendant",
@@ -1238,7 +1238,7 @@ export const goldProducts = [
   {
     "id": "gld-pendant-2",
     "slug": "elegant-gold-pendant-design-2",
-    "title": "Elegant Gold Pendant - Design 2",
+    "title": "Elegant Gold Pendant",
     "category": "Gold Collection",
     "subcategory": "Gold Pendant",
     "type": "Pendant",
@@ -1260,7 +1260,7 @@ export const goldProducts = [
   {
     "id": "gld-pendant-3",
     "slug": "elegant-gold-pendant-design-3",
-    "title": "Elegant Gold Pendant - Design 3",
+    "title": "Elegant Gold Pendant",
     "category": "Gold Collection",
     "subcategory": "Gold Pendant",
     "type": "Pendant",
@@ -1282,7 +1282,7 @@ export const goldProducts = [
   {
     "id": "gld-pendant-4",
     "slug": "elegant-gold-pendant-design-4",
-    "title": "Elegant Gold Pendant - Design 4",
+    "title": "Elegant Gold Pendant",
     "category": "Gold Collection",
     "subcategory": "Gold Pendant",
     "type": "Pendant",
@@ -1304,7 +1304,7 @@ export const goldProducts = [
   {
     "id": "gld-pendant-5",
     "slug": "elegant-gold-pendant-design-5",
-    "title": "Elegant Gold Pendant - Design 5",
+    "title": "Elegant Gold Pendant",
     "category": "Gold Collection",
     "subcategory": "Gold Pendant",
     "type": "Pendant",
@@ -1326,7 +1326,7 @@ export const goldProducts = [
   {
     "id": "gld-pendant-6",
     "slug": "elegant-gold-pendant-design-6",
-    "title": "Elegant Gold Pendant - Design 6",
+    "title": "Elegant Gold Pendant",
     "category": "Gold Collection",
     "subcategory": "Gold Pendant",
     "type": "Pendant",
@@ -1348,7 +1348,7 @@ export const goldProducts = [
   {
     "id": "gld-pendant-7",
     "slug": "elegant-gold-pendant-design-7",
-    "title": "Elegant Gold Pendant - Design 7",
+    "title": "Elegant Gold Pendant",
     "category": "Gold Collection",
     "subcategory": "Gold Pendant",
     "type": "Pendant",
@@ -1370,7 +1370,7 @@ export const goldProducts = [
   {
     "id": "gld-pendant-8",
     "slug": "elegant-gold-pendant-design-8",
-    "title": "Elegant Gold Pendant - Design 8",
+    "title": "Elegant Gold Pendant",
     "category": "Gold Collection",
     "subcategory": "Gold Pendant",
     "type": "Pendant",
@@ -1392,7 +1392,7 @@ export const goldProducts = [
   {
     "id": "gld-chain-1",
     "slug": "classic-gold-chain-design-1",
-    "title": "Classic Gold Chain - Design 1",
+    "title": "Classic Gold Chain",
     "category": "Gold Collection",
     "subcategory": "Gold Chain",
     "type": "Chain",
@@ -1414,7 +1414,7 @@ export const goldProducts = [
   {
     "id": "gld-chain-2",
     "slug": "classic-gold-chain-design-2",
-    "title": "Classic Gold Chain - Design 2",
+    "title": "Classic Gold Chain",
     "category": "Gold Collection",
     "subcategory": "Gold Chain",
     "type": "Chain",
@@ -1436,7 +1436,7 @@ export const goldProducts = [
   {
     "id": "gld-chain-3",
     "slug": "classic-gold-chain-design-3",
-    "title": "Classic Gold Chain - Design 3",
+    "title": "Classic Gold Chain",
     "category": "Gold Collection",
     "subcategory": "Gold Chain",
     "type": "Chain",
@@ -1458,7 +1458,7 @@ export const goldProducts = [
   {
     "id": "gld-chain-4",
     "slug": "classic-gold-chain-design-4",
-    "title": "Classic Gold Chain - Design 4",
+    "title": "Classic Gold Chain",
     "category": "Gold Collection",
     "subcategory": "Gold Chain",
     "type": "Chain",
@@ -1480,7 +1480,7 @@ export const goldProducts = [
   {
     "id": "gld-chain-5",
     "slug": "classic-gold-chain-design-5",
-    "title": "Classic Gold Chain - Design 5",
+    "title": "Classic Gold Chain",
     "category": "Gold Collection",
     "subcategory": "Gold Chain",
     "type": "Chain",
@@ -1502,7 +1502,7 @@ export const goldProducts = [
   {
     "id": "gld-chain-6",
     "slug": "classic-gold-chain-design-6",
-    "title": "Classic Gold Chain - Design 6",
+    "title": "Classic Gold Chain",
     "category": "Gold Collection",
     "subcategory": "Gold Chain",
     "type": "Chain",
@@ -1524,7 +1524,7 @@ export const goldProducts = [
   {
     "id": "gld-chain-7",
     "slug": "classic-gold-chain-design-7",
-    "title": "Classic Gold Chain - Design 7",
+    "title": "Classic Gold Chain",
     "category": "Gold Collection",
     "subcategory": "Gold Chain",
     "type": "Chain",
