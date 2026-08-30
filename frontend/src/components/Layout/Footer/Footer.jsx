@@ -78,20 +78,20 @@ export default function Footer() {
           {/* Contact Info */}
           <div className="footer-contact">
             <h4>Contact Us</h4>
-            <p>
-              <i className="fas fa-map-marker-alt"></i> UG 2,3, Royal Diamond
-              Building, Yeshwant Niwas Road, opposite SBI BANK, Sanghi Colony,
-              Yeshwant Colony, Indore, MP 452002
+            <p className="numeric-text">
+              <i className="fas fa-map-marker-alt"></i> UG-02, 03, Royal Diamond
+              Building, Yeshwant Niwas Road, Opposite SBI Bank, Sanghi Colony,
+              Yeshwant Colony, Indore, MP – <span className="slashed-zero">452002</span>
             </p>
             <p>
               <i className="fas fa-phone"></i>{' '}
-              <a href="tel:08224998809">082249 98809</a>
+              <a href="tel:08224998809" className="numeric-text">+91 82249 98809</a>
             </p>
             <p>
               <i className="fas fa-envelope"></i> jewelroshan9@gmail.com
             </p>
-            <p>
-              <i className="fas fa-clock"></i> Monday - Sunday: 11:30 AM - 8:30 PM
+            <p className="numeric-text">
+              <i className="fas fa-clock"></i> Monday – Sunday: 11:30 AM – 08:30 PM
             </p>
             <p>
               <i className="fas fa-calendar-alt"></i> Open 7 days a week

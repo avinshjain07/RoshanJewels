@@ -276,12 +276,12 @@ export default function Navbar() {
       {/* Top Info Bar */}
       <div className="top-info">
         <div className="container top-info-container">
-          <div>
-            <i className="fas fa-clock"></i> Open Today: 11:30 AM - 8:30 PM
+          <div className="numeric-text">
+            <i className="fas fa-clock"></i> Open Today: 11:30 AM – 08:30 PM
           </div>
           <div>
             <i className="fas fa-phone"></i> Call Now:{' '}
-            <a href="tel:08224998809">082249 98809</a>
+            <a href="tel:08224998809" className="numeric-text">+91 82249 98809</a>
           </div>
           <div>
             <i className="fas fa-map-marker-alt"></i>{' '}
