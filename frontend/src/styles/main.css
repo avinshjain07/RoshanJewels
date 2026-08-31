@@ -2681,11 +2681,24 @@ footer {
 
 .hero-main-title {
   font-family: "Playfair Display", serif;
-  font-size: 3.4rem;
+  font-size: 3.3rem;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.22;
   color: #1a1816;
   margin-bottom: 1.35rem;
+  text-align: left;
+}
+
+.hero-title-line {
+  display: block;
+}
+
+.hero-title-line-1 {
+  color: #1a1816;
+}
+
+.hero-title-line-2 {
+  color: #1a1816;
 }
 
 .hero-accent-italic {
@@ -2700,7 +2713,9 @@ footer {
   line-height: 1.7;
   color: #645c55;
   margin-bottom: 2.25rem;
-  max-width: 500px;
+  max-width: 520px;
+  min-height: 54px;
+  text-align: left;
 }
 
 .hero-buttons-group {

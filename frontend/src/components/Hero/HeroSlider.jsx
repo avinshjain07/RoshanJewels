@@ -6,9 +6,9 @@ const SLIDES_DATA = [
     image: '/HeroImage/earring.png',
     alt: 'Diamond Peacock Pendant & Earrings',
     eyebrow: 'HERITAGE MEETS MODERNITY | Crafted for Generations',
-    headingPrefix: 'Handcrafted to',
+    headingLine1: 'Handcrafted to',
     headingAccent: 'Golden',
-    headingSuffix: 'Perfection',
+    headingLine2Suffix: 'Perfection',
     text: 'Here, jewellery is poetry cast in gold... a whisper of heritage, a celebration of eternal love, and a companion to life\'s finest moments.',
     ctaPrimaryText: 'Discover Diamond Solitaires',
     ctaPrimaryLink: '/diamond',
@@ -27,9 +27,9 @@ const SLIDES_DATA = [
     image: '/HeroImage/bangle.png',
     alt: 'Handcrafted 22K Gold Bangles',
     eyebrow: 'TIMELESS ELEGANCE | Pure 22K Hallmarked Gold',
-    headingPrefix: 'Three Generations of',
+    headingLine1: 'Three Generations of',
     headingAccent: 'Quiet',
-    headingSuffix: 'Brilliance',
+    headingLine2Suffix: 'Brilliance',
     text: 'A name born in 1965, carried forward with the quiet brilliance of three generations. What began as a humble spark has grown into a house of refined beauty.',
     ctaPrimaryText: 'Explore Gold Collection',
     ctaPrimaryLink: '/gold',
@@ -48,9 +48,9 @@ const SLIDES_DATA = [
     image: '/HeroImage/Diamond_necklace.png',
     alt: 'Signature Diamond Solitaire Necklace',
     eyebrow: 'SIGNATURE CRAFTSMANSHIP | Certified Solitaires',
-    headingPrefix: 'Brilliance Cast in',
+    headingLine1: 'Brilliance Cast in',
     headingAccent: 'Every',
-    headingSuffix: 'Facet',
+    headingLine2Suffix: 'Facet',
     text: 'Each creation is imagined with a designer\'s vision, shaped with a craftsman\'s devotion, and perfected with a touch of modern grace.',
     ctaPrimaryText: 'Explore Diamond Sets',
     ctaPrimaryLink: '/diamond',
@@ -69,9 +69,9 @@ const SLIDES_DATA = [
     image: '/HeroImage/Necklace.jpg',
     alt: 'Royal Kundan Jadau Necklace Set',
     eyebrow: 'CONTEMPORARY HERITAGE | Royal Kundan & Polki',
-    headingPrefix: 'Where Tradition Meets',
+    headingLine1: 'Where Tradition Meets',
     headingAccent: 'Modern',
-    headingSuffix: 'Grace',
+    headingLine2Suffix: 'Grace',
     text: 'We don\'t just craft jewellery... we craft stories meant to shine through generations, preserving heritage with modern elegance.',
     ctaPrimaryText: 'Explore Kundan Polki',
     ctaPrimaryLink: '/kundan',
@@ -90,9 +90,9 @@ const SLIDES_DATA = [
     image: '/HeroImage/ring.png',
     alt: 'Certified Solitaire Engagement Rings',
     eyebrow: 'MASTERFUL DESIGNS | Engagement Solitaires',
-    headingPrefix: 'Masterpieces in',
+    headingLine1: 'Masterpieces in',
     headingAccent: 'Miniature',
-    headingSuffix: 'Artistry',
+    headingLine2Suffix: 'Artistry',
     text: 'From engagement rings to bespoke heirlooms, each piece is crafted with attention to detail that can only come from generations of expertise.',
     ctaPrimaryText: 'Explore Solitaire Rings',
     ctaPrimaryLink: '/rings',
@@ -159,12 +159,13 @@ export default function HeroSlider() {
             <span>{slide.eyebrow}</span>
           </div>
 
-          {/* Heading with Serif & Italic Rose Accent */}
+          {/* Heading with Serif & Italic Rose Accent — Structured in exact 2 lines */}
           <h1 className="hero-main-title">
-            {slide.headingPrefix}{' '}
-            <span className="hero-accent-italic">{slide.headingAccent}</span>
-            <br />
-            {slide.headingSuffix}
+            <span className="hero-title-line hero-title-line-1">{slide.headingLine1}</span>
+            <span className="hero-title-line hero-title-line-2">
+              <span className="hero-accent-italic">{slide.headingAccent}</span>{' '}
+              {slide.headingLine2Suffix}
+            </span>
           </h1>
 
           {/* Poetic Description */}
