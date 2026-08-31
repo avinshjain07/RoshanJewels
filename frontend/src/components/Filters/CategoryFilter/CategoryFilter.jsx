@@ -8,6 +8,8 @@
  *   onChange      — (filterValue: string) => void
  */
 export default function CategoryFilter({ options, activeFilter, onChange }) {
+  if (!options || options.length <= 1) return null;
+
   return (
     <div className="filter-container">
       {options.map((opt) => {

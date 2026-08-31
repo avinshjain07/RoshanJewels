@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import SEO from '@components/Common/SEO/SEO';
 import Breadcrumb from '@components/Common/Breadcrumb/Breadcrumb';
@@ -10,6 +10,7 @@ import { useProducts } from '@hooks/useProducts';
 import { useInfiniteScroll } from '@hooks/useInfiniteScroll';
 import { useModal } from '@hooks/useModal';
 import { useDebounce } from '@hooks/useDebounce';
+import { getProductsByCollection, getProductsByType, filterProducts } from '@services/product.service';
 import { PAGE_SEO } from '@constants/seo';
 
 /**
@@ -29,6 +30,31 @@ export default function CollectionPageLayout({
   pageRoute,
 }) {
   const [searchParams, setSearchParams] = useSearchParams();
+
+  // Base products for this page
+  const baseProducts = useMemo(() => {
+    if (!pageContext) return [];
+    if (pageContext.mode === 'collection') {
+      return getProductsByCollection(pageContext.value);
+    } else if (pageContext.mode === 'type') {
+      return getProductsByType(pageContext.value);
+    }
+    return [];
+  }, [pageContext]);
+
+  // Only display filter buttons for categories that have at least 1 product
+  const validFilterOptions = useMemo(() => {
+    if (!filterOptions || filterOptions.length === 0) return [];
+    return filterOptions.filter((opt) => {
+      if (opt === 'All') return true;
+      const count = filterProducts(baseProducts, {
+        filter: opt,
+        search: '',
+        mode: pageContext.mode,
+      }).length;
+      return count > 0;
+    });
+  }, [filterOptions, baseProducts, pageContext.mode]);
 
   // Read filter and search from URL params (preserves shareable URLs)
   const urlFilter = searchParams.get('filter') || 'All';
@@ -110,7 +136,7 @@ export default function CollectionPageLayout({
               onChange={handleSearchChange}
             />
             <CategoryFilter
-              options={filterOptions}
+              options={validFilterOptions}
               activeFilter={urlFilter}
               onChange={handleFilterChange}
             />
