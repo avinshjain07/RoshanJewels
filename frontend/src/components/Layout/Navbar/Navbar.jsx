@@ -281,7 +281,7 @@ export default function Navbar() {
               {/* Bespoke Design */}
               <li>
                 <NavLink
-                  to="/contact"
+                  to="/bespoke"
                   className={({ isActive }) => (isActive ? 'active' : undefined)}
                   onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}
                 >

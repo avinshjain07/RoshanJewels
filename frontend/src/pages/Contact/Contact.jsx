@@ -203,11 +203,11 @@ export default function Contact() {
                       <h4>Showroom Address</h4>
                       <button
                         onClick={handleCopyAddress}
-                        className={`btn-copy-address ${copied ? 'copied' : ''}`}
-                        title="Copy full address to clipboard"
+                        className={`btn-copy-address-icon ${copied ? 'copied' : ''}`}
+                        title={copied ? "Address Copied!" : "Copy Full Address"}
+                        aria-label="Copy Address"
                       >
                         <i className={copied ? "fas fa-check" : "far fa-copy"}></i>
-                        <span>{copied ? "Copied!" : "Copy Address"}</span>
                       </button>
                     </div>
                     <p className="numeric-text">
@@ -223,7 +223,9 @@ export default function Contact() {
                     <i className="fas fa-phone-volume"></i>
                   </div>
                   <div className="info-item-content">
-                    <h4>Direct Line & WhatsApp</h4>
+                    <div className="info-header-row">
+                      <h4>Direct Line & WhatsApp</h4>
+                    </div>
                     <p>
                       <a href="tel:08224998809" className="numeric-text">
                         +91 82249 98809 <span className="sub-phone">/ 082249 98809</span>
@@ -237,7 +239,9 @@ export default function Contact() {
                     <i className="fas fa-envelope-open-text"></i>
                   </div>
                   <div className="info-item-content">
-                    <h4>Email Concierge</h4>
+                    <div className="info-header-row">
+                      <h4>Email Concierge</h4>
+                    </div>
                     <p>
                       <a href="mailto:jewelroshan9@gmail.com" className="email-link">
                         jewelroshan9@gmail.com
@@ -451,52 +455,7 @@ export default function Contact() {
       </section>
 
 
-      {/* Trust & Heritage Pillars */}
-      <section className="contact-trust-section">
-        <div className="container">
-          <div className="section-title-center">
-            <span className="page-badge"><i className="fas fa-crown"></i> THE ROSHAN PROMISE</span>
-            <h2>Three Generations of Integrity & Trust</h2>
-            <p>Every piece that leaves our showroom is backed by timeless heritage and certified purity</p>
-          </div>
 
-          <div className="contact-trust-grid">
-            <div className="contact-trust-card">
-              <div className="trust-icon-box">
-                <i className="fas fa-award"></i>
-              </div>
-              <h4>100% Hallmarked Gold</h4>
-              <p>Government certified 22K (916) & 18K gold jewellery with authentic 6-digit alphanumeric HUID verification.</p>
-            </div>
-
-            <div className="contact-trust-card">
-              <div className="trust-icon-box">
-                <i className="fas fa-gem"></i>
-              </div>
-              <h4>GIA & IGI Diamonds</h4>
-              <p>Internationally certified solitaires and naturally sourced conflict-free diamonds with complete cut, clarity & color grading.</p>
-            </div>
-
-            <div className="contact-trust-card">
-              <div className="trust-icon-box">
-                <i className="fas fa-drafting-compass"></i>
-              </div>
-              <h4>Bespoke Customization</h4>
-              <p>Craft your dream design directly with master artisans and 3D CAD jewellery designers from scratch.</p>
-            </div>
-
-            <div className="contact-trust-card">
-              <div className="trust-icon-box">
-                <i className="fas fa-shield-alt"></i>
-              </div>
-              <h4>Legacy Since 1965</h4>
-              <p className="numeric-text">
-                Serving royal families and discerning jewellery connoisseurs across Central India for three generations.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Frequently Asked Questions Section */}
       <section className="contact-faq-section">

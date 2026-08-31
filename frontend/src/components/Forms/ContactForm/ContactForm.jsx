@@ -161,7 +161,7 @@ export default function ContactForm() {
         {/* Subject */}
         <div className="form-group">
           <label htmlFor="subject">
-            <i className="fas fa-heading"></i> Subject <span>*</span>
+            <i className="fas fa-edit"></i> Subject <span>*</span>
           </label>
           <input
             type="text"
