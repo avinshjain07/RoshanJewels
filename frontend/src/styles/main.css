@@ -4402,17 +4402,11 @@ textarea.form-control {
 }
 
 .faq-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1rem;
-  max-width: 960px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  max-width: 840px;
   margin: 0 auto 3.5rem;
-}
-
-@media (min-width: 768px) {
-  .faq-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
 }
 
 .faq-card {
@@ -4423,18 +4417,19 @@ textarea.form-control {
   cursor: pointer;
   transition: all 0.25s ease;
   box-shadow: 0 2px 8px rgba(30, 27, 24, 0.02);
+  text-align: left;
 }
 
 .faq-card:hover {
-  border-color: #b48b5a;
+  border-color: #b93b4d;
   transform: translateY(-2px);
-  box-shadow: 0 6px 18px rgba(180, 139, 90, 0.08);
+  box-shadow: 0 6px 18px rgba(185, 59, 77, 0.08);
 }
 
 .faq-card.active {
-  border-color: #b48b5a;
-  background: #faf8f5;
-  box-shadow: 0 6px 18px rgba(180, 139, 90, 0.08);
+  border-color: #b93b4d;
+  background: #fdfaf7;
+  box-shadow: 0 6px 18px rgba(185, 59, 77, 0.08);
 }
 
 .faq-question-row {
@@ -4446,10 +4441,11 @@ textarea.form-control {
 
 .faq-question-row h4 {
   color: #1e1b18;
-  font-size: 0.96rem;
+  font-size: 0.98rem;
   font-weight: 600;
   margin: 0;
   line-height: 1.45;
+  text-align: left;
 }
 
 .faq-toggle-icon {
@@ -4461,30 +4457,32 @@ textarea.form-control {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #8c6738;
+  color: #b93b4d;
   font-size: 0.75rem;
   flex-shrink: 0;
   transition: all 0.2s ease;
 }
 
 .faq-card.active .faq-toggle-icon {
-  background: #1e1b18;
+  background: #b93b4d;
   color: #ffffff;
-  border-color: #1e1b18;
+  border-color: #b93b4d;
 }
 
 .faq-answer {
   margin-top: 0.95rem;
   padding-top: 0.85rem;
-  border-top: 1px solid #e8dfd3;
+  border-top: 1px solid #f0e6e8;
   animation: fadeIn 0.3s ease;
+  text-align: left;
 }
 
 .faq-answer p {
   color: #554f49;
-  font-size: 0.9rem;
-  line-height: 1.65;
+  font-size: 0.92rem;
+  line-height: 1.7;
   margin: 0;
+  text-align: left;
 }
 
 /* FAQ Help Banner (Editorial Dark & Gold) */
