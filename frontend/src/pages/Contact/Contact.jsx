@@ -57,7 +57,7 @@ const WHATSAPP_TOPICS = [
 ];
 
 export default function Contact() {
-  useScrollAnimation('.info-item, .contact-form-container, .contact-quick-btn, .contact-trust-card, .faq-card', []);
+  useScrollAnimation('.info-item, .contact-form-container, .contact-quick-btn, .contact-trust-card, .faq-card, .contact-immersive-map-card', []);
 
   const [activeFaq, setActiveFaq] = useState(null);
   const [copied, setCopied] = useState(false);
@@ -119,7 +119,7 @@ export default function Contact() {
       {/* Page Header */}
       <section className="page-header contact-page-header">
         <div className="container">
-          <span className="page-badge">CONCIERGE & SHOWROOM</span>
+          <span className="page-badge"><i className="fas fa-sparkles"></i> CONCIERGE & SHOWROOM</span>
           <h1>Experience Roshan Jewel</h1>
           <p>Three generations of quiet brilliance, uncompromising purity, and bespoke craftsmanship in Indore since 1965</p>
         </div>
@@ -450,11 +450,12 @@ export default function Contact() {
         </div>
       </section>
 
+
       {/* Trust & Heritage Pillars */}
       <section className="contact-trust-section">
         <div className="container">
           <div className="section-title-center">
-            <span className="page-badge">THE ROSHAN PROMISE</span>
+            <span className="page-badge"><i className="fas fa-crown"></i> THE ROSHAN PROMISE</span>
             <h2>Three Generations of Integrity & Trust</h2>
             <p>Every piece that leaves our showroom is backed by timeless heritage and certified purity</p>
           </div>
@@ -501,7 +502,7 @@ export default function Contact() {
       <section className="contact-faq-section">
         <div className="container">
           <div className="section-title-center">
-            <span className="page-badge">HELP & GUIDANCE</span>
+            <span className="page-badge"><i className="fas fa-question-circle"></i> HELP & GUIDANCE</span>
             <h2>Frequently Asked Questions</h2>
             <p>Everything you need to know about visiting our showroom, custom design, and certified jewellery</p>
           </div>
