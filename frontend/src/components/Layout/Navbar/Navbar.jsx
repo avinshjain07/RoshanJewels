@@ -120,12 +120,8 @@ export default function Navbar() {
               />
             </div>
 
-            {/* Header Right Actions: Wishlist & Book VIP Visit */}
+            {/* Header Right Actions: Book VIP Visit */}
             <div className="header-actions">
-              <Link to="/contact" className="header-wishlist-btn" title="Wishlist" aria-label="Wishlist">
-                <i className="fas fa-heart"></i>
-              </Link>
-
               <Link to="/contact" className="btn-book-vip">
                 <i className="fas fa-book-open"></i>
                 <span>Book VIP Visit</span>
