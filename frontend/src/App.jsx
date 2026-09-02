@@ -21,6 +21,7 @@ const Beads     = lazy(() => import('@pages/Beads/Beads'));
 const Kundan    = lazy(() => import('@pages/Kundan/Kundan'));
 const Gifts     = lazy(() => import('@pages/Gifts/Gifts'));
 const GemsStone = lazy(() => import('@pages/GemsStone/GemsStone'));
+const Bespoke   = lazy(() => import('@pages/Bespoke/Bespoke'));
 
 // ── Router configuration ────────────────────────────────────────────────────
 const router = createBrowserRouter([
@@ -42,6 +43,7 @@ const router = createBrowserRouter([
       { path: 'kundan',        element: <Kundan /> },
       { path: 'gifts',         element: <Gifts /> },
       { path: 'gems-stone',    element: <GemsStone /> },
+      { path: 'bespoke',       element: <Bespoke /> },
     ],
   },
 ]);

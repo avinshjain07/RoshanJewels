@@ -17,19 +17,33 @@ export default function ContactForm() {
 
   return (
     <div className="contact-form-container">
+      <div className="form-header-badge">
+        <i className="fas fa-envelope-open"></i>
+        <span>DIRECT CONSULTATION</span>
+      </div>
+
       <h3>Send an Enquiry</h3>
+      <p className="form-subtitle">
+        Have a question or looking for bespoke jewellery? Leave a message and our specialists will connect with you promptly.
+      </p>
 
       {status === 'success' && (
         <div className="alert-box success">
           <i className="fas fa-check-circle"></i>
-          <span>{message}</span>
+          <div>
+            <strong>Enquiry Sent Successfully!</strong>
+            <p>{message}</p>
+          </div>
         </div>
       )}
 
       {status === 'error' && (
         <div className="alert-box error">
           <i className="fas fa-exclamation-circle"></i>
-          <span>{message}</span>
+          <div>
+            <strong>Unable to Send Enquiry</strong>
+            <p>{message}</p>
+          </div>
         </div>
       )}
 
@@ -52,14 +66,14 @@ export default function ContactForm() {
         <div className="form-row">
           <div className="form-group">
             <label htmlFor="name">
-              Full Name <span>*</span>
+              <i className="fas fa-user"></i> Full Name <span>*</span>
             </label>
             <input
               type="text"
               id="name"
               name="name"
               className={`form-control${errors.name ? ' error' : ''}`}
-              placeholder="Enter your full name"
+              placeholder="e.g. Rahul Sharma"
               value={fields.name}
               onChange={handleChange}
             />
@@ -72,14 +86,14 @@ export default function ContactForm() {
 
           <div className="form-group">
             <label htmlFor="email">
-              Email Address <span>*</span>
+              <i className="fas fa-at"></i> Email Address <span>*</span>
             </label>
             <input
               type="email"
               id="email"
               name="email"
               className={`form-control${errors.email ? ' error' : ''}`}
-              placeholder="Enter your email address"
+              placeholder="e.g. rahul@example.com"
               value={fields.email}
               onChange={handleChange}
             />
@@ -95,14 +109,14 @@ export default function ContactForm() {
         <div className="form-row">
           <div className="form-group">
             <label htmlFor="phone">
-              Phone Number <span>*</span>
+              <i className="fas fa-phone-alt"></i> Phone Number <span>*</span>
             </label>
             <input
               type="tel"
               id="phone"
               name="phone"
-              className={`form-control${errors.phone ? ' error' : ''}`}
-              placeholder="Enter your phone number"
+              className={`form-control numeric-text${errors.phone ? ' error' : ''}`}
+              placeholder="e.g. +91 98765 43210"
               value={fields.phone}
               onChange={handleChange}
             />
@@ -115,7 +129,7 @@ export default function ContactForm() {
 
           <div className="form-group">
             <label htmlFor="enquiryType">
-              Enquiry Type <span>*</span>
+              <i className="fas fa-tags"></i> Enquiry Type <span>*</span>
             </label>
             <select
               id="enquiryType"
@@ -124,17 +138,17 @@ export default function ContactForm() {
               value={fields.enquiryType}
               onChange={handleChange}
             >
-              <option value="">Select enquiry type</option>
+              <option value="">Select Category...</option>
               <option value="Product Enquiry">Product Enquiry</option>
-              <option value="Diamond Jewellery">Diamond Jewellery</option>
-              <option value="Gold Jewellery">Gold Jewellery</option>
-              <option value="Silver Jewellery">Silver Jewellery</option>
-              <option value="Custom Jewellery">Custom Jewellery</option>
-              <option value="Pricing">Pricing</option>
-              <option value="Bulk Order">Bulk Order</option>
+              <option value="Diamond Jewellery">Diamond Jewellery & Solitaires</option>
+              <option value="Gold Jewellery">22K Gold Jewellery</option>
+              <option value="Silver Jewellery">Sterling Silver Articles</option>
+              <option value="Custom Jewellery">Bespoke / Custom Jewellery</option>
+              <option value="Pricing">Price Quote / Gold Rate</option>
+              <option value="Bulk Order">Bulk / Wedding Orders</option>
               <option value="Complaint">Complaint</option>
               <option value="Feedback">Feedback</option>
-              <option value="Other">Other</option>
+              <option value="Other">Other Query</option>
             </select>
             {errors.enquiryType && (
               <div className="error-feedback" style={{ display: 'block' }}>
@@ -147,14 +161,14 @@ export default function ContactForm() {
         {/* Subject */}
         <div className="form-group">
           <label htmlFor="subject">
-            Subject <span>*</span>
+            <i className="fas fa-edit"></i> Subject <span>*</span>
           </label>
           <input
             type="text"
             id="subject"
             name="subject"
             className={`form-control${errors.subject ? ' error' : ''}`}
-            placeholder="Enter enquiry subject"
+            placeholder="e.g. Custom Bridal Necklace Consultation"
             value={fields.subject}
             onChange={handleChange}
           />
@@ -168,13 +182,13 @@ export default function ContactForm() {
         {/* Message */}
         <div className="form-group">
           <label htmlFor="message">
-            Message <span>*</span>
+            <i className="fas fa-comment-dots"></i> Message Details <span>*</span>
           </label>
           <textarea
             id="message"
             name="message"
             className={`form-control${errors.message ? ' error' : ''}`}
-            placeholder="Write your details or specifications here..."
+            placeholder="Describe your design preferences, budget expectations, diamond clarity, gold karat, or appointment requests..."
             value={fields.message}
             onChange={handleChange}
           ></textarea>
@@ -193,16 +207,33 @@ export default function ContactForm() {
           {status === 'loading' ? (
             <>
               <div className="spinner" style={{ display: 'block' }}></div>
-              Sending Enquiry...
+              Sending Message...
             </>
           ) : (
             <>
               <i className="fas fa-paper-plane"></i>
-              Send Enquiry
+              <span>Send Enquiry Message</span>
             </>
           )}
         </button>
       </form>
+
+      {/* Form Assurance Pillars */}
+      <div className="form-assurance-row">
+        <div className="assurance-item">
+          <i className="fas fa-user-shield"></i>
+          <span>100% Confidential</span>
+        </div>
+        <div className="assurance-item">
+          <i className="fas fa-bolt"></i>
+          <span>Quick 24h Response</span>
+        </div>
+        <div className="assurance-item">
+          <i className="fas fa-hand-holding-heart"></i>
+          <span>No Obligation Advisory</span>
+        </div>
+      </div>
     </div>
   );
 }
+
