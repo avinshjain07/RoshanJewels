@@ -39,3 +39,4 @@ out/
 
 # Excel files
 *.xlsx
+.env*
