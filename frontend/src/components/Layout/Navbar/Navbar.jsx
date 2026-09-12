@@ -1,16 +1,24 @@
 import { useState, useEffect, useCallback } from 'react';
 import { Link, NavLink, useNavigate, useLocation } from 'react-router-dom';
 import logo from '@assets/logos/logo.png';
+import { useAuth } from '@context/AuthContext';
+import { useCart } from '@context/CartContext';
+import { useWishlist } from '@context/WishlistContext';
 
 /**
  * Navbar — Two-row luxury jewellery header matching the exact brand design.
  * Row 1: Top info bar (Showroom timings, BIS Purity, Phone, Directions).
- * Row 2: Top header with Logo, central Search bar, Wishlist, and Book VIP Visit button.
+ * Row 2: Top header with Logo, central Search bar, Wishlist, Cart, User Account, and Book VIP Visit.
  * Row 3: Bottom navigation links (Home, Gold, Diamond, Silver, Kundan, Beads, Gems Stone, Bespoke, About, Contact).
  */
 export default function Navbar() {
+  const { user, isAuthenticated, logout, openAuthModal } = useAuth();
+  const { openCart, itemCount } = useCart();
+  const { wishlistCount } = useWishlist();
+
   const [mobileOpen, setMobileOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState(null); // label of open dropdown
+  const [userMenuOpen, setUserMenuOpen] = useState(false);
   const [headerShadow, setHeaderShadow] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const navigate = useNavigate();
@@ -120,8 +128,76 @@ export default function Navbar() {
               />
             </div>
 
-            {/* Header Right Actions: Book VIP Visit */}
+            {/* Header Right Actions: Wishlist, Cart Drawer, User Auth, and Book VIP Visit */}
             <div className="header-actions">
+              {/* Wishlist Link */}
+              <Link to="/wishlist" className="header-icon-action" title="My Wishlist" aria-label="Wishlist">
+                <i className="far fa-heart"></i>
+                {wishlistCount > 0 && <span className="header-badge-count numeric-text">{wishlistCount}</span>}
+              </Link>
+
+              {/* Shopping Bag Button */}
+              <button
+                type="button"
+                className="header-icon-action"
+                onClick={openCart}
+                title="Shopping Bag"
+                aria-label="Shopping Bag"
+              >
+                <i className="fas fa-shopping-bag"></i>
+                {itemCount > 0 && <span className="header-badge-count numeric-text">{itemCount}</span>}
+              </button>
+
+              {/* User Account / Sign In */}
+              {isAuthenticated ? (
+                <div className="header-user-menu-container">
+                  <button
+                    type="button"
+                    className="header-user-btn"
+                    onClick={() => setUserMenuOpen(prev => !prev)}
+                    title="My Account"
+                  >
+                    <span className="user-avatar-initial">
+                      {user.name ? user.name.charAt(0).toUpperCase() : 'U'}
+                    </span>
+                    <span className="user-name-short">{user.name.split(' ')[0]}</span>
+                    <i className="fas fa-chevron-down"></i>
+                  </button>
+
+                  {userMenuOpen && (
+                    <div className="header-user-dropdown">
+                      <div className="user-dropdown-header">
+                        <strong>{user.name}</strong>
+                        <small>{user.vipTier || 'Privilege Member'}</small>
+                      </div>
+                      <Link to="/account" onClick={() => setUserMenuOpen(false)}>
+                        <i className="fas fa-user-circle"></i> My Account & Orders
+                      </Link>
+                      <Link to="/wishlist" onClick={() => setUserMenuOpen(false)}>
+                        <i className="fas fa-heart"></i> My Wishlist ({wishlistCount})
+                      </Link>
+                      <button
+                        type="button"
+                        className="btn-dropdown-logout"
+                        onClick={() => { logout(); setUserMenuOpen(false); }}
+                      >
+                        <i className="fas fa-sign-out-alt"></i> Sign Out
+                      </button>
+                    </div>
+                  )}
+                </div>
+              ) : (
+                <button
+                  type="button"
+                  className="btn-header-signin"
+                  onClick={() => openAuthModal('login')}
+                  title="Sign In"
+                >
+                  <i className="fas fa-user-circle"></i>
+                  <span>Sign In</span>
+                </button>
+              )}
+
               <Link to="/contact" className="btn-book-vip">
                 <i className="fas fa-book-open"></i>
                 <span>Book VIP Visit</span>
