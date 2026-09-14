@@ -4549,42 +4549,44 @@ textarea.form-control {
 }
 
 /* -------------------------------------------
-   FAQ Section
+   FAQ Section (Luxury Bottom Portion)
    ------------------------------------------- */
 .contact-faq-section {
-  padding: 5rem 0 6rem;
-  background: #fcfbf9;
+  padding: 5.5rem 0 6.5rem;
+  background: radial-gradient(circle at 50% 10%, rgba(212, 175, 55, 0.06) 0%, transparent 70%), linear-gradient(180deg, #faf7f2 0%, #f4ede3 50%, #ede3d4 100%);
+  border-top: 1px solid #e8decb;
+  position: relative;
 }
 
 .faq-grid {
   display: flex;
   flex-direction: column;
-  gap: 0.9rem;
-  max-width: 840px;
+  gap: 1rem;
+  max-width: 860px;
   margin: 0 auto 3.5rem;
 }
 
 .faq-card {
   background: #ffffff;
-  border: 1px solid #e8dfd3;
+  border: 1px solid #e5dbcd;
   border-radius: 14px;
-  padding: 1.35rem 1.6rem;
+  padding: 1.4rem 1.75rem;
   cursor: pointer;
-  transition: all 0.25s ease;
-  box-shadow: 0 2px 8px rgba(30, 27, 24, 0.02);
+  transition: all 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 3px 12px rgba(30, 27, 24, 0.03);
   text-align: left;
 }
 
 .faq-card:hover {
   border-color: #b93b4d;
   transform: translateY(-2px);
-  box-shadow: 0 6px 18px rgba(185, 59, 77, 0.08);
+  box-shadow: 0 8px 22px rgba(185, 59, 77, 0.09);
 }
 
 .faq-card.active {
   border-color: #b93b4d;
-  background: #fdfaf7;
-  box-shadow: 0 6px 18px rgba(185, 59, 77, 0.08);
+  background: #ffffff;
+  box-shadow: 0 8px 24px rgba(185, 59, 77, 0.1);
 }
 
 .faq-question-row {
@@ -4596,7 +4598,7 @@ textarea.form-control {
 
 .faq-question-row h4 {
   color: #1e1b18;
-  font-size: 0.98rem;
+  font-size: 1rem;
   font-weight: 600;
   margin: 0;
   line-height: 1.45;
@@ -4604,10 +4606,10 @@ textarea.form-control {
 }
 
 .faq-toggle-icon {
-  width: 28px;
-  height: 28px;
+  width: 30px;
+  height: 30px;
   background: #faf8f5;
-  border: 1px solid #e8dfd3;
+  border: 1px solid #e5dbcd;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -4615,7 +4617,7 @@ textarea.form-control {
   color: #b93b4d;
   font-size: 0.75rem;
   flex-shrink: 0;
-  transition: all 0.2s ease;
+  transition: all 0.25s ease;
 }
 
 .faq-card.active .faq-toggle-icon {
@@ -4625,25 +4627,25 @@ textarea.form-control {
 }
 
 .faq-answer {
-  margin-top: 0.95rem;
-  padding-top: 0.85rem;
-  border-top: 1px solid #f0e6e8;
+  margin-top: 1rem;
+  padding-top: 0.95rem;
+  border-top: 1px solid #f2e9de;
   animation: fadeIn 0.3s ease;
   text-align: left;
 }
 
 .faq-answer p {
   color: #554f49;
-  font-size: 0.92rem;
-  line-height: 1.7;
+  font-size: 0.93rem;
+  line-height: 1.75;
   margin: 0;
   text-align: left;
 }
 
 /* FAQ Help Banner (Editorial Dark & Gold) */
 .faq-help-banner {
-  background: linear-gradient(135deg, #1e1b18 0%, #2d2724 100%);
-  border: 1px solid rgba(212, 175, 55, 0.2);
+  background: linear-gradient(135deg, #181614 0%, #292420 60%, #1c1917 100%);
+  border: 1px solid rgba(212, 175, 55, 0.28);
   border-radius: 20px;
   padding: 2.75rem 3rem;
   color: #ffffff;
@@ -4652,9 +4654,22 @@ textarea.form-control {
   justify-content: space-between;
   gap: 2rem;
   flex-wrap: wrap;
-  box-shadow: 0 16px 35px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 18px 40px rgba(24, 22, 20, 0.16);
   max-width: 960px;
   margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.faq-help-banner::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -20%;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, rgba(212, 175, 55, 0.12) 0%, transparent 70%);
+  pointer-events: none;
 }
 
 .help-text h3 {
@@ -4666,8 +4681,8 @@ textarea.form-control {
 }
 
 .help-text p {
-  color: #d1c7bc;
-  font-size: 0.92rem;
+  color: #d8cec3;
+  font-size: 0.94rem;
   margin: 0;
 }
 
@@ -4676,6 +4691,8 @@ textarea.form-control {
   align-items: center;
   gap: 1rem;
   flex-wrap: wrap;
+  position: relative;
+  z-index: 1;
 }
 
 .btn-help-whatsapp {
@@ -4696,6 +4713,7 @@ textarea.form-control {
 .btn-help-whatsapp:hover {
   background: #16a34a;
   transform: translateY(-2px);
+  color: #ffffff;
 }
 
 .btn-help-call {
