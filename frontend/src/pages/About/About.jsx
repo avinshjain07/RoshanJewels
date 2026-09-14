@@ -187,30 +187,36 @@ export default function About() {
         <div className="container">
           <div className="section-title">
             <h2>Why Choose Roshan Jewel</h2>
+            <p>Uncompromising standards of purity, master craftsmanship, and generational trust since 1965</p>
           </div>
           <div className="why-grid">
             <div className="why-item">
-              <i className="fas fa-trophy"></i>
-              <h3>61+ Years of Excellence</h3>
-              <p>Trusted by generations of families in Indore and across MP.</p>
-            </div>
-            <div className="why-item">
-              <i className="fas fa-pencil"></i>
-              <h3>Custom Designs</h3>
+              <i className="fas fa-certificate"></i>
+              <h3>BIS Hallmark & IGI-Certified Jewellery</h3>
               <p>
-                Bring your vision to life with our custom jewellery design
-                service.
+                Guaranteed 100% 22K (916) and 18K (750) BIS HUID Hallmarked Gold along with GIA & IGI Certified Natural Diamonds with authentic origin reports.
               </p>
             </div>
             <div className="why-item">
-              <i className="fas fa-shield-alt"></i>
-              <h3>Hallmarked Gold</h3>
-              <p>Every piece is BIS hallmarked for guaranteed purity.</p>
+              <i className="fas fa-gem"></i>
+              <h3>Global Standard of Finish</h3>
+              <p>
+                International luxury benchmarks in precision micro-setting, hand-engraved nakshi carvings, high-polish finishing, and flawless symmetry.
+              </p>
+            </div>
+            <div className="why-item">
+              <i className="fas fa-pencil-ruler"></i>
+              <h3>Unique Custom Design</h3>
+              <p>
+                Bespoke high-jewellery atelier crafting custom creations from 3D CAD renders to hand-cast masterpieces tailored to your personal story.
+              </p>
             </div>
             <div className="why-item">
               <i className="fas fa-hand-holding-heart"></i>
-              <h3>Personalized Service</h3>
-              <p>One-on-one consultations to help you find the perfect piece.</p>
+              <h3>Personal Concierge Service</h3>
+              <p>
+                Three generations of devoted client care, private bridal lounge consultations, video viewings, lifetime polishing, and 100% buyback transparency.
+              </p>
             </div>
           </div>
         </div>

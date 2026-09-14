@@ -102,13 +102,55 @@ export function enrichProduct(product) {
       grossWeight = (15 + (hash % 20) * 0.7).toFixed(2) + 'g';
     }
   } else if (cat.includes('bullion')) {
-    purity = sub.includes('silver') ? '999 Fine Silver' : '24K (999) Pure Gold';
-    if (sub.includes('silver')) {
-      basePrice = 1200 + (hash % 6500);
-      grossWeight = (10 + (hash % 4) * 25).toFixed(2) + 'g';
+    purity = sub.includes('silver') ? '999 Fine Silver' : '24K (999.0) Pure Gold';
+    if (product.id.includes('100g') && sub.includes('gold')) {
+      basePrice = 775000;
+      grossWeight = '100.00g';
+    } else if (product.id.includes('50g') && sub.includes('gold')) {
+      basePrice = 388000;
+      grossWeight = '50.00g';
+    } else if (product.id.includes('20g') && sub.includes('gold')) {
+      basePrice = 155000;
+      grossWeight = '20.00g';
+    } else if (product.id.includes('10g') && sub.includes('gold')) {
+      basePrice = 77500;
+      grossWeight = '10.00g';
+    } else if (product.id.includes('5g') && sub.includes('gold')) {
+      basePrice = 39000;
+      grossWeight = '5.00g';
+    } else if (product.id.includes('2g') && sub.includes('gold')) {
+      basePrice = 15600;
+      grossWeight = '2.00g';
+    } else if (product.id.includes('1g') && sub.includes('gold')) {
+      basePrice = 7800;
+      grossWeight = '1.00g';
+    } else if (product.id.includes('1kg')) {
+      basePrice = 108000;
+      grossWeight = '1000.00g';
+    } else if (product.id.includes('500g')) {
+      basePrice = 54000;
+      grossWeight = '500.00g';
+    } else if (product.id.includes('100g') && sub.includes('silver')) {
+      basePrice = 10800;
+      grossWeight = '100.00g';
+    } else if (product.id.includes('50g') && sub.includes('silver')) {
+      basePrice = 5400;
+      grossWeight = '50.00g';
+    } else if (product.id.includes('20g') && sub.includes('silver')) {
+      basePrice = 2200;
+      grossWeight = '20.00g';
+    } else if (product.id.includes('10g') && sub.includes('silver')) {
+      basePrice = 1100;
+      grossWeight = '10.00g';
+    } else if (product.id.includes('5g') && sub.includes('silver')) {
+      basePrice = 550;
+      grossWeight = '5.00g';
+    } else if (sub.includes('utensil') || sub.includes('pooja')) {
+      basePrice = 6500 + (hash % 18000);
+      grossWeight = (45 + (hash % 80) * 1.5).toFixed(2) + 'g';
     } else {
-      basePrice = 7800 + (hash % 65000);
-      grossWeight = (1 + (hash % 5) * 2).toFixed(2) + 'g';
+      basePrice = 2400 + (hash % 4500);
+      grossWeight = (20 + (hash % 30) * 0.8).toFixed(2) + 'g';
     }
   } else if (cat.includes('beads')) {
     purity = 'Natural Gemstone Beads & 22K Accents';

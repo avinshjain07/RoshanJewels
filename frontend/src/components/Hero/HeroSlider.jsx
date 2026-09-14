@@ -151,9 +151,26 @@ export default function HeroSlider() {
 
   return (
     <section className="hero-circular-section" id="home">
+      {/* Light Cream Shadow Veil Layer */}
+      <div className="hero-cream-veil-layer" aria-hidden="true"></div>
+
       <div className="container hero-circular-container">
         {/* Left Column: Editorial Typography, CTAs, Stats & Dots */}
         <div className="hero-content-col" key={currentIndex}>
+          {/* Prominent Brand Crest & Live Showroom Timing Badge */}
+          <div className="hero-brand-top-banner">
+            <div className="hero-brand-title-strip">
+              <span className="brand-crest-icon"><i className="fas fa-crown"></i></span>
+              <span className="brand-crest-text">ROSHAN JEWELS</span>
+              <span className="brand-crest-sub">ATELIER EST. 1965</span>
+            </div>
+            <div className="hero-live-clock-badge">
+              <span className="live-pulse"></span>
+              <i className="far fa-clock"></i>
+              <span>Showroom Open: 11:30 AM – 8:30 PM</span>
+            </div>
+          </div>
+
           {/* Eyebrow */}
           <div className="hero-eyebrow-badge">
             <span>{slide.eyebrow}</span>

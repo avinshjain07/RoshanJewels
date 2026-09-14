@@ -8494,6 +8494,575 @@ textarea.form-control {
   }
 }
 
+/* ==========================================================================
+   NAVRATNA 9 GEMSTONES PORTAL STYLES
+   ========================================================================== */
+
+.gemstone-page-header {
+  background: linear-gradient(135deg, #1c1815 0%, #2b1f1a 50%, #1a1614 100%);
+  color: #ffffff;
+  padding: 4.5rem 0 3.5rem;
+  text-align: center;
+}
+
+.gemstone-page-header h1 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 2.75rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-top: 0.5rem;
+}
+
+.gemstone-page-header p {
+  color: #dfd5ca;
+  max-width: 780px;
+  margin: 0.75rem auto 0;
+  font-size: 1.05rem;
+}
+
+.gemstone-quality-banner {
+  background: linear-gradient(135deg, #faf6f0 0%, #f4ece1 100%);
+  border: 1px solid #e5d7c3;
+  border-left: 5px solid #b93b4d;
+  border-radius: 16px;
+  padding: 2rem 2.5rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  box-shadow: 0 8px 24px rgba(30, 27, 24, 0.04);
+}
+
+.quality-banner-icon {
+  font-size: 2rem;
+  color: #b93b4d;
+}
+
+.quality-banner-content h3 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.45rem;
+  color: #1e1b18;
+  margin-bottom: 0.5rem;
+}
+
+.quality-banner-content p {
+  color: #5c544d;
+  font-size: 0.95rem;
+  line-height: 1.65;
+  margin: 0;
+}
+
+.quality-banner-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.q-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #ffffff;
+  border: 1px solid #dcd0be;
+  color: #2b2623;
+  padding: 0.4rem 0.9rem;
+  border-radius: 30px;
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+.q-badge i {
+  color: #b93b4d;
+}
+
+.navratna-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.gemstone-card {
+  background: #ffffff;
+  border: 1px solid #eae2d6;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(30, 27, 24, 0.05);
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.gemstone-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 40px rgba(185, 59, 77, 0.12);
+  border-color: #b93b4d;
+}
+
+.gemstone-card-media {
+  position: relative;
+  height: 220px;
+  background: #f8f5f0;
+  overflow: hidden;
+}
+
+.gemstone-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+
+.gemstone-card:hover .gemstone-img {
+  transform: scale(1.06);
+}
+
+.gemstone-planet-tag {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  background: rgba(28, 24, 21, 0.88);
+  color: #ffffff;
+  padding: 0.35rem 0.85rem;
+  border-radius: 30px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  border-left: 4px solid #b93b4d;
+  backdrop-filter: blur(4px);
+}
+
+.gemstone-card-body {
+  padding: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.stone-title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.75rem;
+}
+
+.stone-name {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #1e1b18;
+  margin: 0;
+}
+
+.stone-hindi {
+  display: block;
+  font-size: 0.85rem;
+  color: #b93b4d;
+  font-weight: 600;
+}
+
+.stone-sanskrit-tag {
+  background: #fdf2f4;
+  color: #b93b4d;
+  border: 1px solid #f8d7da;
+  padding: 0.2rem 0.6rem;
+  border-radius: 20px;
+  font-size: 0.72rem;
+  font-weight: 600;
+}
+
+.stone-meta-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.meta-pill {
+  background: #faf6f1;
+  color: #645c55;
+  border: 1px solid #e8dfd3;
+  padding: 0.25rem 0.65rem;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.stone-desc {
+  font-size: 0.88rem;
+  color: #554e48;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+}
+
+.stone-benefits-box {
+  background: #faf8f5;
+  border: 1px solid #ede4d8;
+  border-radius: 12px;
+  padding: 1rem 1.15rem;
+  margin-bottom: 1.5rem;
+  font-size: 0.82rem;
+}
+
+.stone-benefits-box strong {
+  display: block;
+  color: #1e1b18;
+  margin-bottom: 0.5rem;
+  font-size: 0.85rem;
+}
+
+.stone-benefits-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.stone-benefits-box li {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  color: #5c544d;
+  line-height: 1.45;
+}
+
+.stone-benefits-box li i {
+  color: #15803d;
+  font-size: 0.75rem;
+  margin-top: 3px;
+  flex-shrink: 0;
+}
+
+.stone-card-footer {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding-top: 1rem;
+  border-top: 1px solid #f0e8dc;
+}
+
+.stone-stock-info {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #15803d;
+  font-weight: 600;
+  font-size: 0.78rem;
+}
+
+.stock-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #15803d;
+  display: inline-block;
+}
+
+.btn-gemstone-inquire {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #15803d;
+  color: #ffffff;
+  border: none;
+  padding: 0.55rem 1.1rem;
+  border-radius: 50px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 12px rgba(22, 101, 52, 0.25);
+}
+
+.btn-gemstone-inquire:hover {
+  background: #16a34a;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(22, 101, 52, 0.35);
+}
+
+.gemstone-consultation-banner {
+  background: linear-gradient(135deg, #1e1b18 0%, #2f2520 100%);
+  color: #ffffff;
+  border-radius: 20px;
+  padding: 3rem 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.5rem;
+  box-shadow: 0 15px 40px rgba(30, 27, 24, 0.15);
+}
+
+.consultation-banner-text h2 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.85rem;
+  color: #ffffff;
+  margin-bottom: 0.75rem;
+}
+
+.consultation-banner-text p {
+  color: #dfd5ca;
+  font-size: 0.95rem;
+  line-height: 1.65;
+  margin: 0;
+  max-width: 680px;
+}
+
+.btn-gemstone-consult {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: #b93b4d;
+  color: #ffffff;
+  padding: 1rem 1.85rem;
+  border-radius: 50px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+  box-shadow: 0 8px 24px rgba(185, 59, 77, 0.35);
+  transition: all 0.3s ease;
+}
+
+.btn-gemstone-consult:hover {
+  background: #d44a5e;
+  transform: translateY(-2px);
+  color: #ffffff;
+}
+
+/* ==========================================================================
+   ACTIVE SOCIAL CONNECT & COMPACT CONTACT PAGE STYLES
+   ========================================================================== */
+
+.contact-social-bar {
+  background: #faf8f5;
+  border: 1px solid #e8dfd3;
+  border-radius: 14px;
+  padding: 1rem 1.25rem;
+  margin: 1.25rem 0;
+}
+
+.social-bar-label {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #786f67;
+  margin-bottom: 0.65rem;
+}
+
+.social-active-links {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.6rem;
+}
+
+.social-active-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 0.45rem 0.65rem;
+  border-radius: 8px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.social-active-btn.facebook {
+  background: #eef3fc;
+  color: #1877f2;
+  border: 1px solid #d4e3fb;
+}
+
+.social-active-btn.facebook:hover {
+  background: #1877f2;
+  color: #ffffff;
+}
+
+.social-active-btn.instagram {
+  background: #fdf0f5;
+  color: #e1306c;
+  border: 1px solid #fad3e3;
+}
+
+.social-active-btn.instagram:hover {
+  background: #e1306c;
+  color: #ffffff;
+}
+
+.social-active-btn.location {
+  background: #eaf7ed;
+  color: #16a34a;
+  border: 1px solid #c7ecd1;
+}
+
+.social-active-btn.location:hover {
+  background: #16a34a;
+  color: #ffffff;
+}
+
+.social-active-btn.whatsapp {
+  background: #eafaf1;
+  color: #15803d;
+  border: 1px solid #c8eed7;
+}
+
+.social-active-btn.whatsapp:hover {
+  background: #15803d;
+  color: #ffffff;
+}
+
+/* Compact single-screen contact adjustments */
+.contact-section {
+  padding: 2.5rem 0 4rem;
+}
+
+.contact-info-card {
+  padding: 2rem 2.25rem;
+}
+
+.showroom-showcase-card {
+  margin-top: 1.5rem;
+}
+
+.showroom-img-frame {
+  height: 180px;
+}
+
+/* ==========================================================================
+   HERO SLIDER BRAND BANNER & CREAM VEIL LAYER
+   ========================================================================== */
+
+.hero-circular-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-cream-veil-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at 75% 50%, rgba(253, 248, 240, 0.85) 0%, rgba(250, 242, 230, 0.45) 50%, rgba(255, 255, 255, 0) 100%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.hero-brand-top-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(253, 246, 237, 0.9) 100%);
+  border: 1px solid #e8dfd3;
+  border-radius: 50px;
+  padding: 0.45rem 1.25rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 6px 18px rgba(30, 27, 24, 0.05);
+  max-width: 580px;
+  backdrop-filter: blur(8px);
+}
+
+.hero-brand-title-strip {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.brand-crest-icon {
+  color: #b93b4d;
+  font-size: 1rem;
+}
+
+.brand-crest-text {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.05rem;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  color: #1e1b18;
+}
+
+.brand-crest-sub {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #8c8278;
+  border-left: 1px solid #dcd1c2;
+  padding-left: 8px;
+}
+
+.hero-live-clock-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #eafaf1;
+  color: #15803d;
+  border: 1px solid #c8eed7;
+  padding: 0.25rem 0.75rem;
+  border-radius: 30px;
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+.live-pulse {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #15803d;
+  display: inline-block;
+  box-shadow: 0 0 0 0 rgba(21, 128, 61, 0.7);
+  animation: pulseGreen 2s infinite;
+}
+
+@keyframes pulseGreen {
+  0% {
+    box-shadow: 0 0 0 0 rgba(21, 128, 61, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 8px rgba(21, 128, 61, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(21, 128, 61, 0);
+  }
+}
+
+/* ── Responsive rules for Navratna & Gemstones ────────────────────────── */
+@media (max-width: 1024px) {
+  .navratna-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .gemstone-consultation-banner {
+    flex-direction: column;
+    text-align: center;
+    padding: 2.5rem 2rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .navratna-grid {
+    grid-template-columns: 1fr;
+  }
+  .gemstone-page-header h1 {
+    font-size: 2rem;
+  }
+  .hero-brand-top-banner {
+    flex-direction: column;
+    gap: 0.5rem;
+    border-radius: 16px;
+    padding: 0.75rem;
+  }
+  .social-active-links {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
 
 
 

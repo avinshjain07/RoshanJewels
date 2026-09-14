@@ -216,7 +216,7 @@ export default function Contact() {
                   className="contact-quick-btn whatsapp-btn"
                 >
                   <i className="fab fa-whatsapp"></i>
-                  <span>WhatsApp Us</span>
+                  <span>WhatsApp</span>
                 </a>
                 <a href="tel:08224998809" className="contact-quick-btn call-btn">
                   <i className="fas fa-phone-alt"></i>
@@ -224,7 +224,7 @@ export default function Contact() {
                 </a>
                 <a href="mailto:jewelroshan9@gmail.com" className="contact-quick-btn email-btn">
                   <i className="fas fa-envelope"></i>
-                  <span>Email Us</span>
+                  <span>Email</span>
                 </a>
                 <a
                   href="https://maps.google.com/?q=Royal+Diamond+Building+Yeshwant+Niwas+Road+opposite+SBI+BANK+Indore+MP+452002"
@@ -235,6 +235,53 @@ export default function Contact() {
                   <i className="fas fa-directions"></i>
                   <span>Directions</span>
                 </a>
+              </div>
+
+              {/* Active Social Media & Location Connect Bar */}
+              <div className="contact-social-bar">
+                <span className="social-bar-label"><i className="fas fa-share-alt"></i> Official Connect Channels:</span>
+                <div className="social-active-links">
+                  <a
+                    href="https://facebook.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="social-active-btn facebook"
+                    title="Follow Roshan Jewels on Facebook"
+                  >
+                    <i className="fab fa-facebook-f"></i>
+                    <span>Facebook</span>
+                  </a>
+                  <a
+                    href="https://instagram.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="social-active-btn instagram"
+                    title="Follow Roshan Jewels on Instagram"
+                  >
+                    <i className="fab fa-instagram"></i>
+                    <span>Instagram</span>
+                  </a>
+                  <a
+                    href="https://maps.google.com/?q=Royal+Diamond+Building+Yeshwant+Niwas+Road+opposite+SBI+BANK+Indore+MP+452002"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="social-active-btn location"
+                    title="Google Maps Showroom Location"
+                  >
+                    <i className="fas fa-map-marker-alt"></i>
+                    <span>Location</span>
+                  </a>
+                  <a
+                    href="https://wa.me/918224998809?text=Hello%20Roshan%20Jewels!%20I%20would%20like%20to%20connect%20with%20your%20concierge."
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="social-active-btn whatsapp"
+                    title="Chat on WhatsApp"
+                  >
+                    <i className="fab fa-whatsapp"></i>
+                    <span>WhatsApp</span>
+                  </a>
+                </div>
               </div>
 
               {/* Detailed Contact List */}

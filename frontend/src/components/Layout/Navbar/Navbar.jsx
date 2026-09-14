@@ -251,14 +251,17 @@ export default function Navbar() {
                   Gold <i className="fas fa-chevron-down"></i>
                 </a>
                 <ul className="dropdown-menu">
-                  <li><Link to="/gold?filter=Rings" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Rings</Link></li>
-                  <li><Link to="/gold?filter=Earrings" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Earrings</Link></li>
-                  <li><Link to="/gold?filter=Necklace" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Necklace Set</Link></li>
-                  <li><Link to="/gold?filter=Bangle" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Bangles</Link></li>
-                  <li><Link to="/gold?filter=Bracelets" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Bracelet</Link></li>
-                  <li><Link to="/gold?filter=Pendant" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Pendant</Link></li>
-                  <li><Link to="/gold?filter=Chain" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Chain</Link></li>
+                  <li><Link to="/gold?filter=Ladies Rings" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Ladies Rings</Link></li>
+                  <li><Link to="/gold?filter=Gents Rings" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Gents Rings</Link></li>
+                  <li><Link to="/gold?filter=Earrings" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Earrings & Jhumkas</Link></li>
+                  <li><Link to="/gold?filter=Necklace" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Necklace Sets</Link></li>
+                  <li><Link to="/gold?filter=Bangle" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Bangles & Kangan</Link></li>
+                  <li><Link to="/gold?filter=Ladies Bracelets" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Ladies Bracelets</Link></li>
+                  <li><Link to="/gold?filter=Gents Kada & Patti" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Gents Kada & Patti</Link></li>
+                  <li><Link to="/gold?filter=Pendant" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Pendants</Link></li>
+                  <li><Link to="/gold?filter=Chain" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Chains</Link></li>
                   <li><Link to="/gold?filter=Mangalsutra" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Mangalsutra</Link></li>
+                  <li><Link to="/gold?filter=Bajuband" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Bajuband</Link></li>
                 </ul>
               </li>
 
@@ -279,14 +282,17 @@ export default function Navbar() {
                   Diamond <i className="fas fa-chevron-down"></i>
                 </a>
                 <ul className="dropdown-menu">
-                  <li><Link to="/diamond?filter=Rings" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Rings</Link></li>
+                  <li><Link to="/diamond?filter=Ladies Rings" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Ladies Rings</Link></li>
+                  <li><Link to="/diamond?filter=Gents Rings" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Gents Rings</Link></li>
+                  <li><Link to="/diamond?filter=Solitaire Tops" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Solitaire Tops & Studs</Link></li>
                   <li><Link to="/diamond?filter=Earrings" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Earrings</Link></li>
-                  <li><Link to="/diamond?filter=Necklace" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Sets</Link></li>
-                  <li><Link to="/diamond?filter=Bangles" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Bangles</Link></li>
-                  <li><Link to="/diamond?filter=Nose Pin" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Nose Pins</Link></li>
-                  <li><Link to="/diamond?filter=Bracelets" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Bracelets</Link></li>
+                  <li><Link to="/diamond?filter=Necklace" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Necklace Sets</Link></li>
+                  <li><Link to="/diamond?filter=Bangles" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Bangles & Eternity</Link></li>
+                  <li><Link to="/diamond?filter=Ladies Bracelets" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Ladies Bracelets</Link></li>
+                  <li><Link to="/diamond?filter=Gents Bracelets" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Gents Bracelets & Kadas</Link></li>
                   <li><Link to="/diamond?filter=Pendant Set" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Pendant Sets</Link></li>
-                  <li><Link to="/diamond?filter=Mangalsutra" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Mangalsutra</Link></li>
+                  <li><Link to="/diamond?filter=Mangalsutra" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Single Naka Mangalsutra</Link></li>
+                  <li><Link to="/diamond?filter=Nose Pin" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Nose Pins</Link></li>
                 </ul>
               </li>
 
@@ -307,25 +313,66 @@ export default function Navbar() {
                   Silver <i className="fas fa-chevron-down"></i>
                 </a>
                 <ul className="dropdown-menu">
-                  <li><Link to="/silver?filter=Rings" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Rings</Link></li>
-                  <li><Link to="/silver?filter=Earrings" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Earrings</Link></li>
-                  <li><Link to="/silver?filter=Set" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Sets</Link></li>
-                  <li><Link to="/silver?filter=Bangles" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Bangles</Link></li>
+                  <li><Link to="/silver?filter=Payal" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Payal (Anklets)</Link></li>
+                  <li><Link to="/silver?filter=Bichiya" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Bichiya (Toe Rings)</Link></li>
+                  <li><Link to="/silver?filter=Gents Rings" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Gents Silver Rings</Link></li>
+                  <li><Link to="/silver?filter=Earrings" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Earrings & Tops</Link></li>
+                  <li><Link to="/silver?filter=Necklaces" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Necklaces & Sets</Link></li>
+                  <li><Link to="/silver?filter=Bangles" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Bangles & Kadas</Link></li>
                   <li><Link to="/silver?filter=Bracelet" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Bracelets</Link></li>
-                  <li><Link to="/silver?filter=Pendant" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Pendants</Link></li>
-                  <li><Link to="/silver?filter=Payal" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Payal</Link></li>
+                  <li><Link to="/silver?filter=Pendant" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Silver Pendants</Link></li>
+                  <li><Link to="/bullion?filter=Utensils & Pooja" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Utensils & Pooja Articles</Link></li>
                 </ul>
               </li>
 
-              {/* Kundan Polki */}
-              <li>
-                <NavLink
-                  to="/kundan"
-                  className={({ isActive }) => (isActive ? 'active' : undefined)}
-                  onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}
+              {/* Kundan Polki Dropdown */}
+              <li className={`dropdown${openDropdown === 'Kundan' ? ' active' : ''}`}>
+                <a
+                  href="#"
+                  className={`dropdown-toggle${pathname.startsWith('/kundan') ? ' active' : ''}`}
+                  aria-haspopup="true"
+                  aria-expanded={openDropdown === 'Kundan'}
+                  onClick={(e) => {
+                    if (window.innerWidth <= 991) {
+                      e.preventDefault();
+                      toggleDropdown('Kundan');
+                    }
+                  }}
                 >
-                  Kundan Polki
-                </NavLink>
+                  Kundan Polki <i className="fas fa-chevron-down"></i>
+                </a>
+                <ul className="dropdown-menu">
+                  <li><Link to="/kundan?filter=Bridal Chokers" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Bridal Chokers</Link></li>
+                  <li><Link to="/kundan?filter=Necklace Set" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Maharani Necklace Sets</Link></li>
+                  <li><Link to="/kundan?filter=Kundan Jhumkas" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Kundan Jhumkas</Link></li>
+                  <li><Link to="/kundan?filter=Royal Kadas" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Royal Jadau Kadas</Link></li>
+                  <li><Link to="/kundan?filter=Maang Tikka & Passa" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Maang Tikka & Passa</Link></li>
+                </ul>
+              </li>
+
+              {/* Coins & Bullion Dropdown */}
+              <li className={`dropdown${openDropdown === 'Coins' ? ' active' : ''}`}>
+                <a
+                  href="#"
+                  className={`dropdown-toggle${pathname.startsWith('/bullion') ? ' active' : ''}`}
+                  aria-haspopup="true"
+                  aria-expanded={openDropdown === 'Coins'}
+                  onClick={(e) => {
+                    if (window.innerWidth <= 991) {
+                      e.preventDefault();
+                      toggleDropdown('Coins');
+                    }
+                  }}
+                >
+                  Coins <i className="fas fa-chevron-down"></i>
+                </a>
+                <ul className="dropdown-menu">
+                  <li><Link to="/bullion?filter=Gold Coins" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>24K Gold Coins (1g – 100g)</Link></li>
+                  <li><Link to="/bullion?filter=Silver Coins" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>999 Silver Coins (5g – 50g)</Link></li>
+                  <li><Link to="/bullion?filter=Silver Bars" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>999 Silver Bars (100g – 1kg)</Link></li>
+                  <li><Link to="/bullion?filter=Utensils & Pooja" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Silver Pooja & Utensils</Link></li>
+                  <li><Link to="/bullion?filter=Gifting Articles" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Gifting & Shagun Articles</Link></li>
+                </ul>
               </li>
 
               {/* Beads */}
