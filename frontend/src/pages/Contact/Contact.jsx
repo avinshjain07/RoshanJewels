@@ -227,7 +227,7 @@ export default function Contact() {
                   <span>Email</span>
                 </a>
                 <a
-                  href="https://maps.google.com/?q=Royal+Diamond+Building+Yeshwant+Niwas+Road+opposite+SBI+BANK+Indore+MP+452002"
+                  href="https://maps.google.com/?q=Roshan+Jewel,+UG-02+03+Royal+Diamond+Building,+Yeshwant+Niwas+Road,+Opposite+SBI+Bank,+Indore,+Madhya+Pradesh+452002"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="contact-quick-btn map-btn"
@@ -262,7 +262,7 @@ export default function Contact() {
                     <span>Instagram</span>
                   </a>
                   <a
-                    href="https://maps.google.com/?q=Royal+Diamond+Building+Yeshwant+Niwas+Road+opposite+SBI+BANK+Indore+MP+452002"
+                    href="https://maps.google.com/?q=Roshan+Jewel,+UG-02+03+Royal+Diamond+Building,+Yeshwant+Niwas+Road,+Opposite+SBI+Bank,+Indore,+Madhya+Pradesh+452002"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="social-active-btn location"
@@ -416,7 +416,7 @@ export default function Contact() {
                 </div>
 
                 <a
-                  href="https://maps.google.com/?q=Royal+Diamond+Building+Yeshwant+Niwas+Road+opposite+SBI+BANK+Indore+MP+452002"
+                  href="https://maps.google.com/?q=Roshan+Jewel,+UG-02+03+Royal+Diamond+Building,+Yeshwant+Niwas+Road,+Opposite+SBI+Bank,+Indore,+Madhya+Pradesh+452002"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-open-maps"
@@ -715,6 +715,45 @@ export default function Contact() {
                   </div>
                 </div>
               )}
+
+              {/* Bespoke Atelier Privileges Card (Utilizes space & reinforces trust) */}
+              <div className="atelier-privileges-card">
+                <div className="privileges-header">
+                  <span className="privileges-badge"><i className="fas fa-crown"></i> ATELIER PRIVILEGES</span>
+                  <h4>Why Visit &amp; Consult With Roshan Jewel?</h4>
+                  <p>Experience personalized care and bespoke mastery curated across three generations in Indore</p>
+                </div>
+                <div className="privileges-grid">
+                  <div className="privilege-box">
+                    <div className="privilege-icon"><i className="fas fa-cube"></i></div>
+                    <div className="privilege-info">
+                      <strong>3D CAD Renders &amp; Custom Casting</strong>
+                      <p>Preview photorealistic 3D models before our master karigars craft your design in 22K gold or platinum.</p>
+                    </div>
+                  </div>
+                  <div className="privilege-box">
+                    <div className="privilege-icon"><i className="fas fa-certificate"></i></div>
+                    <div className="privilege-info">
+                      <strong>100% Certified Diamonds &amp; BIS 916</strong>
+                      <p>Every solitaire and gold piece comes with full IGI / GIA lab reports and government HUID hallmarking.</p>
+                    </div>
+                  </div>
+                  <div className="privilege-box">
+                    <div className="privilege-icon"><i className="fas fa-sync-alt"></i></div>
+                    <div className="privilege-info">
+                      <strong>Guaranteed Buyback &amp; Exchange</strong>
+                      <p>100% transparent market rate buyback and lifetime upgrade privileges on all Roshan jewellery.</p>
+                    </div>
+                  </div>
+                  <div className="privilege-box">
+                    <div className="privilege-icon"><i className="fas fa-couch"></i></div>
+                    <div className="privilege-info">
+                      <strong>Private VIP Bridal Lounge &amp; High Tea</strong>
+                      <p>Enjoy unhurried, private appointments with complimentary gourmet high tea and dedicated valet parking.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

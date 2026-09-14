@@ -51,10 +51,10 @@ export default function Footer() {
                 <i className="fab fa-whatsapp"></i>
               </a>
               <a
-                href="https://maps.google.com/?q=UG+2,3+Royal+Diamond+Building+Yeshwant+Niwas+Road+Indore"
+                href="https://maps.google.com/?q=Roshan+Jewel,+UG-02+03+Royal+Diamond+Building,+Yeshwant+Niwas+Road,+Opposite+SBI+Bank,+Indore,+Madhya+Pradesh+452002"
                 target="_blank"
                 rel="noreferrer"
-                title="Find us on Google Maps"
+                title="Find Roshan Jewel on Google Maps"
               >
                 <i className="fas fa-map-marker-alt"></i>
               </a>
@@ -78,24 +78,33 @@ export default function Footer() {
           {/* Contact Info */}
           <div className="footer-contact">
             <h4>Contact Us</h4>
-            <p className="numeric-text">
-              <i className="fas fa-map-marker-alt"></i> UG-02, 03, Royal Diamond
-              Building, Yeshwant Niwas Road, Opposite SBI Bank, Sanghi Colony,
-              Yeshwant Colony, Indore, MP – <span className="slashed-zero">452002</span>
-            </p>
-            <p>
-              <i className="fas fa-phone"></i>{' '}
+            <div className="footer-contact-item">
+              <i className="fas fa-map-marker-alt"></i>
+              <a
+                href="https://maps.google.com/?q=Roshan+Jewel,+UG-02+03+Royal+Diamond+Building,+Yeshwant+Niwas+Road,+Opposite+SBI+Bank,+Indore,+Madhya+Pradesh+452002"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="footer-address-link"
+              >
+                UG-02, 03, Royal Diamond Building, Yeshwant Niwas Road, Opposite SBI Bank, Sanghi Colony, Yeshwant Colony, Indore, MP – 452002
+              </a>
+            </div>
+            <div className="footer-contact-item">
+              <i className="fas fa-phone"></i>
               <a href="tel:08224998809" className="numeric-text">+91 82249 98809</a>
-            </p>
-            <p>
-              <i className="fas fa-envelope"></i> jewelroshan9@gmail.com
-            </p>
-            <p className="numeric-text">
-              <i className="fas fa-clock"></i> Monday – Sunday: 11:30 AM – 08:30 PM
-            </p>
-            <p>
-              <i className="fas fa-calendar-alt"></i> Open 7 days a week
-            </p>
+            </div>
+            <div className="footer-contact-item">
+              <i className="fas fa-envelope"></i>
+              <a href="mailto:jewelroshan9@gmail.com">jewelroshan9@gmail.com</a>
+            </div>
+            <div className="footer-contact-item">
+              <i className="fas fa-clock"></i>
+              <span className="numeric-text">Monday – Sunday: 11:30 AM – 08:30 PM</span>
+            </div>
+            <div className="footer-contact-item">
+              <i className="fas fa-calendar-alt"></i>
+              <span>Open 7 days a week</span>
+            </div>
           </div>
         </div>
 

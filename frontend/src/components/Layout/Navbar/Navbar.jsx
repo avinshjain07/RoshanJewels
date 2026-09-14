@@ -93,7 +93,7 @@ export default function Navbar() {
             <span>
               <i className="fas fa-map-marker-alt"></i>{' '}
               <a
-                href="https://maps.google.com/?q=Royal+Diamond+Building+Yeshwant+Niwas+Road+opposite+SBI+BANK+Indore+MP+452002"
+                href="https://maps.google.com/?q=Roshan+Jewel,+UG-02+03+Royal+Diamond+Building,+Yeshwant+Niwas+Road,+Opposite+SBI+Bank,+Indore,+Madhya+Pradesh+452002"
                 target="_blank"
                 rel="noreferrer"
               >

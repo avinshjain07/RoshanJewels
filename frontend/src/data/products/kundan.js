@@ -83,7 +83,7 @@ export const kundanProducts = [
     "subcategory": "Kundan Jhumkas",
     "type": "Kundan Jhumkas",
     "images": [
-      "/WEBSITE PHOTO NEW/GOLD EARRING/gold-earrings-2.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD EARRING/gold-earring-2.jpeg"
     ],
     "description": "Elaborate tiered wedding jhumkas with pearl tassel clusters and uncut polki tops.",
     "badge": "POPULAR",
@@ -102,7 +102,7 @@ export const kundanProducts = [
     "subcategory": "Kundan Jhumkas",
     "type": "Kundan Jhumkas",
     "images": [
-      "/WEBSITE PHOTO NEW/GOLD EARRING/gold-earrings-1.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD EARRING/gold-earring-1.jpeg"
     ],
     "description": "Peacock finial Jadau earrings with vivid green and blue enamel work.",
     "badge": null,

@@ -7,7 +7,7 @@ export const silverProducts = [
     "subcategory": "Silver Payal",
     "type": "Payal",
     "images": [
-      "/WEBSITE PHOTO NEW/silver product/PAYAL/WhatsApp Image 2026-07-23 at 3.37.16 PM (1).jpeg"
+      "/WEBSITE PHOTO NEW/silver product/PAYAL/WhatsApp Image 2026-07-23 at 3.37.17 PM.jpeg"
     ],
     "description": "Traditional Indian bridal silver anklets with tinkling musical ghunghroos and high-purity sterling silver lustre.",
     "badge": "NEW",
@@ -25,7 +25,7 @@ export const silverProducts = [
     "subcategory": "Silver Payal",
     "type": "Payal",
     "images": [
-      "/WEBSITE PHOTO NEW/silver product/PAYAL/WhatsApp Image 2026-07-23 at 3.37.16 PM (2).jpeg"
+      "/WEBSITE PHOTO NEW/silver product/PAYAL/WhatsApp Image 2026-07-23 at 3.37.18 PM (1).jpeg"
     ],
     "description": "Hand-enameled royal floral motifs on flexible solid sterling silver mesh band.",
     "badge": "BEST SELLER",
@@ -43,7 +43,7 @@ export const silverProducts = [
     "subcategory": "Silver Payal",
     "type": "Payal",
     "images": [
-      "/WEBSITE PHOTO NEW/silver product/PAYAL/WhatsApp Image 2026-07-23 at 3.37.17 PM (1).jpeg"
+      "/WEBSITE PHOTO NEW/silver product/PAYAL/WhatsApp Image 2026-07-23 at 3.37.18 PM (2).jpeg"
     ],
     "description": "Heavy solid silver broad bridal chhad anklet handcrafted in traditional Rajputana silversmithing.",
     "badge": null,
@@ -61,7 +61,7 @@ export const silverProducts = [
     "subcategory": "Silver Payal",
     "type": "Payal",
     "images": [
-      "/WEBSITE PHOTO NEW/silver product/PAYAL/WhatsApp Image 2026-07-23 at 3.37.17 PM (2).jpeg"
+      "/WEBSITE PHOTO NEW/silver product/PAYAL/WhatsApp Image 2026-07-23 at 3.37.18 PM.jpeg"
     ],
     "description": "Lightweight, snag-free sterling silver chain payal perfect for modern daily and college wear.",
     "badge": null,
@@ -79,7 +79,7 @@ export const silverProducts = [
     "subcategory": "Silver Payal",
     "type": "Payal",
     "images": [
-      "/WEBSITE PHOTO NEW/silver product/PAYAL/WhatsApp Image 2026-07-23 at 3.37.18 PM (1).jpeg"
+      "/WEBSITE PHOTO NEW/silver product/PAYAL/WhatsApp Image 2026-07-23 at 3.37.19 PM (1).jpeg"
     ],
     "description": "Vintage matte oxidised finish anklet with engraved peacock and temple scroll motifs.",
     "badge": null,
@@ -97,7 +97,7 @@ export const silverProducts = [
     "subcategory": "Silver Payal",
     "type": "Payal",
     "images": [
-      "/WEBSITE PHOTO NEW/silver product/PAYAL/WhatsApp Image 2026-07-23 at 3.37.18 PM (2).jpeg"
+      "/WEBSITE PHOTO NEW/silver product/PAYAL/WhatsApp Image 2026-07-23 at 3.37.19 PM (2).jpeg"
     ],
     "description": "Festive silver anklet with delicate jingle bells and rhodium tarnish-resistant coating.",
     "badge": null,
@@ -115,7 +115,7 @@ export const silverProducts = [
     "subcategory": "Silver Payal",
     "type": "Payal",
     "images": [
-      "/WEBSITE PHOTO NEW/silver product/PAYAL/WhatsApp Image 2026-07-23 at 3.37.19 PM (1).jpeg"
+      "/WEBSITE PHOTO NEW/silver product/PAYAL/WhatsApp Image 2026-07-23 at 3.37.19 PM.jpeg"
     ],
     "description": "Chic wave-link silver anklet adorned with shimmering silver drop beads.",
     "badge": null,
@@ -133,7 +133,7 @@ export const silverProducts = [
     "subcategory": "Silver Bichiya",
     "type": "Bichiya",
     "images": [
-      "/WEBSITE PHOTO NEW/silver product/RING/WhatsApp Image 2026-07-23 at 3.37.19 PM (2).jpeg"
+      "/WEBSITE PHOTO NEW/silver product/RING/WhatsApp Image 2026-07-23 at 3.37.22 PM (2).jpeg"
     ],
     "description": "Auspicious bridal toe rings handcrafted in 925 silver with colorful red & green meenakari enamel.",
     "badge": "NEW",
@@ -151,7 +151,7 @@ export const silverProducts = [
     "subcategory": "Silver Bichiya",
     "type": "Bichiya",
     "images": [
-      "/WEBSITE PHOTO NEW/silver product/RING/WhatsApp Image 2026-07-23 at 3.37.20 PM (1).jpeg"
+      "/WEBSITE PHOTO NEW/silver product/RING/WhatsApp Image 2026-07-23 at 3.37.22 PM.jpeg"
     ],
     "description": "Comfortable free-size adjustable silver toe rings with blooming lotus flower center.",
     "badge": "POPULAR",
@@ -169,7 +169,7 @@ export const silverProducts = [
     "subcategory": "Silver Bichiya",
     "type": "Bichiya",
     "images": [
-      "/WEBSITE PHOTO NEW/silver product/RING/WhatsApp Image 2026-07-23 at 3.37.20 PM (2).jpeg"
+      "/WEBSITE PHOTO NEW/silver product/RING/WhatsApp Image 2026-07-23 at 3.37.23 PM (1).jpeg"
     ],
     "description": "Vintage tribal finish peacock carved silver toe rings with antique oxidized patina.",
     "badge": null,
@@ -187,7 +187,7 @@ export const silverProducts = [
     "subcategory": "Silver Bichiya",
     "type": "Bichiya",
     "images": [
-      "/WEBSITE PHOTO NEW/silver product/RING/WhatsApp Image 2026-07-23 at 3.37.21 PM (1).jpeg"
+      "/WEBSITE PHOTO NEW/silver product/RING/WhatsApp Image 2026-07-23 at 3.37.23 PM (2).jpeg"
     ],
     "description": "Imperial tiara patterned toe rings in pure 925 sterling silver with mirror finish.",
     "badge": null,
@@ -205,7 +205,7 @@ export const silverProducts = [
     "subcategory": "Gents Silver Rings",
     "type": "Gents Rings",
     "images": [
-      "/WEBSITE PHOTO NEW/silver product/RING/WhatsApp Image 2026-07-23 at 3.37.21 PM (2).jpeg"
+      "/WEBSITE PHOTO NEW/silver product/RING/WhatsApp Image 2026-07-23 at 3.37.23 PM.jpeg"
     ],
     "description": "Solid heavy sterling silver gents signet ring with engraved Shiva trishul motif.",
     "badge": "NEW",
@@ -223,7 +223,7 @@ export const silverProducts = [
     "subcategory": "Gents Silver Rings",
     "type": "Gents Rings",
     "images": [
-      "/WEBSITE PHOTO NEW/silver product/RING/WhatsApp Image 2026-07-23 at 3.37.22 PM (1).jpeg"
+      "/WEBSITE PHOTO NEW/silver product/RING/WhatsApp Image 2026-07-23 at 3.37.24 PM (1).jpeg"
     ],
     "description": "Sacred embossed Om symbol on a brushed sterling silver broad band.",
     "badge": "POPULAR",
@@ -241,7 +241,7 @@ export const silverProducts = [
     "subcategory": "Gents Silver Rings",
     "type": "Gents Rings",
     "images": [
-      "/WEBSITE PHOTO NEW/silver product/RING/WhatsApp Image 2026-07-23 at 3.37.22 PM (2).jpeg"
+      "/WEBSITE PHOTO NEW/silver product/RING/WhatsApp Image 2026-07-23 at 3.37.24 PM (2).jpeg"
     ],
     "description": "Sunburst emblem signet ring with black enamel accents and comfort fit shank.",
     "badge": null,
@@ -259,7 +259,7 @@ export const silverProducts = [
     "subcategory": "Gents Silver Rings",
     "type": "Gents Rings",
     "images": [
-      "/WEBSITE PHOTO NEW/silver product/RING/WhatsApp Image 2026-07-23 at 3.37.23 PM (1).jpeg"
+      "/WEBSITE PHOTO NEW/silver product/RING/WhatsApp Image 2026-07-23 at 3.37.24 PM.jpeg"
     ],
     "description": "Clean executive flat-top silver ring with polished bevelled edges.",
     "badge": null,
@@ -277,7 +277,7 @@ export const silverProducts = [
     "subcategory": "Silver Necklaces",
     "type": "Necklaces",
     "images": [
-      "/WEBSITE PHOTO NEW/silver product/NECKLESS/WhatsApp Image 2026-07-23 at 3.37.13 PM (1).jpeg"
+      "/WEBSITE PHOTO NEW/silver product/NECKLESS/WhatsApp Image 2026-07-23 at 3.37.30 PM (1).jpeg"
     ],
     "description": "Royal rigid torque hasli handcrafted in 925 sterling silver with engraved floral caps.",
     "badge": "NEW",
@@ -295,7 +295,7 @@ export const silverProducts = [
     "subcategory": "Silver Necklaces",
     "type": "Necklaces",
     "images": [
-      "/WEBSITE PHOTO NEW/silver product/NECKLESS/WhatsApp Image 2026-07-23 at 3.37.13 PM (2).jpeg"
+      "/WEBSITE PHOTO NEW/silver product/NECKLESS/WhatsApp Image 2026-07-23 at 3.37.30 PM (2).jpeg"
     ],
     "description": "Heritage temple jewellery necklace with Goddess Lakshmi centerpiece in oxidised 925 silver.",
     "badge": "BEST SELLER",
@@ -313,7 +313,7 @@ export const silverProducts = [
     "subcategory": "Silver Necklaces",
     "type": "Necklaces",
     "images": [
-      "/WEBSITE PHOTO NEW/silver product/NECKLESS/WhatsApp Image 2026-07-23 at 3.37.14 PM (1).jpeg"
+      "/WEBSITE PHOTO NEW/silver product/NECKLESS/WhatsApp Image 2026-07-23 at 3.37.30 PM.jpeg"
     ],
     "description": "Close-fitting silver collar adorned with Jaipur meenakari colors and pearl fringe.",
     "badge": null,
@@ -331,7 +331,7 @@ export const silverProducts = [
     "subcategory": "Silver Necklaces",
     "type": "Necklaces",
     "images": [
-      "/WEBSITE PHOTO NEW/silver product/NECKLESS/WhatsApp Image 2026-07-23 at 3.37.14 PM (2).jpeg"
+      "/WEBSITE PHOTO NEW/silver product/NECKLESS/WhatsApp Image 2026-07-23 at 3.37.31 PM (1).jpeg"
     ],
     "description": "Intricate silver lace filigree necklace with tiered cascading drop pendants.",
     "badge": null,
@@ -349,7 +349,7 @@ export const silverProducts = [
     "subcategory": "Silver Necklaces",
     "type": "Necklaces",
     "images": [
-      "/WEBSITE PHOTO NEW/silver product/NECKLESS/WhatsApp Image 2026-07-23 at 3.37.15 PM (1).jpeg"
+      "/WEBSITE PHOTO NEW/silver product/NECKLESS/WhatsApp Image 2026-07-23 at 3.37.31 PM (2).jpeg"
     ],
     "description": "28-inch dramatic tribal long necklace with etched lotus medallions and coin drops.",
     "badge": null,
@@ -367,7 +367,7 @@ export const silverProducts = [
     "subcategory": "Silver Necklaces",
     "type": "Necklaces",
     "images": [
-      "/WEBSITE PHOTO NEW/silver product/NECKLESS/WhatsApp Image 2026-07-23 at 3.37.15 PM (2).jpeg"
+      "/WEBSITE PHOTO NEW/silver product/NECKLESS/WhatsApp Image 2026-07-23 at 3.37.31 PM.jpeg"
     ],
     "description": "Sleek rhodium-plated sterling silver chain necklace with sparkling cubic zirconia solitaire drop.",
     "badge": null,
@@ -385,7 +385,7 @@ export const silverProducts = [
     "subcategory": "Silver Necklaces",
     "type": "Necklaces",
     "images": [
-      "/WEBSITE PHOTO NEW/silver product/NECKLESS/WhatsApp Image 2026-07-23 at 3.37.15 PM (3).jpeg"
+      "/WEBSITE PHOTO NEW/silver product/NECKLESS/WhatsApp Image 2026-07-23 at 3.37.30 PM (1).jpeg"
     ],
     "description": "Complete festive silver choker necklace with matching dangle jhumka earrings.",
     "badge": null,
@@ -439,7 +439,7 @@ export const silverProducts = [
     "subcategory": "Silver Bracelet",
     "type": "Bracelet",
     "images": [
-      "/WEBSITE PHOTO NEW/silver product/BRACLATE/WhatsApp Image 2026-07-23 at 3.37.12 PM (3).jpeg"
+      "/WEBSITE PHOTO NEW/silver product/BRACLATE/WhatsApp Image 2026-07-23 at 3.37.09 PM.jpeg"
     ],
     "description": "Chunky vintage cuff bracelet in pure oxidised 925 silver with floral carvings.",
     "badge": null,
@@ -457,7 +457,7 @@ export const silverProducts = [
     "subcategory": "Silver Bracelet",
     "type": "Bracelet",
     "images": [
-      "/WEBSITE PHOTO NEW/silver product/BRACLATE/WhatsApp Image 2026-07-23 at 3.37.13 PM (1).jpeg"
+      "/WEBSITE PHOTO NEW/silver product/BRACLATE/WhatsApp Image 2026-07-23 at 3.37.10 PM (1).jpeg"
     ],
     "description": "Contemporary sterling silver link bracelet with hanging evil-eye and floral charms.",
     "badge": null,
@@ -475,7 +475,7 @@ export const silverProducts = [
     "subcategory": "Silver Pendant",
     "type": "Pendant",
     "images": [
-      "/WEBSITE PHOTO NEW/silver product/PANDENT/silver-pendant-1.jpeg"
+      "/WEBSITE PHOTO NEW/silver product/PANDENT/WhatsApp Image 2026-07-23 at 3.37.07 PM (1).jpeg"
     ],
     "description": "Devotional Lord Shiva Trishul & Damru pendant in pure 925 sterling silver.",
     "badge": "NEW",
@@ -493,7 +493,7 @@ export const silverProducts = [
     "subcategory": "Silver Pendant",
     "type": "Pendant",
     "images": [
-      "/WEBSITE PHOTO NEW/silver product/PANDENT/silver-pendant-2.jpeg"
+      "/WEBSITE PHOTO NEW/silver product/PANDENT/WhatsApp Image 2026-07-23 at 3.37.07 PM (2).jpeg"
     ],
     "description": "Auspicious Goddess Lakshmi seated on a lotus in high-relief sterling silver.",
     "badge": "BEST SELLER",
@@ -511,7 +511,7 @@ export const silverProducts = [
     "subcategory": "Silver Pendant",
     "type": "Pendant",
     "images": [
-      "/WEBSITE PHOTO NEW/silver product/PANDENT/silver-pendant-3.jpeg"
+      "/WEBSITE PHOTO NEW/silver product/PANDENT/WhatsApp Image 2026-07-23 at 3.37.07 PM.jpeg"
     ],
     "description": "Lord Ganesha carved medallion in high-shine 925 silver bringing luck and obstacle removal.",
     "badge": null,
@@ -529,7 +529,7 @@ export const silverProducts = [
     "subcategory": "Silver Pendant",
     "type": "Pendant",
     "images": [
-      "/WEBSITE PHOTO NEW/silver product/PANDENT/silver-pendant-4.jpeg"
+      "/WEBSITE PHOTO NEW/silver product/PANDENT/WhatsApp Image 2026-07-23 at 3.37.08 PM (1).jpeg"
     ],
     "description": "Radiant sunburst Om pendant with diamond-cut edge highlights in sterling silver.",
     "badge": null,
@@ -547,7 +547,7 @@ export const silverProducts = [
     "subcategory": "Silver Pendant",
     "type": "Pendant",
     "images": [
-      "/WEBSITE PHOTO NEW/silver product/PANDENT/silver-pendant-5.jpeg"
+      "/WEBSITE PHOTO NEW/silver product/PANDENT/WhatsApp Image 2026-07-23 at 3.37.08 PM.jpeg"
     ],
     "description": "Intricate Kalpavriksha tree medallion representing growth, family, and prosperity.",
     "badge": null,
@@ -565,7 +565,7 @@ export const silverProducts = [
     "subcategory": "Silver Pendant",
     "type": "Pendant",
     "images": [
-      "/WEBSITE PHOTO NEW/silver product/PANDENT/silver-pendant-6.jpeg"
+      "/WEBSITE PHOTO NEW/silver product/PANDENT/WhatsApp Image 2026-07-23 at 3.37.09 PM (1).jpeg"
     ],
     "description": "Intricately etched Radha Krishna flute duo in antique finish sterling silver.",
     "badge": null,
@@ -583,7 +583,7 @@ export const silverProducts = [
     "subcategory": "Silver Pendant",
     "type": "Pendant",
     "images": [
-      "/WEBSITE PHOTO NEW/silver product/PANDENT/silver-pendant-7.jpeg"
+      "/WEBSITE PHOTO NEW/silver product/PANDENT/WhatsApp Image 2026-07-23 at 3.37.09 PM (2).jpeg"
     ],
     "description": "Sacred protective Hanuman Ji medallion with miniature nano-lens scripture.",
     "badge": null,
@@ -601,7 +601,7 @@ export const silverProducts = [
     "subcategory": "Silver Earrings",
     "type": "Earrings",
     "images": [
-      "/WEBSITE PHOTO NEW/silver product/TOPS, EARRINGS/WhatsApp Image 2026-07-23 at 3.37.23 PM (2).jpeg"
+      "/WEBSITE PHOTO NEW/silver product/TOPS, EARRINGS/WhatsApp Image 2026-07-23 at 3.37.25 PM (2).jpeg"
     ],
     "description": "Charming dailywear bell jhumkas with oxidized detailing and hanging silver beads.",
     "badge": "NEW",
@@ -619,7 +619,7 @@ export const silverProducts = [
     "subcategory": "Silver Earrings",
     "type": "Earrings",
     "images": [
-      "/WEBSITE PHOTO NEW/silver product/TOPS, EARRINGS/WhatsApp Image 2026-07-23 at 3.37.24 PM (1).jpeg"
+      "/WEBSITE PHOTO NEW/silver product/TOPS, EARRINGS/WhatsApp Image 2026-07-23 at 3.37.26 PM (1).jpeg"
     ],
     "description": "Crescent moon royal tribal earrings with wire filigree and ghunghroo bells.",
     "badge": "BEST SELLER",
@@ -637,7 +637,7 @@ export const silverProducts = [
     "subcategory": "Silver Earrings",
     "type": "Earrings",
     "images": [
-      "/WEBSITE PHOTO NEW/silver product/TOPS, EARRINGS/WhatsApp Image 2026-07-23 at 3.37.24 PM (2).jpeg"
+      "/WEBSITE PHOTO NEW/silver product/TOPS, EARRINGS/WhatsApp Image 2026-07-23 at 3.37.26 PM (2).jpeg"
     ],
     "description": "Peacock tops with dangling silver coin drops in pure sterling silver.",
     "badge": null,
@@ -655,7 +655,7 @@ export const silverProducts = [
     "subcategory": "Silver Earrings",
     "type": "Earrings",
     "images": [
-      "/WEBSITE PHOTO NEW/silver product/TOPS, EARRINGS/WhatsApp Image 2026-07-23 at 3.37.25 PM (1).jpeg"
+      "/WEBSITE PHOTO NEW/silver product/TOPS, EARRINGS/WhatsApp Image 2026-07-23 at 3.37.26 PM.jpeg"
     ],
     "description": "Rhodium-finished dailywear CZ solitaire tops in 925 silver with screw back.",
     "badge": null,
@@ -673,7 +673,7 @@ export const silverProducts = [
     "subcategory": "Silver Earrings",
     "type": "Earrings",
     "images": [
-      "/WEBSITE PHOTO NEW/silver product/TOPS, EARRINGS/WhatsApp Image 2026-07-23 at 3.37.25 PM (2).jpeg"
+      "/WEBSITE PHOTO NEW/silver product/TOPS, EARRINGS/WhatsApp Image 2026-07-23 at 3.37.27 PM (1).jpeg"
     ],
     "description": "Lightweight articulated lotus earrings in bright polish 925 silver.",
     "badge": null,
@@ -691,7 +691,7 @@ export const silverProducts = [
     "subcategory": "Silver Earrings",
     "type": "Earrings",
     "images": [
-      "/WEBSITE PHOTO NEW/silver product/TOPS, EARRINGS/WhatsApp Image 2026-07-23 at 3.37.26 PM (1).jpeg"
+      "/WEBSITE PHOTO NEW/silver product/TOPS, EARRINGS/WhatsApp Image 2026-07-23 at 3.37.27 PM (2).jpeg"
     ],
     "description": "Twisted wirework traditional silver balis with secure click-top closure.",
     "badge": null,
@@ -709,7 +709,7 @@ export const silverProducts = [
     "subcategory": "Silver Earrings",
     "type": "Earrings",
     "images": [
-      "/WEBSITE PHOTO NEW/silver product/TOPS, EARRINGS/WhatsApp Image 2026-07-23 at 3.37.26 PM (2).jpeg"
+      "/WEBSITE PHOTO NEW/silver product/TOPS, EARRINGS/WhatsApp Image 2026-07-23 at 3.37.27 PM.jpeg"
     ],
     "description": "Dramatic statement evening chandelier earrings with swaying silver fringe.",
     "badge": null,

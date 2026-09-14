@@ -223,7 +223,7 @@ export const goldProducts = [
     "subcategory": "Gold Bangle",
     "type": "Bangle",
     "images": [
-      "/WEBSITE PHOTO NEW/GOLD BANGLE/gold-bangle-9.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD BANGLE/gold-bangle-1.jpeg"
     ],
     "description": "Traditional dailywear thin gold gajra bangles crafted in sturdy solid 22K hallmarked gold.",
     "badge": null,
@@ -241,7 +241,7 @@ export const goldProducts = [
     "subcategory": "Gold Bangle",
     "type": "Bangle",
     "images": [
-      "/WEBSITE PHOTO NEW/GOLD BANGLE/gold-bangle-10.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD BANGLE/gold-bangle-2.jpeg"
     ],
     "description": "Dual-tone textured and mirror-polished gold kangan designed for the modern royal bride.",
     "badge": null,
@@ -259,7 +259,7 @@ export const goldProducts = [
     "subcategory": "Gold Earrings",
     "type": "Earrings",
     "images": [
-      "/WEBSITE PHOTO NEW/GOLD EARRING/gold-earrings-1.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD EARRING/gold-earring-1.jpeg"
     ],
     "description": "Grand traditional bell jhumka with antique finish, intricate wirework, and delicate pearl tassels.",
     "badge": "NEW",
@@ -277,7 +277,7 @@ export const goldProducts = [
     "subcategory": "Gold Earrings",
     "type": "Earrings",
     "images": [
-      "/WEBSITE PHOTO NEW/GOLD EARRING/gold-earrings-2.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD EARRING/gold-earring-2.jpeg"
     ],
     "description": "Crescent moon royal chandbalis with layered filigree and hanging ghunghroo drops.",
     "badge": "BEST SELLER",
@@ -295,7 +295,7 @@ export const goldProducts = [
     "subcategory": "Gold Earrings",
     "type": "Earrings",
     "images": [
-      "/WEBSITE PHOTO NEW/GOLD EARRING/gold-earrings-3.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD EARRING/gold-earring-3.jpeg"
     ],
     "description": "Graceful peacock stud descending into a chiseled gold temple dome drop.",
     "badge": null,
@@ -313,7 +313,7 @@ export const goldProducts = [
     "subcategory": "Gold Earrings",
     "type": "Earrings",
     "images": [
-      "/WEBSITE PHOTO NEW/GOLD EARRING/gold-earrings-4.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD EARRING/gold-earring-4.jpeg"
     ],
     "description": "Exquisite dailywear lotus bloom studs in rich 22K yellow gold with secure screw backs.",
     "badge": null,
@@ -331,7 +331,7 @@ export const goldProducts = [
     "subcategory": "Gold Earrings",
     "type": "Earrings",
     "images": [
-      "/WEBSITE PHOTO NEW/GOLD EARRING/gold-earrings-5.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD EARRING/gold-earring-5.jpeg"
     ],
     "description": "Three-tiered cascading gold chandelier earrings engineered with lightweight fluidity.",
     "badge": null,
@@ -349,7 +349,7 @@ export const goldProducts = [
     "subcategory": "Gold Earrings",
     "type": "Earrings",
     "images": [
-      "/WEBSITE PHOTO NEW/GOLD EARRING/gold-earrings-6.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD EARRING/gold-earring-6.jpeg"
     ],
     "description": "Slender gold threader earrings with delicate leaf drops that sway gracefully with movement.",
     "badge": null,
@@ -367,7 +367,7 @@ export const goldProducts = [
     "subcategory": "Gold Earrings",
     "type": "Earrings",
     "images": [
-      "/WEBSITE PHOTO NEW/GOLD EARRING/gold-earrings-7.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD EARRING/gold-earring-7.jpeg"
     ],
     "description": "Modern geometric teardrop earrings blending matte satin texture and mirror facets.",
     "badge": null,
@@ -385,7 +385,7 @@ export const goldProducts = [
     "subcategory": "Gold Earrings",
     "type": "Earrings",
     "images": [
-      "/WEBSITE PHOTO NEW/GOLD EARRING/gold-earrings-8.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD EARRING/gold-earring-8.jpeg"
     ],
     "description": "Royal bridal jhumkas featuring floral tops and layered filigree cupolas.",
     "badge": null,
@@ -403,7 +403,7 @@ export const goldProducts = [
     "subcategory": "Gold Earrings",
     "type": "Earrings",
     "images": [
-      "/WEBSITE PHOTO NEW/GOLD EARRING/gold-earrings-9.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD EARRING/gold-earring-9.jpeg"
     ],
     "description": "Timeless round gold hoop balis with etched sunburst grooves and secure latch clasp.",
     "badge": null,
@@ -421,7 +421,7 @@ export const goldProducts = [
     "subcategory": "Gold Earrings",
     "type": "Earrings",
     "images": [
-      "/WEBSITE PHOTO NEW/GOLD EARRING/gold-earrings-10.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD EARRING/gold-earring-10.jpeg"
     ],
     "description": "Charming blooming lotus tops with micro-granule embellishments and high-sheen polish.",
     "badge": null,
@@ -439,7 +439,7 @@ export const goldProducts = [
     "subcategory": "Gold Earrings",
     "type": "Earrings",
     "images": [
-      "/WEBSITE PHOTO NEW/GOLD EARRING/gold-earrings-11.jpeg"
+      "/WEBSITE PHOTO NEW/GOLD EARRING/gold-earring-1.jpeg"
     ],
     "description": "Opulent multi-tiered bridal jhumkas with elaborate ear-chain extensions.",
     "badge": null,
