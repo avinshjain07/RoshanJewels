@@ -9175,35 +9175,628 @@ textarea.form-control {
   }
 }
 
-/* ── Responsive rules for Navratna & Gemstones ────────────────────────── */
-@media (max-width: 1024px) {
-  .navratna-grid {
-    grid-template-columns: repeat(2, 1fr);
+/* ==========================================================================
+   MASTER LUXURY MOBILE RESPONSIVE EXPERIENCE SYSTEM (ROSHAN JEWELS)
+   ========================================================================== */
+
+/* ── Global Viewport, Touch & Container Tweaks ────────────────────────── */
+@media (max-width: 991px) {
+  html, body {
+    overflow-x: hidden;
+    -webkit-text-size-adjust: 100%;
   }
-  .gemstone-consultation-banner {
-    flex-direction: column;
-    text-align: center;
-    padding: 2.5rem 2rem;
+
+  .container {
+    padding: 0 1.25rem !important;
+  }
+
+  /* Compact Top Bar on Tablets & Phones */
+  .top-info {
+    padding: 0.4rem 0 !important;
+    font-size: 0.76rem !important;
+  }
+
+  .top-info-container {
+    padding: 0 1rem !important;
+    justify-content: center !important;
+    gap: 0.6rem !important;
+  }
+
+  .top-info-left {
+    display: none !important; /* Hide secondary text on mobile to keep top bar sleek */
+  }
+
+  /* Header & Navigation */
+  .site-header {
+    border-bottom: 1px solid #efe7dc !important;
+  }
+
+  .header-main-row {
+    padding: 0.65rem 0 !important;
+    gap: 0.75rem !important;
+  }
+
+  .header-brand-logo .logo-img {
+    height: 42px !important;
+    max-width: 150px !important;
+  }
+
+  .btn-book-vip {
+    display: none !important; /* Move to mobile drawer for clean header */
+  }
+
+  .header-search-wrapper {
+    display: none !important; /* Replaced by full width bar or drawer */
+  }
+
+  .header-actions {
+    gap: 0.5rem !important;
+    margin-left: auto !important;
+  }
+
+  .header-icon-action {
+    width: 38px !important;
+    height: 38px !important;
+    font-size: 1.05rem !important;
+  }
+
+  .mobile-menu-toggle {
+    display: flex !important;
+    width: 38px !important;
+    height: 38px !important;
+    margin-left: 0.25rem !important;
+    background: #faf7f2 !important;
+    border: 1px solid #e8decb !important;
+    border-radius: 8px !important;
+    padding: 6px !important;
+    transition: all 0.25s ease !important;
+  }
+
+  .header-nav-row {
+    display: none !important;
+  }
+
+  /* Mobile Slide-over Drawer Menu */
+  .nav-links {
+    position: fixed !important;
+    top: 0 !important;
+    right: -100% !important;
+    left: auto !important;
+    width: 85% !important;
+    max-width: 360px !important;
+    height: 100vh !important;
+    height: 100dvh !important;
+    background: #ffffff !important;
+    box-shadow: -10px 0 35px rgba(0, 0, 0, 0.2) !important;
+    z-index: 100000 !important;
+    padding: 4.5rem 1.25rem 2rem !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 0 !important;
+    overflow-y: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+    transition: right 0.35s cubic-bezier(0.16, 1, 0.3, 1) !important;
+  }
+
+  .nav-links.active {
+    right: 0 !important;
+  }
+
+  .nav-links li {
+    width: 100% !important;
+    border-bottom: 1px solid #f4ede3 !important;
+  }
+
+  .nav-links li a {
+    padding: 0.85rem 0.5rem !important;
+    font-size: 0.98rem !important;
+    font-weight: 600 !important;
+    color: #1e1b18 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+  }
+
+  .nav-links li a.active {
+    color: #b93b4d !important;
+  }
+
+  /* Mobile Dropdown Accordion */
+  .dropdown-menu {
+    position: static !important;
+    transform: none !important;
+    box-shadow: none !important;
+    border: none !important;
+    background: #faf8f5 !important;
+    border-radius: 10px !important;
+    margin: 0.25rem 0 0.5rem !important;
+    padding: 0.35rem 0 !important;
+  }
+
+  .dropdown-menu li {
+    border-bottom: none !important;
+  }
+
+  .dropdown-menu li a {
+    padding: 0.55rem 1rem !important;
+    font-size: 0.86rem !important;
+    color: #645c55 !important;
+    font-weight: 500 !important;
+  }
+
+  .dropdown-menu li a:hover {
+    color: #b93b4d !important;
+    background: #f5eee4 !important;
+    padding-left: 1.25rem !important;
+  }
+
+  /* Page Headers */
+  .page-header {
+    padding: 2.75rem 0 2.25rem !important;
+  }
+
+  .page-header h1 {
+    font-size: 1.85rem !important;
+  }
+
+  .page-header p {
+    font-size: 0.92rem !important;
+    max-width: 90% !important;
   }
 }
 
-@media (max-width: 640px) {
-  .navratna-grid {
-    grid-template-columns: 1fr;
+/* ── Phone Devices (< 768px): Luxury 2-Column Product Grid & Components ── */
+@media (max-width: 767px) {
+  .container {
+    padding: 0 0.9rem !important;
   }
-  .gemstone-page-header h1 {
-    font-size: 2rem;
+
+  /* 2-Column Responsive Product Grid */
+  .category-products {
+    padding: 1.5rem 0 3.5rem !important;
   }
-  .hero-brand-top-banner {
-    flex-direction: column;
-    gap: 0.5rem;
-    border-radius: 16px;
-    padding: 0.75rem;
+
+  .products-grid {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 0.75rem !important;
+    margin-top: 1rem !important;
   }
+
+  .product-card {
+    min-height: auto !important;
+    height: 100% !important;
+    border-radius: 14px !important;
+    box-shadow: 0 4px 14px rgba(30, 27, 24, 0.04) !important;
+    border: 1px solid #ede3d6 !important;
+  }
+
+  .product-img {
+    height: auto !important;
+    aspect-ratio: 1 / 1 !important;
+    border-radius: 13px 13px 0 0 !important;
+  }
+
+  .product-img img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+  }
+
+  .seller-badge {
+    top: 7px !important;
+    left: 7px !important;
+    font-size: 0.6rem !important;
+    font-weight: 700 !important;
+    padding: 0.18rem 0.45rem !important;
+    border-radius: 20px !important;
+  }
+
+  .btn-card-wishlist {
+    top: 7px !important;
+    right: 7px !important;
+    width: 28px !important;
+    height: 28px !important;
+    font-size: 0.75rem !important;
+    background: rgba(255, 255, 255, 0.92) !important;
+    backdrop-filter: blur(4px) !important;
+  }
+
+  .product-info {
+    padding: 0.65rem 0.6rem 0.75rem !important;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .product-meta-row {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    gap: 4px !important;
+    margin-bottom: 0.25rem !important;
+  }
+
+  .product-card-category {
+    font-size: 0.65rem !important;
+    letter-spacing: 0.5px !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    max-width: 65% !important;
+  }
+
+  .product-card-purity {
+    font-size: 0.6rem !important;
+    padding: 0.1rem 0.35rem !important;
+    border-radius: 4px !important;
+  }
+
+  .product-info h3 {
+    font-size: 0.84rem !important;
+    line-height: 1.3 !important;
+    min-height: 2.2rem !important;
+    max-height: 2.2rem !important;
+    margin-bottom: 0.35rem !important;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 2 !important;
+    -webkit-box-orient: vertical !important;
+    overflow: hidden !important;
+    font-weight: 600 !important;
+    color: #1e1b18 !important;
+  }
+
+  .product-price-block {
+    margin-top: auto !important;
+  }
+
+  .price-main-row {
+    display: flex !important;
+    align-items: baseline !important;
+    gap: 4px !important;
+    flex-wrap: wrap !important;
+  }
+
+  .product-price-current {
+    font-size: 0.92rem !important;
+    font-weight: 700 !important;
+    color: #1e1b18 !important;
+  }
+
+  .product-price-original {
+    font-size: 0.72rem !important;
+    color: #8c8278 !important;
+  }
+
+  .product-discount-tag {
+    font-size: 0.6rem !important;
+    font-weight: 700 !important;
+    padding: 0.08rem 0.3rem !important;
+    background: #fdf2f4 !important;
+    color: #b93b4d !important;
+    border-radius: 3px !important;
+  }
+
+  .product-weight-tag {
+    display: block !important;
+    font-size: 0.65rem !important;
+    color: #786f67 !important;
+    margin-top: 1px !important;
+  }
+
+  .product-card-actions {
+    display: flex !important;
+    gap: 4px !important;
+    margin-top: 0.5rem !important;
+  }
+
+  .btn-add-bag {
+    flex: 1 !important;
+    padding: 0.45rem 0.5rem !important;
+    font-size: 0.74rem !important;
+    font-weight: 600 !important;
+    border-radius: 30px !important;
+    background: #1e1b18 !important;
+    color: #ffffff !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 4px !important;
+    border: none !important;
+  }
+
+  .btn-view-product {
+    width: 30px !important;
+    height: 30px !important;
+    padding: 0 !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border-radius: 50% !important;
+    border: 1px solid #e0d6c8 !important;
+    color: #554f49 !important;
+    font-size: 0.75rem !important;
+    flex-shrink: 0 !important;
+  }
+
+  /* Horizontal Swipeable Category Filter Pills */
+  .filter-search-section {
+    margin-bottom: 1.25rem !important;
+  }
+
+  .search-wrapper {
+    margin-bottom: 0.75rem !important;
+  }
+
+  .search-wrapper input {
+    font-size: 16px !important;
+    padding: 0.65rem 1rem 0.65rem 2.4rem !important;
+    border-radius: 50px !important;
+    background: #ffffff !important;
+    border: 1px solid #e8dfd3 !important;
+  }
+
+  .filter-container {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+    gap: 0.45rem !important;
+    padding: 0.35rem 0.15rem 0.65rem !important;
+    scrollbar-width: none !important;
+    -ms-overflow-style: none !important;
+  }
+
+  .filter-container::-webkit-scrollbar {
+    display: none !important;
+  }
+
+  .filter-btn {
+    flex-shrink: 0 !important;
+    white-space: nowrap !important;
+    padding: 0.42rem 0.9rem !important;
+    font-size: 0.78rem !important;
+    font-weight: 600 !important;
+    border-radius: 50px !important;
+    background: #ffffff !important;
+    border: 1px solid #e2d7c8 !important;
+    color: #3b3530 !important;
+    transition: all 0.2s ease !important;
+  }
+
+  .filter-btn.active {
+    background: #b93b4d !important;
+    color: #ffffff !important;
+    border-color: #b93b4d !important;
+    box-shadow: 0 3px 10px rgba(185, 59, 77, 0.25) !important;
+  }
+
+  /* Mobile Product Modal (Bottom Sheet Experience) */
+  .product-modal {
+    padding: 0 !important;
+    align-items: flex-end !important;
+  }
+
+  .modal-content-wrapper {
+    border-radius: 20px 20px 0 0 !important;
+    max-height: 88vh !important;
+    max-width: 100% !important;
+    overflow-y: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+    padding: 0 !important;
+  }
+
+  .modal-close {
+    top: 10px !important;
+    right: 12px !important;
+    width: 32px !important;
+    height: 32px !important;
+    font-size: 1.25rem !important;
+    background: rgba(255, 255, 255, 0.9) !important;
+    border-radius: 50% !important;
+    z-index: 20 !important;
+  }
+
+  .modal-body {
+    flex-direction: column !important;
+    max-height: none !important;
+  }
+
+  .modal-img-container {
+    width: 100% !important;
+    height: 240px !important;
+    padding: 1rem !important;
+    border-right: none !important;
+    border-bottom: 1px solid #f0e9df !important;
+  }
+
+  .modal-details {
+    width: 100% !important;
+    padding: 1.25rem 1.15rem 1.5rem !important;
+  }
+
+  .modal-details h2 {
+    font-size: 1.35rem !important;
+    line-height: 1.3 !important;
+    margin-bottom: 0.5rem !important;
+  }
+
+  .modal-specs-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 0.5rem !important;
+    margin: 1rem 0 !important;
+  }
+
+  .modal-actions-container {
+    margin-top: 1.25rem !important;
+  }
+
+  .modal-actions-row {
+    flex-direction: column !important;
+    gap: 0.5rem !important;
+  }
+
+  .btn-modal-add-bag,
+  .btn-modal-buy-now,
+  .btn-modal-whatsapp {
+    width: 100% !important;
+    justify-content: center !important;
+    padding: 0.75rem 1rem !important;
+    font-size: 0.88rem !important;
+    border-radius: 50px !important;
+  }
+
+  /* Mobile Contact Us Page Tweaks */
+  .contact-section {
+    padding: 2rem 0 3.5rem !important;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem !important;
+  }
+
+  .contact-info-card,
+  .contact-form-container,
+  .atelier-privileges-card {
+    padding: 1.5rem 1.15rem !important;
+    border-radius: 16px !important;
+  }
+
+  .contact-quick-actions {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 0.5rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+
+  .contact-quick-btn {
+    padding: 0.65rem 0.5rem !important;
+    font-size: 0.8rem !important;
+    border-radius: 10px !important;
+  }
+
   .social-active-links {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr) !important;
+    gap: 0.35rem !important;
+  }
+
+  .social-active-btn {
+    padding: 0.4rem 0.3rem !important;
+    font-size: 0.72rem !important;
+  }
+
+  .contact-mode-tabs {
+    grid-template-columns: 1fr !important;
+    border-radius: 14px !important;
+    padding: 0.25rem !important;
+    gap: 4px !important;
+  }
+
+  .mode-tab-btn {
+    padding: 0.65rem 0.75rem !important;
+    font-size: 0.82rem !important;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr !important;
+    gap: 0 !important;
+  }
+
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    font-size: 16px !important; /* Prevents auto-zoom on iOS */
+    min-height: 46px !important;
+    border-radius: 10px !important;
+  }
+
+  .privileges-grid {
+    grid-template-columns: 1fr !important;
+    gap: 0.75rem !important;
+  }
+
+  .faq-card {
+    padding: 1.1rem 1.15rem !important;
+    border-radius: 12px !important;
+  }
+
+  .faq-question-row h4 {
+    font-size: 0.9rem !important;
+  }
+
+  .faq-help-banner {
+    padding: 1.75rem 1.15rem !important;
+    border-radius: 16px !important;
+    flex-direction: column !important;
+    text-align: center !important;
+    gap: 1.25rem !important;
+  }
+
+  .help-actions {
+    width: 100% !important;
+    flex-direction: column !important;
+    gap: 0.65rem !important;
+  }
+
+  .btn-help-whatsapp,
+  .btn-help-call {
+    width: 100% !important;
+    justify-content: center !important;
+  }
+
+  /* Navratna Gemstone Cards & Coins on Mobile */
+  .navratna-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1.25rem !important;
+  }
+
+  .gemstone-card-media {
+    height: 180px !important;
+  }
+
+  .gemstone-card-body {
+    padding: 1.25rem 1.15rem !important;
+  }
+
+  .stone-benefits-box {
+    padding: 0.75rem 0.9rem !important;
+  }
+
+  .stone-card-footer {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 0.75rem !important;
+  }
+
+  .btn-gemstone-inquire {
+    width: 100% !important;
+    justify-content: center !important;
+    padding: 0.65rem !important;
+  }
+
+  .gemstone-consultation-banner {
+    padding: 1.75rem 1.15rem !important;
+    border-radius: 16px !important;
+    flex-direction: column !important;
+    text-align: center !important;
+    gap: 1.25rem !important;
+  }
+
+  .btn-gemstone-consult {
+    width: 100% !important;
+    justify-content: center !important;
+  }
+
+  /* Floating WhatsApp Button on Mobile */
+  .whatsapp-float {
+    width: 50px !important;
+    height: 50px !important;
+    bottom: 20px !important;
+    right: 18px !important;
+    font-size: 1.6rem !important;
+    box-shadow: 0 4px 16px rgba(107, 26, 43, 0.45) !important;
   }
 }
+
 
 
 
