@@ -3462,35 +3462,111 @@ footer {
   padding: 0.85rem 1rem;
   border-radius: 12px;
   font-size: 0.88rem;
-  font-weight: 500;
+  font-weight: 600;
   text-decoration: none;
-  background: #faf8f5;
-  color: #2d2724;
-  border: 1px solid #e5dcce;
-  transition: all 0.25s ease;
-}
-
-.contact-quick-btn:hover {
-  background: #1e1b18;
-  color: #ffffff;
-  border-color: #1e1b18;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
 }
 
 .contact-quick-btn i {
-  color: #b48b5a;
-  font-size: 0.95rem;
-  transition: color 0.25s ease;
+  font-size: 1rem;
+  transition: transform 0.25s ease;
+}
+
+.contact-quick-btn:hover {
+  transform: translateY(-2px);
 }
 
 .contact-quick-btn:hover i {
-  color: #ffffff;
+  transform: scale(1.12);
+}
+
+/* 1. WhatsApp Button (WhatsApp Green) */
+.contact-quick-btn.whatsapp-btn {
+  background: #f0fdf4;
+  color: #15803d;
+  border: 1.5px solid #86efac;
+}
+
+.contact-quick-btn.whatsapp-btn i {
+  color: #25D366;
 }
 
 .contact-quick-btn.whatsapp-btn:hover {
-  background: #15803d;
+  background: linear-gradient(135deg, #25D366 0%, #15803d 100%);
+  color: #ffffff;
   border-color: #15803d;
+  box-shadow: 0 6px 18px rgba(37, 211, 102, 0.35);
+}
+
+.contact-quick-btn.whatsapp-btn:hover i {
+  color: #ffffff;
+}
+
+/* 2. Call Showroom Button (Phone Blue) */
+.contact-quick-btn.call-btn {
+  background: #f0f9ff;
+  color: #0369a1;
+  border: 1.5px solid #7dd3fc;
+}
+
+.contact-quick-btn.call-btn i {
+  color: #0284c7;
+}
+
+.contact-quick-btn.call-btn:hover {
+  background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
+  color: #ffffff;
+  border-color: #0369a1;
+  box-shadow: 0 6px 18px rgba(2, 132, 199, 0.35);
+}
+
+.contact-quick-btn.call-btn:hover i {
+  color: #ffffff;
+}
+
+/* 3. Email Button (Mail Red / Coral) */
+.contact-quick-btn.email-btn {
+  background: #fef2f2;
+  color: #b91c1c;
+  border: 1.5px solid #fca5a5;
+}
+
+.contact-quick-btn.email-btn i {
+  color: #ea4335;
+}
+
+.contact-quick-btn.email-btn:hover {
+  background: linear-gradient(135deg, #ea4335 0%, #dc2626 100%);
+  color: #ffffff;
+  border-color: #b91c1c;
+  box-shadow: 0 6px 18px rgba(234, 67, 53, 0.35);
+}
+
+.contact-quick-btn.email-btn:hover i {
+  color: #ffffff;
+}
+
+/* 4. Directions Button (Navigation Amber / Gold) */
+.contact-quick-btn.map-btn {
+  background: #fffbeb;
+  color: #b45309;
+  border: 1.5px solid #fcd34d;
+}
+
+.contact-quick-btn.map-btn i {
+  color: #d97706;
+}
+
+.contact-quick-btn.map-btn:hover {
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+  color: #ffffff;
+  border-color: #b45309;
+  box-shadow: 0 6px 18px rgba(217, 119, 6, 0.35);
+}
+
+.contact-quick-btn.map-btn:hover i {
+  color: #ffffff;
 }
 
 /* Detailed Information List */
