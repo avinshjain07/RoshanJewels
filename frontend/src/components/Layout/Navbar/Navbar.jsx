@@ -222,35 +222,6 @@ export default function Navbar() {
           {/* Header Row 2: Bottom Navigation Links */}
           <nav className="header-nav-row">
             <ul className={`nav-links${mobileOpen ? ' active' : ''}`} id="nav-links">
-              {/* Mobile Drawer Top Banner with Close Button & Search */}
-              <li className="mobile-drawer-top">
-                <div className="mobile-drawer-brand">
-                  <img src={logo} alt="Roshan Jewel" className="drawer-logo" />
-                  <button
-                    type="button"
-                    className="btn-drawer-close"
-                    onClick={() => {
-                      setMobileOpen(false);
-                      document.body.classList.remove('no-scroll');
-                    }}
-                    aria-label="Close navigation"
-                  >
-                    <i className="fas fa-times"></i>
-                  </button>
-                </div>
-                <div className="mobile-drawer-search">
-                  <i className="fas fa-search"></i>
-                  <input
-                    type="text"
-                    placeholder="Search jewellery..."
-                    value={searchQuery}
-                    onChange={(e) => setSearchQuery(e.target.value)}
-                    onKeyDown={handleSearch}
-                    aria-label="Search mobile jewellery"
-                  />
-                </div>
-              </li>
-
               {/* Home */}
               <li>
                 <NavLink
