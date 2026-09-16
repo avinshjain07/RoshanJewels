@@ -33,12 +33,18 @@ export function AuthProvider({ children }) {
   const [user, setUser] = useState(() => {
     try {
       const saved = localStorage.getItem(AUTH_STORAGE_KEY);
-      if (saved) return JSON.parse(saved);
-      // Pre-seed with demo user on first load for a seamless out-of-the-box VIP experience
-      localStorage.setItem(AUTH_STORAGE_KEY, JSON.stringify(DEMO_USER));
-      return DEMO_USER;
+      if (saved) {
+        const parsed = JSON.parse(saved);
+        // Clear any old pre-seeded demo user session so visitors start logged out
+        if (parsed?.id === 'usr_patron_01' || parsed?.email === 'avinshjain521@gmail.com') {
+          localStorage.removeItem(AUTH_STORAGE_KEY);
+          return null;
+        }
+        return parsed;
+      }
+      return null;
     } catch {
-      return DEMO_USER;
+      return null;
     }
   });
 
