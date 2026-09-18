@@ -3,18 +3,12 @@ import SEO from '@components/Common/SEO/SEO';
 import ContactForm from '@components/Forms/ContactForm/ContactForm';
 import { PAGE_SEO } from '@constants/seo';
 import { useScrollAnimation } from '@hooks/useScrollAnimation';
-import shopviewImg from '@assets/images/shopview.jpeg';
 
 const FAQS = [
   {
     question: "Do I need an appointment to visit the Roshan Jewel showroom?",
     answer:
       "Walk-ins are always warmly welcomed during our operating hours (11:30 AM – 08:30 PM). However, for bespoke bridal jewellery, heavy trousseau selections, or high-value solitaire consultations, we recommend booking a private VIP consultation to reserve our private design lounge and master gemologist."
-  },
-  {
-    question: "Can I view and purchase jewellery via live video call?",
-    answer:
-      "Yes! For our out-of-town, interstate, and NRI clients, we offer personal one-on-one live HD video viewing sessions via WhatsApp Video or Google Meet. Our master gemologist will showcase designs in detail with verified weights, purity certificates, and dimensions."
   },
   {
     question: "Is all gold and diamond jewellery 100% certified and hallmarked?",
@@ -34,7 +28,7 @@ const FAQS = [
   {
     question: "What amenities are available at your Indore showroom?",
     answer:
-      "Our flagship showroom in Royal Diamond Building features a dedicated private bridal lounge, complimentary refreshments and high tea, high-precision laser caratometer testing, valet parking assistance, and direct elevator access."
+      "Our flagship showroom in Royal Diamond Building features a dedicated private bridal lounge, complimentary refreshments, high-precision laser caratometer testing, valet parking assistance, and direct wheelchair access."
   },
   {
     question: "Do you ship jewellery across India or internationally?",
@@ -45,43 +39,29 @@ const FAQS = [
 
 const WHATSAPP_TOPICS = [
   {
-    icon: "fas fa-coins",
-    label: "Today's Gold Rate (22K / 24K)",
-    text: "Hello Roshan Jewel! Could you please share today's prevailing 22K (916) and 24K gold rates in Indore?"
+    label: "👑 Custom Bridal Design",
+    text: "Hello Roshan Jewel! I am interested in custom bridal jewellery design consultation."
   },
   {
-    icon: "fas fa-crown",
-    label: "Bridal Trousseau Trial",
-    text: "Hello Roshan Jewel! I would like to schedule a bridal jewellery trial appointment at your Indore showroom."
+    label: "💎 Diamond Solitaire Inquiry",
+    text: "Hello Roshan Jewel! I would like to inquire about certified diamond solitaires and pricing."
   },
   {
-    icon: "fas fa-gem",
-    label: "Diamond Solitaire Inquiry",
-    text: "Hello Roshan Jewel! I would like to inquire about certified GIA/IGI diamond solitaires and engagement rings."
+    label: "✨ Today's Gold Rate",
+    text: "Hello Roshan Jewel! Could you please share today's 22K and 24K gold rate?"
   },
   {
-    icon: "fas fa-video",
-    label: "Live Video Call Viewing",
-    text: "Hello Roshan Jewel! I am an out-of-town client and would like to preview jewellery over a live WhatsApp Video Call."
-  },
-  {
-    icon: "fas fa-pencil-ruler",
-    label: "Custom 3D CAD Quote",
-    text: "Hello Roshan Jewel! I have a custom jewellery design in mind and would like a 3D CAD consultation and estimate."
-  },
-  {
-    icon: "fas fa-parking",
-    label: "Valet & Showroom Directions",
-    text: "Hello Roshan Jewel! I am heading to your showroom now and need valet parking / route assistance."
+    label: "📍 Showroom Directions & Valet",
+    text: "Hello Roshan Jewel! I am planning to visit your showroom today and need directions/parking info."
   }
 ];
 
 export default function Contact() {
-  useScrollAnimation('.info-item, .contact-form-container, .contact-quick-btn, .contact-trust-card, .faq-card, .showroom-showcase-card', []);
+  useScrollAnimation('.info-item, .contact-form-container, .contact-quick-btn, .contact-trust-card, .faq-card, .contact-immersive-map-card', []);
 
   const [activeFaq, setActiveFaq] = useState(null);
   const [copied, setCopied] = useState(false);
-  const [activeTab, setActiveTab] = useState('enquiry'); // 'enquiry' | 'vip' | 'video'
+  const [activeTab, setActiveTab] = useState('enquiry'); // 'enquiry' | 'vip'
 
   // VIP Form State
   const [vipName, setVipName] = useState('');
@@ -89,14 +69,6 @@ export default function Contact() {
   const [vipDate, setVipDate] = useState('');
   const [vipSlot, setVipSlot] = useState('Morning (11:30 AM – 02:00 PM)');
   const [vipCategory, setVipCategory] = useState('Bespoke Bridal Jewellery');
-
-  // Virtual Video Call State
-  const [videoName, setVideoName] = useState('');
-  const [videoPhone, setVideoPhone] = useState('');
-  const [videoPlatform, setVideoPlatform] = useState('WhatsApp Video Call');
-  const [videoCategory, setVideoCategory] = useState('Bespoke Bridal Trousseau');
-  const [videoDate, setVideoDate] = useState('');
-  const [videoSlot, setVideoSlot] = useState('Morning (11:30 AM – 02:00 PM)');
 
   const seo = PAGE_SEO.contact;
 
@@ -112,7 +84,7 @@ export default function Contact() {
     const isOpen = currentTimeInMins >= openTimeInMins && currentTimeInMins <= closeTimeInMins;
     return {
       isOpen,
-      text: isOpen ? "Showroom Open Right Now (Closes 08:30 PM)" : "Showroom Opens Daily at 11:30 AM",
+      text: isOpen ? "Open Right Now (Closes 08:30 PM)" : "Showroom Opens Daily at 11:30 AM",
       badgeClass: isOpen ? "status-badge open" : "status-badge closed"
     };
   }, []);
@@ -135,12 +107,6 @@ export default function Contact() {
     window.open(`https://wa.me/918224998809?text=${message}`, '_blank');
   };
 
-  const handleVideoSubmit = (e) => {
-    e.preventDefault();
-    const message = `*Virtual Live Video Consultation Request*%0A%0A*Name:* ${encodeURIComponent(videoName)}%0A*Phone / WhatsApp:* ${encodeURIComponent(videoPhone)}%0A*Platform:* ${encodeURIComponent(videoPlatform)}%0A*Category to Preview:* ${encodeURIComponent(videoCategory)}%0A*Preferred Date:* ${encodeURIComponent(videoDate || 'Earliest Available')}%0A*Preferred Time Slot:* ${encodeURIComponent(videoSlot)}%0A%0APlease confirm my live video preview session.`;
-    window.open(`https://wa.me/918224998809?text=${message}`, '_blank');
-  };
-
   return (
     <>
       <SEO
@@ -150,15 +116,10 @@ export default function Contact() {
         keywords={seo.keywords}
       />
 
-      {/* Page Header with Real-Time Status Pill */}
+      {/* Page Header */}
       <section className="page-header contact-page-header">
         <div className="container">
-          <div className="contact-header-top-row">
-            <span className="page-badge"><i className="fas fa-gem"></i> CONCIERGE & SHOWROOM</span>
-            <span className={showroomStatus.badgeClass}>
-              <span className="pulse-dot"></span> {showroomStatus.text}
-            </span>
-          </div>
+          <span className="page-badge"><i className="fas fa-sparkles"></i> CONCIERGE & SHOWROOM</span>
           <h1>Experience Roshan Jewel</h1>
           <p>Three generations of quiet brilliance, uncompromising purity, and bespoke craftsmanship in Indore since 1965</p>
         </div>
@@ -168,14 +129,9 @@ export default function Contact() {
       <section className="contact-section">
         <div className="container">
 
-          {/* Quick WhatsApp 1-Tap Topic Launcher Bar */}
+          {/* Quick WhatsApp Topic Launcher Chips */}
           <div className="whatsapp-topic-bar">
-            <div className="topic-bar-title-row">
-              <span className="topic-bar-title">
-                <i className="fab fa-whatsapp"></i> 1-Tap WhatsApp Concierge:
-              </span>
-              <span className="topic-bar-hint">Select a topic for instant response</span>
-            </div>
+            <span className="topic-bar-title"><i className="fab fa-whatsapp"></i> Instant WhatsApp Connect:</span>
             <div className="topic-chips-container">
               {WHATSAPP_TOPICS.map((topic, i) => (
                 <a
@@ -185,8 +141,7 @@ export default function Contact() {
                   rel="noopener noreferrer"
                   className="whatsapp-chip"
                 >
-                  <i className={topic.icon}></i>
-                  <span>{topic.label}</span>
+                  {topic.label} <i className="fas fa-arrow-up-right-from-square"></i>
                 </a>
               ))}
             </div>
@@ -196,8 +151,8 @@ export default function Contact() {
             {/* Showroom Information Column */}
             <div className="contact-info-card">
               <div className="card-badge">
-                <i className="fas fa-award"></i>
-                <span>FLAGSHIP ATELIER • EST. 1965</span>
+                <i className="fas fa-gem"></i>
+                <span>FLAGSHIP SHOWROOM • EST. 1965</span>
               </div>
 
               <h3>Visit Our Showroom</h3>
@@ -216,7 +171,7 @@ export default function Contact() {
                   className="contact-quick-btn whatsapp-btn"
                 >
                   <i className="fab fa-whatsapp"></i>
-                  <span>WhatsApp</span>
+                  <span>WhatsApp Us</span>
                 </a>
                 <a href="tel:08224998809" className="contact-quick-btn call-btn">
                   <i className="fas fa-phone-alt"></i>
@@ -224,64 +179,17 @@ export default function Contact() {
                 </a>
                 <a href="mailto:jewelroshan9@gmail.com" className="contact-quick-btn email-btn">
                   <i className="fas fa-envelope"></i>
-                  <span>Email</span>
+                  <span>Email Us</span>
                 </a>
                 <a
-                  href="https://maps.google.com/?q=Roshan+Jewel,+UG-02+03+Royal+Diamond+Building,+Yeshwant+Niwas+Road,+Opposite+SBI+Bank,+Indore,+Madhya+Pradesh+452002"
+                  href="https://maps.google.com/?q=Royal+Diamond+Building+Yeshwant+Niwas+Road+opposite+SBI+BANK+Indore+MP+452002"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="contact-quick-btn map-btn"
                 >
                   <i className="fas fa-directions"></i>
-                  <span>Directions</span>
+                  <span>Get Directions</span>
                 </a>
-              </div>
-
-              {/* Active Social Media & Location Connect Bar */}
-              <div className="contact-social-bar">
-                <span className="social-bar-label"><i className="fas fa-share-alt"></i> Official Connect Channels:</span>
-                <div className="social-active-links">
-                  <a
-                    href="https://facebook.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="social-active-btn facebook"
-                    title="Follow Roshan Jewels on Facebook"
-                  >
-                    <i className="fab fa-facebook-f"></i>
-                    <span>Facebook</span>
-                  </a>
-                  <a
-                    href="https://instagram.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="social-active-btn instagram"
-                    title="Follow Roshan Jewels on Instagram"
-                  >
-                    <i className="fab fa-instagram"></i>
-                    <span>Instagram</span>
-                  </a>
-                  <a
-                    href="https://maps.google.com/?q=Roshan+Jewel,+UG-02+03+Royal+Diamond+Building,+Yeshwant+Niwas+Road,+Opposite+SBI+Bank,+Indore,+Madhya+Pradesh+452002"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="social-active-btn location"
-                    title="Google Maps Showroom Location"
-                  >
-                    <i className="fas fa-map-marker-alt"></i>
-                    <span>Location</span>
-                  </a>
-                  <a
-                    href="https://wa.me/918224998809?text=Hello%20Roshan%20Jewels!%20I%20would%20like%20to%20connect%20with%20your%20concierge."
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="social-active-btn whatsapp"
-                    title="Chat on WhatsApp"
-                  >
-                    <i className="fab fa-whatsapp"></i>
-                    <span>WhatsApp</span>
-                  </a>
-                </div>
               </div>
 
               {/* Detailed Contact List */}
@@ -372,65 +280,37 @@ export default function Contact() {
                 </div>
               </div>
 
-              {/* Visual Showcase Card & Visitor Landmarks Guide (Replaces Map Embed) */}
-              <div className="showroom-showcase-card">
-                <div className="showroom-img-frame">
-                  <img
-                    src={shopviewImg}
-                    alt="Roshan Jewel Flagship Showroom Indore"
+              {/* Embedded Google Map */}
+              <div className="contact-map-wrapper">
+                <div className="map-title-row">
+                  <span><i className="fas fa-location-arrow"></i> SHOWROOM LOCATION ON MAP</span>
+                  <a
+                    href="https://maps.google.com/?q=Royal+Diamond+Building+Yeshwant+Niwas+Road+opposite+SBI+BANK+Indore+MP+452002"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="map-external-link"
+                  >
+                    Open in Google Maps <i className="fas fa-external-link-alt"></i>
+                  </a>
+                </div>
+                <div className="contact-map-frame">
+                  <iframe
+                    title="Roshan Jewel Showroom Location"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3680.125134789648!2d75.8756306!3d22.7236109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fd3ee087799b%3A0xc3b836480e608038!2sRoyal%20Diamond%20Building%2C%20Yeshwant%20Niwas%20Rd%2C%20opp.%20SBI%20BANK%2C%20Indore%2C%20Madhya%20Pradesh%20452002!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+                    width="100%"
+                    height="200"
+                    style={{ border: 0, borderRadius: '12px' }}
+                    allowFullScreen=""
                     loading="lazy"
-                    className="showroom-display-img"
-                  />
-                  <div className="showroom-img-overlay">
-                    <span className="showroom-overlay-badge">
-                      <i className="fas fa-building"></i> VISIT IN PERSON
-                    </span>
-                    <h4>Royal Diamond Building, Indore</h4>
-                  </div>
+                    referrerPolicy="no-referrer-when-downgrade"
+                  ></iframe>
                 </div>
-
-                <div className="showroom-visitor-guide">
-                  <div className="guide-item">
-                    <div className="guide-icon"><i className="fas fa-parking"></i></div>
-                    <div className="guide-text">
-                      <strong>Complimentary Valet Parking</strong>
-                      <p>Dedicated valet attendants available in front of Royal Diamond Building.</p>
-                    </div>
-                  </div>
-
-                  <div className="guide-item">
-                    <div className="guide-icon"><i className="fas fa-landmark"></i></div>
-                    <div className="guide-text">
-                      <strong>Prime Central Landmark</strong>
-                      <p>Directly opposite State Bank of India (SBI) main branch, Yeshwant Niwas Road.</p>
-                    </div>
-                  </div>
-
-                  <div className="guide-item">
-                    <div className="guide-icon"><i className="fas fa-route"></i></div>
-                    <div className="guide-text">
-                      <strong>Transit Convenience</strong>
-                      <p>10 mins from Indore Railway Station • 25 mins from Devi Ahilyabai Airport.</p>
-                    </div>
-                  </div>
-                </div>
-
-                <a
-                  href="https://maps.google.com/?q=Roshan+Jewel,+UG-02+03+Royal+Diamond+Building,+Yeshwant+Niwas+Road,+Opposite+SBI+Bank,+Indore,+Madhya+Pradesh+452002"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn-open-maps"
-                >
-                  <i className="fas fa-location-arrow"></i>
-                  <span>Get Live Directions on Google Maps</span>
-                  <i className="fas fa-arrow-right"></i>
-                </a>
               </div>
             </div>
 
-            {/* Right Column: 3-Mode Interactive Switcher (Enquiry | In-Store VIP | Virtual Video Call) */}
+            {/* Right Column: Interactive Mode Switcher (Enquiry vs VIP Booking) */}
             <div className="contact-form-panel">
-              {/* 3-Way Tab Selector */}
+              {/* Tab Selector */}
               <div className="contact-mode-tabs">
                 <button
                   type="button"
@@ -446,30 +326,20 @@ export default function Contact() {
                   onClick={() => setActiveTab('vip')}
                 >
                   <i className="fas fa-crown"></i>
-                  <span>In-Store VIP Visit</span>
-                </button>
-                <button
-                  type="button"
-                  className={`mode-tab-btn ${activeTab === 'video' ? 'active' : ''}`}
-                  onClick={() => setActiveTab('video')}
-                >
-                  <i className="fas fa-video"></i>
-                  <span>Virtual Video Call</span>
+                  <span>Book VIP Lounge Consultation</span>
                 </button>
               </div>
 
-              {activeTab === 'enquiry' && (
+              {activeTab === 'enquiry' ? (
                 <ContactForm />
-              )}
-
-              {activeTab === 'vip' && (
+              ) : (
                 <div className="contact-form-container vip-booking-container">
                   <div className="form-header-badge vip-badge">
                     <i className="fas fa-crown"></i>
-                    <span>EXCLUSIVE IN-STORE EXPERIENCE</span>
+                    <span>EXCLUSIVE VIP EXPERIENCE</span>
                   </div>
 
-                  <h3>Book a Private VIP Consultation</h3>
+                  <h3>Book a Private Consultation</h3>
                   <p className="form-subtitle">
                     Reserve an exclusive one-on-one session in our private VIP lounge with our master jewellery designer.
                   </p>
@@ -579,181 +449,6 @@ export default function Contact() {
                   </div>
                 </div>
               )}
-
-              {activeTab === 'video' && (
-                <div className="contact-form-container video-booking-container">
-                  <div className="form-header-badge video-badge">
-                    <i className="fas fa-video"></i>
-                    <span>LIVE VIRTUAL ATELIER</span>
-                  </div>
-
-                  <h3>Schedule a Live Video Consultation</h3>
-                  <p className="form-subtitle">
-                    Preview our private collection in high-definition from anywhere in India or internationally with a dedicated jewellery specialist.
-                  </p>
-
-                  <form onSubmit={handleVideoSubmit} noValidate>
-                    <div className="form-row">
-                      <div className="form-group">
-                        <label htmlFor="videoName">
-                          <i className="fas fa-user"></i> Full Name <span>*</span>
-                        </label>
-                        <input
-                          type="text"
-                          id="videoName"
-                          className="form-control"
-                          placeholder="Enter your name"
-                          value={videoName}
-                          onChange={(e) => setVideoName(e.target.value)}
-                          required
-                        />
-                      </div>
-
-                      <div className="form-group">
-                        <label htmlFor="videoPhone">
-                          <i className="fas fa-phone-alt"></i> Phone / WhatsApp Number <span>*</span>
-                        </label>
-                        <input
-                          type="tel"
-                          id="videoPhone"
-                          className="form-control numeric-text"
-                          placeholder="e.g. +91 98765 43210 or +1..."
-                          value={videoPhone}
-                          onChange={(e) => setVideoPhone(e.target.value)}
-                          required
-                        />
-                      </div>
-                    </div>
-
-                    <div className="form-row">
-                      <div className="form-group">
-                        <label htmlFor="videoPlatform">
-                          <i className="fas fa-camera"></i> Preferred Video Platform <span>*</span>
-                        </label>
-                        <select
-                          id="videoPlatform"
-                          className="form-control"
-                          value={videoPlatform}
-                          onChange={(e) => setVideoPlatform(e.target.value)}
-                        >
-                          <option value="WhatsApp Video Call">WhatsApp Video Call</option>
-                          <option value="Google Meet">Google Meet</option>
-                          <option value="Zoom Meeting">Zoom Meeting</option>
-                        </select>
-                      </div>
-
-                      <div className="form-group">
-                        <label htmlFor="videoCategory">
-                          <i className="fas fa-gem"></i> Collection to Preview <span>*</span>
-                        </label>
-                        <select
-                          id="videoCategory"
-                          className="form-control"
-                          value={videoCategory}
-                          onChange={(e) => setVideoCategory(e.target.value)}
-                        >
-                          <option value="Bespoke Bridal Trousseau">Bespoke Bridal Jewellery Trousseau</option>
-                          <option value="Certified Solitaire Diamond Rings">Certified Solitaire Rings & Pendants</option>
-                          <option value="22K Gold Heirloom & Antique Jewellery">22K Gold Heirlooms & Temple Necklaces</option>
-                          <option value="Royal Kundan & Polki Jadau">Royal Kundan & Polki Jadau</option>
-                          <option value="Heirloom Redesign Consultation">Family Heirloom Redesign / Remodelling</option>
-                        </select>
-                      </div>
-                    </div>
-
-                    <div className="form-row">
-                      <div className="form-group">
-                        <label htmlFor="videoDate">
-                          <i className="fas fa-calendar-alt"></i> Preferred Date
-                        </label>
-                        <input
-                          type="date"
-                          id="videoDate"
-                          className="form-control numeric-text"
-                          value={videoDate}
-                          onChange={(e) => setVideoDate(e.target.value)}
-                        />
-                      </div>
-
-                      <div className="form-group">
-                        <label htmlFor="videoSlot">
-                          <i className="fas fa-clock"></i> Preferred Time Slot <span>*</span>
-                        </label>
-                        <select
-                          id="videoSlot"
-                          className="form-control numeric-text"
-                          value={videoSlot}
-                          onChange={(e) => setVideoSlot(e.target.value)}
-                        >
-                          <option value="Morning (11:30 AM – 02:00 PM IST)">Morning: 11:30 AM – 02:00 PM IST</option>
-                          <option value="Afternoon (02:00 PM – 05:00 PM IST)">Afternoon: 02:00 PM – 05:00 PM IST</option>
-                          <option value="Evening (05:00 PM – 08:30 PM IST)">Evening: 05:00 PM – 08:30 PM IST</option>
-                        </select>
-                      </div>
-                    </div>
-
-                    <button type="submit" className="btn-submit video-submit-btn">
-                      <i className="fab fa-whatsapp"></i>
-                      <span>Schedule Live Video Call via WhatsApp</span>
-                    </button>
-                  </form>
-
-                  {/* Form Assurance Pillars */}
-                  <div className="form-assurance-row">
-                    <div className="assurance-item">
-                      <i className="fas fa-video"></i>
-                      <span>HD Video Stream</span>
-                    </div>
-                    <div className="assurance-item">
-                      <i className="fas fa-certificate"></i>
-                      <span>Live Certificate Verification</span>
-                    </div>
-                    <div className="assurance-item">
-                      <i className="fas fa-globe"></i>
-                      <span>Worldwide NRI Service</span>
-                    </div>
-                  </div>
-                </div>
-              )}
-
-              {/* Bespoke Atelier Privileges Card (Utilizes space & reinforces trust) */}
-              <div className="atelier-privileges-card">
-                <div className="privileges-header">
-                  <span className="privileges-badge"><i className="fas fa-crown"></i> ATELIER PRIVILEGES</span>
-                  <h4>Why Visit &amp; Consult With Roshan Jewel?</h4>
-                  <p>Experience personalized care and bespoke mastery curated across three generations in Indore</p>
-                </div>
-                <div className="privileges-grid">
-                  <div className="privilege-box">
-                    <div className="privilege-icon"><i className="fas fa-cube"></i></div>
-                    <div className="privilege-info">
-                      <strong>3D CAD Renders &amp; Custom Casting</strong>
-                      <p>Preview photorealistic 3D models before our master karigars craft your design in 22K gold or platinum.</p>
-                    </div>
-                  </div>
-                  <div className="privilege-box">
-                    <div className="privilege-icon"><i className="fas fa-certificate"></i></div>
-                    <div className="privilege-info">
-                      <strong>100% Certified Diamonds &amp; BIS 916</strong>
-                      <p>Every solitaire and gold piece comes with full IGI / GIA lab reports and government HUID hallmarking.</p>
-                    </div>
-                  </div>
-                  <div className="privilege-box">
-                    <div className="privilege-icon"><i className="fas fa-sync-alt"></i></div>
-                    <div className="privilege-info">
-                      <strong>Guaranteed Buyback &amp; Exchange</strong>
-                      <p>100% transparent market rate buyback and lifetime upgrade privileges on all Roshan jewellery.</p>
-                    </div>
-                  </div>
-                  <div className="privilege-box">
-                    <div className="privilege-icon"><i className="fas fa-couch"></i></div>
-                    <div className="privilege-info">
-                      <strong>Private VIP Bridal Lounge &amp; High Tea</strong>
-                      <p>Enjoy unhurried, private appointments with complimentary gourmet high tea and dedicated valet parking.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>

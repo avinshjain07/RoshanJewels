@@ -16,10 +16,6 @@ export function useScrollAnimation(selectors, deps = []) {
     // Clean up previous observer
     if (observerRef.current) observerRef.current.disconnect();
 
-    if (typeof window === 'undefined' || !('IntersectionObserver' in window)) {
-      return;
-    }
-
     observerRef.current = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -30,43 +26,25 @@ export function useScrollAnimation(selectors, deps = []) {
           }
         });
       },
-      { threshold: 0.05, rootMargin: '50px 0px 50px 0px' }
+      { threshold: 0.1, rootMargin: '0px 0px -50px 0px' }
     );
 
     // Small delay to allow React to finish rendering new cards
     const timer = setTimeout(() => {
       const elements = document.querySelectorAll(selectors);
       elements.forEach((el) => {
-        const rect = el.getBoundingClientRect();
-        const isInViewport = rect.top < window.innerHeight && rect.bottom > 0;
-        
-        if (isInViewport) {
-          el.style.opacity = '1';
-          el.style.transform = 'translateY(0)';
-          el.style.transition = 'opacity 0.4s ease, transform 0.4s ease';
-        } else if (el.style.opacity !== '1') {
+        // Only animate elements not yet visible
+        if (el.style.opacity !== '1') {
           el.style.opacity = '0';
-          el.style.transform = 'translateY(15px)';
-          el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+          el.style.transform = 'translateY(20px)';
+          el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
           observerRef.current?.observe(el);
         }
       });
-    }, 50);
-
-    // Safety fallback: ensure everything is visible after 500ms
-    const safetyTimer = setTimeout(() => {
-      const elements = document.querySelectorAll(selectors);
-      elements.forEach((el) => {
-        if (el.style.opacity !== '1') {
-          el.style.opacity = '1';
-          el.style.transform = 'translateY(0)';
-        }
-      });
-    }, 500);
+    }, 100);
 
     return () => {
       clearTimeout(timer);
-      clearTimeout(safetyTimer);
       observerRef.current?.disconnect();
     };
   // eslint-disable-next-line react-hooks/exhaustive-deps

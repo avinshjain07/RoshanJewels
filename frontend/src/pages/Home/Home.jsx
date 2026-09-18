@@ -198,7 +198,7 @@ export default function Home() {
           <div className="section-title">
             <h2>Shop by Collection</h2>
           </div>
-          <div className="categories-grid">
+          <div className="categories-grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))' }}>
             <div className="category-card">
               <div className="category-icon" style={{ marginBottom: '1rem' }}>
                 <i className="fas fa-gem" style={{ fontSize: '2.5rem', color: 'var(--love-red)' }}></i>
@@ -285,7 +285,7 @@ export default function Home() {
           <div className="section-title">
             <h2>Shop by Category</h2>
           </div>
-          <div className="categories-grid">
+          <div className="categories-grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))' }}>
             <div className="category-card">
               <h3>Rings</h3>
               <p>Traditional, engagement, daily wear, and solitaire rings.</p>

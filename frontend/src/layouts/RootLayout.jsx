@@ -4,12 +4,10 @@ import Navbar from '@components/Layout/Navbar/Navbar';
 import Footer from '@components/Layout/Footer/Footer';
 import WhatsAppFloat from '@components/Common/WhatsAppFloat/WhatsAppFloat';
 import Loader from '@components/Common/Loader/Loader';
-import CartDrawer from '@components/Cart/CartDrawer';
-import AuthModal from '@components/Auth/AuthModal';
 
 /**
- * RootLayout — Wraps all pages with the shared Navbar, Footer,
- * WhatsApp Concierge, global CartDrawer, and AuthModal.
+ * RootLayout — Wraps all pages with the shared Navbar, Footer, and WhatsApp button.
+ * The page-specific content renders inside <Outlet />.
  */
 export default function RootLayout() {
   const { pathname } = useLocation();
@@ -31,12 +29,6 @@ export default function RootLayout() {
 
       {/* WhatsApp Floating Button */}
       <WhatsAppFloat />
-
-      {/* Global Slide-out Shopping Cart Drawer */}
-      <CartDrawer />
-
-      {/* Global Authentication Modal */}
-      <AuthModal />
     </>
   );
 }
