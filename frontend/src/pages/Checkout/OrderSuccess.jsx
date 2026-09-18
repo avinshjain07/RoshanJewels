@@ -123,7 +123,7 @@ export default function OrderSuccess() {
                 <h2>ROSHAN JEWELS</h2>
                 <span className="invoice-tagline">Crafting Stories in Gold Since 1965</span>
                 <p className="invoice-address">
-                  UG-02, 03, Royal Diamond Building, Yeshwant Niwas Road, Opposite SBI Bank,<br />
+                  UG-02, 03, Royal Diamond Building, Yeshwant Niwas Road, Opposite SBI Bank, Sanghi Colony, Yeshwant Colony,<br />
                   Indore, Madhya Pradesh – 452002 • Ph: +91 82249 98809 • Email: jewelroshan9@gmail.com
                 </p>
                 <span className="invoice-gstin">GSTIN: 23AABCR1965M1Z8 • BIS Hallmark Reg: HM-MP-IND-0916</span>

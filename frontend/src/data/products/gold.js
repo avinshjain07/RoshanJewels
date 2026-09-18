@@ -810,6 +810,42 @@ export const goldProducts = [
     "bestSeller": false
   },
   {
+    "id": "gld-mangal-7",
+    "slug": "aaradhya-swirl-22k-gold-mangalsutra",
+    "title": "Aaradhya Swirl 22K Gold Mangalsutra",
+    "category": "Gold Collection",
+    "subcategory": "Gold Mangalsutra",
+    "type": "Mangalsutra",
+    "images": [
+      "/WEBSITE PHOTO NEW/GOLD MANGALSUTRA/gold-mangalsutra-7.jpeg"
+    ],
+    "description": "Elegant wave swirl motif tanmaniya with dangling gold droplet fringes on traditional auspicious black bead chain.",
+    "badge": "NEW",
+    "futurePurity": "22K (916) HUID Hallmarked",
+    "futureWeight": "18.20g",
+    "futureSKU": "RJ-GLD-MS007",
+    "featured": true,
+    "bestSeller": false
+  },
+  {
+    "id": "gld-mangal-8",
+    "slug": "imperial-chandrika-22k-gold-mangalsutra",
+    "title": "Imperial Chandrika 22K Gold Mangalsutra",
+    "category": "Gold Collection",
+    "subcategory": "Gold Mangalsutra",
+    "type": "Mangalsutra",
+    "images": [
+      "/WEBSITE PHOTO NEW/GOLD MANGALSUTRA/gold-mangalsutra-8.jpeg"
+    ],
+    "description": "Crescent floral motif 22K gold tanmaniya studded with micro-filigree accents and dual-strand black bead chain.",
+    "badge": null,
+    "futurePurity": "22K (916) HUID Hallmarked",
+    "futureWeight": "16.80g",
+    "futureSKU": "RJ-GLD-MS008",
+    "featured": false,
+    "bestSeller": false
+  },
+  {
     "id": "gld-neck-1",
     "slug": "maharani-antique-temple-gold-choker",
     "title": "Maharani Antique Temple 22K Gold Choker",
@@ -1134,6 +1170,24 @@ export const goldProducts = [
     "bestSeller": false
   },
   {
+    "id": "gld-pend-8",
+    "slug": "divya-shankh-floral-22k-gold-pendant",
+    "title": "Divya Shankh Floral 22K Gold Pendant",
+    "category": "Gold Collection",
+    "subcategory": "Gold Pendant",
+    "type": "Pendant",
+    "images": [
+      "/WEBSITE PHOTO NEW/GOLD PENDENT/gold-pendant-8.jpeg"
+    ],
+    "description": "Sacred carved Shankh motif gold pendant adorned with intricate floral filigree and high-lustre 22K gold finish.",
+    "badge": "NEW",
+    "futurePurity": "22K (916) HUID Hallmarked",
+    "futureWeight": "8.40g",
+    "futureSKU": "RJ-GLD-PD008",
+    "featured": false,
+    "bestSeller": false
+  },
+  {
     "id": "gld-chain-1",
     "slug": "rudra-heavy-solid-22k-gold-chain",
     "title": "Rudra Heavy Solid 22K Gold Chain",
@@ -1256,6 +1310,42 @@ export const goldProducts = [
     "futurePurity": "22K (916) HUID Hallmarked",
     "futureWeight": "36.50g",
     "futureSKU": "RJ-GLD-KD002",
+    "featured": false,
+    "bestSeller": false
+  },
+  {
+    "id": "gld-kada-3",
+    "slug": "mahaveer-solid-chiseled-22k-gold-kada",
+    "title": "Mahaveer Solid Chiseled 22K Gold Kada",
+    "category": "Gold Collection",
+    "subcategory": "Gents Kada & Patti",
+    "type": "Gents Kada & Patti",
+    "images": [
+      "/WEBSITE PHOTO NEW/CHAIN/chain-5.jpg"
+    ],
+    "description": "Bold solid 22K gold kada for men featuring chiseled chevron textures and comfort-fit rounded interior.",
+    "badge": "NEW",
+    "futurePurity": "22K (916) HUID Hallmarked",
+    "futureWeight": "42.00g",
+    "futureSKU": "RJ-GLD-KD003",
+    "featured": true,
+    "bestSeller": false
+  },
+  {
+    "id": "gld-kada-4",
+    "slug": "suryavanshi-embossed-royal-gold-patti-bracelet",
+    "title": "Suryavanshi Embossed Royal Gold Patti Bracelet",
+    "category": "Gold Collection",
+    "subcategory": "Gents Kada & Patti",
+    "type": "Gents Kada & Patti",
+    "images": [
+      "/WEBSITE PHOTO NEW/CHAIN/chain-4.jpg"
+    ],
+    "description": "Masculine royal gold patti wristwear with embossed solar geometric motifs and double-locking clasp.",
+    "badge": null,
+    "futurePurity": "22K (916) HUID Hallmarked",
+    "futureWeight": "34.20g",
+    "futureSKU": "RJ-GLD-KD004",
     "featured": false,
     "bestSeller": false
   }

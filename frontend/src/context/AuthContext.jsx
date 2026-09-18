@@ -5,11 +5,20 @@ const AuthContext = createContext(null);
 const AUTH_STORAGE_KEY = 'roshan_jewels_user_session';
 const ORDERS_STORAGE_KEY = 'roshan_jewels_orders';
 
+const REGISTERED_USERS_KEY = 'roshan_jewels_registered_patrons';
+
+export const isValidEmail = (email) => {
+  if (!email || typeof email !== 'string') return false;
+  const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+  return emailRegex.test(email.trim());
+};
+
 // Initial dummy patron for demonstration & testing
 const DEMO_USER = {
   id: 'usr_patron_01',
   name: 'Avinash Jain',
   email: 'avinshjain521@gmail.com',
+  password: 'Roshan@1965',
   phone: '+91 82249 98809',
   vipTier: 'Heritage Privilege Patron',
   membershipId: 'RJ-VIP-1965-88',
@@ -28,6 +37,8 @@ const DEMO_USER = {
     }
   ]
 };
+
+const DEFAULT_REGISTERED_USERS = [DEMO_USER];
 
 export function AuthProvider({ children }) {
   const [user, setUser] = useState(() => {
@@ -60,6 +71,28 @@ export function AuthProvider({ children }) {
   const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
   const [authModalMode, setAuthModalMode] = useState('login'); // 'login' | 'register' | 'forgot'
 
+  const getRegisteredUsers = () => {
+    try {
+      const stored = localStorage.getItem(REGISTERED_USERS_KEY);
+      if (!stored) {
+        localStorage.setItem(REGISTERED_USERS_KEY, JSON.stringify(DEFAULT_REGISTERED_USERS));
+        return DEFAULT_REGISTERED_USERS;
+      }
+      const parsed = JSON.parse(stored);
+      if (!Array.isArray(parsed)) {
+        localStorage.setItem(REGISTERED_USERS_KEY, JSON.stringify(DEFAULT_REGISTERED_USERS));
+        return DEFAULT_REGISTERED_USERS;
+      }
+      if (!parsed.some(u => u.email.toLowerCase() === DEMO_USER.email.toLowerCase())) {
+        parsed.push(DEMO_USER);
+        localStorage.setItem(REGISTERED_USERS_KEY, JSON.stringify(parsed));
+      }
+      return parsed;
+    } catch {
+      return DEFAULT_REGISTERED_USERS;
+    }
+  };
+
   useEffect(() => {
     if (user) {
       localStorage.setItem(AUTH_STORAGE_KEY, JSON.stringify(user));
@@ -82,35 +115,84 @@ export function AuthProvider({ children }) {
   };
 
   const login = async (email, password) => {
-    // Simulated luxury auth validation
-    const trimmedEmail = (email || '').trim().toLowerCase();
-    const newUser = {
-      id: `usr_${Date.now()}`,
-      name: trimmedEmail.split('@')[0].replace('.', ' ').replace(/^./, c => c.toUpperCase()),
-      email: trimmedEmail,
-      phone: '+91 98765 43210',
-      vipTier: 'Heritage Privilege Patron',
-      membershipId: `RJ-VIP-${Math.floor(1000 + Math.random() * 9000)}`,
-      addresses: user?.addresses?.length ? user.addresses : DEMO_USER.addresses
-    };
-    setUser(newUser);
+    const trimmedEmail = (email || '').trim();
+    if (!trimmedEmail) {
+      throw new Error('Please enter your email address.');
+    }
+    if (!isValidEmail(trimmedEmail)) {
+      throw new Error('Please enter a valid email address (e.g. name@domain.com).');
+    }
+    if (!password) {
+      throw new Error('Please enter your password.');
+    }
+
+    const registeredUsers = getRegisteredUsers();
+    const existingUser = registeredUsers.find(
+      u => u.email.toLowerCase() === trimmedEmail.toLowerCase()
+    );
+
+    if (!existingUser) {
+      throw new Error('No account found with this email. Please check your credentials or create an account.');
+    }
+
+    if (existingUser.password !== password) {
+      throw new Error('Incorrect password. Please verify your credentials and try again.');
+    }
+
+    const { password: _, ...userSession } = existingUser;
+    setUser(userSession);
     closeAuthModal();
-    return { success: true, user: newUser };
+    return { success: true, user: userSession };
   };
 
   const register = async ({ name, email, phone, password }) => {
-    const newUser = {
+    const trimmedName = (name || '').trim();
+    const trimmedEmail = (email || '').trim().toLowerCase();
+    const trimmedPhone = (phone || '').trim();
+
+    if (!trimmedName) {
+      throw new Error('Please enter your full name.');
+    }
+    if (!trimmedEmail) {
+      throw new Error('Please enter your email address.');
+    }
+    if (!isValidEmail(trimmedEmail)) {
+      throw new Error('Please enter a valid email address (e.g. name@domain.com).');
+    }
+    if (!trimmedPhone) {
+      throw new Error('Please enter your mobile phone number.');
+    }
+    if (!password || password.length < 6) {
+      throw new Error('Password must be at least 6 characters in length.');
+    }
+
+    const registeredUsers = getRegisteredUsers();
+    if (registeredUsers.some(u => u.email.toLowerCase() === trimmedEmail)) {
+      throw new Error('An account with this email address already exists. Please sign in instead.');
+    }
+
+    const newRegisteredUser = {
       id: `usr_${Date.now()}`,
-      name: name.trim(),
-      email: email.trim().toLowerCase(),
-      phone: phone.trim(),
+      name: trimmedName,
+      email: trimmedEmail,
+      phone: trimmedPhone,
+      password: password,
       vipTier: 'Privilege Member',
       membershipId: `RJ-MEM-${Math.floor(1000 + Math.random() * 9000)}`,
       addresses: []
     };
-    setUser(newUser);
+
+    const updatedUsers = [...registeredUsers, newRegisteredUser];
+    try {
+      localStorage.setItem(REGISTERED_USERS_KEY, JSON.stringify(updatedUsers));
+    } catch {
+      // Ignore quota error if storage is full
+    }
+
+    const { password: _, ...userSession } = newRegisteredUser;
+    setUser(userSession);
     closeAuthModal();
-    return { success: true, user: newUser };
+    return { success: true, user: userSession };
   };
 
   const logout = () => {

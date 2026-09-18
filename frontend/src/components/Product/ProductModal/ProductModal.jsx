@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useCart } from '@context/CartContext';
 import { useWishlist } from '@context/WishlistContext';
@@ -10,6 +10,7 @@ import { useWishlist } from '@context/WishlistContext';
 export default function ProductModal({ product, isOpen, onClose, onPrev, onNext }) {
   const { addToCart } = useCart();
   const { isInWishlist, toggleWishlist } = useWishlist();
+  const [isAdded, setIsAdded] = useState(false);
   const navigate = useNavigate();
 
   // Prevent scrolling behind modal
@@ -24,6 +25,8 @@ export default function ProductModal({ product, isOpen, onClose, onPrev, onNext 
 
   const handleAddBag = () => {
     addToCart(product, 1);
+    setIsAdded(true);
+    setTimeout(() => setIsAdded(false), 2000);
   };
 
   const handleBuyNow = () => {
@@ -143,10 +146,18 @@ export default function ProductModal({ product, isOpen, onClose, onPrev, onNext 
               <div className="primary-actions-row">
                 <button
                   type="button"
-                  className="btn-modal-add-bag"
+                  className={`btn-modal-add-bag ${isAdded ? 'added' : ''}`}
                   onClick={handleAddBag}
                 >
-                  <i className="fas fa-shopping-bag"></i> Add to Shopping Bag
+                  {isAdded ? (
+                    <>
+                      <i className="fas fa-check"></i> Added to Shopping Bag
+                    </>
+                  ) : (
+                    <>
+                      <i className="fas fa-shopping-bag"></i> Add to Shopping Bag
+                    </>
+                  )}
                 </button>
                 <button
                   type="button"

@@ -12,11 +12,13 @@ export default function AuthModal() {
   const [phone, setPhone] = useState('');
   const [error, setError] = useState('');
   const [successMsg, setSuccessMsg] = useState('');
-  const [loading, setLoading] = useState(false);
+  const [showPassword, setShowPassword] = useState(false);
+  const [fieldErrors, setFieldErrors] = useState({});
 
   useEffect(() => {
     setMode(authModalMode);
     setError('');
+    setFieldErrors({});
     setSuccessMsg('');
   }, [authModalMode, isAuthModalOpen]);
 
@@ -32,41 +34,154 @@ export default function AuthModal() {
 
   if (!isAuthModalOpen) return null;
 
+  const validateEmailFormat = (emailVal) => {
+    const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    return emailRegex.test((emailVal || '').trim());
+  };
+
+  const handleBlurEmail = () => {
+    const trimmed = email.trim();
+    if (!trimmed) {
+      setFieldErrors(prev => ({ ...prev, email: 'Email address is required.' }));
+    } else if (!validateEmailFormat(trimmed)) {
+      setFieldErrors(prev => ({ ...prev, email: 'Please enter a valid email format (e.g. name@domain.com).' }));
+    } else {
+      setFieldErrors(prev => ({ ...prev, email: '' }));
+    }
+  };
+
+  const handleBlurPassword = () => {
+    if (!password) {
+      setFieldErrors(prev => ({ ...prev, password: 'Password is required.' }));
+    } else if (password.length < 6) {
+      setFieldErrors(prev => ({ ...prev, password: 'Password must be at least 6 characters.' }));
+    } else {
+      setFieldErrors(prev => ({ ...prev, password: '' }));
+    }
+  };
+
+  const handleBlurPhone = () => {
+    const digits = phone.replace(/\D/g, '');
+    if (!phone.trim()) {
+      setFieldErrors(prev => ({ ...prev, phone: 'Mobile number is required.' }));
+    } else if (digits.length < 10) {
+      setFieldErrors(prev => ({ ...prev, phone: 'Please enter a valid 10-digit mobile number.' }));
+    } else {
+      setFieldErrors(prev => ({ ...prev, phone: '' }));
+    }
+  };
+
+  const handleBlurName = () => {
+    if (!name.trim()) {
+      setFieldErrors(prev => ({ ...prev, name: 'Full name is required.' }));
+    } else {
+      setFieldErrors(prev => ({ ...prev, name: '' }));
+    }
+  };
+
+  const handleFillDemo = () => {
+    setEmail('avinshjain521@gmail.com');
+    setPassword('Roshan@1965');
+    setError('');
+    setFieldErrors({});
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     setError('');
     setSuccessMsg('');
-    setLoading(true);
+    const newFieldErrors = {};
 
-    try {
-      if (mode === 'login') {
-        if (!email || !password) {
-          setError('Please enter both email and password.');
-          setLoading(false);
-          return;
-        }
-        await login(email, password);
-      } else if (mode === 'register') {
-        if (!name || !email || !phone || !password) {
-          setError('Please fill in all required fields.');
-          setLoading(false);
-          return;
-        }
-        await register({ name, email, phone, password });
-      } else if (mode === 'forgot') {
-        if (!email) {
-          setError('Please enter your registered email address.');
-          setLoading(false);
-          return;
-        }
-        setSuccessMsg(`Password reset instructions have been sent to ${email}`);
-        setLoading(false);
+    const trimmedEmail = email.trim();
+
+    if (mode === 'login') {
+      if (!trimmedEmail) {
+        newFieldErrors.email = 'Email address is required.';
+      } else if (!validateEmailFormat(trimmedEmail)) {
+        newFieldErrors.email = 'Please enter a valid email format (e.g. name@domain.com).';
+      }
+
+      if (!password) {
+        newFieldErrors.password = 'Password is required.';
+      } else if (password.length < 6) {
+        newFieldErrors.password = 'Password must be at least 6 characters.';
+      }
+
+      if (Object.keys(newFieldErrors).length > 0) {
+        setFieldErrors(newFieldErrors);
+        setError(newFieldErrors.email || newFieldErrors.password);
         return;
       }
-    } catch (err) {
-      setError(err.message || 'Authentication failed. Please try again.');
-    } finally {
-      setLoading(false);
+
+      setLoading(true);
+      try {
+        await login(trimmedEmail, password);
+      } catch (err) {
+        const msg = err.message || 'Invalid email or password.';
+        setError(msg);
+        if (msg.toLowerCase().includes('password')) {
+          setFieldErrors({ password: msg });
+        } else if (msg.toLowerCase().includes('email')) {
+          setFieldErrors({ email: msg });
+        } else {
+          setFieldErrors({ email: 'Check email', password: 'Check password' });
+        }
+      } finally {
+        setLoading(false);
+      }
+    } else if (mode === 'register') {
+      if (!name.trim()) newFieldErrors.name = 'Full name is required.';
+      if (!trimmedEmail) {
+        newFieldErrors.email = 'Email address is required.';
+      } else if (!validateEmailFormat(trimmedEmail)) {
+        newFieldErrors.email = 'Please enter a valid email format (e.g. name@domain.com).';
+      }
+      const digits = phone.replace(/\D/g, '');
+      if (!phone.trim()) {
+        newFieldErrors.phone = 'Mobile number is required.';
+      } else if (digits.length < 10) {
+        newFieldErrors.phone = 'Please enter a valid 10-digit mobile number.';
+      }
+      if (!password || password.length < 6) {
+        newFieldErrors.password = 'Password must be at least 6 characters.';
+      }
+
+      if (Object.keys(newFieldErrors).length > 0) {
+        setFieldErrors(newFieldErrors);
+        setError(Object.values(newFieldErrors)[0]);
+        return;
+      }
+
+      setLoading(true);
+      try {
+        await register({ name, email: trimmedEmail, phone, password });
+      } catch (err) {
+        setError(err.message || 'Registration failed.');
+        if (err.message && err.message.toLowerCase().includes('email')) {
+          setFieldErrors({ email: err.message });
+        }
+      } finally {
+        setLoading(false);
+      }
+    } else if (mode === 'forgot') {
+      if (!trimmedEmail) {
+        newFieldErrors.email = 'Please enter your registered email address.';
+      } else if (!validateEmailFormat(trimmedEmail)) {
+        newFieldErrors.email = 'Please enter a valid email format (e.g. name@domain.com).';
+      }
+
+      if (Object.keys(newFieldErrors).length > 0) {
+        setFieldErrors(newFieldErrors);
+        setError(newFieldErrors.email);
+        return;
+      }
+
+      setLoading(true);
+      try {
+        setSuccessMsg(`Password reset instructions have been dispatched to ${trimmedEmail}`);
+      } finally {
+        setLoading(false);
+      }
     }
   };
 
@@ -133,6 +248,24 @@ export default function AuthModal() {
           </div>
         )}
 
+        {/* Demo Credentials Helper Pill (Only for Sign In) */}
+        {mode === 'login' && (
+          <div className="demo-credentials-card">
+            <div className="demo-creds-info">
+              <span className="demo-label"><i className="fas fa-shield-alt"></i> Demo Patron Access:</span>
+              <span className="demo-values numeric-text">avinshjain521@gmail.com • Roshan@1965</span>
+            </div>
+            <button
+              type="button"
+              className="btn-fill-demo"
+              onClick={handleFillDemo}
+              title="Auto-fill demo credentials"
+            >
+              Auto Fill
+            </button>
+          </div>
+        )}
+
         {/* Auth Form */}
         <form onSubmit={handleSubmit} className="auth-form" noValidate>
           {mode === 'register' && (
@@ -143,12 +276,21 @@ export default function AuthModal() {
               <input
                 type="text"
                 id="authName"
-                className="form-control"
+                className={`form-control ${fieldErrors.name ? 'is-invalid' : ''}`}
                 placeholder="e.g. Sanya Mehta"
                 value={name}
-                onChange={(e) => setName(e.target.value)}
+                onBlur={handleBlurName}
+                onChange={(e) => {
+                  setName(e.target.value);
+                  if (fieldErrors.name) setFieldErrors(prev => ({ ...prev, name: '' }));
+                }}
                 required
               />
+              {fieldErrors.name && (
+                <span className="field-error-text">
+                  <i className="fas fa-exclamation-circle"></i> {fieldErrors.name}
+                </span>
+              )}
             </div>
           )}
 
@@ -159,12 +301,25 @@ export default function AuthModal() {
             <input
               type="email"
               id="authEmail"
-              className="form-control"
+              className={`form-control ${fieldErrors.email ? 'is-invalid' : ''}`}
               placeholder="e.g. name@domain.com"
               value={email}
-              onChange={(e) => setEmail(e.target.value)}
+              onBlur={handleBlurEmail}
+              onChange={(e) => {
+                setEmail(e.target.value);
+                if (fieldErrors.email) {
+                  if (validateEmailFormat(e.target.value)) {
+                    setFieldErrors(prev => ({ ...prev, email: '' }));
+                  }
+                }
+              }}
               required
             />
+            {fieldErrors.email && (
+              <span className="field-error-text">
+                <i className="fas fa-exclamation-circle"></i> {fieldErrors.email}
+              </span>
+            )}
           </div>
 
           {mode === 'register' && (
@@ -175,12 +330,25 @@ export default function AuthModal() {
               <input
                 type="tel"
                 id="authPhone"
-                className="form-control numeric-text"
+                className={`form-control numeric-text ${fieldErrors.phone ? 'is-invalid' : ''}`}
                 placeholder="+91 98765 43210"
                 value={phone}
-                onChange={(e) => setPhone(e.target.value)}
+                onBlur={handleBlurPhone}
+                onChange={(e) => {
+                  setPhone(e.target.value);
+                  if (fieldErrors.phone) {
+                    if (e.target.value.replace(/\D/g, '').length >= 10) {
+                      setFieldErrors(prev => ({ ...prev, phone: '' }));
+                    }
+                  }
+                }}
                 required
               />
+              {fieldErrors.phone && (
+                <span className="field-error-text">
+                  <i className="fas fa-exclamation-circle"></i> {fieldErrors.phone}
+                </span>
+              )}
             </div>
           )}
 
@@ -194,21 +362,43 @@ export default function AuthModal() {
                   <button
                     type="button"
                     className="btn-forgot-link"
-                    onClick={() => { setMode('forgot'); setError(''); }}
+                    onClick={() => { setMode('forgot'); setError(''); setFieldErrors({}); }}
                   >
                     Forgot Password?
                   </button>
                 )}
               </div>
-              <input
-                type="password"
-                id="authPassword"
-                className="form-control"
-                placeholder="••••••••"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-                required
-              />
+              <div className="password-input-wrapper">
+                <input
+                  type={showPassword ? 'text' : 'password'}
+                  id="authPassword"
+                  className={`form-control ${fieldErrors.password ? 'is-invalid' : ''}`}
+                  placeholder="••••••••"
+                  value={password}
+                  onBlur={handleBlurPassword}
+                  onChange={(e) => {
+                    setPassword(e.target.value);
+                    if (fieldErrors.password && e.target.value.length >= 6) {
+                      setFieldErrors(prev => ({ ...prev, password: '' }));
+                    }
+                  }}
+                  required
+                />
+                <button
+                  type="button"
+                  className="btn-toggle-pwd"
+                  onClick={() => setShowPassword(p => !p)}
+                  title={showPassword ? "Hide password" : "Show password"}
+                  tabIndex="-1"
+                >
+                  <i className={showPassword ? "fas fa-eye-slash" : "fas fa-eye"}></i>
+                </button>
+              </div>
+              {fieldErrors.password && (
+                <span className="field-error-text">
+                  <i className="fas fa-exclamation-circle"></i> {fieldErrors.password}
+                </span>
+              )}
             </div>
           )}
 

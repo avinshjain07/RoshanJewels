@@ -22,7 +22,7 @@ const NAVRATNA_STONES = [
     ],
     description: 'The King of Gemstones (Ratnaraj). Our certified natural rubies are chosen for deep crimson luster, exceptional transparency, and unheated astrological potency.',
     caratRange: '2.50 to 12.00+ Ratti available in stock',
-    image: '/WEBSITE PHOTO NEW/BEADS MALA/beads-mala-1.jpg'
+    image: '/gemstones/ruby.jpg'
   },
   {
     id: 'pearl',
@@ -43,7 +43,7 @@ const NAVRATNA_STONES = [
     ],
     description: 'Sacred stone of the Moon. Natural certified pearls chosen for rich nacre thickness, smooth spherical symmetry, and gentle lunar aura.',
     caratRange: '4.00 to 15.00+ Ratti available in stock',
-    image: '/WEBSITE PHOTO NEW/BEADS MALA/beads-mala-2.jpg'
+    image: '/gemstones/pearl.jpg'
   },
   {
     id: 'red-coral',
@@ -64,7 +64,7 @@ const NAVRATNA_STONES = [
     ],
     description: 'The vitality gemstone of Mars. Premium Italian triangular and capsule corals polished to a porcelain luster without dyes or chemical fillings.',
     caratRange: '4.50 to 14.00+ Ratti available in stock',
-    image: '/WEBSITE PHOTO NEW/BEADS MALA/beads-mala-3.jpg'
+    image: '/gemstones/coral.jpg'
   },
   {
     id: 'emerald',
@@ -85,7 +85,7 @@ const NAVRATNA_STONES = [
     ],
     description: 'The stone of merchants, scholars, and orators. Certified Zambian and Colombian emeralds with velvety green saturation and rich natural jardin.',
     caratRange: '2.00 to 10.00+ Ratti available in stock',
-    image: '/WEBSITE PHOTO NEW/BEADS MALA/beads-mala-4.jpg'
+    image: '/gemstones/emerald.jpg'
   },
   {
     id: 'yellow-sapphire',
@@ -106,7 +106,7 @@ const NAVRATNA_STONES = [
     ],
     description: 'The supreme benefic gemstone of Devaguru Brihaspati. Pure unheated Ceylon sapphires with golden radiance and flawless optical transparency.',
     caratRange: '3.00 to 12.00+ Ratti available in stock',
-    image: '/WEBSITE PHOTO NEW/BEADS MALA/beads-mala-5.jpg'
+    image: '/gemstones/yellow-sapphire.jpg'
   },
   {
     id: 'diamond-white-sapphire',
@@ -127,7 +127,7 @@ const NAVRATNA_STONES = [
     ],
     description: 'The gemstone of love, glamour, and beauty. Certified natural diamonds and untreated Ceylon white sapphires exhibiting scintillating brilliance and fire.',
     caratRange: '0.30 to 5.00+ Carats available in stock',
-    image: '/WEBSITE PHOTO NEW/BEADS MALA/beads-mala-6.jpg'
+    image: '/gemstones/diamond.jpg'
   },
   {
     id: 'blue-sapphire',
@@ -148,7 +148,7 @@ const NAVRATNA_STONES = [
     ],
     description: 'The most potent and rapid acting gemstone of Saturn. Certified natural unheated Ceylon blue sapphires with velvety cornflower and royal blue saturation.',
     caratRange: '2.50 to 11.00+ Ratti available in stock',
-    image: '/WEBSITE PHOTO NEW/BEADS MALA/beads-mala-7.jpg'
+    image: '/gemstones/blue-sapphire.jpg'
   },
   {
     id: 'hessonite',
@@ -169,7 +169,7 @@ const NAVRATNA_STONES = [
     ],
     description: 'The shadow-dissolving stone of Rahu. Selected for rich honey-cinnamon transparent hue without black inclusions or murky cloudiness.',
     caratRange: '4.00 to 14.00+ Ratti available in stock',
-    image: '/WEBSITE PHOTO NEW/BEADS MALA/beads-mala-8.jpg'
+    image: '/gemstones/hessonite.jpg'
   },
   {
     id: 'cats-eye',
@@ -190,7 +190,7 @@ const NAVRATNA_STONES = [
     ],
     description: 'The mystical talisman of Ketu. Features a razor-sharp, unbroken chatoyant milk-and-honey light band that opens and closes under directional light.',
     caratRange: '3.00 to 10.00+ Ratti available in stock',
-    image: '/WEBSITE PHOTO NEW/BEADS MALA/beads-mala-9.jpg'
+    image: '/gemstones/cats-eye.jpg'
   }
 ];
 
@@ -216,7 +216,7 @@ export default function GemsStone() {
         <div className="container">
           <span className="page-badge"><i className="fas fa-gem"></i> NAVRATNA ATELIER • ESTD. 1965</span>
           <h1>Roshan Jewels Certified Natural Gemstones</h1>
-          <p>Every precious gemstone available in 100% certified, unheated & untreated astrological quality with guaranteed Vedic potency</p>
+          <p>Every precious astrological gemstone available in 100% certified, unheated & untreated highest quality with guaranteed Vedic potency</p>
         </div>
       </section>
 

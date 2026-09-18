@@ -150,5 +150,81 @@ export const kundanProducts = [
     "futureSKU": "RJ-KND-TK001",
     "featured": false,
     "bestSeller": true
+  },
+  {
+    "id": "knd-choker-9",
+    "slug": "rajwada-meenakari-polki-choker",
+    "title": "Rajwada Meenakari Polki Bridal Choker",
+    "category": "Kundan Polki",
+    "subcategory": "Bridal Chokers",
+    "type": "Bridal Chokers",
+    "images": [
+      "/WEBSITE PHOTO NEW/GOLD NEACKLESS/gold-necklace-6.jpeg"
+    ],
+    "description": "Exquisite handcrafted Jadau choker adorned with fine foil-backed Polki diamonds, rubies, and handcrafted multi-color back enameling.",
+    "badge": "ROYAL HERITAGE",
+    "futurePurity": "22K Gold & Royal Jadau",
+    "futureGemstone": "Uncut Polki & Natural Rubies",
+    "futureWeight": "78.50g",
+    "futureSKU": "RJ-KND-CK003",
+    "featured": true,
+    "bestSeller": false
+  },
+  {
+    "id": "knd-haar-10",
+    "slug": "sheesh-mahal-jadau-kundan-long-haar-set",
+    "title": "Sheesh Mahal Jadau Kundan Long Haar Set",
+    "category": "Kundan Polki",
+    "subcategory": "Necklace Set",
+    "type": "Necklace Set",
+    "images": [
+      "/WEBSITE PHOTO NEW/GOLD NEACKLESS/gold-necklace-7.jpeg"
+    ],
+    "description": "Grand wedding royal rani haar featuring intricate mirror-work Polki clusters, emerald bead tassels, and matching heirloom earrings.",
+    "badge": "LUXURY",
+    "futurePurity": "22K Gold & Royal Jadau",
+    "futureGemstone": "Uncut Polki & Zambian Emeralds",
+    "futureWeight": "115.00g",
+    "futureSKU": "RJ-KND-NK003",
+    "featured": true,
+    "bestSeller": true
+  },
+  {
+    "id": "knd-jhumka-11",
+    "slug": "noorani-chandbali-kundan-drop-earrings",
+    "title": "Noorani Chandbali Kundan Drop Earrings",
+    "category": "Kundan Polki",
+    "subcategory": "Kundan Jhumkas",
+    "type": "Kundan Jhumkas",
+    "images": [
+      "/WEBSITE PHOTO NEW/GOLD EARRING/gold-earring-3.jpeg"
+    ],
+    "description": "Crescent moon Chandbali earrings set with luminous uncut Polki stones and dangling freshwater seed pearl clusters.",
+    "badge": "POPULAR",
+    "futurePurity": "22K Gold & Royal Jadau",
+    "futureGemstone": "Uncut Polki & Seed Pearls",
+    "futureWeight": "28.40g",
+    "futureSKU": "RJ-KND-JH003",
+    "featured": false,
+    "bestSeller": false
+  },
+  {
+    "id": "knd-kada-12",
+    "slug": "jodha-floral-antique-polki-bangle-pair",
+    "title": "Jodha Floral Antique Polki Bangle (Pair)",
+    "category": "Kundan Polki",
+    "subcategory": "Royal Kadas",
+    "type": "Royal Kadas",
+    "images": [
+      "/WEBSITE PHOTO NEW/GOLD BANGLE/gold-bangle-4.jpeg"
+    ],
+    "description": "Pair of antique gold openable bangles encrusted with floral Jadau motifs and intricate side filigree borders.",
+    "badge": "NEW",
+    "futurePurity": "22K Gold & Royal Jadau",
+    "futureGemstone": "Uncut Polki & Ruby Accents",
+    "futureWeight": "64.00g",
+    "futureSKU": "RJ-KND-KD002",
+    "featured": false,
+    "bestSeller": false
   }
 ];

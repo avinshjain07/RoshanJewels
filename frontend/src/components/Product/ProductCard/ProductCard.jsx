@@ -1,4 +1,4 @@
-import { memo, useRef, useEffect } from 'react';
+import { memo, useRef, useEffect, useState } from 'react';
 import { useCart } from '@context/CartContext';
 import { useWishlist } from '@context/WishlistContext';
 
@@ -8,36 +8,36 @@ import { useWishlist } from '@context/WishlistContext';
  */
 const ProductCard = memo(function ProductCard({ product, onView }) {
   const imgRef = useRef(null);
+  const [isAdded, setIsAdded] = useState(false);
+  const [imgLoaded, setImgLoaded] = useState(false);
   const { addToCart } = useCart();
   const { isInWishlist, toggleWishlist } = useWishlist();
 
   const isSaved = isInWishlist(product.id);
+  const imageSrc = product.images && product.images[0] ? product.images[0] : '/placeholder.png';
 
-  // Lazy-load image via IntersectionObserver
+  // Reliable lazy-load image handling
   useEffect(() => {
     const img = imgRef.current;
     if (!img) return;
 
-    const observer = new IntersectionObserver(
-      (entries, obs) => {
-        if (entries[0].isIntersecting) {
-          img.src = product.images && product.images[0] ? product.images[0] : '/placeholder.png';
-          img.onload = () => img.classList.add('loaded');
-          obs.unobserve(img);
-        }
-      },
-      { rootMargin: '150px 0px' }
-    );
+    if (img.complete && img.naturalWidth > 0) {
+      setImgLoaded(true);
+      return;
+    }
 
-    observer.observe(img);
-    return () => observer.disconnect();
-  }, [product.images]);
+    const handleLoad = () => setImgLoaded(true);
+    img.addEventListener('load', handleLoad);
+    return () => img.removeEventListener('load', handleLoad);
+  }, [imageSrc]);
 
   const handleClick = () => onView(product.id);
 
   const handleQuickAdd = (e) => {
     e.stopPropagation();
     addToCart(product, 1);
+    setIsAdded(true);
+    setTimeout(() => setIsAdded(false), 1800);
   };
 
   const handleWishlistToggle = (e) => {
@@ -47,30 +47,37 @@ const ProductCard = memo(function ProductCard({ product, onView }) {
 
   return (
     <div className="product-card" id={`product-${product.id}`}>
-      {/* Badge */}
-      {product.badge && (
-        <div className="seller-badge">{product.badge}</div>
-      )}
+      {/* Top Bar: mathematically prevents badge and wishlist button from ever colliding */}
+      <div className="product-card-top-bar">
+        {product.badge ? (
+          <div className="seller-badge" title={product.badge}>
+            {product.badge}
+          </div>
+        ) : (
+          <span className="top-bar-spacer" />
+        )}
 
-      {/* Wishlist Heart Button */}
-      <button
-        type="button"
-        className={`btn-card-wishlist ${isSaved ? 'saved' : ''}`}
-        onClick={handleWishlistToggle}
-        title={isSaved ? "Remove from Wishlist" : "Save to Wishlist"}
-        aria-label="Wishlist"
-      >
-        <i className={isSaved ? "fas fa-heart" : "far fa-heart"}></i>
-      </button>
+        {/* Wishlist Heart Button */}
+        <button
+          type="button"
+          className={`btn-card-wishlist ${isSaved ? 'saved' : ''}`}
+          onClick={handleWishlistToggle}
+          title={isSaved ? "Remove from Wishlist" : "Save to Wishlist"}
+          aria-label="Wishlist"
+        >
+          <i className={isSaved ? "fas fa-heart" : "far fa-heart"}></i>
+        </button>
+      </div>
 
       {/* Image */}
       <div className="product-img" onClick={handleClick} style={{ cursor: 'pointer' }}>
         <img
           ref={imgRef}
-          src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 300' fill='%23fbeaec'></svg>"
+          src={imageSrc}
           alt={`${product.title} - ${product.category}`}
-          className="lazy-image"
+          className={`lazy-image ${imgLoaded ? 'loaded' : ''}`}
           loading="lazy"
+          onLoad={() => setImgLoaded(true)}
         />
       </div>
 
@@ -83,7 +90,7 @@ const ProductCard = memo(function ProductCard({ product, onView }) {
           )}
         </div>
 
-        <h3 onClick={handleClick} style={{ cursor: 'pointer' }}>{product.title}</h3>
+        <h3 onClick={handleClick} style={{ cursor: 'pointer' }} title={product.title}>{product.title}</h3>
 
         {/* Pricing Block */}
         <div className="product-price-block">
@@ -113,11 +120,19 @@ const ProductCard = memo(function ProductCard({ product, onView }) {
         <div className="product-card-actions">
           <button
             type="button"
-            className="btn-add-bag"
+            className={`btn-add-bag ${isAdded ? 'added' : ''}`}
             onClick={handleQuickAdd}
             aria-label={`Add ${product.title} to Bag`}
           >
-            <i className="fas fa-shopping-bag"></i> Add to Bag
+            {isAdded ? (
+              <>
+                <i className="fas fa-check"></i> Added
+              </>
+            ) : (
+              <>
+                <i className="fas fa-shopping-bag"></i> Add to Bag
+              </>
+            )}
           </button>
           <button
             type="button"

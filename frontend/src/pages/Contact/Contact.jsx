@@ -122,7 +122,7 @@ export default function Contact() {
   };
 
   const handleCopyAddress = () => {
-    const fullAddress = "UG-02, 03, Royal Diamond Building, Yeshwant Niwas Road, Opposite SBI Bank, Indore, Madhya Pradesh – 452002";
+    const fullAddress = "UG-02, 03, Royal Diamond Building, Yeshwant Niwas Road, Opposite SBI Bank, Sanghi Colony, Yeshwant Colony, Indore, Madhya Pradesh – 452002";
     navigator.clipboard.writeText(fullAddress).then(() => {
       setCopied(true);
       setTimeout(() => setCopied(false), 2500);
@@ -227,7 +227,7 @@ export default function Contact() {
                   <span>Email</span>
                 </a>
                 <a
-                  href="https://maps.google.com/?q=Roshan+Jewel,+UG-02+03+Royal+Diamond+Building,+Yeshwant+Niwas+Road,+Opposite+SBI+Bank,+Indore,+Madhya+Pradesh+452002"
+                  href="https://maps.google.com/?q=UG-02,+03,+Royal+Diamond+Building,+Yeshwant+Niwas+Road,+Opposite+SBI+Bank,+Sanghi+Colony,+Yeshwant+Colony,+Indore,+Madhya+Pradesh+452002"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="contact-quick-btn map-btn"
@@ -262,7 +262,7 @@ export default function Contact() {
                     <span>Instagram</span>
                   </a>
                   <a
-                    href="https://maps.google.com/?q=Roshan+Jewel,+UG-02+03+Royal+Diamond+Building,+Yeshwant+Niwas+Road,+Opposite+SBI+Bank,+Indore,+Madhya+Pradesh+452002"
+                    href="https://maps.google.com/?q=UG-02,+03,+Royal+Diamond+Building,+Yeshwant+Niwas+Road,+Opposite+SBI+Bank,+Sanghi+Colony,+Yeshwant+Colony,+Indore,+Madhya+Pradesh+452002"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="social-active-btn location"
@@ -305,6 +305,7 @@ export default function Contact() {
                     <p className="numeric-text">
                       <strong>UG-02, 03</strong>, Royal Diamond Building,
                       Yeshwant Niwas Road, Opposite SBI Bank,
+                      Sanghi Colony, Yeshwant Colony,
                       Indore, Madhya Pradesh – <span className="slashed-zero">452002</span>
                     </p>
                   </div>
@@ -416,7 +417,7 @@ export default function Contact() {
                 </div>
 
                 <a
-                  href="https://maps.google.com/?q=Roshan+Jewel,+UG-02+03+Royal+Diamond+Building,+Yeshwant+Niwas+Road,+Opposite+SBI+Bank,+Indore,+Madhya+Pradesh+452002"
+                  href="https://maps.google.com/?q=UG-02,+03,+Royal+Diamond+Building,+Yeshwant+Niwas+Road,+Opposite+SBI+Bank,+Sanghi+Colony,+Yeshwant+Colony,+Indore,+Madhya+Pradesh+452002"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-open-maps"

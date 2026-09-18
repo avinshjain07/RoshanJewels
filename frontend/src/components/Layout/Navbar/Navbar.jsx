@@ -93,7 +93,7 @@ export default function Navbar() {
             <span>
               <i className="fas fa-map-marker-alt"></i>{' '}
               <a
-                href="https://maps.google.com/?q=Roshan+Jewel,+UG-02+03+Royal+Diamond+Building,+Yeshwant+Niwas+Road,+Opposite+SBI+Bank,+Indore,+Madhya+Pradesh+452002"
+                href="https://maps.google.com/?q=UG-02,+03,+Royal+Diamond+Building,+Yeshwant+Niwas+Road,+Opposite+SBI+Bank,+Sanghi+Colony,+Yeshwant+Colony,+Indore,+Madhya+Pradesh+452002"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -222,6 +222,21 @@ export default function Navbar() {
           {/* Header Row 2: Bottom Navigation Links */}
           <nav className="header-nav-row">
             <ul className={`nav-links${mobileOpen ? ' active' : ''}`} id="nav-links">
+              {/* Mobile Drawer Top Bar with Brand & Close Button */}
+              <li className="mobile-drawer-top">
+                <div className="mobile-drawer-brand">
+                  <img src={logo} alt="Roshan Jewel" className="drawer-logo" />
+                  <button
+                    type="button"
+                    className="btn-drawer-close"
+                    onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}
+                    aria-label="Close navigation menu"
+                  >
+                    <i className="fas fa-times"></i>
+                  </button>
+                </div>
+              </li>
+
               {/* Home */}
               <li>
                 <NavLink
@@ -242,7 +257,7 @@ export default function Navbar() {
                   aria-haspopup="true"
                   aria-expanded={openDropdown === 'Gold'}
                   onClick={(e) => {
-                    if (window.innerWidth <= 991) {
+                    if (mobileOpen || window.innerWidth <= 991) {
                       e.preventDefault();
                       toggleDropdown('Gold');
                     }
@@ -273,7 +288,7 @@ export default function Navbar() {
                   aria-haspopup="true"
                   aria-expanded={openDropdown === 'Diamond'}
                   onClick={(e) => {
-                    if (window.innerWidth <= 991) {
+                    if (mobileOpen || window.innerWidth <= 991) {
                       e.preventDefault();
                       toggleDropdown('Diamond');
                     }
@@ -304,7 +319,7 @@ export default function Navbar() {
                   aria-haspopup="true"
                   aria-expanded={openDropdown === 'Silver'}
                   onClick={(e) => {
-                    if (window.innerWidth <= 991) {
+                    if (mobileOpen || window.innerWidth <= 991) {
                       e.preventDefault();
                       toggleDropdown('Silver');
                     }
@@ -321,7 +336,7 @@ export default function Navbar() {
                   <li><Link to="/silver?filter=Bangles" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Bangles & Kadas</Link></li>
                   <li><Link to="/silver?filter=Bracelet" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Bracelets</Link></li>
                   <li><Link to="/silver?filter=Pendant" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Silver Pendants</Link></li>
-                  <li><Link to="/bullion?filter=Utensils & Pooja" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Utensils & Pooja Articles</Link></li>
+                  <li><Link to="/silver?filter=Utensils & Pooja" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Utensils & Pooja Articles</Link></li>
                 </ul>
               </li>
 
@@ -333,7 +348,7 @@ export default function Navbar() {
                   aria-haspopup="true"
                   aria-expanded={openDropdown === 'Kundan'}
                   onClick={(e) => {
-                    if (window.innerWidth <= 991) {
+                    if (mobileOpen || window.innerWidth <= 991) {
                       e.preventDefault();
                       toggleDropdown('Kundan');
                     }
@@ -358,7 +373,7 @@ export default function Navbar() {
                   aria-haspopup="true"
                   aria-expanded={openDropdown === 'Coins'}
                   onClick={(e) => {
-                    if (window.innerWidth <= 991) {
+                    if (mobileOpen || window.innerWidth <= 991) {
                       e.preventDefault();
                       toggleDropdown('Coins');
                     }
@@ -366,12 +381,17 @@ export default function Navbar() {
                 >
                   Coins <i className="fas fa-chevron-down"></i>
                 </a>
-                <ul className="dropdown-menu">
-                  <li><Link to="/bullion?filter=Gold Coins" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>24K Gold Coins (1g – 100g)</Link></li>
-                  <li><Link to="/bullion?filter=Silver Coins" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>999 Silver Coins (5g – 50g)</Link></li>
-                  <li><Link to="/bullion?filter=Silver Bars" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>999 Silver Bars (100g – 1kg)</Link></li>
-                  <li><Link to="/bullion?filter=Utensils & Pooja" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Silver Pooja & Utensils</Link></li>
-                  <li><Link to="/bullion?filter=Gifting Articles" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Gifting & Shagun Articles</Link></li>
+                <ul className="dropdown-menu dropdown-menu-coins">
+                  <li className="dropdown-purity-header">
+                    <span className="purity-header-badge">
+                      <i className="fas fa-certificate"></i> 999 Pure 24K Gold & 999 Fine Silver • Govt. Lab Assay Certified
+                    </span>
+                  </li>
+                  <li><Link to="/bullion?filter=Gold Coins" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>24K Gold Coins (1g, 2g, 5g, 10g, 20g, 50g, 100g)</Link></li>
+                  <li><Link to="/bullion?filter=Silver Coins" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>999 Silver Coins (5g, 10g, 20g, 50g, 100g)</Link></li>
+                  <li><Link to="/bullion?filter=Silver Bars" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>999 Silver Bars (100g, 500g, 1kg)</Link></li>
+                  <li><Link to="/bullion?filter=Gifting Articles" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Custom Corporate Logo & Gifting Coins</Link></li>
+                  <li><Link to="/silver?filter=Utensils & Pooja" onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}>Pure Silver Utensils & Pooja Articles</Link></li>
                 </ul>
               </li>
 

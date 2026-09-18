@@ -43,7 +43,7 @@ export const silverProducts = [
     "subcategory": "Silver Payal",
     "type": "Payal",
     "images": [
-      "/WEBSITE PHOTO NEW/silver product/PAYAL/WhatsApp Image 2026-07-23 at 3.37.18 PM (2).jpeg"
+      "/WEBSITE PHOTO NEW/silver product/PAYAL/WhatsApp Image 2026-07-23 at 3.37.21 PM.jpeg"
     ],
     "description": "Heavy solid silver broad bridal chhad anklet handcrafted in traditional Rajputana silversmithing.",
     "badge": null,
@@ -594,6 +594,24 @@ export const silverProducts = [
     "bestSeller": false
   },
   {
+    "id": "slv-pend-8",
+    "slug": "divya-shankh-chakra-sterling-silver-pendant",
+    "title": "Divya Shankh & Chakra Sterling Silver Pendant",
+    "category": "Silver Collection",
+    "subcategory": "Silver Pendant",
+    "type": "Pendant",
+    "images": [
+      "/WEBSITE PHOTO NEW/silver product/PANDENT/WhatsApp Image 2026-07-23 at 3.37.09 PM.jpeg"
+    ],
+    "description": "Sacred Vaishnavite Shankh & Sudarshan Chakra emblem handcrafted in radiant 925 sterling silver.",
+    "badge": "NEW",
+    "futurePurity": "925 Sterling Silver",
+    "futureWeight": "8.80g",
+    "futureSKU": "RJ-SLV-PD008",
+    "featured": false,
+    "bestSeller": false
+  },
+  {
     "id": "slv-ear-1",
     "slug": "jhumki-classic-925-silver-jhumkas",
     "title": "Jhumki Classic 925 Silver Jhumkas",
@@ -717,6 +735,78 @@ export const silverProducts = [
     "futureWeight": "22.00g",
     "futureSKU": "RJ-SLV-ER007",
     "featured": true,
+    "bestSeller": false
+  },
+  {
+    "id": "slv-pooja-1",
+    "slug": "royal-heritage-999-pure-silver-pooja-thali-set",
+    "title": "Royal Heritage 999 Pure Silver Pooja Thali Set",
+    "category": "Silver Collection",
+    "subcategory": "Silver Utensils & Pooja",
+    "type": "Utensils & Pooja",
+    "images": [
+      "/silver-pooja/silver-pooja-1.jpg"
+    ],
+    "description": "Exquisite 999 pure silver pooja thali featuring hand-embossed floral rim, complete with a silver aarti diya, sacred bell (ghanti), agarbatti stand, and chandan katoris.",
+    "badge": "NEW",
+    "futurePurity": "999 Fine Silver (Certified)",
+    "futureWeight": "285.00g",
+    "futureSKU": "RJ-SLV-PJ001",
+    "featured": true,
+    "bestSeller": true
+  },
+  {
+    "id": "slv-pooja-2",
+    "slug": "sacred-mangala-pure-silver-carved-kalash-lota",
+    "title": "Sacred Mangala 999 Pure Silver Carved Kalash Lota",
+    "category": "Silver Collection",
+    "subcategory": "Silver Utensils & Pooja",
+    "type": "Utensils & Pooja",
+    "images": [
+      "/silver-pooja/silver-pooja-2.jpg"
+    ],
+    "description": "Sacred auspicious pooja kalash handcrafted in certified 999 pure silver with ornate floral nakshi carvings and high-lustre mirror polish.",
+    "badge": "POPULAR",
+    "futurePurity": "999 Fine Silver (Certified)",
+    "futureWeight": "165.00g",
+    "futureSKU": "RJ-SLV-PJ002",
+    "featured": true,
+    "bestSeller": false
+  },
+  {
+    "id": "slv-pooja-3",
+    "slug": "akhand-jyot-handcrafted-pure-silver-aarti-diya",
+    "title": "Akhand Jyot Handcrafted Pure Silver Aarti Diya",
+    "category": "Silver Collection",
+    "subcategory": "Silver Utensils & Pooja",
+    "type": "Utensils & Pooja",
+    "images": [
+      "/silver-pooja/silver-pooja-3.jpg"
+    ],
+    "description": "Divine solid 999 pure silver Aarti Diya with petal-engraved rim and elevated pedestal base, designed for spiritual peace and longevity.",
+    "badge": null,
+    "futurePurity": "999 Fine Silver (Certified)",
+    "futureWeight": "48.50g",
+    "futureSKU": "RJ-SLV-PJ003",
+    "featured": false,
+    "bestSeller": false
+  },
+  {
+    "id": "slv-pooja-4",
+    "slug": "heritage-chiseled-999-silver-pooja-ghanti-bell",
+    "title": "Heritage Chiseled 999 Silver Pooja Ghanti (Bell)",
+    "category": "Silver Collection",
+    "subcategory": "Silver Utensils & Pooja",
+    "type": "Utensils & Pooja",
+    "images": [
+      "/silver-pooja/silver-pooja-4.jpg"
+    ],
+    "description": "Traditional pure silver ceremonial puja bell (Ghanti) with finely sculpted handle and resonant sacred sound.",
+    "badge": null,
+    "futurePurity": "999 Fine Silver (Certified)",
+    "futureWeight": "55.00g",
+    "futureSKU": "RJ-SLV-PJ004",
+    "featured": false,
     "bestSeller": false
   }
 ];

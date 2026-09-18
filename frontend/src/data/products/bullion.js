@@ -310,5 +310,37 @@ export const bullionProducts = [
     futureSKU: "RJ-BUL-BS001",
     featured: false,
     bestSeller: true
+  },
+  {
+    id: "bul-gld-logo-custom",
+    slug: "custom-corporate-logo-24k-gold-coin-bespoke-minting",
+    title: "Custom Corporate Logo 24K (999) Gold Coin (Bespoke Minting)",
+    category: "Bullion",
+    subcategory: "Gifting Articles",
+    type: "Gold Coins",
+    images: ["/WEBSITE PHOTO NEW/CHAIN/chain-1.jpg"],
+    description: "Custom engraved and minted 24K 999.0 pure gold coins bearing your company crest, corporate logo, or personal wedding monogram with individual CertiCard assay packaging.",
+    badge: "BESPOKE MINTING",
+    futurePurity: "24K (999.0) Pure Gold",
+    futureWeight: "5.00g to 100.00g",
+    futureSKU: "RJ-BUL-CL001",
+    featured: true,
+    bestSeller: false
+  },
+  {
+    id: "bul-slv-logo-custom",
+    slug: "personalized-brand-logo-999-fine-silver-coin-gift-bar",
+    title: "Personalized Brand Logo 999 Fine Silver Coin & Gift Bar",
+    category: "Bullion",
+    subcategory: "Gifting Articles",
+    type: "Silver Coins",
+    images: ["/WEBSITE PHOTO NEW/silver product/PANDENT/WhatsApp Image 2026-07-23 at 3.37.07 PM (1).jpeg"],
+    description: "Laser-minted 999 purity fine silver coins and medallion bars customized with business emblems, institution seals, or commemorative event graphics in premium gift presentation boxes.",
+    badge: "CORPORATE GIFT",
+    futurePurity: "999 Fine Silver",
+    futureWeight: "10.00g to 1000.00g",
+    futureSKU: "RJ-BUL-CL002",
+    featured: true,
+    bestSeller: true
   }
 ];

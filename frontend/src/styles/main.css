@@ -2245,6 +2245,33 @@ footer {
     color: var(--love-red) !important;
     padding-left: 2.2rem !important;
   }
+
+  .dropdown-menu-coins {
+    min-width: 320px;
+  }
+
+  .dropdown-purity-header {
+    padding: 8px 14px;
+    background: linear-gradient(135deg, #fdf8f0 0%, #f6ecdc 100%);
+    border-bottom: 1px solid #ebd8c0;
+    margin-bottom: 4px;
+  }
+
+  .purity-header-badge {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.74rem;
+    font-weight: 700;
+    color: #845d16;
+    line-height: 1.35;
+  }
+
+  .purity-header-badge i {
+    color: #c9933e;
+    font-size: 0.85rem;
+    flex-shrink: 0;
+  }
 }
 
 /* Mobile styles for Accordion */
@@ -4668,9 +4695,9 @@ textarea.form-control {
    FAQ Section (Luxury Bottom Portion)
    ------------------------------------------- */
 .contact-faq-section {
-  padding: 5.5rem 0 6.5rem;
-  background: radial-gradient(circle at 50% 10%, rgba(212, 175, 55, 0.06) 0%, transparent 70%), linear-gradient(180deg, #faf7f2 0%, #f4ede3 50%, #ede3d4 100%);
-  border-top: 1px solid #e8decb;
+  padding: 5rem 0 6rem;
+  background: #ffffff;
+  border-top: 1px solid #f0e9df;
   position: relative;
 }
 
@@ -5493,6 +5520,48 @@ textarea.form-control {
   position: relative;
 }
 
+/* Card Top Bar — guarantees badge & wishlist button NEVER collide */
+.product-card-top-bar {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  width: calc(100% - 20px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.product-card-top-bar .seller-badge {
+  position: static !important;
+  top: auto !important;
+  left: auto !important;
+  right: auto !important;
+  pointer-events: auto !important;
+  max-width: calc(100% - 42px) !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  margin: 0 !important;
+}
+
+.product-card-top-bar .btn-card-wishlist {
+  position: static !important;
+  top: auto !important;
+  right: auto !important;
+  margin-left: auto !important;
+  pointer-events: auto !important;
+  flex-shrink: 0 !important;
+}
+
+.product-card-top-bar .top-bar-spacer {
+  flex: 1;
+  pointer-events: none;
+}
+
 .btn-card-wishlist {
   position: absolute;
   top: 12px;
@@ -5500,9 +5569,7 @@ textarea.form-control {
   width: 34px;
   height: 34px;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.92);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
+  background: rgba(255, 255, 255, 0.94);
   border: 1px solid #e8dfd3;
   color: #554f49;
   display: flex;
@@ -5591,26 +5658,59 @@ textarea.form-control {
 .btn-add-bag {
   flex: 1;
   height: 38px;
-  background: #1e1b18;
-  color: #ffffff;
-  border: none;
+  background: linear-gradient(135deg, #1c1815 0%, #29231d 100%);
+  color: #fdfaf7;
+  border: 1px solid rgba(212, 175, 55, 0.4);
   padding: 0 0.9rem;
   border-radius: 8px;
   font-size: 0.84rem;
   font-weight: 600;
+  letter-spacing: 0.3px;
   cursor: pointer;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 6px;
+  gap: 7px;
   white-space: nowrap;
-  transition: all 0.2s ease;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 2px 8px rgba(30, 27, 24, 0.08);
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-add-bag::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(212, 175, 55, 0.25), transparent);
+  transition: 0.5s;
+}
+
+.btn-add-bag:hover::before {
+  left: 100%;
 }
 
 .btn-add-bag:hover {
-  background: #b93b4d;
-  transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(185, 59, 77, 0.25);
+  background: linear-gradient(135deg, #b93b4d 0%, #d44c66 100%);
+  border-color: rgba(255, 255, 255, 0.4);
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(185, 59, 77, 0.3);
+}
+
+.btn-add-bag:active {
+  transform: scale(0.98);
+}
+
+.btn-add-bag.added {
+  background: linear-gradient(135deg, #15803d 0%, #166534 100%) !important;
+  border-color: #86efac !important;
+  color: #ffffff !important;
+  box-shadow: 0 4px 14px rgba(22, 101, 52, 0.3) !important;
+  transform: scale(1.02);
 }
 
 .product-card-actions .btn-view-product {
@@ -5746,24 +5846,58 @@ textarea.form-control {
 
 .btn-modal-add-bag {
   flex: 1.2;
-  background: #1e1b18;
-  color: #ffffff;
-  border: none;
+  background: linear-gradient(135deg, #1c1815 0%, #29231d 100%);
+  color: #fdfaf7;
+  border: 1px solid rgba(212, 175, 55, 0.45);
   padding: 0.85rem 1.15rem;
   border-radius: 8px;
   font-size: 0.92rem;
   font-weight: 600;
+  letter-spacing: 0.3px;
   cursor: pointer;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 8px;
-  transition: all 0.25s ease;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(30, 27, 24, 0.12);
+}
+
+.btn-modal-add-bag::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(212, 175, 55, 0.25), transparent);
+  transition: 0.5s;
+}
+
+.btn-modal-add-bag:hover::before {
+  left: 100%;
 }
 
 .btn-modal-add-bag:hover {
-  background: #b93b4d;
-  box-shadow: 0 4px 14px rgba(185, 59, 77, 0.3);
+  background: linear-gradient(135deg, #b93b4d 0%, #d44c66 100%);
+  border-color: rgba(255, 255, 255, 0.4);
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(185, 59, 77, 0.35);
+}
+
+.btn-modal-add-bag:active {
+  transform: scale(0.98);
+}
+
+.btn-modal-add-bag.added {
+  background: linear-gradient(135deg, #15803d 0%, #166534 100%) !important;
+  border-color: #86efac !important;
+  color: #ffffff !important;
+  box-shadow: 0 4px 16px rgba(22, 101, 52, 0.35) !important;
+  transform: scale(1.02);
 }
 
 .btn-modal-buy-now {
@@ -6452,6 +6586,109 @@ textarea.form-control {
   background: #f0fdf4;
   color: #15803d;
   border: 1px solid #bbf7d0;
+}
+
+/* Demo Credentials Card */
+.demo-credentials-card {
+  background: #fdfaf4;
+  border: 1px dashed #d4af37;
+  border-radius: 10px;
+  padding: 0.65rem 0.85rem;
+  margin-bottom: 1.15rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.demo-creds-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  text-align: left;
+}
+
+.demo-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #8c6738;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.demo-values {
+  font-size: 0.78rem;
+  color: #4a423b;
+  font-weight: 500;
+}
+
+.btn-fill-demo {
+  background: #1e1b18;
+  color: #ffffff;
+  border: 1px solid #d4af37;
+  padding: 0.35rem 0.65rem;
+  border-radius: 6px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.2s ease;
+}
+
+.btn-fill-demo:hover {
+  background: #b93b4d;
+  border-color: #b93b4d;
+}
+
+/* Password Toggle Wrapper & Field Errors */
+.password-input-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.password-input-wrapper .form-control {
+  padding-right: 2.6rem !important;
+}
+
+.btn-toggle-pwd {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  color: #8c8278;
+  font-size: 0.95rem;
+  cursor: pointer;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.2s ease;
+}
+
+.btn-toggle-pwd:hover {
+  color: #1e1b18;
+}
+
+.form-control.is-invalid {
+  border-color: #d44c66 !important;
+  background-color: #fffafb !important;
+  box-shadow: 0 0 0 3px rgba(212, 76, 102, 0.12) !important;
+}
+
+.field-error-text {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #b93b4d;
+  font-size: 0.76rem;
+  font-weight: 600;
+  margin-top: 5px;
+  text-align: left;
 }
 
 .password-label-row {
@@ -9074,15 +9311,20 @@ textarea.form-control {
 }
 
 .contact-info-card {
-  padding: 2rem 2.25rem;
+  padding: 1.5rem 1.75rem 1.25rem;
 }
 
 .showroom-showcase-card {
-  margin-top: 1.5rem;
+  margin-top: 1.25rem;
 }
 
 .showroom-img-frame {
-  height: 180px;
+  height: 140px;
+}
+
+.showroom-visitor-guide {
+  padding: 0.85rem 1.15rem;
+  gap: 0.65rem;
 }
 
 /* ==========================================================================
@@ -9100,7 +9342,8 @@ textarea.form-control {
   left: 0;
   width: 100%;
   height: 100%;
-  background: radial-gradient(circle at 75% 50%, rgba(253, 248, 240, 0.85) 0%, rgba(250, 242, 230, 0.45) 50%, rgba(255, 255, 255, 0) 100%);
+  background: radial-gradient(circle at 70% 45%, rgba(254, 250, 242, 0.88) 0%, rgba(250, 244, 234, 0.6) 45%, rgba(255, 255, 255, 0.25) 85%, transparent 100%),
+              linear-gradient(180deg, rgba(253, 249, 243, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
   pointer-events: none;
   z-index: 1;
 }
@@ -9109,42 +9352,44 @@ textarea.form-control {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(253, 246, 237, 0.9) 100%);
-  border: 1px solid #e8dfd3;
-  border-radius: 50px;
-  padding: 0.45rem 1.25rem;
+  background: linear-gradient(135deg, #ffffff 0%, #faf3e8 60%, #f6ebdc 100%);
+  border: 1.5px solid #decbb2;
+  border-radius: 12px;
+  padding: 0.6rem 1.4rem;
   margin-bottom: 1.5rem;
-  box-shadow: 0 6px 18px rgba(30, 27, 24, 0.05);
-  max-width: 580px;
-  backdrop-filter: blur(8px);
+  box-shadow: 0 6px 20px rgba(185, 59, 77, 0.08), 0 2px 6px rgba(45, 39, 36, 0.04);
+  max-width: 620px;
+  width: 100%;
 }
 
 .hero-brand-title-strip {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 12px;
 }
 
 .brand-crest-icon {
-  color: #b93b4d;
-  font-size: 1rem;
+  color: #c9933e;
+  font-size: 1.25rem;
+  filter: drop-shadow(0 1px 2px rgba(185, 59, 77, 0.15));
 }
 
 .brand-crest-text {
   font-family: 'Playfair Display', Georgia, serif;
-  font-size: 1.05rem;
+  font-size: 1.3rem;
   font-weight: 800;
-  letter-spacing: 1.5px;
+  letter-spacing: 3px;
   color: #1e1b18;
+  text-transform: uppercase;
 }
 
 .brand-crest-sub {
-  font-size: 0.68rem;
+  font-size: 0.72rem;
   font-weight: 700;
-  letter-spacing: 1px;
+  letter-spacing: 1.2px;
   color: #8c8278;
-  border-left: 1px solid #dcd1c2;
-  padding-left: 8px;
+  border-left: 1.5px solid #decbb2;
+  padding-left: 10px;
 }
 
 .hero-live-clock-badge {
@@ -9224,6 +9469,8 @@ textarea.form-control {
 
   /* Header & Navigation */
   .site-header {
+    position: relative !important;
+    z-index: 100002 !important;
     border-bottom: 1px solid #efe7dc !important;
     width: 100% !important;
     max-width: 100% !important;
@@ -9258,6 +9505,25 @@ textarea.form-control {
     width: 38px !important;
     height: 38px !important;
     font-size: 1.05rem !important;
+    flex-shrink: 0 !important;
+  }
+
+  .btn-header-signin {
+    width: 38px !important;
+    height: 38px !important;
+    min-width: 38px !important;
+    max-width: 38px !important;
+    padding: 0 !important;
+    border-radius: 50% !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: 1.05rem !important;
+    flex-shrink: 0 !important;
+  }
+
+  .btn-header-signin span {
+    display: none !important;
   }
 
   .mobile-menu-toggle {
@@ -9384,10 +9650,10 @@ textarea.form-control {
     width: 100% !important;
     height: 100% !important;
     height: 100dvh !important;
-    background: rgba(0, 0, 0, 0.45) !important;
-    backdrop-filter: blur(3px) !important;
-    -webkit-backdrop-filter: blur(3px) !important;
-    z-index: 99999 !important;
+    background: rgba(0, 0, 0, 0.55) !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    z-index: 99990 !important;
   }
 
   .nav-links li {
@@ -9409,7 +9675,7 @@ textarea.form-control {
     color: #b93b4d !important;
   }
 
-  /* Mobile Dropdown Accordion */
+  /* Mobile Dropdown Accordion — Guarantee all category options open smoothly */
   .dropdown-menu {
     position: static !important;
     transform: none !important;
@@ -9418,7 +9684,27 @@ textarea.form-control {
     background: #faf8f5 !important;
     border-radius: 10px !important;
     margin: 0.25rem 0 0.5rem !important;
+    padding: 0 !important;
+    display: none !important;
+    max-height: 0 !important;
+    overflow: hidden !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+    transition: all 0.3s ease !important;
+  }
+
+  .dropdown.active .dropdown-menu {
+    display: block !important;
+    max-height: 900px !important;
+    opacity: 1 !important;
+    visibility: visible !important;
     padding: 0.35rem 0 !important;
+    overflow: visible !important;
+  }
+
+  .dropdown.active a.dropdown-toggle i {
+    transform: rotate(180deg) !important;
+    transition: transform 0.25s ease !important;
   }
 
   .dropdown-menu li {
@@ -9430,6 +9716,7 @@ textarea.form-control {
     font-size: 0.86rem !important;
     color: #645c55 !important;
     font-weight: 500 !important;
+    display: block !important;
   }
 
   .dropdown-menu li a:hover {
@@ -9491,12 +9778,23 @@ textarea.form-control {
     object-fit: cover !important;
   }
 
+  /* Mobile Product Card Top Bar Anti-Collision */
+  .product-card-top-bar {
+    top: 6px !important;
+    left: 6px !important;
+    right: 6px !important;
+    width: calc(100% - 12px) !important;
+    gap: 4px !important;
+  }
+
+  .product-card-top-bar .seller-badge,
   .seller-badge {
-    top: 7px !important;
-    left: 7px !important;
+    position: static !important;
+    top: auto !important;
+    left: auto !important;
     right: auto !important;
     width: auto !important;
-    max-width: max-content !important;
+    max-width: calc(100% - 34px) !important;
     font-size: 0.58rem !important;
     font-weight: 700 !important;
     padding: 0.16rem 0.45rem !important;
@@ -9504,26 +9802,33 @@ textarea.form-control {
     z-index: 6 !important;
     background: linear-gradient(135deg, #b93b4d, #d44c66) !important;
     color: #ffffff !important;
-    pointer-events: none !important;
+    pointer-events: auto !important;
     box-shadow: 0 2px 6px rgba(185, 59, 77, 0.25) !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    margin: 0 !important;
   }
 
+  .product-card-top-bar .btn-card-wishlist,
   .btn-card-wishlist {
-    top: 7px !important;
-    right: 7px !important;
+    position: static !important;
+    top: auto !important;
+    right: auto !important;
+    margin-left: auto !important;
     width: 28px !important;
     height: 28px !important;
     min-width: 28px !important;
     max-width: 28px !important;
     font-size: 0.75rem !important;
     background: rgba(255, 255, 255, 0.95) !important;
-    backdrop-filter: blur(4px) !important;
     border: 1px solid #ede3d6 !important;
     z-index: 10 !important;
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08) !important;
+    flex-shrink: 0 !important;
   }
 
   .product-info {
@@ -9617,24 +9922,34 @@ textarea.form-control {
 
   .btn-add-bag {
     flex: 1 !important;
-    height: 32px !important;
-    padding: 0 0.5rem !important;
-    font-size: 0.74rem !important;
+    height: 34px !important;
+    padding: 0 0.55rem !important;
+    font-size: 0.76rem !important;
     font-weight: 600 !important;
+    letter-spacing: 0.2px !important;
     border-radius: 8px !important;
-    background: #1e1b18 !important;
-    color: #ffffff !important;
+    background: linear-gradient(135deg, #1c1815 0%, #29231d 100%) !important;
+    color: #fdfaf7 !important;
     display: inline-flex !important;
     align-items: center !important;
     justify-content: center !important;
-    gap: 5px !important;
-    border: none !important;
+    gap: 6px !important;
+    border: 1px solid rgba(212, 175, 55, 0.45) !important;
     white-space: nowrap !important;
     transition: all 0.2s ease !important;
+    box-shadow: 0 2px 6px rgba(30, 27, 24, 0.1) !important;
   }
 
   .btn-add-bag:hover, .btn-add-bag:active {
-    background: #b93b4d !important;
+    background: linear-gradient(135deg, #b93b4d 0%, #d44c66 100%) !important;
+    border-color: rgba(255, 255, 255, 0.4) !important;
+  }
+
+  .btn-add-bag.added {
+    background: linear-gradient(135deg, #15803d 0%, #166534 100%) !important;
+    border-color: #86efac !important;
+    color: #ffffff !important;
+    box-shadow: 0 4px 10px rgba(22, 101, 52, 0.3) !important;
   }
 
   .btn-view-product {
@@ -9769,23 +10084,32 @@ textarea.form-control {
     margin: 1rem 0 !important;
   }
 
+  .modal-ecom-actions,
   .modal-actions-container {
     margin-top: 1.25rem !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 0.65rem !important;
   }
 
+  .primary-actions-row,
+  .secondary-actions-row,
   .modal-actions-row {
     flex-direction: column !important;
     gap: 0.5rem !important;
+    width: 100% !important;
   }
 
   .btn-modal-add-bag,
   .btn-modal-buy-now,
+  .btn-modal-wishlist,
   .btn-modal-whatsapp {
     width: 100% !important;
     justify-content: center !important;
     padding: 0.75rem 1rem !important;
     font-size: 0.88rem !important;
     border-radius: 50px !important;
+    flex: none !important;
   }
 
   /* Mobile Contact Us Page Tweaks */
@@ -9937,6 +10261,67 @@ textarea.form-control {
     right: 18px !important;
     font-size: 1.6rem !important;
     box-shadow: 0 4px 16px rgba(107, 26, 43, 0.45) !important;
+  }
+
+  /* ── Mobile Blur Elimination System — Crisp Crystal-Clear Surfaces ──── */
+  .promise-item {
+    background: #ffffff !important;
+    color: #1e1b18 !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08) !important;
+    border: 1px solid #f2e6e8 !important;
+  }
+
+  .promise-item h4 {
+    color: #b93b4d !important;
+    font-size: 1.15rem !important;
+  }
+
+  .promise-item p {
+    color: #4a423b !important;
+    font-size: 0.88rem !important;
+    line-height: 1.55 !important;
+  }
+
+  .hero-content {
+    background: rgba(255, 255, 255, 0.96) !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    border: 1px solid #e8decb !important;
+    box-shadow: 0 10px 30px rgba(30, 27, 24, 0.06) !important;
+  }
+
+  .hero-brand-top-banner {
+    background: #ffffff !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    border: 1px solid #e5dacf !important;
+  }
+
+  .hero-auth-badge {
+    background: #ffffff !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    border: 1px solid #e5dacf !important;
+  }
+
+  .bespoke-image-badge {
+    background: #ffffff !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    border: 1px solid #ecdcd0 !important;
+  }
+
+  .map-overlay-info {
+    background: #ffffff !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    border: 1px solid #ecdcd0 !important;
+  }
+
+  .hero-cream-veil-layer {
+    opacity: 0.25 !important;
   }
 }
 

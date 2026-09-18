@@ -206,14 +206,14 @@ export default function About() {
             </div>
             <div className="why-item">
               <i className="fas fa-pencil-ruler"></i>
-              <h3>Unique Custom Design</h3>
+              <h3>Custom Design & Master Karigari</h3>
               <p>
                 Bespoke high-jewellery atelier crafting custom creations from 3D CAD renders to hand-cast masterpieces tailored to your personal story.
               </p>
             </div>
             <div className="why-item">
               <i className="fas fa-hand-holding-heart"></i>
-              <h3>Personal Concierge Service</h3>
+              <h3>Personal Concierge & Lifetime Service</h3>
               <p>
                 Three generations of devoted client care, private bridal lounge consultations, video viewings, lifetime polishing, and 100% buyback transparency.
               </p>

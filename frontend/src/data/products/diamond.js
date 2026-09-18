@@ -1540,15 +1540,15 @@ export const diamondProducts = [
   },
   {
     "id": "dia-bangle-2",
-    "slug": "luminary-channel-set-diamond-kangan",
-    "title": "Luminary Channel-Set Diamond Kangan",
+    "slug": "aura-pave-chevron-diamond-kangan",
+    "title": "Aura Pavé Chevron Diamond Kangan",
     "category": "Diamond Collection",
     "subcategory": "Diamond Bangles",
     "type": "Bangles",
     "images": [
-      "/WEBSITE PHOTO NEW/DIAMOAND BANGLE/diamond-bangle-3.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND BANGLE/diamond-bangle-2.jpeg"
     ],
-    "description": "Modern two-tone openable gold kangan with center pave diamond ribbon and push-lock clasp.",
+    "description": "Modern two-tone openable gold kangan with center pave diamond chevron ribbon and push-lock clasp.",
     "badge": "BEST SELLER",
     "futurePurity": "18K (750) Hallmarked Gold",
     "futureGemstone": "1.95 ct VVS/EF Natural Diamonds",
@@ -1673,19 +1673,19 @@ export const diamondProducts = [
   },
   {
     "id": "dia-bangle-9",
-    "slug": "opulence-dual-row-diamond-bangle",
-    "title": "Opulence Dual-Row Diamond Bangle",
+    "slug": "imperial-multi-row-pave-diamond-bangle",
+    "title": "Imperial Multi-Row Pavé Diamond Bangle",
     "category": "Diamond Collection",
     "subcategory": "Diamond Bangles",
     "type": "Bangles",
     "images": [
-      "/WEBSITE PHOTO NEW/DIAMOAND BANGLE/diamond-bangle-10.jpeg"
+      "/WEBSITE PHOTO NEW/DIAMOAND BANGLE/diamond-bangle-11.jpeg"
     ],
-    "description": "Parallel twin rows of prong-set round diamonds on a comfort curved oval shank.",
+    "description": "Exquisite multi-row pavé round diamond luxury bangle on a comfort curved oval shank in 18K gold.",
     "badge": null,
     "futurePurity": "18K (750) Hallmarked Gold",
-    "futureGemstone": "2.10 ct VVS/EF Natural Diamonds",
-    "futureWeight": "25.60g",
+    "futureGemstone": "2.35 ct VVS/EF Natural Diamonds",
+    "futureWeight": "26.20g",
     "futureSKU": "RJ-DIA-BN009",
     "featured": false,
     "bestSeller": false

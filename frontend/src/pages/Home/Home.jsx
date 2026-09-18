@@ -20,7 +20,7 @@ export default function Home() {
     address: {
       '@type': 'PostalAddress',
       streetAddress:
-        'UG 2,3, Royal Diamond Building, Yeshwant Niwas Road, opposite SBI BANK, Sanghi Colony',
+        'UG-02, 03, Royal Diamond Building, Yeshwant Niwas Road, Opposite SBI Bank, Sanghi Colony',
       addressLocality: 'Yeshwant Colony',
       addressRegion: 'Indore',
       postalCode: '452002',
