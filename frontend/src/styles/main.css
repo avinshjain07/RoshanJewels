@@ -312,6 +312,11 @@ h5 {
   margin: 0;
 }
 
+/* Mobile Drawer elements - hidden on desktop */
+.mobile-drawer-top {
+  display: none !important;
+}
+
 .header-nav-row .nav-links a {
   text-decoration: none;
   font-weight: 500;
@@ -2804,7 +2809,7 @@ footer {
   align-items: center;
   width: 100% !important;
   max-width: 100% !important;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .hero-circular-frame-wrapper {
@@ -2970,27 +2975,37 @@ footer {
 /* Navigation Controls (Bottom Right) */
 .hero-nav-controls {
   position: absolute;
-  bottom: -20px;
-  right: 20px;
+  bottom: 15px;
+  right: 25px;
   display: flex;
-  gap: 8px;
-  z-index: 10;
+  align-items: center;
+  gap: 10px;
+  z-index: 25;
 }
 
 .hero-nav-btn {
-  width: 36px;
-  height: 36px;
+  width: 42px;
+  height: 42px;
   border-radius: 50%;
   background: #ffffff;
-  border: 1px solid #e5dcce;
-  color: #4a433d;
-  display: flex;
+  border: 1.5px solid #d8c6b2;
+  color: #1e1b18;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  font-size: 0.85rem;
-  transition: all 0.25s ease;
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+  font-size: 0.95rem;
+  line-height: 1;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 4px 12px rgba(30, 27, 24, 0.12);
+}
+
+.hero-nav-btn i {
+  font-size: 0.9rem;
+  color: #2d2724;
+  display: block;
+  line-height: 1;
+  transition: color 0.2s ease, transform 0.2s ease;
 }
 
 .hero-nav-btn:hover {
@@ -2998,6 +3013,15 @@ footer {
   color: #ffffff;
   border-color: #b93b4d;
   transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(185, 59, 77, 0.3);
+}
+
+.hero-nav-btn:hover i {
+  color: #ffffff;
+}
+
+.hero-nav-btn:active {
+  transform: scale(0.95);
 }
 
 /* ── Breakpoints ── */
@@ -3043,7 +3067,12 @@ footer {
     margin-top: 2rem;
     width: 100%;
     max-width: 100%;
-    overflow: hidden;
+    overflow: visible;
+  }
+  .hero-nav-controls {
+    bottom: -10px;
+    right: 50%;
+    transform: translateX(50%);
   }
   .hero-circular-frame-wrapper {
     max-width: 320px;
@@ -6641,6 +6670,68 @@ textarea.form-control {
 .btn-fill-demo:hover {
   background: #b93b4d;
   border-color: #b93b4d;
+}
+
+.demo-actions-cluster {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.btn-instant-demo-signin {
+  background: linear-gradient(135deg, #b93b4d 0%, #d44c66 100%);
+  color: #ffffff;
+  border: 1px solid #b93b4d;
+  padding: 0.35rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.74rem;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  box-shadow: 0 2px 6px rgba(185, 59, 77, 0.25);
+}
+
+.btn-instant-demo-signin:hover {
+  background: #a32d3e;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(185, 59, 77, 0.35);
+}
+
+.btn-instant-demo-signin:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.auth-alert-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+}
+
+.btn-alert-create-link {
+  margin-top: 6px;
+  background: #b93b4d;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.35rem 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.2s ease;
+}
+
+.btn-alert-create-link:hover {
+  background: #962836;
 }
 
 /* Password Toggle Wrapper & Field Errors */

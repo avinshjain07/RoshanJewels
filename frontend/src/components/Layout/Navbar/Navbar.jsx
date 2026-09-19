@@ -222,20 +222,22 @@ export default function Navbar() {
           {/* Header Row 2: Bottom Navigation Links */}
           <nav className="header-nav-row">
             <ul className={`nav-links${mobileOpen ? ' active' : ''}`} id="nav-links">
-              {/* Mobile Drawer Top Bar with Brand & Close Button */}
-              <li className="mobile-drawer-top">
-                <div className="mobile-drawer-brand">
-                  <img src={logo} alt="Roshan Jewel" className="drawer-logo" />
-                  <button
-                    type="button"
-                    className="btn-drawer-close"
-                    onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}
-                    aria-label="Close navigation menu"
-                  >
-                    <i className="fas fa-times"></i>
-                  </button>
-                </div>
-              </li>
+              {/* Mobile Drawer Top Bar with Brand & Close Button - only rendered when mobile drawer is open */}
+              {mobileOpen && (
+                <li className="mobile-drawer-top">
+                  <div className="mobile-drawer-brand">
+                    <img src={logo} alt="Roshan Jewel" className="drawer-logo" />
+                    <button
+                      type="button"
+                      className="btn-drawer-close"
+                      onClick={() => { setMobileOpen(false); document.body.classList.remove('no-scroll'); }}
+                      aria-label="Close navigation menu"
+                    >
+                      <i className="fas fa-times"></i>
+                    </button>
+                  </div>
+                </li>
+              )}
 
               {/* Home */}
               <li>

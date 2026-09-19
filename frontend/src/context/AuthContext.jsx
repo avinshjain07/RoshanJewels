@@ -44,16 +44,7 @@ export function AuthProvider({ children }) {
   const [user, setUser] = useState(() => {
     try {
       const saved = localStorage.getItem(AUTH_STORAGE_KEY);
-      if (saved) {
-        const parsed = JSON.parse(saved);
-        // Clear any old pre-seeded demo user session so visitors start logged out
-        if (parsed?.id === 'usr_patron_01' || parsed?.email === 'avinshjain521@gmail.com') {
-          localStorage.removeItem(AUTH_STORAGE_KEY);
-          return null;
-        }
-        return parsed;
-      }
-      return null;
+      return saved ? JSON.parse(saved) : null;
     } catch {
       return null;
     }
@@ -140,6 +131,14 @@ export function AuthProvider({ children }) {
     }
 
     const { password: _, ...userSession } = existingUser;
+    setUser(userSession);
+    closeAuthModal();
+    return { success: true, user: userSession };
+  };
+
+  const loginAsDemo = async () => {
+    const demo = DEMO_USER;
+    const { password: _, ...userSession } = demo;
     setUser(userSession);
     closeAuthModal();
     return { success: true, user: userSession };
@@ -271,6 +270,7 @@ export function AuthProvider({ children }) {
         openAuthModal,
         closeAuthModal,
         login,
+        loginAsDemo,
         register,
         logout,
         updateProfile,

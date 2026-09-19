@@ -4,7 +4,7 @@ import { useAuth } from '@context/AuthContext';
 import SEO from '@components/Common/SEO/SEO';
 
 export default function Login() {
-  const { login } = useAuth();
+  const { login, loginAsDemo } = useAuth();
   const navigate = useNavigate();
 
   const [email, setEmail] = useState('');
@@ -24,6 +24,20 @@ export default function Login() {
     setPassword('Roshan@1965');
     setError('');
     setFieldErrors({});
+  };
+
+  const handleInstantDemoLogin = async () => {
+    setError('');
+    setFieldErrors({});
+    setLoading(true);
+    try {
+      await loginAsDemo();
+      navigate('/account');
+    } catch (err) {
+      setError(err.message || 'Instant demo login failed.');
+    } finally {
+      setLoading(false);
+    }
   };
 
   const handleBlurEmail = () => {
@@ -117,19 +131,42 @@ export default function Login() {
                 <span className="demo-label"><i className="fas fa-shield-alt"></i> Demo Patron Access:</span>
                 <span className="demo-values numeric-text">avinshjain521@gmail.com • Roshan@1965</span>
               </div>
-              <button
-                type="button"
-                className="btn-fill-demo"
-                onClick={handleFillDemo}
-                title="Auto-fill demo credentials"
-              >
-                Auto Fill
-              </button>
+              <div className="demo-actions-cluster">
+                <button
+                  type="button"
+                  className="btn-fill-demo"
+                  onClick={handleFillDemo}
+                  title="Auto-fill demo credentials"
+                >
+                  Auto Fill
+                </button>
+                <button
+                  type="button"
+                  className="btn-instant-demo-signin"
+                  onClick={handleInstantDemoLogin}
+                  title="Sign In immediately as VIP Patron"
+                  disabled={loading}
+                >
+                  <i className="fas fa-bolt"></i> Instant Sign In
+                </button>
+              </div>
             </div>
 
             {error && (
               <div className="auth-alert error">
-                <i className="fas fa-exclamation-circle"></i> {error}
+                <div className="auth-alert-row">
+                  <i className="fas fa-exclamation-circle"></i>
+                  <span>{error}</span>
+                </div>
+                {error.toLowerCase().includes('no account') && (
+                  <button
+                    type="button"
+                    className="btn-alert-create-link"
+                    onClick={() => navigate('/register', { state: { email } })}
+                  >
+                    <i className="fas fa-user-plus"></i> Create this account now →
+                  </button>
+                )}
               </div>
             )}
 

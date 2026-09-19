@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useAuth } from '@context/AuthContext';
 
 export default function AuthModal() {
-  const { isAuthModalOpen, authModalMode, closeAuthModal, login, register } = useAuth();
+  const { isAuthModalOpen, authModalMode, closeAuthModal, login, loginAsDemo, register } = useAuth();
   const [mode, setMode] = useState(authModalMode); // 'login' | 'register' | 'forgot'
 
   // Form states
@@ -84,6 +84,19 @@ export default function AuthModal() {
     setPassword('Roshan@1965');
     setError('');
     setFieldErrors({});
+  };
+
+  const handleInstantDemoLogin = async () => {
+    setError('');
+    setFieldErrors({});
+    setLoading(true);
+    try {
+      await loginAsDemo();
+    } catch (err) {
+      setError(err.message || 'Instant demo login failed.');
+    } finally {
+      setLoading(false);
+    }
   };
 
   const handleSubmit = async (e) => {
@@ -239,7 +252,23 @@ export default function AuthModal() {
         {/* Error / Success Messages */}
         {error && (
           <div className="auth-alert error">
-            <i className="fas fa-exclamation-circle"></i> {error}
+            <div className="auth-alert-row">
+              <i className="fas fa-exclamation-circle"></i>
+              <span>{error}</span>
+            </div>
+            {mode === 'login' && error.toLowerCase().includes('no account') && (
+              <button
+                type="button"
+                className="btn-alert-create-link"
+                onClick={() => {
+                  setMode('register');
+                  setError('');
+                  setFieldErrors({});
+                }}
+              >
+                <i className="fas fa-user-plus"></i> Create this account now →
+              </button>
+            )}
           </div>
         )}
         {successMsg && (
@@ -255,14 +284,25 @@ export default function AuthModal() {
               <span className="demo-label"><i className="fas fa-shield-alt"></i> Demo Patron Access:</span>
               <span className="demo-values numeric-text">avinshjain521@gmail.com • Roshan@1965</span>
             </div>
-            <button
-              type="button"
-              className="btn-fill-demo"
-              onClick={handleFillDemo}
-              title="Auto-fill demo credentials"
-            >
-              Auto Fill
-            </button>
+            <div className="demo-actions-cluster">
+              <button
+                type="button"
+                className="btn-fill-demo"
+                onClick={handleFillDemo}
+                title="Auto-fill demo credentials into form"
+              >
+                Auto Fill
+              </button>
+              <button
+                type="button"
+                className="btn-instant-demo-signin"
+                onClick={handleInstantDemoLogin}
+                title="Sign In immediately as VIP Patron"
+                disabled={loading}
+              >
+                <i className="fas fa-bolt"></i> Instant Sign In
+              </button>
+            </div>
           </div>
         )}
 
