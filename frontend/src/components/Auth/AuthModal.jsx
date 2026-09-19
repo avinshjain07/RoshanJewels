@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useAuth } from '@context/AuthContext';
 
 export default function AuthModal() {
-  const { isAuthModalOpen, authModalMode, closeAuthModal, login, loginAsDemo, register } = useAuth();
+  const { isAuthModalOpen, authModalMode, closeAuthModal, login, register } = useAuth();
   const [mode, setMode] = useState(authModalMode); // 'login' | 'register' | 'forgot'
 
   // Form states
@@ -80,25 +80,6 @@ export default function AuthModal() {
     }
   };
 
-  const handleFillDemo = () => {
-    setEmail('avinshjain521@gmail.com');
-    setPassword('Roshan@1965');
-    setError('');
-    setFieldErrors({});
-  };
-
-  const handleInstantDemoLogin = async () => {
-    setError('');
-    setFieldErrors({});
-    setLoading(true);
-    try {
-      await loginAsDemo();
-    } catch (err) {
-      setError(err.message || 'Instant demo login failed.');
-    } finally {
-      setLoading(false);
-    }
-  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -278,34 +259,6 @@ export default function AuthModal() {
           </div>
         )}
 
-        {/* Demo Credentials Helper Pill (Only for Sign In) */}
-        {mode === 'login' && (
-          <div className="demo-credentials-card">
-            <div className="demo-creds-info">
-              <span className="demo-label"><i className="fas fa-shield-alt"></i> Demo Patron Access:</span>
-              <span className="demo-values numeric-text">avinshjain521@gmail.com • Roshan@1965</span>
-            </div>
-            <div className="demo-actions-cluster">
-              <button
-                type="button"
-                className="btn-fill-demo"
-                onClick={handleFillDemo}
-                title="Auto-fill demo credentials into form"
-              >
-                Auto Fill
-              </button>
-              <button
-                type="button"
-                className="btn-instant-demo-signin"
-                onClick={handleInstantDemoLogin}
-                title="Sign In immediately as VIP Patron"
-                disabled={loading}
-              >
-                <i className="fas fa-bolt"></i> Instant Sign In
-              </button>
-            </div>
-          </div>
-        )}
 
         {/* Auth Form */}
         <form onSubmit={handleSubmit} className="auth-form" noValidate>
