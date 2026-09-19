@@ -14,6 +14,7 @@ export default function AuthModal() {
   const [successMsg, setSuccessMsg] = useState('');
   const [showPassword, setShowPassword] = useState(false);
   const [fieldErrors, setFieldErrors] = useState({});
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     setMode(authModalMode);
