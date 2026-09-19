@@ -1,0 +1,9 @@
+{
+  "name": "roshan-jewels-proxy",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "postinstall": "cd .. && npm install",
+    "build": "cd .. && npm run build"
+  }
+}

@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "postinstall": "npm --prefix frontend install",
-    "build": "npm --prefix frontend run build",
+    "postinstall": "node -e \"if(require('fs').existsSync('./frontend/package.json'))require('child_process').execSync('npm --prefix frontend install',{stdio:'inherit'})\"",
+    "build": "npm --prefix frontend run build && node -e \"require('fs').cpSync('frontend/dist','dist',{recursive:true})\"",
     "dev": "npm --prefix frontend run dev"
   }
 }
