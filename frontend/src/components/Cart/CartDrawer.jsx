@@ -9,11 +9,7 @@ export default function CartDrawer() {
     closeCart,
     removeFromCart,
     updateQuantity,
-    itemCount,
-    subtotal,
-    gst,
-    grandTotal,
-    advanceTokenAmount
+    itemCount
   } = useCart();
 
   const navigate = useNavigate();
@@ -46,7 +42,7 @@ export default function CartDrawer() {
     navigate('/checkout');
   };
 
-  const whatsappInquiryText = `Hello Roshan Jewel, I am reviewing my shopping bag with ${itemCount} piece(s) totaling ₹${grandTotal.toLocaleString('en-IN')}. Could you please assist me with custom sizing and priority dispatch?`;
+  const whatsappInquiryText = `Hello Roshan Jewel, I am reviewing my shopping bag with ${itemCount} piece(s). Could you please assist me with custom sizing and priority dispatch?`;
   const whatsappUrl = `https://wa.me/918224998809?text=${encodeURIComponent(whatsappInquiryText)}`;
 
   return (
@@ -124,18 +120,6 @@ export default function CartDrawer() {
 
                     <h4 className="cart-item-title">{product.title}</h4>
 
-                    <div className="cart-item-specs">
-                      {product.purity && (
-                        <span className="spec-pill purity">{product.purity}</span>
-                      )}
-                      {product.grossWeight && (
-                        <span className="spec-pill weight">{product.grossWeight}</span>
-                      )}
-                      {product.diamondWeight && (
-                        <span className="spec-pill diamond">{product.diamondWeight}</span>
-                      )}
-                    </div>
-
                     <div className="cart-item-bottom">
                       <div className="cart-qty-controller">
                         <button
@@ -156,9 +140,6 @@ export default function CartDrawer() {
                         </button>
                       </div>
 
-                      <div className="cart-item-price numeric-text slashed-zero">
-                        ₹{(product.price * quantity).toLocaleString('en-IN')}
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -170,36 +151,6 @@ export default function CartDrawer() {
         {/* Drawer Footer (Only when items exist) */}
         {items.length > 0 && (
           <div className="cart-drawer-footer">
-            <div className="cart-bill-breakdown">
-              <div className="bill-row">
-                <span>Subtotal ({itemCount} {itemCount === 1 ? 'item' : 'items'})</span>
-                <span className="numeric-text slashed-zero">₹{subtotal.toLocaleString('en-IN')}</span>
-              </div>
-              <div className="bill-row">
-                <span>Applicable GST (3% Fine Jewellery)</span>
-                <span className="numeric-text slashed-zero">₹{gst.toLocaleString('en-IN')}</span>
-              </div>
-              <div className="bill-row">
-                <span>Insured Doorstep Shipping</span>
-                <span className="free-shipping-tag">FREE (Complimentary)</span>
-              </div>
-              <div className="bill-divider"></div>
-              <div className="bill-row total-row">
-                <span>Estimated Total</span>
-                <span className="total-amount numeric-text slashed-zero">
-                  ₹{grandTotal.toLocaleString('en-IN')}
-                </span>
-              </div>
-            </div>
-
-            {/* Advance Token Notice */}
-            <div className="advance-token-pill">
-              <i className="fas fa-coins"></i>
-              <span>
-                Booking Token Option: Pay only <strong>₹{advanceTokenAmount.toLocaleString('en-IN')} (10%)</strong> now, balance on hallmarked delivery!
-              </span>
-            </div>
-
             {/* Action Buttons */}
             <button
               type="button"

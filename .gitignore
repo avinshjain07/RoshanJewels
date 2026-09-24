@@ -4,3 +4,4 @@ dist-ssr/
 .vercel
 *.log
 .DS_Store
+scratch/

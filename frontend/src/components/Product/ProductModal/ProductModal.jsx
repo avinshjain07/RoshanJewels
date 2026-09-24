@@ -87,59 +87,6 @@ export default function ProductModal({ product, isOpen, onClose, onPrev, onNext 
 
             <h2 id="modal-title">{product.title}</h2>
 
-            {/* Price Row */}
-            <div className="modal-price-container">
-              <div className="modal-price-main">
-                <span className="modal-price-current numeric-text slashed-zero">
-                  ₹{(product.price || 0).toLocaleString('en-IN')}
-                </span>
-                {product.originalPrice && product.originalPrice > product.price && (
-                  <span className="modal-price-original numeric-text slashed-zero">
-                    ₹{product.originalPrice.toLocaleString('en-IN')}
-                  </span>
-                )}
-                {product.discountPercent > 0 && (
-                  <span className="modal-discount-tag">
-                    {product.discountPercent}% OFF
-                  </span>
-                )}
-              </div>
-              <span className="modal-tax-note">
-                <i className="fas fa-check-circle"></i> Price Inclusive of 3% GST & BIS Hallmarking
-              </span>
-            </div>
-
-            {/* Specifications Grid */}
-            <div className="modal-specs-grid">
-              <div className="modal-spec-item">
-                <span className="spec-label">Purity</span>
-                <span className="spec-value">{product.purity || '22K (916) Gold'}</span>
-              </div>
-              <div className="modal-spec-item">
-                <span className="spec-label">Gross Weight</span>
-                <span className="spec-value numeric-text">{product.grossWeight || 'Standard'}</span>
-              </div>
-              {product.diamondWeight && (
-                <div className="modal-spec-item">
-                  <span className="spec-label">Diamonds</span>
-                  <span className="spec-value numeric-text">{product.diamondWeight}</span>
-                </div>
-              )}
-              {product.gemstone && (
-                <div className="modal-spec-item">
-                  <span className="spec-label">Gemstones</span>
-                  <span className="spec-value">{product.gemstone}</span>
-                </div>
-              )}
-              <div className="modal-spec-item">
-                <span className="spec-label">Certification</span>
-                <span className="spec-value">100% BIS HUID / IGI</span>
-              </div>
-              <div className="modal-spec-item">
-                <span className="spec-label">Dispatch</span>
-                <span className="spec-value">24–48 Hrs Free Insured Transit</span>
-              </div>
-            </div>
 
             {/* E-Commerce Actions */}
             <div className="modal-ecom-actions">
