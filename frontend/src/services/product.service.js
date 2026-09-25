@@ -5,9 +5,11 @@ import { ALL_PRODUCTS } from '@data';
  * @param {string} collection - e.g. 'Diamond Collection'
  */
 export function getProductsByCollection(collection) {
-  return ALL_PRODUCTS.filter(
-    (p) => p.category.toLowerCase() === collection.toLowerCase()
-  );
+  const col = (collection || '').toLowerCase();
+  return ALL_PRODUCTS.filter((p) => {
+    const cat = (p.category || '').toLowerCase();
+    return cat === col || (col.includes('kundan') && cat.includes('kundan'));
+  });
 }
 
 /**

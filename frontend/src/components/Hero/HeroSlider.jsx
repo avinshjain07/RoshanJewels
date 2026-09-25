@@ -151,9 +151,6 @@ export default function HeroSlider() {
 
   return (
     <section className="hero-circular-section" id="home">
-      {/* Light Cream Shadow Veil Layer */}
-      <div className="hero-cream-veil-layer" aria-hidden="true"></div>
-
       <div className="container hero-circular-container">
         {/* Left Column: Editorial Typography, CTAs, Stats & Dots */}
         <div className="hero-content-col" key={currentIndex}>

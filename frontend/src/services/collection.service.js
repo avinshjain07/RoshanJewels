@@ -25,7 +25,7 @@ export const PAGE_CONTEXTS = {
   },
   kundan: {
     mode: 'collection',
-    value: 'Kundan Collection',
+    value: 'Kundan Polki',
     title: 'Kundan & Polki Collection',
     subtitle: 'Exquisite Jadau and Chased Gold Enamel Masterpieces',
   },

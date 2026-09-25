@@ -250,9 +250,6 @@ export default function Account() {
                                 <span>Qty: {item.quantity}</span>
                               </p>
                             </div>
-                            <div className="order-item-price numeric-text slashed-zero">
-                              ₹{((item.product?.price || 0) * item.quantity).toLocaleString('en-IN')}
-                            </div>
                           </div>
                         ))}
                       </div>
@@ -260,12 +257,11 @@ export default function Account() {
                       {/* Order Footer Summary */}
                       <div className="order-card-footer">
                         <div className="order-payment-info">
-                          <span>Payment Mode: <strong>{order.paymentMethod || 'Prepaid'}</strong></span>
+                          <span>Payment Mode: <strong>Coming Soon</strong></span>
                           <span>Delivery: <strong>{order.shippingMethod || 'Free Insured Courier'}</strong></span>
                         </div>
-                        <div className="order-total-amount">
-                          <span>Total Paid:</span>
-                          <strong className="numeric-text slashed-zero">₹{(order.grandTotal || 0).toLocaleString('en-IN')}</strong>
+                        <div className="order-total-amount coming-soon-order-value">
+                          <span>Order value: Coming Soon</span>
                         </div>
                       </div>
                     </div>

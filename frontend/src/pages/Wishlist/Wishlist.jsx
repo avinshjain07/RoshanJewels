@@ -98,34 +98,11 @@ export default function Wishlist() {
                         alt={product.title}
                         loading="lazy"
                       />
-                      {product.purity && (
-                        <span className="purity-badge">{product.purity.split(' ')[0]}</span>
-                      )}
                     </div>
 
                     <div className="wishlist-content">
                       <span className="wishlist-card-cat">{product.subcategory || product.category}</span>
                       <h3>{product.title}</h3>
-
-                      <div className="wishlist-card-pricing">
-                        <span className="wishlist-price-current numeric-text slashed-zero">
-                          ₹{(product.price || 0).toLocaleString('en-IN')}
-                        </span>
-                        {product.originalPrice && product.originalPrice > product.price && (
-                          <span className="wishlist-price-original numeric-text slashed-zero">
-                            ₹{product.originalPrice.toLocaleString('en-IN')}
-                          </span>
-                        )}
-                      </div>
-
-                      <div className="wishlist-card-specs">
-                        {product.grossWeight && (
-                          <span><i className="fas fa-weight-hanging"></i> {product.grossWeight}</span>
-                        )}
-                        {product.diamondWeight && (
-                          <span><i className="fas fa-gem"></i> {product.diamondWeight}</span>
-                        )}
-                      </div>
 
                       <button
                         type="button"

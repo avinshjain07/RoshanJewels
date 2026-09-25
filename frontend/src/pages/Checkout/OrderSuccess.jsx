@@ -35,7 +35,7 @@ export default function OrderSuccess() {
     window.print();
   };
 
-  const whatsappOrderMessage = `Hello Roshan Jewel, I have placed Order *#${order.id}* for ₹${(order.grandTotal || 0).toLocaleString('en-IN')}. Could you please share the live dispatch update and master karigari schedule?`;
+  const whatsappOrderMessage = `Hello Roshan Jewel, I have placed Order *#${order.id}*. Could you please share the live dispatch update and master karigari schedule?`;
   const whatsappUrl = `https://wa.me/918224998809?text=${encodeURIComponent(whatsappOrderMessage)}`;
 
   return (
@@ -132,8 +132,8 @@ export default function OrderSuccess() {
                 <span className="invoice-type-pill">TAX INVOICE</span>
                 <p><strong>Invoice No:</strong> <span className="numeric-text">INV-{order.id}</span></p>
                 <p><strong>Date:</strong> <span className="numeric-text">{new Date(order.createdAt).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' })}</span></p>
-                <p><strong>Payment Status:</strong> <span className="status-paid">AUTHORIZED</span></p>
-                <p><strong>Payment Mode:</strong> {order.paymentMethod}</p>
+                  <p><strong>Payment Status:</strong> <span className="status-paid">COMING SOON</span></p>
+                  <p><strong>Payment Mode:</strong> Coming Soon</p>
               </div>
             </div>
 
@@ -167,11 +167,7 @@ export default function OrderSuccess() {
                 <tr>
                   <th>#</th>
                   <th>Item Description</th>
-                  <th>Purity / Hallmark</th>
-                  <th>Gross Wt.</th>
                   <th>Qty</th>
-                  <th className="text-right">Unit Price</th>
-                  <th className="text-right">Total Amount</th>
                 </tr>
               </thead>
               <tbody>
@@ -182,11 +178,7 @@ export default function OrderSuccess() {
                       <strong>{item.product?.title || 'Fine Jewellery Piece'}</strong>
                       <span className="table-sku numeric-text"> ({item.product?.sku || item.product?.id})</span>
                     </td>
-                    <td>{item.product?.purity || '22K (916)'}</td>
-                    <td className="numeric-text">{item.product?.grossWeight || 'Standard'}</td>
                     <td className="numeric-text">{item.quantity}</td>
-                    <td className="text-right numeric-text slashed-zero">₹{(item.product?.price || 0).toLocaleString('en-IN')}</td>
-                    <td className="text-right numeric-text slashed-zero">₹{((item.product?.price || 0) * item.quantity).toLocaleString('en-IN')}</td>
                   </tr>
                 ))}
               </tbody>
@@ -204,39 +196,10 @@ export default function OrderSuccess() {
               </div>
 
               <div className="invoice-calc-box">
-                <div className="calc-row">
-                  <span>Subtotal:</span>
-                  <span className="numeric-text slashed-zero">₹{(order.subtotal || 0).toLocaleString('en-IN')}</span>
-                </div>
-                <div className="calc-row">
-                  <span>CGST (1.5%):</span>
-                  <span className="numeric-text slashed-zero">₹{Math.round((order.gst || 0) / 2).toLocaleString('en-IN')}</span>
-                </div>
-                <div className="calc-row">
-                  <span>SGST (1.5%):</span>
-                  <span className="numeric-text slashed-zero">₹{Math.round((order.gst || 0) / 2).toLocaleString('en-IN')}</span>
-                </div>
-                {order.discountAmount > 0 && (
-                  <div className="calc-row discount">
-                    <span>Privilege Voucher:</span>
-                    <span className="numeric-text slashed-zero">-₹{order.discountAmount.toLocaleString('en-IN')}</span>
-                  </div>
-                )}
-                <div className="calc-row">
-                  <span>Insured Shipping:</span>
-                  <span className="free-text">FREE</span>
-                </div>
-                <div className="calc-divider"></div>
                 <div className="calc-row grand-total">
-                  <span>Grand Total:</span>
-                  <span className="numeric-text slashed-zero">₹{(order.grandTotal || 0).toLocaleString('en-IN')}</span>
+                  <span>Order totals:</span>
+                  <span>Coming Soon</span>
                 </div>
-                {order.balanceDue > 0 && (
-                  <div className="calc-row balance-due">
-                    <span>Balance Due on Delivery:</span>
-                    <span className="numeric-text slashed-zero">₹{order.balanceDue.toLocaleString('en-IN')}</span>
-                  </div>
-                )}
               </div>
             </div>
 

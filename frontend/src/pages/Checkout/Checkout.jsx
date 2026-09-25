@@ -483,7 +483,7 @@ export default function Checkout() {
                           <span className="qr-hint">Scan with Google Pay, PhonePe, Paytm or BHIM</span>
                         </div>
 
-                        <div className="upi-id-column">
+                          <div className="upi-id-column">
                           <label>Or Pay with UPI ID / VPA:</label>
                           <div className="upi-input-group">
                             <input
@@ -495,7 +495,7 @@ export default function Checkout() {
                             />
                             <span className="upi-verified-tag"><i className="fas fa-shield-alt"></i> Instant Verification</span>
                           </div>
-                          <p className="upi-desc">You will receive a payment authorization prompt on your UPI app for <strong>₹{amountToPayNow.toLocaleString('en-IN')}</strong>.</p>
+                          <p className="upi-desc">Payment authorization is coming soon.</p>
                         </div>
                       </div>
                     </div>
@@ -580,7 +580,7 @@ export default function Checkout() {
                         <option value="Kotak Mahindra Bank">Kotak Mahindra Bank</option>
                         <option value="Punjab National Bank">Punjab National Bank</option>
                       </select>
-                      <p className="bank-note">You will be securely redirected to your bank’s 3D-secure portal to authorize ₹{amountToPayNow.toLocaleString('en-IN')}.</p>
+                      <p className="bank-note">Net banking payment is coming soon.</p>
                     </div>
                   )}
 
@@ -591,10 +591,7 @@ export default function Checkout() {
                         <i className="fas fa-coins token-large-icon"></i>
                         <div className="token-text">
                           <h4>Luxury Jewellery Booking Token</h4>
-                          <p>
-                            Pay an initial <strong>10% deposit of ₹{effectiveAdvanceAmount.toLocaleString('en-IN')}</strong> today to lock the gold rate & commission master karigari.
-                            The remaining balance of <strong>₹{(effectiveGrandTotal - effectiveAdvanceAmount).toLocaleString('en-IN')}</strong> can be paid upon verified hallmarked delivery or showroom pickup.
-                          </p>
+                          <p>Advance token payments are coming soon.</p>
                         </div>
                       </div>
                     </div>
@@ -607,9 +604,7 @@ export default function Checkout() {
                         <i className="fas fa-info-circle"></i>
                         <div>
                           <h4>Pay on Delivery / In-Store Collection</h4>
-                          <p>
-                            Verify the BIS hallmark and physical purity certificate in person before making your full payment of <strong>₹{effectiveGrandTotal.toLocaleString('en-IN')}</strong> via UPI, Card, or Cash.
-                          </p>
+                          <p>COD and showroom payments are coming soon.</p>
                         </div>
                       </div>
                     </div>
@@ -626,7 +621,7 @@ export default function Checkout() {
                     <span><i className="fas fa-spinner fa-spin"></i> Processing Secure Payment...</span>
                   ) : (
                     <span>
-                      <i className="fas fa-lock"></i> Authorize & Place Order • ₹{amountToPayNow.toLocaleString('en-IN')}
+                      <i className="fas fa-lock"></i> Authorize & Place Order
                     </span>
                   )}
                 </button>
@@ -655,9 +650,6 @@ export default function Checkout() {
                           Qty: {quantity}
                         </span>
                       </div>
-                      <div className="summary-price numeric-text slashed-zero">
-                        ₹{((product.price || 0) * quantity).toLocaleString('en-IN')}
-                      </div>
                     </div>
                   ))}
                 </div>
@@ -683,45 +675,12 @@ export default function Checkout() {
 
                 {couponApplied && (
                   <div className="coupon-success-tag">
-                    <i className="fas fa-check"></i> Privilege Voucher ROSHAN1965 Applied (-₹{discountAmount.toLocaleString('en-IN')})
+                    <i className="fas fa-check"></i> Privilege Voucher ROSHAN1965 Applied
                   </div>
                 )}
 
-                {/* Price Breakdown */}
-                <div className="summary-bill-rows">
-                  <div className="bill-row">
-                    <span>Subtotal</span>
-                    <span className="numeric-text slashed-zero">₹{subtotal.toLocaleString('en-IN')}</span>
-                  </div>
-                  <div className="bill-row">
-                    <span>GST (3% Fine Jewellery)</span>
-                    <span className="numeric-text slashed-zero">₹{gst.toLocaleString('en-IN')}</span>
-                  </div>
-                  {discountAmount > 0 && (
-                    <div className="bill-row discount">
-                      <span>Privilege Discount</span>
-                      <span className="numeric-text slashed-zero">-₹{discountAmount.toLocaleString('en-IN')}</span>
-                    </div>
-                  )}
-                  <div className="bill-row">
-                    <span>Insured Transit</span>
-                    <span className="free-tag">FREE</span>
-                  </div>
-                  <div className="bill-divider"></div>
-                  <div className="bill-row grand-total-row">
-                    <span>Total Order Value</span>
-                    <span className="grand-price numeric-text slashed-zero">
-                      ₹{effectiveGrandTotal.toLocaleString('en-IN')}
-                    </span>
-                  </div>
-                  {paymentMode === 'advance_token' && (
-                    <div className="bill-row due-today-row">
-                      <span>Amount Due Today (10% Token)</span>
-                      <span className="token-price numeric-text slashed-zero">
-                        ₹{effectiveAdvanceAmount.toLocaleString('en-IN')}
-                      </span>
-                    </div>
-                  )}
+                <div className="summary-bill-rows coming-soon-summary">
+                  <strong>Order totals are coming soon.</strong>
                 </div>
 
                 {/* Security Reassurances */}
